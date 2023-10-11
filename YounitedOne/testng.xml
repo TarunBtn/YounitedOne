@@ -5,21 +5,29 @@
     <classes>
       <class name="com.younited.qa.testcases.LoginPageTest"/>
       <class name="com.younited.qa.testcases.HomePageTest"/>
+      <class name="com.younited.qa.testcases.MyAssignmentsPageTest"/>
       <class name="com.younited.qa.testcases.AddCommandPageTest"/>
       <class name="com.younited.qa.testcases.CheckCommandPageTest"/>
-      <class name="com.younited.qa.testcases.MyAssignmentsPageTest"/>
       <class name="com.younited.qa.testcases.CompleteAssignmentTest"/>
       <class name="com.younited.qa.testcases.MatchPageTest"/>
-      <class name="com.younited.qa.testcases.AssignmentsPageFreeTest"/>
-      <class name="com.younited.qa.testcases.StorePageFreeTest"/>
+      <class name="com.younited.qa.testcases.AssignmentsPageFreeTest"/> 
+      <class name="com.younited.qa.testcases.StorePageFreeTest"/> 
       <class name="com.younited.qa.testcases.CommunityPageFreeTest"/>
-      <class name="com.younited.qa.testcases.MyNetworkPageFreeTest"/>
       <class name="com.younited.qa.testcases.EntrepreneursPageFreeTest"/>
       <class name="com.younited.qa.testcases.BusinessesPageFreeTest"/>
-      <class name="com.younited.qa.testcases.HomePageAdminTest"/>
       <class name="com.younited.qa.testcases.AssignmentsPageAdminTest"/>
       <class name="com.younited.qa.testcases.CommunityPageAdminTest"/>
       <class name="com.younited.qa.testcases.MatchPageAdminTest"/>
+      <class name="com.younited.qa.testcases.UlogoMydashboardPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoChatPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoMynotificationsPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoMyprofilePageTest"/>
+      <class name="com.younited.qa.testcases.UlogoMycompanyPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoMyreactionsPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoUsermanagementPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoAllcompaniesPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoIntermediarycompaniesPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoAllassignmentsPageTest"/>
       
     </classes>
   </test> <!-- Test -->
