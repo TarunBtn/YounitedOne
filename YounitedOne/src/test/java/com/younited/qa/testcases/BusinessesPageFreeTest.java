@@ -31,7 +31,8 @@ public class BusinessesPageFreeTest extends TestBase{
 		homePageFree.clickAcceptAllCookies();
 		testUtil.testWaitEight();
 		homePageFree.clickBusinessesTab();
-		testUtil.testWaitFourteen();
+		testUtil.testWaitEleven();
+		testUtil.testWaitEleven();
 				
 	}
 	
