@@ -8,10 +8,12 @@ import org.testng.annotations.Test;
 import com.younited.qa.base.TestBase;
 import com.younited.qa.pages.HomePage;
 import com.younited.qa.pages.LoginPage;
+import com.younited.qa.util.TestUtil;
 
 public class LoginPageTest extends TestBase{
 	LoginPage loginPage;
 	HomePage homePage;
+	TestUtil testUtil;
 
 	public LoginPageTest(){
 		super();
@@ -21,6 +23,7 @@ public class LoginPageTest extends TestBase{
 	public void setUp() {
 		initialization();
 		loginPage=new LoginPage();
+		testUtil=new TestUtil();
 	}
 	
 	@Test(priority=1)
@@ -36,8 +39,9 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	@Test(priority=3)
-	public void loginTest() {
+	public void loginTest()throws Exception {
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		testUtil.testWaitTwo();
 	}
 	
 	
