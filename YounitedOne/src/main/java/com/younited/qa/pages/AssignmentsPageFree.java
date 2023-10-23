@@ -113,16 +113,16 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div/select")
 		WebElement sorting;
 		
-		@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div[3]/select/option[1]")
+		@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div/select/option[1]")
 		WebElement publicationDateNewFirst;
 		
 		@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div/select/option[2]")
 		WebElement publicationDateOldFirst;
 		
-		@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div[3]/select/option[3]")
+		@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div/select/option[3]")
 		WebElement atHourlyRate;
 		
-		@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div[3]/select/option[4]")
+		@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div/select/option[4]")
 		WebElement byNumberOfHours;
 		
 			
