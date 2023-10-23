@@ -32,7 +32,7 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(id="dropdown-skills-btn")
 		WebElement skill;
 			
-		@FindBy(xpath="/html/body/div[1]/main/div/nav/div[2]/div/div[1]/div[3]/div/form/div[1]/div[1]/div/div[1]/input")
+		@FindBy(xpath="/html/body/div[1]/main/div/nav/div[3]/div/div[1]/div[3]/div/form/div[1]/div[1]/div/div[1]/input")
 		WebElement enterSkill;
 			
 		@FindBy(xpath="/html/body/div[1]/main/div/nav/div[2]/div/div[1]/div[3]/div/form/div[1]/div[1]/div/div[2]/a/div[2]")
