@@ -39,7 +39,7 @@ public class MyNetworkPageFreeTest extends TestBase{
 		homePageFree.clickNetworkTabTooltip();
 		testUtil.testWaitFour();
 		communityPageFree.clickMyNetworkBtn();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		
 	}
 	
