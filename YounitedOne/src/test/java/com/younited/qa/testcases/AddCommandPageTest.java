@@ -37,7 +37,7 @@ public class AddCommandPageTest extends TestBase{
 		homePage.clickAcceptAllCookies();
 		testUtil.testWaitEight();
 		homePage.clickMyAssignmentsLink();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		myAssignmentsPage.clickAddNewCommand();
 		testUtil.testWaitEleven();
 		
@@ -55,7 +55,7 @@ public class AddCommandPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
