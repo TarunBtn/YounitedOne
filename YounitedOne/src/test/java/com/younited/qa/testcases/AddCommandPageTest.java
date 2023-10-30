@@ -39,7 +39,7 @@ public class AddCommandPageTest extends TestBase{
 		homePage.clickMyAssignmentsLink();
 		testUtil.testWaitEight();
 		myAssignmentsPage.clickAddNewCommand();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		
 	}
 	
