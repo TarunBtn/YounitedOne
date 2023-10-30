@@ -31,7 +31,7 @@ public class TestBase {
 	}
 	
 	@SuppressWarnings("deprecation")
-	public void initialization() {
+	public void initialization()throws Exception {
 		String browserName=prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
@@ -46,7 +46,7 @@ public class TestBase {
 		Driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		Driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);		
 		Driver.get(prop.getProperty("url"));
-		
+		Thread.sleep(2000);	
 				
 	}
 

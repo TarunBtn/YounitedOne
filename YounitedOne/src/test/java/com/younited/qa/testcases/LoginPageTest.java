@@ -20,7 +20,7 @@ public class LoginPageTest extends TestBase{
 	}
 		
 	@BeforeMethod
-	public void setUp() {
+	public void setUp()throws Exception {
 		initialization();
 		loginPage=new LoginPage();
 		testUtil=new TestUtil();
