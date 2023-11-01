@@ -69,6 +69,9 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[8]/li/a")
 	WebElement allAssignments;
 	
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[9]/li[1]/a")
+	WebElement profileStatistics;
+	
 		
 	//Initialization
 	public HomePageAdmin() {
@@ -161,6 +164,10 @@ public class HomePageAdmin extends TestBase{
 	
 	public void clickAllassignmentsTab() {
 		allAssignments.click();
+	}
+	
+	public void clickProfileStatistics() {
+		profileStatistics.click();
 	}
 
 }
