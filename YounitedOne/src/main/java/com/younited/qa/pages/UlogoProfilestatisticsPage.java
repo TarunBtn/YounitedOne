@@ -39,7 +39,7 @@ public class UlogoProfilestatisticsPage extends TestBase{
 		selectRole.click();
 	}
 	
-	public void resetRole() {
+	public void resetRoleDropDown() {
 		resetRoleDropDown.click();
 	}
 	

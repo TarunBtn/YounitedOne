@@ -28,12 +28,16 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		loginPage=new LoginPage();
 		uLogoProfilestatisticsPage=new UlogoProfilestatisticsPage();
 		testUtil=new TestUtil();
-		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("username"), prop.getProperty("password"));
+		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitEleven();
-		homePageAdmin.clickUserLogo();
-		testUtil.testWaitFour();
-		homePageAdmin.clickProfileStatistics();
+		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEight();
+		homePageAdmin.clickUserLogo();
+		testUtil.testWaitTwo();
+		homePageAdmin.clickProfileStatistics();
+		testUtil.testWaitFour();
+		homePageAdmin.moveHoverTologoImage();
+		testUtil.testWaitTwo();
 				
 	}
 	
@@ -43,7 +47,12 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoProfilestatisticsPage.selectRole();
 		testUtil.testWaitFour();
-		
+		//uLogoProfilestatisticsPage.clickRoleDropDown();
+		//testUtil.testWaitTwo();
+		//uLogoProfilestatisticsPage.clickRoleDropDown();
+		//testUtil.testWaitTwo();
+		uLogoProfilestatisticsPage.resetRoleDropDown();
+		testUtil.testWaitFour();
 	}
 	
 	@AfterMethod
