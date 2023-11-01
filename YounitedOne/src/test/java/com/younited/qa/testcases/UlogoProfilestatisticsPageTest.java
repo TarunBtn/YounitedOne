@@ -29,7 +29,7 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		uLogoProfilestatisticsPage=new UlogoProfilestatisticsPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEleven();
+		testUtil.testWaitEight();
 		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEight();
 		homePageAdmin.clickUserLogo();
@@ -47,12 +47,26 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoProfilestatisticsPage.selectRole();
 		testUtil.testWaitFour();
-		//uLogoProfilestatisticsPage.clickRoleDropDown();
-		//testUtil.testWaitTwo();
-		//uLogoProfilestatisticsPage.clickRoleDropDown();
-		//testUtil.testWaitTwo();
+		uLogoProfilestatisticsPage.clickRoleDropDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		uLogoProfilestatisticsPage.clickRoleDropDown();
+		testUtil.testWaitTwo();
 		uLogoProfilestatisticsPage.resetRoleDropDown();
 		testUtil.testWaitFour();
+		uLogoProfilestatisticsPage.clickRoleDropDown();
+		testUtil.testWaitTwo();
+		uLogoProfilestatisticsPage.clickSearchField();
+		testUtil.testWaitTwo();
+		uLogoProfilestatisticsPage.enterValueSearchField("Arjan");
+		testUtil.testWaitEight();
+		uLogoProfilestatisticsPage.clickResetBtn();
+		testUtil.testWaitFour();
+		
+		
 	}
 	
 	@AfterMethod
