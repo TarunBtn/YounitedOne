@@ -7,13 +7,14 @@ import org.testng.annotations.Test;
 import com.younited.qa.base.TestBase;
 import com.younited.qa.pages.HomePageAdmin;
 import com.younited.qa.pages.LoginPage;
+import com.younited.qa.pages.UlogoProfilestatisticsPage;
 import com.younited.qa.util.TestUtil;
 
 public class UlogoProfilestatisticsPageTest extends TestBase{
 	
 	LoginPage loginPage;
 	HomePageAdmin homePageAdmin;
-	
+	UlogoProfilestatisticsPage uLogoProfilestatisticsPage;
 	TestUtil testUtil;
 	
 	
@@ -25,6 +26,7 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 	public void setUp()throws Exception {
 		initialization();
 		loginPage=new LoginPage();
+		uLogoProfilestatisticsPage=new UlogoProfilestatisticsPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil.testWaitEleven();
@@ -32,15 +34,15 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		homePageAdmin.clickProfileStatistics();
 		testUtil.testWaitEight();
-		
-		
-		
-		
-		
+				
 	}
 	
 	@Test
-	public void UlogoProfilestatisticsPage() {
+	public void UlogoProfilestatisticsPage()throws Exception {
+		uLogoProfilestatisticsPage.clickRoleDropDown();
+		testUtil.testWaitTwo();
+		uLogoProfilestatisticsPage.selectRole();
+		testUtil.testWaitFour();
 		
 	}
 	
