@@ -65,13 +65,12 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		testUtil.testWaitEight();
 		uLogoProfilestatisticsPage.clickResetBtn();
 		testUtil.testWaitFour();
-		
-		
+				
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 	
 

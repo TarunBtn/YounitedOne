@@ -28,6 +28,7 @@
       <class name="com.younited.qa.testcases.UlogoAllcompaniesPageTest"/>
       <class name="com.younited.qa.testcases.UlogoIntermediarycompaniesPageTest"/>
       <class name="com.younited.qa.testcases.UlogoAllassignmentsPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoProfilestatisticsPageTest"/>
       
     </classes>
   </test> <!-- Test -->
