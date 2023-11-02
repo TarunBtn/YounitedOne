@@ -52,6 +52,8 @@ public class CheckCommandPageTest extends TestBase{
 		testUtil.testWaitEight();
 		addCommandPage.clickUploadFile();
 		testUtil.testWaitEight();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 							
 	}
 	
