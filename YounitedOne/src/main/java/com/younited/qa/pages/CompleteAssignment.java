@@ -19,7 +19,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[10]/div[2]/div/div[1]")
 		WebElement sectorDropDown;
 		
-		@FindBy(xpath="//*[@id=\"sector-12\"]/span/span")
+		@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
 		WebElement sectorSelect;
 		
 		@FindBy(id="werklocatie")
@@ -31,25 +31,28 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[6]/div[2]/div[1]/div/button[2]")
 		WebElement generateDescription;
 		
-		@FindBy(xpath="//*[@id=\"chatGPT-module___BV_modal_body_\"]/div[2]/div[4]/div/div[2]/div")
+		@FindBy(xpath="//*[@id=\"chatGPT-module___BV_modal_body_\"]/div[2]/div[3]/div/div[2]/div")
 		WebElement useThisText;
+		
+		@FindBy(xpath="/html/body/div[8]/div[1]/div/div/div/div[2]/div[3]/div/div[2]/div")
+		WebElement useThisTextOne;
 		
 		@FindBy(id="startdatumopdracht")
 		WebElement clickStartDateDropDown;
 		
-		@FindBy(xpath="//*[@id=\"assignment\"]/div[5]/div/div/div/div[1]/button[3]/i")
+		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[1]/button[4]/i")
 		WebElement selectStartYear;
 		
-		@FindBy(xpath="//*[@id=\"assignment\"]/div[5]/div/div/div/div[2]/table/tbody/tr[1]/td[7]/div")
+		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[2]/table/tbody/tr[5]/td[4]/div")
 		WebElement selectStartDate;
 		
 		@FindBy(id="einddatumopdracht")
 		WebElement endDateDropDown;
 		
-		@FindBy(xpath="//*[@id=\"assignment\"]/div[5]/div/div/div/div[1]/button[3]/i")
+		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[1]/button[3]/i")
 		WebElement selectEndYear;
 		
-		@FindBy(xpath="//*[@id=\"assignment\"]/div[5]/div/div/div/div[2]/table/tbody/tr[2]/td[1]/div")
+		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[2]/table/tbody/tr[5]/td[4]/div")
 		WebElement selectEndDate;
 		
 		@FindBy(xpath="//*[@id=\"aantaluurperweek\"]/div/div[2]/div[2]/div[1]")
@@ -76,8 +79,11 @@ public class CompleteAssignment extends TestBase{
 		}
 		
 		//Actions
+		public void clickCompanyDropDown() {
+			companyDropDown.click();		
+		}
+		
 		public void selectCompany() {
-			companyDropDown.click();
 			selectCompany.click();
 		}
 		
@@ -106,6 +112,10 @@ public class CompleteAssignment extends TestBase{
 		
 		public void clickUseThisText() {
 			useThisText.click();
+		}
+		
+		public void clickUseThisTextOne() {
+			useThisTextOne.click();
 		}
 		
 		public void clickStartDateDropDown() {
@@ -154,8 +164,8 @@ public class CompleteAssignment extends TestBase{
 		}
 		
 		public void selectFieldOfExpertise() {
-			selectFieldOfExpertise.click();
-			
+			selectFieldOfExpertise.click();	
 		}
-
+		
+		
 }

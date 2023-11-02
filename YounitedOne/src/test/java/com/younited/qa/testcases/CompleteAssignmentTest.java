@@ -1,5 +1,6 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -51,14 +52,22 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitEight();
 		addCommandPage.clickUploadFile();
 		testUtil.testWaitEight();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		checkCommandPage.clickFillInComplete();
 		testUtil.testWaitEight();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 	}
 	
 	@Test
 	public void completeAssignmentTest()throws Exception {
+		completeAssignment.clickCompanyDropDown();
+		testUtil.testWaitTwo();
 		completeAssignment.selectCompany();
 		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		completeAssignment.clickSectorDropDown();
 		testUtil.testWaitTwo();
 		completeAssignment.selectSectorFromDropDown();
@@ -77,18 +86,36 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-	    testUtil.testWaitEleven();
+	    testUtil.testWaitFour();
 		//Generate description
 	    try {
 		    completeAssignment.clickGenerateDescription();
+		    testUtil.testWaitEleven();
+		    testUtil.testWaitEleven();
 		    testUtil.testWaitEight();
-		    //testUtil.testWaitFourteen();
-	    }catch(NoSuchElementException e) {
+		    testUtil.testWaitEleven();
+		    testUtil.testWaitEight();
+		    //testUtil.testWaitEleven();
+	   }catch(NoSuchElementException e) {
+	   	  e.printStackTrace();
+	   }
+	    testUtil.scrollDown();
+	    testUtil.testWaitTwo();
+	    //testUtil.scrollDown();
+	    //testUtil.testWaitTwo();
+	    try {
+		   completeAssignment.clickUseThisText();
+	    }catch(ElementClickInterceptedException e) {
 	    	e.printStackTrace();
-	    }	    
-		//completeAssignment.clickUseThisText();
-		//testUtil.testWaitEight();	   
-	    testUtil.testWaitTwo();;
+	    }
+	    
+	    try {
+			   completeAssignment.clickUseThisTextOne();
+		    }catch(ElementClickInterceptedException e) {
+		    	e.printStackTrace();
+		    }
+		testUtil.testWaitEight();	   
+	    testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
@@ -105,8 +132,8 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitTwo();
 		completeAssignment.selectEndYear();
 		testUtil.testWaitTwo();
-		completeAssignment.selectEndYear();
-		testUtil.testWaitTwo();
+		//completeAssignment.selectEndYear();
+		//testUtil.testWaitTwo();
 		completeAssignment.selectEndDate();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
@@ -134,7 +161,7 @@ public class CompleteAssignmentTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }

@@ -62,7 +62,6 @@ public class TestUtil extends TestBase{
 		Driver.switchTo().window(window02);
 	}
 	
-	
 	//Upload file
 	public static void setClipboardData(String string) {
 		//StringSelection is a class that can be used for copy and paste operations.
