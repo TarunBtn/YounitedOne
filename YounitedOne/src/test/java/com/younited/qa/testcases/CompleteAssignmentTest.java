@@ -38,7 +38,7 @@ public class CompleteAssignmentTest extends TestBase{
 		completeAssignment=new CompleteAssignment();
 		testUtil=new TestUtil();		
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		homePage.clickAcceptAllCookies();
 		testUtil.testWaitEight();		
 		homePage.clickMyAssignmentsLink();
@@ -155,13 +155,31 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		completeAssignment.clickSkillsField();
+		testUtil.testWaitTwo();
+		completeAssignment.enterSkills("Security Management");
+		testUtil.testWaitFour();
+		completeAssignment.skillsToolTip();
+		testUtil.testWaitTwo();
+		completeAssignment.enterSkills("Databases");
+		testUtil.testWaitFour();
+		completeAssignment.skillsToolTip();
+		testUtil.testWaitTwo();
+		completeAssignment.enterSkills("Test Engineering");
+		testUtil.testWaitFour();
+		completeAssignment.skillsToolTip();
+		testUtil.testWaitTwo();
+		completeAssignment.unSelectSkillsOne();
+		testUtil.testWaitTwo();
+		completeAssignment.unSelectSkillsTwo();
+		testUtil.testWaitTwo();
 		//completeAssignment.clickSaveButton();
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }

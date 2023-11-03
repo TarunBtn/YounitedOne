@@ -73,6 +73,18 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"vakgebied-6\"]/span/span")
 		WebElement selectFieldOfExpertise;
 		
+		@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/form/span[3]/div[2]/div/div[2]/div[1]/input")
+		WebElement skillsField;
+		
+		@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/form/span[3]/div[2]/div/div[2]/div[2]/a[1]/div[2]/span/span")
+		WebElement skillsFieldToolTip;
+		
+		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/span[3]/div[2]/div/form/div/div/div[2]/div[1]/label")
+		WebElement unSelectSkillsOne;
+		
+		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/span[3]/div[2]/div/form/div/div/div[2]/div[2]/label")
+		WebElement unSelectSkillsTwo;
+		
 		//Initialization
 		public CompleteAssignment(){
 			PageFactory.initElements(Driver, this);
@@ -167,5 +179,24 @@ public class CompleteAssignment extends TestBase{
 			selectFieldOfExpertise.click();	
 		}
 		
+		public void clickSkillsField() {
+			skillsField.click();
+		}
+		
+		public void enterSkills(String value) {
+			skillsField.sendKeys(value);
+		}
+		
+		public void skillsToolTip() {
+			skillsFieldToolTip.click();
+		}
+		
+		public void unSelectSkillsOne() {
+			unSelectSkillsOne.click();
+		}
+		
+		public void unSelectSkillsTwo() {
+			unSelectSkillsTwo.click();
+		}
 		
 }
