@@ -39,8 +39,8 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.testWaitFour();
 		homePageAdmin.moveHoverTologoImage();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 								
 	}
 	
@@ -64,6 +64,10 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoAllcompaniesPage.enterValueCompanyFilter("Silver");
 		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		//Exact match
 		uLogoAllcompaniesPage.clickExactMatch();
 		testUtil.testWaitFour();
@@ -96,8 +100,8 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		uLogoAllcompaniesPage.clickSaveBtn();
-		//uLogoAllcompaniesPage.clickCancelBtn();
+		//uLogoAllcompaniesPage.clickSaveBtn();
+		uLogoAllcompaniesPage.clickCancelBtn();
 		testUtil.testWaitEleven();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
