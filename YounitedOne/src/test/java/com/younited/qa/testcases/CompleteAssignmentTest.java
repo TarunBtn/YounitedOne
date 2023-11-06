@@ -155,6 +155,7 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		//Add Skills and remove skills
 		completeAssignment.clickSkillsField();
 		testUtil.testWaitTwo();
 		completeAssignment.enterSkills("Security Management");
