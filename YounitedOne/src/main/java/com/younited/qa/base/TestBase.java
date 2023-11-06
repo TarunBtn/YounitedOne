@@ -30,7 +30,7 @@ public class TestBase {
 		}
 	}
 	
-	//@SuppressWarnings("deprecation")
+	@SuppressWarnings("deprecation")
 	public void initialization()throws Exception {
 		String browserName=prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
@@ -45,9 +45,9 @@ public class TestBase {
 		Driver.manage().deleteAllCookies();
 		Driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		Driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		Driver.get(prop.getProperty("url"));
-		//Thread.sleep(1000);	
+		Thread.sleep(1000);	
 				
 	}
 
