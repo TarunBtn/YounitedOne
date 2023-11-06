@@ -46,15 +46,19 @@ public class MyNetworkPageFreeTest extends TestBase{
 	@Test
 	public void myNetworkPageFreeTest()throws Exception {
 		myNetworkPageFree.clickMyNetworkTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		myNetworkPageFree.clickMyRequestsTab();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		myNetworkPageFree.clickSuggestionsForYouTab();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		myNetworkPageFree.clickAreaOfInterest();
 		testUtil.testWaitEight();
 	}
