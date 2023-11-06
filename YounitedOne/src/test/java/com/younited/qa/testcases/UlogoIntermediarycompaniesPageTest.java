@@ -68,6 +68,8 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoIntermediarycompanyPage.enterWebsite("https://silvertouch.com/");
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		//Save company
 		uLogoIntermediarycompanyPage.clickSaveBtn();
 		testUtil.testWaitFour();
@@ -84,11 +86,13 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		//Save
 		uLogoIntermediarycompanyPage.clickSaveBtnEdit();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Delete Company
 		uLogoIntermediarycompanyPage.clickDeleteSign();
 		testUtil.testWaitTwo();
