@@ -14,7 +14,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div[3]/div/div/a")
 			WebElement changeMyGeneralInformation;
 					
-			@FindBy(xpath="//*[@id=\"general-profile-edit\"]/div/form/div[8]/div/a")
+			@FindBy(xpath="//*[@id=\"general-profile-edit\"]/div/form/div[9]/div/a")
 			WebElement changeMyGeneralInformationCancel;
 					
 			@FindBy(xpath="//*[@id=\"profile-detailed\"]/div/div[1]/div[4]/div/div/a")
@@ -44,7 +44,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[3]")
 			WebElement workExperienceTab;
 					
-			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div/div[1]/div/a[1]")
+			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div/div[1]/div/div/a[1]")
 			WebElement addWorkExperience;
 					
 			@FindBy(id="functie")
@@ -65,16 +65,16 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(name="date")
 			WebElement startDateCalender;
 					
-			@FindBy(xpath="//*[@id=\"my-profile\"]/div[7]/div/div/div/div[1]/button[1]/i")
+			@FindBy(xpath="//*[@id=\"my-profile\"]/div[6]/div/div/div/div[1]/button[1]/i")
 			WebElement selectYear;
 					
-			@FindBy(xpath="//*[@id=\"my-profile\"]/div[7]/div/div/div/div[2]/table/tbody/tr[1]/td[4]/div")
+			@FindBy(xpath="//*[@id=\"my-profile\"]/div[6]/div/div/div/div[2]/table/tbody/tr[1]/td[2]/div")
 			WebElement selectDate;
 					
 			@FindBy(xpath="//*[@id=\"einddatum\"]/div/i")
 			WebElement endDateCalender;
 					
-			@FindBy(xpath="//*[@id=\"my-profile\"]/div[7]/div/div/div/div[2]/table/tbody/tr[1]/td[2]/div")
+			@FindBy(xpath="//*[@id=\"my-profile\"]/div[6]/div/div/div/div[2]/table/tbody/tr[1]/td[3]/div")
 			WebElement selectEndDate;
 					
 			@FindBy(xpath="/html/body/div[1]/main/div/div[2]/form/div[9]/div/div[2]/div[3]/div/div/div/div[1]/input")
