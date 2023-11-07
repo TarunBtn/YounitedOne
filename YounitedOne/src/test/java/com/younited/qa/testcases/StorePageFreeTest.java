@@ -36,17 +36,18 @@ public class StorePageFreeTest extends TestBase{
 		homePageFree.clickStoreTooltip();
 		testUtil.testWaitEleven();
 		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		
 	}
 	
 	@Test
 	public void clickStoreTab()throws Exception {
 		storePageFree.clickAllTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		//testUtil.scrollDown();
