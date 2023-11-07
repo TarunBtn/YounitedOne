@@ -18,7 +18,7 @@ public class StorePageFree extends TestBase{
 		WebElement backToAllProducts;
 		
 		@FindBy(xpath="//*[@id=\"navigation\"]/div/div/nav/a[2]")
-		WebElement accountingTab;
+		WebElement bookKeepingTab;
 		
 		@FindBy(xpath="//*[@id=\"store-overview\"]/div/div/div/div/div/a")
 		WebElement moreInformationAccounting;
@@ -71,8 +71,8 @@ public class StorePageFree extends TestBase{
 			backToAllProducts.click();
 		}
 		
-		public void clickAccountingTab() {
-			accountingTab.click();
+		public void clickBookKeepingTab() {
+			bookKeepingTab.click();
 		}
 		
 		public void clickMoreInformationAccounting() {
