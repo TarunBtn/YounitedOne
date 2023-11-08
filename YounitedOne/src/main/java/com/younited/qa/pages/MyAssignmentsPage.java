@@ -20,7 +20,7 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"initial-sort-select\"]")
 		WebElement chooseCompanyDropDown;
 			
-		@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[10]")
+		@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[3]")
 		WebElement selectCompanyFromDropDown;
 		
 		@FindBy(xpath="//*[@id=\"table\"]/tbody/tr[3]/td[4]/div/a/span[2]")
@@ -57,7 +57,10 @@ public class MyAssignmentsPage extends TestBase{
 		WebElement pendingTab;
 			
 		@FindBy(xpath="//option[@value='Open']")
-		WebElement selectStatusFromDropDown;
+		WebElement selectStatusFromDropDownOpen;
+		
+		@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[4]")
+		WebElement selectStatusFromDropDownClosed;
 		
 		@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div/div/div[1]/div[3]/select/option[1]")
 		WebElement clearStatusFromDropDown;
@@ -127,8 +130,12 @@ public class MyAssignmentsPage extends TestBase{
 			statusDropDown.click();	
 		}
 			
-		public void selectStatusFromDropDown() {
-			selectStatusFromDropDown.click();
+		public void selectStatusFromDropDownOpen() {
+			selectStatusFromDropDownOpen.click();
+		}
+		
+		public void selectStatusFromDropDownClosed() {
+			selectStatusFromDropDownClosed.click();
 		}
 		
 		public void clearStatusFromDropDown() {
