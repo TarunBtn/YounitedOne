@@ -65,6 +65,8 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitFour();
 		//uLogoMyprofilePage.clickFillInCompany();
 		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
@@ -186,9 +188,9 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickUpdateMyProfile();
 		testUtil.testWaitFour();
-		uLogoMyprofilePage.clickCancelUploadCV();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
+		//uLogoMyprofilePage.clickCancelUploadCV();
+		//testUtil.testWaitFour();
+		testUtil.scrollUp();
 		testUtil.testWaitFour();
 		//Educations
 		uLogoMyprofilePage.clickEducationsTab();
@@ -267,7 +269,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
