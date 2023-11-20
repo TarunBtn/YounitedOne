@@ -20,10 +20,10 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"initial-sort-select\"]")
 		WebElement chooseCompanyDropDown;
 			
-		@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[3]")
+		@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[10]")
 		WebElement selectCompanyFromDropDown;
 		
-		@FindBy(xpath="//*[@id=\"table\"]/tbody/tr[3]/td[4]/div/a/span[2]")
+		@FindBy(xpath="//*[@id=\"table\"]/tbody/tr[4]/td[4]/div/a")
 		WebElement clickComments;
 		
 		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/table/tbody/tr[1]/td[7]/button[1]/span")
