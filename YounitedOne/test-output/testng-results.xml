@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-20T12:34:37 IST" name="Default suite" finished-at="2023-11-20T12:36:25 IST" duration-ms="108069">
+  <suite started-at="2023-11-20T13:07:51 IST" name="Default suite" finished-at="2023-11-20T13:09:17 IST" duration-ms="86231">
     <groups>
     </groups>
-    <test started-at="2023-11-20T12:34:37 IST" name="Default test" finished-at="2023-11-20T12:36:25 IST" duration-ms="108069">
-      <class name="com.younited.qa.testcases.UlogoMyassignmentsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoMyassignmentsPageTest@273e7444]" started-at="2023-11-20T12:34:37 IST" name="setUp" finished-at="2023-11-20T12:35:25 IST" duration-ms="47815" status="PASS">
+    <test started-at="2023-11-20T13:07:51 IST" name="Default test" finished-at="2023-11-20T13:09:17 IST" duration-ms="86231">
+      <class name="com.younited.qa.testcases.UlogoMycompanyPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoMycompanyPageTest@273e7444]" started-at="2023-11-20T13:07:51 IST" name="setUp" finished-at="2023-11-20T13:08:38 IST" duration-ms="46849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UlogoMyassignmentsPage()[pri:0, instance:com.younited.qa.testcases.UlogoMyassignmentsPageTest@273e7444]" started-at="2023-11-20T12:35:25 IST" name="UlogoMyassignmentsPage" finished-at="2023-11-20T12:36:25 IST" duration-ms="60209" status="PASS">
+        <test-method signature="uLogoMycompanyPage()[pri:0, instance:com.younited.qa.testcases.UlogoMycompanyPageTest@273e7444]" started-at="2023-11-20T13:08:38 IST" name="uLogoMycompanyPage" finished-at="2023-11-20T13:09:17 IST" duration-ms="39038" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UlogoMyassignmentsPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoMyassignmentsPageTest@273e7444]" started-at="2023-11-20T12:36:25 IST" name="tearDown" finished-at="2023-11-20T12:36:25 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- uLogoMycompanyPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoMycompanyPageTest@273e7444]" started-at="2023-11-20T13:09:17 IST" name="tearDown" finished-at="2023-11-20T13:09:17 IST" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.UlogoMyassignmentsPageTest -->
+      </class> <!-- com.younited.qa.testcases.UlogoMycompanyPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
