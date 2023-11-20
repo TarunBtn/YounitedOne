@@ -8,7 +8,7 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoMycompanyPage extends TestBase{
 	//Pagefactory OR Object Repository
-		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/a")
+		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[2]/a")
 		WebElement addNewCompany;
 		
 		@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[1]/input")
