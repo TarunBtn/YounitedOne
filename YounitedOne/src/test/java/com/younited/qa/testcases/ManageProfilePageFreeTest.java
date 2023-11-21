@@ -37,11 +37,12 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitEleven();
 		homePageFree.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
-		homePageAdmin.clickUserLogo();
-		testUtil.testWaitTwo();
-		homePageAdmin.clickMyProfileTab();
+		homePageFree.clickUserLogo();		
+		testUtil.testWaitTwo();	
+		homePageFree.clickManageProfileTab();
 		testUtil.testWaitEleven();
-		homePageAdmin.moveHoverTologoImage();
+		testUtil.testWaitEight();
+		homePageFree.mouseHoverToLogoImage();
 		testUtil.testWaitEight();
 				
 	}
@@ -53,9 +54,17 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();		
+		testUtil.testWaitTwo();	
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickChangeMyGeneralInformation();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();

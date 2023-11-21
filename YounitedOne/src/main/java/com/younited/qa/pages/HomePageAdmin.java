@@ -80,20 +80,17 @@ public class HomePageAdmin extends TestBase{
 		
 	//Actions
 	public AssignmentsPageAdmin clickAssignmentsTab() {
-		assignmentsTab.click();
-		
+		assignmentsTab.click();		
 		return new AssignmentsPageAdmin();
 	}
 		
 	public CommunityPageAdmin clickCommunityPageAdmin() {
-		communityTab.click();
-		
+		communityTab.click();		
 		return new CommunityPageAdmin();
 	}
 		
 	public MatchPageAdmin clickMatchTab() {
-		matchTab.click();
-			
+		matchTab.click();			
 		return new MatchPageAdmin();
 	}
 		

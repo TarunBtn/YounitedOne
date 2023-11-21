@@ -1,6 +1,7 @@
 package com.younited.qa.pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -34,6 +35,15 @@ public class HomePageFree extends TestBase{
 		
 		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[7]/a")
 		WebElement BusinessesTab;
+		
+		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/button/img")
+		WebElement userLogo;
+		
+		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[1]/a")
+		WebElement manageProfile;
+		
+		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/a/img[1]")
+		WebElement logoImage;
 		
 			
 		//Initialization
@@ -80,6 +90,19 @@ public class HomePageFree extends TestBase{
 		
 		public void clickBusinessesTab() {
 			BusinessesTab.click();
+		}
+		
+		public void clickUserLogo() {
+			userLogo.click();
+		}
+		
+		public void clickManageProfileTab() {
+			manageProfile.click();
+		}
+		
+		public void mouseHoverToLogoImage() {
+			Actions builder=new Actions(Driver);
+			builder.moveToElement(logoImage).build().perform();
 		}
 
 }
