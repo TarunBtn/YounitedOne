@@ -42,6 +42,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		homePageFree.clickManageProfileTab();
 		testUtil.testWaitEleven();
 		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 		homePageFree.mouseHoverToLogoImage();
 		testUtil.testWaitEight();
 				
@@ -77,6 +78,8 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();

@@ -14,7 +14,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div[3]/div/div/a")
 			WebElement changeMyGeneralInformation;
 					
-			@FindBy(xpath="//*[@id=\"general-profile-edit\"]/div/form/div[9]/div/a")
+			@FindBy(xpath="//*[@id=\"general-profile-edit\"]/div/form/div[10]/div/a")
 			WebElement changeMyGeneralInformationCancel;
 					
 			@FindBy(xpath="//*[@id=\"profile-detailed\"]/div/div[1]/div[4]/div/div/a")
