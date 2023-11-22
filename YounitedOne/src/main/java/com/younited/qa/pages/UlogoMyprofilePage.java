@@ -22,8 +22,11 @@ public class UlogoMyprofilePage extends TestBase{
 					
 			@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[22]/div/a")
 			WebElement fillInCompanyCancel;
-					
+			
 			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[2]")
+			WebElement availabilityTab;
+					
+			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[3]")
 			WebElement skillsTab;
 					
 			@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div[1]/div/div/div[1]/input")
@@ -35,7 +38,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div[1]/div/form/div/button")
 			WebElement saveAdditionalSkills;
 					
-			@FindBy(xpath="//*[@id=\"skills\"]/div[2]/div/div/div[2]/ul/li[21]/div/a/span")
+			@FindBy(xpath="//*[@id=\"skills\"]/div[3]/div/div/div[2]/ul/li[42]/div/a/span")
 			WebElement clickRemoveSkills;
 					
 			@FindBy(xpath="//*[@id=\"remove\"]/div/div/div[2]/button[1]")
@@ -200,6 +203,10 @@ public class UlogoMyprofilePage extends TestBase{
 					
 			public void clickFillInCompanyCancel() {
 				fillInCompanyCancel.click();
+			}
+			
+			public void clickAvailabilityTab() {
+				availabilityTab.click();
 			}
 					
 			public void clickSkillsTab() {

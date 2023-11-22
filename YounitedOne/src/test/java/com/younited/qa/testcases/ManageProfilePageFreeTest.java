@@ -50,6 +50,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 	
 	@Test
 	public void test()throws Exception {
+		//General Tab
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
@@ -78,14 +79,12 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
 		//uLogoMyprofilePage.clickFillInCompany();
 		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
@@ -100,8 +99,16 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.clickFillInCompanyCancel();
 		//testUtil.testWaitFour();
-		uLogoMyprofilePage.clickSkillsTab();
+		//Availability Tab
+		uLogoMyprofilePage.clickAvailabilityTab();
 		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		//Skills Tab
+		uLogoMyprofilePage.clickSkillsTab();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		//Enter skill value
@@ -116,6 +123,8 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		//Remove skills
 		uLogoMyprofilePage.clickRemoveSkills();
 		testUtil.testWaitFour();
