@@ -146,7 +146,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"remove\"]/div/div/div[3]/button[1]")
 			WebElement clickDeleteEducations;
 			
-			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[5]")
+			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[6]")
 			WebElement coursesTab;
 			
 			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div[1]/div/a")
@@ -161,13 +161,13 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(name="date")
 			WebElement clickCompletedOnDate;
 
-			@FindBy(xpath="//*[@id=\"my-profile\"]/div[6]/div/div/div/div[2]/table/tbody/tr[1]/td[3]/div")
+			@FindBy(xpath="//*[@id=\"my-profile\"]/div[4]/div/div/div/div[2]/table/tbody/tr[1]/td[3]/div")
 			WebElement selectCompletedOnDate;
 			
 			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/form/div[5]/div/button")
 			WebElement clickSaveCourse;
 			
-			@FindBy(xpath="//*[@id=\"timeline\"]/div[2]/div[2]/div/div/a[1]")
+			@FindBy(xpath="//*[@id=\"timeline\"]/div[3]/div[2]/div/div/a[1]")
 			WebElement editCourse;
 			
 			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/form/div[6]/div/a")
@@ -176,7 +176,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"remove\"]/div/div/div[3]/button[1]")
 			WebElement confirmDeleteCourse;
 			
-			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[6]")
+			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[7]")
 			WebElement institutions;
 					
 			//Initialization
