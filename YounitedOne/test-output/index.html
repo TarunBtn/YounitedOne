@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\tbutani\AppData\Local\Temp\testng-eclipse-26277874\testng-customsuite.xml</span>
+                    <span>C:\Users\tbutani\AppData\Local\Temp\testng-eclipse--1445945285\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content skipped suite-Default_suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.younited.qa.testcases.UlogoMyassignmentsPageTest" class="method navigator-link" hash-for-method="UlogoMyassignmentsPage">UlogoMyassignmentsPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.younited.qa.testcases.UlogoAllassignmentsPageTest" class="method navigator-link" hash-for-method="UlogoAllassignmentsPage">UlogoAllassignmentsPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Default_suite -->
@@ -122,53 +122,43 @@
           <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.younited.qa.testcases.UlogoMyassignmentsPageTest</span>
+              <span class="class-name">com.younited.qa.testcases.UlogoAllassignmentsPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="UlogoMyassignmentsPage">
-                  </a> <!-- UlogoMyassignmentsPage -->
-                  <span class="method-name">UlogoMyassignmentsPage</span>
-                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+                  <a name="UlogoAllassignmentsPage">
+                  </a> <!-- UlogoAllassignmentsPage -->
+                  <span class="method-name">UlogoAllassignmentsPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main-nav&quot;]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[8]/li/a&quot;}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [960bb361e04b7659b25fda85dddd8dcd, actions {actions=[org.openqa.selenium.interactions.Sequence@55e3d6c3]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64039}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64039/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 960bb361e04b7659b25fda85dddd8dcd
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:169)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:169)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:182)
-	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:177)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:278)
-	at org.openqa.selenium.json.Json.toJson(Json.java:42)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:259)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:122)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+Command: [c3cbacffc62a3f4b939d6f1397c1b1ee, findElement {using=xpath, value=//*[@id=&quot;main-nav&quot;]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[8]/li/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52253/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3cbacffc62a3f4b939d6f1397c1b1ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-	at com.younited.qa.pages.HomePageAdmin.moveHoverTologoImage(HomePageAdmin.java:139)
-	at com.younited.qa.testcases.UlogoMyassignmentsPageTest.setUp(UlogoMyassignmentsPageTest.java:40)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.younited.qa.pages.HomePageAdmin.clickAllassignmentsTab(HomePageAdmin.java:163)
+	at com.younited.qa.testcases.UlogoAllassignmentsPageTest.setUp(UlogoAllassignmentsPageTest.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -201,52 +191,6 @@ Session ID: 960bb361e04b7659b25fda85dddd8dcd
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:303)
-		at org.openqa.selenium.json.Json.toJson(Json.java:40)
-		... 42 more
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
-	... 63 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main-nav&quot;]/nav/div/div[1]/a/img[1]&quot;}
-  (Session info: chrome=119.0.6045.160)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [960bb361e04b7659b25fda85dddd8dcd, findElement {using=xpath, value=//*[@id=&quot;main-nav&quot;]/nav/div/div[1]/a/img[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64039}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64039/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 960bb361e04b7659b25fda85dddd8dcd
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy16.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:269)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:218)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
-	... 68 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -256,7 +200,7 @@ Session ID: 960bb361e04b7659b25fda85dddd8dcd
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\tbutani\AppData\Local\Temp\testng-eclipse-26277874\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\tbutani\AppData\Local\Temp\testng-eclipse--1445945285\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -265,7 +209,7 @@ Session ID: 960bb361e04b7659b25fda85dddd8dcd
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.younited.qa.testcases.UlogoMyassignmentsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.younited.qa.testcases.UlogoAllassignmentsPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -307,8 +251,8 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'UlogoMyassignmentsPage')
-data.setCell(0, 2, 'com.younited.qa.testcases.UlogoMyassignmentsPageTest')
+data.setCell(0, 1, 'UlogoAllassignmentsPage')
+data.setCell(0, 2, 'com.younited.qa.testcases.UlogoAllassignmentsPageTest')
 data.setCell(0, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
@@ -340,7 +284,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.younited.qa.testcases.UlogoMyassignmentsPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.younited.qa.testcases.UlogoAllassignmentsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
@@ -348,12 +292,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">UlogoMyassignmentsPage</span>
-                <span class="method-start">53977 ms</span>
+                <span class="method-name">UlogoAllassignmentsPage</span>
+                <span class="method-start">50287 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53993 ms</span>
+                <span class="method-start">50289 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
