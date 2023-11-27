@@ -27,7 +27,7 @@ public class EntrepreneursPageFreeTest extends TestBase{
 		testUtil=new TestUtil();
 		entrepreneursPageFree=new EntrepreneursPageFree();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		homePageFree.clickAcceptAllCookies();
 		testUtil.testWaitEight();
 		homePageFree.clickEntrepreneurTab();
