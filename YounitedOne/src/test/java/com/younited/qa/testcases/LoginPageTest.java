@@ -41,9 +41,8 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=3)
 	public void loginTest()throws Exception {
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 	}
-	
 	
 	@AfterMethod
 	public void tearDown() {
