@@ -51,25 +51,25 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[1]/a/img[1]")
 	WebElement logoImage;
 	
-	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[3]/li/a")
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[3]/li/a")
 	WebElement myCompanyTab;
 	
-	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[4]/li[1]/a")
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[4]/li[1]/a")
 	WebElement myReactionsTab;
 	
-	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[5]/li/a")
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[5]/li/a")
 	WebElement userManagementTab;
 	
-	@FindBy(xpath="/html/body/div[1]/header/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[6]/li/a")
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[6]/li/a")
 	WebElement allCompanies;
 	
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[7]/li/a")
 	WebElement intermediaryCompany;
 	
-	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[8]/li/a")
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[7]/li/a")
 	WebElement allAssignments;
 	
-	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[9]/li[1]/a")
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[8]/li[1]/a")
 	WebElement profileStatistics;
 	
 		
