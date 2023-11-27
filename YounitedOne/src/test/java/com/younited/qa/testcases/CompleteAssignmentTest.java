@@ -148,7 +148,7 @@ public class CompleteAssignmentTest extends TestBase{
 		//selectWorkingThinkingLevel
 		completeAssignment.selectWorkingThinkingLevel();
 		testUtil.testWaitFour();
-		//Select FieldOfExpertise
+		//Select FieldOfExpertise/Descipline
 		completeAssignment.clickFieldOfExpertise();
 		testUtil.testWaitFour();
 		completeAssignment.selectFieldOfExpertise();
@@ -184,7 +184,7 @@ public class CompleteAssignmentTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
