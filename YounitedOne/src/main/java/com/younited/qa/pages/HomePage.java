@@ -23,7 +23,7 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[2]/a")
 	WebElement matchLink;
 		
-	@FindBy(xpath="//*[@id=\"dashboard\"]/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[1]/button/span")
+	@FindBy(xpath="/html/body/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[1]/button/span")
 	WebElement acceptAllCookies;
 		
 	//Initialization

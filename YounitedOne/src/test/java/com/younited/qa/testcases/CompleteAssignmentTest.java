@@ -38,14 +38,18 @@ public class CompleteAssignmentTest extends TestBase{
 		completeAssignment=new CompleteAssignment();
 		testUtil=new TestUtil();		
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		homePage.clickAcceptAllCookies();
 		testUtil.testWaitEight();		
 		homePage.clickMyAssignmentsLink();
 		testUtil.testWaitEleven();
-		testUtil.testWaitEleven();
-		addCommandPage=myAssignmentsPage.clickAddNewCommand();
-		testUtil.testWaitEight();												
+		testUtil.testWaitEight();
+		testUtil.testWaitFour();
+		//addCommandPage=myAssignmentsPage.clickAddNewCommand();
+		myAssignmentsPage.clickAddNewCommand();
+		testUtil.testWaitEight();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		addCommandPage.clickChooseFile();		
 		testUtil.testWaitFour();
 		testUtil.uploadFile("D:\\Testfile.docx");
@@ -57,7 +61,7 @@ public class CompleteAssignmentTest extends TestBase{
 		checkCommandPage.clickFillInComplete();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 	}
 	
 	@Test
@@ -180,7 +184,7 @@ public class CompleteAssignmentTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
