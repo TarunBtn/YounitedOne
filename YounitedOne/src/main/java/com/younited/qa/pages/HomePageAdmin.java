@@ -48,7 +48,7 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[2]/li/a")
 	WebElement myAssignmentsTab;
 	
-	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[1]/a/img[1]")
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/button/img")
 	WebElement logoImage;
 	
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[3]/li/a")
