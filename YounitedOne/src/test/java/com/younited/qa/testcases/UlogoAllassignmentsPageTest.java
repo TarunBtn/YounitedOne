@@ -57,8 +57,7 @@ public class UlogoAllassignmentsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoAllassignmentsPage.selectFilterDropDown();
 		testUtil.testWaitEight();
-		
-		
+			
 	}
 	
 	@AfterMethod
