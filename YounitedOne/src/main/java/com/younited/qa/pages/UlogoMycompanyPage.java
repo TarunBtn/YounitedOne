@@ -35,6 +35,9 @@ public class UlogoMycompanyPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"remove_company\"]/div/div/div[3]/button[1]")
 		WebElement clickDeleteCompany;
 		
+		@FindBy(xpath="//*[@id=\"remove_company\"]/div/div/div[3]/button[2]")
+		WebElement cancelDelete;
+		
 		//Initialization
 		public UlogoMycompanyPage() {
 			PageFactory.initElements(Driver, this);
@@ -79,6 +82,10 @@ public class UlogoMycompanyPage extends TestBase{
 		
 		public void clickDeleteCompany() {
 			clickDeleteCompany.click();
+		}
+		
+		public void clickCancelDelete() {
+			cancelDelete.click();
 		}
 
 }

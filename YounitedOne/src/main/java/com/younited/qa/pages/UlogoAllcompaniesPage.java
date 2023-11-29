@@ -59,8 +59,6 @@ public class UlogoAllcompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"data-body\"]/tr[1]/td[1]/a")
 	WebElement companyLink;
 	
-	@FindBy(xpath="//*[@id=\"remove_company\"]/div/div/div[3]/button[2]")
-	WebElement cancelDelete;
 	
 	//Initialization
 	public UlogoAllcompaniesPage() {
@@ -141,8 +139,5 @@ public class UlogoAllcompaniesPage extends TestBase{
 		
 	}
 	
-	public void clickCancelDelete() {
-		cancelDelete.click();
-	}
 
 }

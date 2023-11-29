@@ -111,8 +111,8 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		//if(uLogoAllcompaniesPage.companyLink().equals("Cybage Software B.V.")) {
 			//testUtil.testWaitTwo();
-		uLogoMycompanyPage.clickDeleteCompany();
-		//uLogoMycompanyPage
+		//uLogoMycompanyPage.clickDeleteCompany();
+		uLogoMycompanyPage.clickCancelDelete();
 			//testUtil.testWaitEight();
 		//}else {
 			//System.out.println("Company name not exist");
@@ -122,7 +122,7 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
