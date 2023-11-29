@@ -26,10 +26,10 @@ public class UlogoAllcompaniesPage extends TestBase{
 	@FindBy(id="websitelink")
 	WebElement enterWebsite;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[21]/div/button")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
 	WebElement clickSaveBtn;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[21]/div/a")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/a")
 	WebElement clickCancelBtn;
 	
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select")
@@ -58,6 +58,9 @@ public class UlogoAllcompaniesPage extends TestBase{
 	
 	@FindBy(xpath="//*[@id=\"data-body\"]/tr[1]/td[1]/a")
 	WebElement companyLink;
+	
+	@FindBy(xpath="//*[@id=\"remove_company\"]/div/div/div[3]/button[2]")
+	WebElement cancelDelete;
 	
 	//Initialization
 	public UlogoAllcompaniesPage() {
@@ -136,6 +139,10 @@ public class UlogoAllcompaniesPage extends TestBase{
 	public String companyLink() {
 		return companyLink.getText();
 		
+	}
+	
+	public void clickCancelDelete() {
+		cancelDelete.click();
 	}
 
 }

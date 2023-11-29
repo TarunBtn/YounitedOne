@@ -36,9 +36,9 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitFour();
 		homePageAdmin.clickAllCompaniesTab();
-		testUtil.testWaitFour();
-		homePageAdmin.moveHoverTologoImage();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
+		//homePageAdmin.moveHoverTologoImage();
+		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 								
@@ -112,6 +112,7 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		//if(uLogoAllcompaniesPage.companyLink().equals("Cybage Software B.V.")) {
 			//testUtil.testWaitTwo();
 		uLogoMycompanyPage.clickDeleteCompany();
+		//uLogoMycompanyPage
 			//testUtil.testWaitEight();
 		//}else {
 			//System.out.println("Company name not exist");
@@ -121,7 +122,7 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
