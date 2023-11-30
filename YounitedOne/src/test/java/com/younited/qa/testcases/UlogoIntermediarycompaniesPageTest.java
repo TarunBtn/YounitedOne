@@ -35,12 +35,16 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitEight();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitTwo();
-		homePageAdmin.clickIntermediaryCompanyTab();
+		homePageAdmin.clickUserLogoPhoto();
+		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		homePageAdmin.clickNativeCompanyTab();
 		testUtil.testWaitFour();
 		homePageAdmin.moveHoverTologoImage();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		
 	}
 	
@@ -105,7 +109,7 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }

@@ -51,6 +51,9 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/button/img")
 	WebElement logoImage;
 	
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[1]/img")
+	WebElement userLogoPhoto;
+	
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[3]/li/a")
 	WebElement myCompanyTab;
 	
@@ -63,8 +66,8 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[6]/li/a")
 	WebElement allCompanies;
 	
-	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[7]/li/a")
-	WebElement intermediaryCompany;
+	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[10]/li[1]/a")
+	WebElement nativeCompany;
 	
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[7]/li/a")
 	WebElement allAssignments;
@@ -155,8 +158,8 @@ public class HomePageAdmin extends TestBase{
 		allCompanies.click();			
 	}
 	
-	public void clickIntermediaryCompanyTab() {
-		intermediaryCompany.click();
+	public void clickNativeCompanyTab() {
+		nativeCompany.click();
 	}
 	
 	public void clickAllassignmentsTab() {
@@ -165,6 +168,10 @@ public class HomePageAdmin extends TestBase{
 	
 	public void clickProfileStatistics() {
 		profileStatistics.click();
+	}
+	
+	public void clickUserLogoPhoto() {
+		userLogoPhoto.click();
 	}
 
 }
