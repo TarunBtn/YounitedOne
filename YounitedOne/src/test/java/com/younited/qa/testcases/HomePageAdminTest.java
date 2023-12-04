@@ -30,7 +30,8 @@ public class HomePageAdminTest extends TestBase{
 		testUtil.testWaitFourteen();
 		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEight();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
+		
 	}
 	
 	@Test
