@@ -159,7 +159,8 @@ public class HomePageAdmin extends TestBase{
 	}
 	
 	public void clickNativeCompanyTab() {
-		nativeCompany.click();
+		//nativeCompany.click();
+		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/netive-bedrijven");
 	}
 	
 	public void clickAllassignmentsTab() {

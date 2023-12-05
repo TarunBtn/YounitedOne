@@ -17,28 +17,34 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[1]/a")
 	WebElement addNewCompany;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/section/div/div/form/div[1]/div[2]/div/div[1]/input")
+	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[1]/input")
 	WebElement companyName;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/section/div/div/form/div[1]/div[2]/div/div[2]/a/div[2]/span/span")
+	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[2]/a/div[2]/span/span")
 	WebElement selectCompanyTooltip;
+	
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[7]/div[2]/div/div/div[1]")
+	WebElement sectorDropDown;
+	
+	@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
+	WebElement selectSector;
 	
 	@FindBy(id="websitelink")
 	WebElement enterWebsite;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[15]/div/button")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
 	WebElement clickSaveBtn;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div[2]/div/table/tbody/tr[1]/td[4]/a[2]/span")
+	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div[3]/div/table/tbody/tr[1]/td[4]/span/a[1]/span")
 	WebElement clickEditSign;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[15]/div/button")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[19]/div/button")
 	WebElement clickEditSaveBtn;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div[2]/div/table/tbody/tr[1]/td[4]/a[3]/span")
+	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div[3]/div/table/tbody/tr[1]/td[4]/span/a[2]/span")
 	WebElement clickDeleteSign;
 	
-	@FindBy(xpath="//*[@id=\"remove_company___BV_modal_footer_\"]/button[1]")
+	@FindBy(xpath="//*[@id=\"remove_company\"]/div/div/div[3]/button[1]")
 	WebElement clickDeleteCompany;
 	
 	//Initialization
@@ -69,6 +75,14 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	
 	public void selectCompanyTooltip() {
 		selectCompanyTooltip.click();
+	}
+	
+	public void clickSectorDropDown() {
+		sectorDropDown.click();
+	}
+	
+	public void selectSector() {
+		selectSector.click();
 	}
 		
 	public void enterWebsite(String value) {

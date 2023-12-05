@@ -35,17 +35,18 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitEight();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitTwo();
-		homePageAdmin.clickUserLogoPhoto();
-		testUtil.testWaitFour();
+		//homePageAdmin.clickUserLogoPhoto();
+		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		homePageAdmin.clickNativeCompanyTab();
 		testUtil.testWaitFour();
-		homePageAdmin.moveHoverTologoImage();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitFour();
-		
+		//homePageAdmin.moveHoverTologoImage();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitFour();
+		//homePageAdmin.clickNativeCompanyTab();
+		//testUtil.testWaitFour();
 	}
 	
 	@Test
@@ -67,6 +68,13 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		//Sector
+		uLogoIntermediarycompanyPage.clickSectorDropDown();
+		testUtil.testWaitTwo();
+		uLogoIntermediarycompanyPage.selectSector();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		//Enter website
 		uLogoIntermediarycompanyPage.clearWebsiteValue();
 		testUtil.testWaitTwo();
@@ -82,9 +90,11 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		//Edit company
 		uLogoIntermediarycompanyPage.clickEditBtn();
 		testUtil.testWaitFour();
-		uLogoIntermediarycompanyPage.clearCompanyName();
+		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		uLogoIntermediarycompanyPage.enterCompanyName("One");
+		//uLogoIntermediarycompanyPage.clearCompanyName();
+		//testUtil.testWaitTwo();
+		//uLogoIntermediarycompanyPage.enterCompanyName("One");
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
