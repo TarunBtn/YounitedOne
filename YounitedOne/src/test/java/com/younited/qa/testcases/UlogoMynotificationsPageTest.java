@@ -32,15 +32,21 @@ public class UlogoMynotificationsPageTest extends TestBase{
 		testUtil.testWaitEight();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitFour();
-		homePageAdmin.moveHoverTologoImage();
-		testUtil.testWaitTwo();
+		//homePageAdmin.moveHoverTologoImage();
+		//testUtil.testWaitTwo();
 		//homePageAdmin.clickMynotificationsTab();
 		//testUtil.testWaitFour();
+		homePageAdmin.clickMydashboardTab();
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		
 	}
 	
 	@Test
 	public void myNotificationsPage()throws Exception {
+		uLogoMynotificationsPage.clickMyNotificationsLink();
+		testUtil.testWaitEight();
 		//uLogoMynotificationsPage.ClickToOpenMail();
 		//testUtil.testWaitEight();
 	}
