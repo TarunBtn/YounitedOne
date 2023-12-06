@@ -26,7 +26,7 @@ public class UlogoMycompanyPage extends TestBase{
 		@FindBy(id="websitelink")
 		WebElement enterWebsite;
 		
-		@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[21]/div/button")
+		@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
 		WebElement saveBtn;
 		
 		@FindBy(xpath="//*[@id=\"data-body\"]/tr[1]/td[4]/span/a[2]/span")

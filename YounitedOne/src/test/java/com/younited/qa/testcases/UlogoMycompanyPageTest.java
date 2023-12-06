@@ -34,7 +34,7 @@ public class UlogoMycompanyPageTest extends TestBase{
 		testUtil.testWaitFour();
 		homePageAdmin.clickMyCompanyTab();
 		testUtil.testWaitFour();
-		homePageAdmin.moveHoverTologoImage();
+		//homePageAdmin.moveHoverTologoImage();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -53,8 +53,8 @@ public class UlogoMycompanyPageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMycompanyPage.clickSectorDropDown();
 		testUtil.testWaitFour();
 		uLogoMycompanyPage.selectSector();
