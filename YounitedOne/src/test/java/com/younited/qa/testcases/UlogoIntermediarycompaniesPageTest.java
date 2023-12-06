@@ -84,7 +84,7 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		//Save company
 		uLogoIntermediarycompanyPage.clickSaveBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitEight();
 		//Edit company
@@ -103,7 +103,8 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		//Save
-		uLogoIntermediarycompanyPage.clickSaveBtnEdit();
+		//uLogoIntermediarycompanyPage.clickSaveBtnEdit();
+		uLogoIntermediarycompanyPage.clickEditCancel();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();

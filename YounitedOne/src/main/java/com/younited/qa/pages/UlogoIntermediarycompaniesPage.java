@@ -41,6 +41,9 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[19]/div/button")
 	WebElement clickEditSaveBtn;
 	
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[19]/div/a")
+	WebElement clickEditCancel;
+	
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div[3]/div/table/tbody/tr[1]/td[4]/span/a[2]/span")
 	WebElement clickDeleteSign;
 	
@@ -107,6 +110,10 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 
 	public void clickSaveBtnEdit() {
 		clickEditSaveBtn.click();
+	}
+	
+	public void clickEditCancel() {
+		clickEditCancel.click();
 	}
 	
 	public void clickDeleteSign() {
