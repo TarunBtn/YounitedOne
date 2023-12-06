@@ -29,10 +29,10 @@ public class UlogoMydashboardPageTest extends TestBase{
 		testUtil.testWaitEight();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitFour();
-		//homePageAdmin.clickMydashboardTab();
-		//testUtil.testWaitFour();
-		homePageAdmin.moveHoverTologoImage();
-		testUtil.testWaitTwo();
+		homePageAdmin.clickMydashboardTab();
+		testUtil.testWaitFour();
+		//homePageAdmin.moveHoverTologoImage();
+		//testUtil.testWaitTwo();
 		
 	}
 	
@@ -43,7 +43,7 @@ public class UlogoMydashboardPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
