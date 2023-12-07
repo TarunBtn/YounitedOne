@@ -47,7 +47,7 @@ public class UlogoUsermanagementPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"dropdown-vakgebied-profile\"]/div/form/div[7]/label")
 	WebElement selectDescipline;
 	
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div/div[2]/div[3]/div/label")
+	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div/div[1]/div[9]/div/label")
 	WebElement elevatorPitch;
 	
 	@FindBy(id="dropdown-skills-btn")
