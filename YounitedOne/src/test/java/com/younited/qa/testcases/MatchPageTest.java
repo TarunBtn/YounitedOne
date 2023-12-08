@@ -111,7 +111,7 @@ public class MatchPageTest extends TestBase{
 		testUtil.testWaitTwo();		
 		matchPage.clickEnterValueSkill();
 		testUtil.testWaitTwo();
-		matchPage.enterValueSkill("Postman");
+		matchPage.enterValueSkill("Account");
 		testUtil.testWaitFour();
 		matchPage.selectTooltipSkill();
 		testUtil.testWaitFour();
