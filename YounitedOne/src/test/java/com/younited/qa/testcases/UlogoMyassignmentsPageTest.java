@@ -37,7 +37,7 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		homePageAdmin.clickMyAssignmentsTab();
 		testUtil.testWaitFour();
-		homePageAdmin.moveHoverTologoImage();
+		//homePageAdmin.moveHoverTologoImage();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
@@ -85,7 +85,7 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
