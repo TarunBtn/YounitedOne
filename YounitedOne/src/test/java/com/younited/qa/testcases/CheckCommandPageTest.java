@@ -46,6 +46,8 @@ public class CheckCommandPageTest extends TestBase{
 		testUtil.testWaitEleven();
 		addCommandPage=myAssignmentsPage.clickAddNewCommand();
 		testUtil.testWaitEleven();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		addCommandPage.clickChooseFile();
 		testUtil.testWaitFour();
 		testUtil.uploadFile("D:\\Testfile.docx");
