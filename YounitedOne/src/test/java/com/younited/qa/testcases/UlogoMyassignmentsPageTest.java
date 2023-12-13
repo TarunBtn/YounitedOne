@@ -29,6 +29,7 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		myAssignmentsPage=new MyAssignmentsPage();
 		uLogoMyassignmentsPage=new UlogoMyassignmentsPage();
 		testUtil=new TestUtil();
+		testUtil.testWaitTwo();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
 		homePageAdmin.clickAcceptAllCookies();
