@@ -76,8 +76,8 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitTwo();
 		completeAssignment.selectSectorFromDropDown();
 		testUtil.testWaitTwo();
-		completeAssignment.selectWorkLocation();
-		testUtil.testWaitFour();
+		//completeAssignment.selectWorkLocation();
+		//testUtil.testWaitFour();
 		//completeAssignment.clickWorkLocationTooltip();
 		//testUtil.testWaitFour();
 		//try {
@@ -104,7 +104,7 @@ public class CompleteAssignmentTest extends TestBase{
 	   	  e.printStackTrace();
 	   }
 	    testUtil.scrollDown();
-	    testUtil.testWaitTwo();
+	    testUtil.testWaitFour();
 	    //testUtil.scrollDown();
 	    //testUtil.testWaitTwo();
 	    try {
@@ -139,12 +139,14 @@ public class CompleteAssignmentTest extends TestBase{
 		//completeAssignment.selectEndYear();
 		//testUtil.testWaitTwo();
 		completeAssignment.selectEndDate();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
 		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitFour();
 		//NumberofHours
 		completeAssignment.selectNumberOfHours();
 		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		//selectWorkingThinkingLevel
 		completeAssignment.selectWorkingThinkingLevel();
 		testUtil.testWaitFour();

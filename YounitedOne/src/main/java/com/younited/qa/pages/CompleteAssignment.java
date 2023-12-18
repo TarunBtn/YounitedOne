@@ -13,7 +13,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(id="selected_company")
 		WebElement companyDropDown;
 		
-		@FindBy(xpath="//*[@id=\"selected_company\"]/option[2]")
+		@FindBy(xpath="//*[@id=\"selected_company\"]/option[3]")
 		WebElement selectCompany;
 		
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[10]/div[2]/div/div[1]")
@@ -61,13 +61,16 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"uurtarief\"]/div/div[4]/div[1]")
 		WebElement hourlyRateFromTo;
 		
-		@FindBy(name="opleidingsniveau")
+		@FindBy(xpath="//*[@id=\"opleidingsniveau\"]")
 		WebElement workingThinkingLevel;
+		
+		@FindBy(xpath="//*[@id=\"opleidingsniveau\"]/option[5]")
+		WebElement selectWorkingThinkingLevel;
 		
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[24]/div/button[2]")
 		WebElement clickSaveButton;
 		
-		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[21]/div[2]/div/div/div[1]")
+		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[20]/div[2]/div/div/div[1]")
 		WebElement clickFieldOfExpertise;
 			
 		@FindBy(xpath="//*[@id=\"vakgebied-6\"]/span/span")
