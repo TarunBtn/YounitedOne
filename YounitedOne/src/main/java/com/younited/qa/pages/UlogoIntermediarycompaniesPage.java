@@ -23,6 +23,9 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[2]/a/div[2]/span/span")
 	WebElement selectCompanyTooltip;
 	
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[6]/div[2]")
+	WebElement aboutYourCompany;
+	
 	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[7]/div[2]/div/div/div[1]")
 	WebElement sectorDropDown;
 	
@@ -78,6 +81,10 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	
 	public void selectCompanyTooltip() {
 		selectCompanyTooltip.click();
+	}
+	
+	public void aboutYourCompany(String value) {
+		aboutYourCompany.sendKeys(value);
 	}
 	
 	public void clickSectorDropDown() {

@@ -67,7 +67,9 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		uLogoIntermediarycompanyPage.selectCompanyTooltip();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
+		uLogoIntermediarycompanyPage.aboutYourCompany("Testdata");
+		testUtil.testWaitFour();
 		//Sector
 		uLogoIntermediarycompanyPage.clickSectorDropDown();
 		testUtil.testWaitTwo();
