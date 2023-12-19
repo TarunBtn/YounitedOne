@@ -28,13 +28,22 @@ public class UlogoDasAssignmentsPage extends TestBase{
 	WebElement selectHourlyRate;
 	
 	@FindBy(id="dropdown-uurtarief-apply")
-	WebElement clickHourlyRateApplyFilter;
+	WebElement clickApplyFilterHourlyRate;
 	
 	@FindBy(id="dropdown-uurtarief-reset")
-	WebElement clickHourlyRateReset;
+	WebElement clickResetHourlyRate;
 	
 	@FindBy(id="dropdown-uurtarief-cancel")
-	WebElement clickHourlyRateCancel;
+	WebElement clickCancelHourlyRate;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[1]/div[2]/select")
+	WebElement numberOfEntrepreneurs;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[1]/div[2]/select/option[3]")
+	WebElement selectNumberOfEntrepreneurs;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[1]/div[2]/select/option[1]")
+	WebElement resetNumberOfEntrepreneurs;
 	
 	
 	
@@ -69,16 +78,16 @@ public class UlogoDasAssignmentsPage extends TestBase{
 		selectHourlyRate.click();
 	}
 	
-	public void clickHourlyRateApplyFilter() {
-		clickHourlyRateApplyFilter.click();
+	public void clickApplyFilterHourlyRate() {
+		clickApplyFilterHourlyRate.click();
 	}
 	
-	public void clickHourlyRateReset() {
-		clickHourlyRateReset.click();
+	public void clickResetHourlyRate() {
+		clickResetHourlyRate.click();
 	}
 	
-	public void clickHourlyRateCancel() {
-		clickHourlyRateCancel.click();
+	public void clickCancelHourlyRate() {
+		clickCancelHourlyRate.click();
 	}
 	
 	

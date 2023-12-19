@@ -31,8 +31,8 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		testUtil.testWaitEight();
 		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
-		//homePageAdmin.clickUserLogo();
-		//testUtil.testWaitTwo();
+		homePageAdmin.clickUserLogo();
+		testUtil.testWaitTwo();
 		homePageAdmin.clickDasAssignmentOverviewTab();
 		testUtil.testWaitFourteen();
 		testUtil.scrollDown();
@@ -43,13 +43,26 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 	@Test
 	public void UlogoDasAssignmentsPage()throws Exception{
 		uLogoDasAssignmentsPage.enterValueSearchByAssignment("QA");
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickResetSearchByAssignment();
 		testUtil.testWaitEight();
 		uLogoDasAssignmentsPage.enterValueSearchByLocation("nl");
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickResetSearchByLocation();
 		testUtil.testWaitEight();
+		uLogoDasAssignmentsPage.clickHourlyRateDropDown();
+		testUtil.testWaitTwo();
+		uLogoDasAssignmentsPage.selectHourlyRate();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.clickApplyFilterHourlyRate();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.clickHourlyRateDropDown();
+		testUtil.testWaitTwo();
+		uLogoDasAssignmentsPage.clickResetHourlyRate();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.clickCancelHourlyRate();
+		testUtil.testWaitTwo();
+		
 	}
 	
 	@AfterMethod
