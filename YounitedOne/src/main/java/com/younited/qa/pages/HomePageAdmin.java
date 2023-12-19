@@ -174,5 +174,9 @@ public class HomePageAdmin extends TestBase{
 	public void clickUserLogoPhoto() {
 		userLogoPhoto.click();
 	}
+	
+	public void clickDasAssignmentOverviewTab() {
+		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-opdrachten/");
+	}
 
 }
