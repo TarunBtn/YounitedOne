@@ -45,6 +45,30 @@ public class UlogoDasAssignmentsPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[1]/div[2]/select/option[1]")
 	WebElement resetNumberOfEntrepreneurs;
 	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[1]/div[3]/label")
+	WebElement Archive;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[2]/div/select")
+	WebElement sorting;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[2]/div/select/option[1]")
+	WebElement closingDateNew;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[2]/div/select/option[2]")
+	WebElement closingDateOld;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[2]/div/select/option[3]")
+	WebElement hourlyRateDesc;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[2]/div/select/option[4]")
+	WebElement hourlyRateRising;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[2]/div/select/option[5]")
+	WebElement numberRequestedDesc;
+	
+	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[2]/div/select/option[6]")
+	WebElement numberRequestedRising;
+	
 	
 	
 	//Initialization
@@ -90,7 +114,49 @@ public class UlogoDasAssignmentsPage extends TestBase{
 		clickCancelHourlyRate.click();
 	}
 	
+	public void clickNumberOfEntrePreneurs() {
+		numberOfEntrepreneurs.click();
+	}
 	
+	public void selectNumberOfEntrepreneurs() {
+		selectNumberOfEntrepreneurs.click();
+	}
+	
+	public void resetNumberOfEntrepreneurs() {
+		resetNumberOfEntrepreneurs.click();
+	}
+	
+	public void clickArchive() {
+		Archive.click();
+	}
+	
+	public void clickSorting() {
+		sorting.click();
+	}
+	
+	public void selectClosingDateNew() {
+		closingDateNew.click();
+	}
+	
+	public void selectClosingDateOld() {
+		closingDateOld.click();
+	}
+	
+	public void selectHourlyRateDesc() {
+		hourlyRateDesc.click();
+	}
+	
+	public void selectHourlyRateRising() {
+		hourlyRateRising.click();
+	}
+	
+	public void selectNumberRequestedDesc() {
+		numberRequestedDesc.click();
+	}
+	
+	public void selectNumberRequestedRising() {
+		numberRequestedRising.click();
+	}
 	
 	
 }

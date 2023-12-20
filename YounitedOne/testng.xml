@@ -30,6 +30,7 @@
       <class name="com.younited.qa.testcases.UlogoIntermediarycompaniesPageTest"/>
       <class name="com.younited.qa.testcases.UlogoAllassignmentsPageTest"/>
       <class name="com.younited.qa.testcases.UlogoProfilestatisticsPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoDasAssignmentsPageTest"/>
       
     </classes>
   </test> <!-- Test -->

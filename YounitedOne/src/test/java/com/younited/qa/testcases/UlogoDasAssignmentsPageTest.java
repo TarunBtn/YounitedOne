@@ -50,6 +50,7 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickResetSearchByLocation();
 		testUtil.testWaitEight();
+		//HourlyRate
 		uLogoDasAssignmentsPage.clickHourlyRateDropDown();
 		testUtil.testWaitTwo();
 		uLogoDasAssignmentsPage.selectHourlyRate();
@@ -57,11 +58,44 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		uLogoDasAssignmentsPage.clickApplyFilterHourlyRate();
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickHourlyRateDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickResetHourlyRate();
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickCancelHourlyRate();
 		testUtil.testWaitTwo();
+		//Number of entrepreneurs
+		uLogoDasAssignmentsPage.clickNumberOfEntrePreneurs();
+		testUtil.testWaitTwo();
+		uLogoDasAssignmentsPage.selectNumberOfEntrepreneurs();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.clickNumberOfEntrePreneurs();
+		testUtil.testWaitTwo();
+		//uLogoDasAssignmentsPage.clickNumberOfEntrePreneurs();
+		//testUtil.testWaitTwo();
+		uLogoDasAssignmentsPage.resetNumberOfEntrepreneurs();
+		testUtil.testWaitFour();
+		//Archive
+		uLogoDasAssignmentsPage.clickArchive();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.clickArchive();
+		testUtil.testWaitFour();
+		//Sorting
+		uLogoDasAssignmentsPage.clickSorting();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.selectClosingDateOld();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.selectHourlyRateDesc();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.selectHourlyRateRising();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.selectNumberRequestedDesc();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.selectNumberRequestedRising();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.selectClosingDateNew();
+		testUtil.testWaitFour();
+		uLogoDasAssignmentsPage.clickSorting();
+		testUtil.testWaitFour();
 		
 	}
 	
