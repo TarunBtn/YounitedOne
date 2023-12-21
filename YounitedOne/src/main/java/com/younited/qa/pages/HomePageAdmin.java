@@ -178,5 +178,9 @@ public class HomePageAdmin extends TestBase{
 	public void clickDasAssignmentOverviewTab() {
 		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-opdrachten/");
 	}
+	
+	public void clickDasPlatformTab() {
+		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-platform/");
+	}
 
 }
