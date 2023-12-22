@@ -48,6 +48,11 @@ public class UlogoDasPlatformPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoDasPlatformPage.clickCancel();
 		testUtil.testWaitFour();
+		uLogoDasPlatformPage.enterValueSearchByName("Green");
+		testUtil.testWaitFour();
+		uLogoDasPlatformPage.clickResetSearchByName();
+		testUtil.testWaitFour();
+		
 	}
 	
 	@AfterMethod

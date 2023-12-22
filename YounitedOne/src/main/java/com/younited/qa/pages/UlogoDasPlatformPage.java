@@ -22,6 +22,13 @@ public class UlogoDasPlatformPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/form/div[3]/div/a")
 	WebElement clickCancel;
 	
+	@FindBy(id="filter-input")
+	WebElement searchByName;
+	
+	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[2]/div/div/button")
+	WebElement clickResetSearchByName;
+	
+	
 	//Initialization
 	public UlogoDasPlatformPage() {
 		PageFactory.initElements(Driver, this);
@@ -43,6 +50,15 @@ public class UlogoDasPlatformPage extends TestBase{
 	public void clickCancel() {
 		clickCancel.click();
 	}
+	
+	public void enterValueSearchByName(String value) {
+		searchByName.sendKeys(value);
+	}
+	
+	public void clickResetSearchByName() {
+		clickResetSearchByName.click();
+	}
+	
 	
 	
 }
