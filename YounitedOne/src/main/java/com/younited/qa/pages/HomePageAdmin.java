@@ -182,5 +182,9 @@ public class HomePageAdmin extends TestBase{
 	public void clickDasPlatformTab() {
 		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-platform/");
 	}
+	
+	public void clickDasGroupsTab() {
+		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-groep/");
+	}
 
 }
