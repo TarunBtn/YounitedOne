@@ -50,14 +50,20 @@ public class UlogoDasGroupsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoDasGroupPage.enterOrderDasGroupPage("15");
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		uLogoDasGroupPage.clickCancelBtnDasGroupPage();
 		testUtil.testWaitTwo();
+		uLogoDasGroupPage.enterValueSearchGroup("Green");
+		testUtil.testWaitFour();
+		uLogoDasGroupPage.clickResetDasGroup();
+		testUtil.testWaitFour();
 		
 	}
 	
 	@AfterMethod
 	public void tearDown(){
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }

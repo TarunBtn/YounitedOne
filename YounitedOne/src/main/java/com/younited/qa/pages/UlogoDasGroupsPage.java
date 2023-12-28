@@ -30,6 +30,12 @@ public class UlogoDasGroupsPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/form/div[4]/div/a")
 	WebElement cancelDasGroup;
 	
+	@FindBy(xpath="//*[@id=\"filter-input\"]")
+	WebElement searchGroup;
+	
+	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[2]/div/div/button")
+	WebElement resetBtn;
+	
 	//Initialization
 	public UlogoDasGroupsPage() {
 		PageFactory.initElements(Driver, this);
@@ -62,6 +68,14 @@ public class UlogoDasGroupsPage extends TestBase{
 	
 	public void clickCancelBtnDasGroupPage() {
 		cancelDasGroup.click();
+	}
+	
+	public void enterValueSearchGroup(String value) {
+		searchGroup.sendKeys(value);
+	}
+	
+	public void clickResetDasGroup() {
+		resetBtn.click();
 	}
 	
 	
