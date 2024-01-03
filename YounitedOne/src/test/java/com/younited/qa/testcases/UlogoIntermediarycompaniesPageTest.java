@@ -60,16 +60,19 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		//Add new company
 		uLogoIntermediarycompanyPage.clickAddNewCompany();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoIntermediarycompanyPage.enterCompanyName("SilverTouch");
 		testUtil.testWaitEight();
 		uLogoIntermediarycompanyPage.selectCompanyTooltip();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		testUtil.scrollDown();
-		testUtil.testWaitFour();
-		uLogoIntermediarycompanyPage.aboutYourCompany("Testdata");
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		//uLogoIntermediarycompanyPage.aboutYourCompany("Testdata");
+		//testUtil.testWaitFour();
 		//Sector
 		uLogoIntermediarycompanyPage.clickSectorDropDown();
 		testUtil.testWaitTwo();

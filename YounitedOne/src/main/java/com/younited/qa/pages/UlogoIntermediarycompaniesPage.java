@@ -1,5 +1,6 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -17,7 +18,7 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[1]/a")
 	WebElement addNewCompany;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[1]/input")
+	@FindBy(id="bedrijfsnaam")
 	WebElement companyName;
 	
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[2]/a/div[2]/span/span")
@@ -80,7 +81,8 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	}
 	
 	public void selectCompanyTooltip() {
-		selectCompanyTooltip.click();
+		//selectCompanyTooltip.click();
+		companyName.sendKeys(Keys.TAB);
 	}
 	
 	public void aboutYourCompany(String value) {

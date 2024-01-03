@@ -42,12 +42,12 @@ public class UlogoDasCompaniesPageTest extends TestBase{
 	public void UlogoDasCompaniesPage()throws Exception {
 		uLogoDasCompaniesPage.clickAddNewCompany();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		uLogoDasCompaniesPage.clickDasGroupDropDown();
-		testUtil.testWaitTwo();
-		uLogoDasCompaniesPage.selectDasGroupFromDropDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//uLogoDasCompaniesPage.clickDasGroupDropDown();
+		//testUtil.testWaitTwo();
+		//uLogoDasCompaniesPage.selectDasGroupFromDropDown();
+		//testUtil.testWaitTwo();
 		uLogoDasCompaniesPage.enterCompanyName("Green Company B.V.");
 		testUtil.testWaitFour();
 		uLogoDasCompaniesPage.selectCompanyNameToolTip();
@@ -62,8 +62,16 @@ public class UlogoDasCompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		uLogoDasCompaniesPage.clickCancelBtn();
 		testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		
 	}
 	

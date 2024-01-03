@@ -1,5 +1,6 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -18,7 +19,7 @@ public class UlogoDasCompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"dasgroup\"]/option[2]")
 	WebElement selectDasGroupDropDown;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[1]/input")
+	@FindBy(id="bedrijfsnaam")
 	WebElement companyNameField;
 	
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[2]/a[3]/div[2]/span/span")
@@ -30,7 +31,7 @@ public class UlogoDasCompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"sector-2\"]/span/span")
 	WebElement selectSectorDropDown;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/a")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/a")
 	WebElement clickCancel;
 	
 	
@@ -57,7 +58,8 @@ public class UlogoDasCompaniesPage extends TestBase{
 	}
 	
 	public void selectCompanyNameToolTip() {
-		companyNameToolTip.click();
+		//companyNameToolTip.click();
+		companyNameField.sendKeys(Keys.TAB);
 	}
 	
 	public void clickSectorDropDown() {
