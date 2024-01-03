@@ -10,7 +10,7 @@ public class UlogoDasPlatformPage extends TestBase{
 	
 	//Page factory OR Object Repository
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div[1]/div[1]/a")
+	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[1]/a")
 	WebElement addNewDasPlatform;
 	
 	@FindBy(id="name")
@@ -56,7 +56,8 @@ public class UlogoDasPlatformPage extends TestBase{
 	}
 	
 	public void clickResetSearchByName() {
-		clickResetSearchByName.click();
+		//clickResetSearchByName.click();
+		searchByName.clear();
 	}
 	
 	
