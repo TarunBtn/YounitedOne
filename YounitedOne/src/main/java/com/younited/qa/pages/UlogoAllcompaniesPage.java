@@ -8,40 +8,17 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoAllcompaniesPage extends TestBase{
 	//Pagefactory OR Object Repository
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div[1]/div[1]/a")
-	WebElement addNewCompany;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[1]/input")
-	WebElement enterCompanyName;
-	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[2]/a/div[2]/span/span")
-	WebElement selectCompanyTooltip;
-	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[7]/div[2]/div/div/div[1]")
-	WebElement clickSectorDropDown;
-	
-	@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
-	WebElement selectSector;
-	
-	@FindBy(id="websitelink")
-	WebElement enterWebsite;
-	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
-	WebElement clickSaveBtn;
-	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/a")
-	WebElement clickCancelBtn;
-	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select")
+	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select")
 	WebElement verifiedCompanyDropDown;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select/option[1]")
+	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select/option[1]")
 	WebElement allCompany;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select/option[2]")
+	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select/option[2]")
 	WebElement verifiedCompany;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select/option[3]")
+	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select/option[3]")
 	WebElement notVerifiedCompany;
 	
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div[1]/div[3]/div/label")
@@ -58,6 +35,30 @@ public class UlogoAllcompaniesPage extends TestBase{
 	
 	@FindBy(xpath="//*[@id=\"data-body\"]/tr[1]/td[1]/a")
 	WebElement companyLink;
+	
+	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div[1]/div[1]/a")
+	WebElement addNewCompany;
+	
+	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div/input")
+	WebElement enterCompanyName;
+	
+	@FindBy(xpath="/html/body")
+	WebElement selectCompanyTooltip;
+	
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[7]/div[2]/div/div/div[1]")
+	WebElement clickSectorDropDown;
+	
+	@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
+	WebElement selectSector;
+	
+	@FindBy(id="websitelink")
+	WebElement enterWebsite;
+	
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
+	WebElement clickSaveBtn;
+	
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/a")
+	WebElement clickCancelBtn;
 	
 	
 	//Initialization

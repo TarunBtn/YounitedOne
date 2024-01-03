@@ -12,8 +12,8 @@ public class UlogoDasAssignmentsPage extends TestBase{
 	@FindBy(id="filter-input")
 	WebElement searchByAssignment;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div[2]/div/div/div[3]/fieldset[1]/div/div/div/button")
-	WebElement searchByAssignmentReset;
+	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div[2]/div/div/div[3]/fieldset[1]/div/div/div/button")
+	WebElement resetSearchByAssignment;
 	
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div[2]/div/div/div[3]/fieldset[2]/div/div/input")
 	WebElement searchByLocation;
@@ -83,7 +83,7 @@ public class UlogoDasAssignmentsPage extends TestBase{
 	}
 	
 	public void clickResetSearchByAssignment() {
-		searchByAssignmentReset.click();
+		resetSearchByAssignment.click();
 	}
 	
 	public void enterValueSearchByLocation(String value) {

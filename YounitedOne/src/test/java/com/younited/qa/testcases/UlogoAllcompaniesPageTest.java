@@ -76,7 +76,7 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		uLogoAllcompaniesPage.clickResetCompanyFilter();
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//AddNewCompany
 		uLogoAllcompaniesPage.clickAddNewCompany();
 		testUtil.testWaitFour();

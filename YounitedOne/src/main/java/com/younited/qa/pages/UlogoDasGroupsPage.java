@@ -33,8 +33,8 @@ public class UlogoDasGroupsPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"filter-input\"]")
 	WebElement searchGroup;
 	
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[2]/div/div/button")
-	WebElement resetBtn;
+	@FindBy(xpath="//*[@id=\"filter-input\"]")
+	WebElement resetSearch;
 	
 	//Initialization
 	public UlogoDasGroupsPage() {
@@ -75,7 +75,7 @@ public class UlogoDasGroupsPage extends TestBase{
 	}
 	
 	public void clickResetDasGroup() {
-		resetBtn.click();
+		resetSearch.click();
 	}
 	
 	

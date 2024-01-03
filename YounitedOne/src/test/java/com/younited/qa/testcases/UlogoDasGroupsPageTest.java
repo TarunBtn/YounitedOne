@@ -50,8 +50,8 @@ public class UlogoDasGroupsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoDasGroupPage.enterOrderDasGroupPage("15");
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoDasGroupPage.clickCancelBtnDasGroupPage();
 		testUtil.testWaitTwo();
 		uLogoDasGroupPage.enterValueSearchGroup("Green");
