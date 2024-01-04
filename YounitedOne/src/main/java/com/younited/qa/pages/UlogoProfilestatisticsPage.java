@@ -22,7 +22,7 @@ public class UlogoProfilestatisticsPage extends TestBase{
 	@FindBy(id="filter-input")
 	WebElement searchField;
 	
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div/div[1]/div[2]/div/div/button")
+	@FindBy(xpath="//*[@id=\"__BVID__18\"]/div/div/div")
 	WebElement resetBtn;
 	
 	//Initialization
