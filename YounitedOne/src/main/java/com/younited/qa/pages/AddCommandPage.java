@@ -11,7 +11,7 @@ public class AddCommandPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/div[2]/div[1]/div/div/div[2]/div/div/label")
 	WebElement chooseFile;
 		
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/div/div[1]/div/div/div[2]/button")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/div[2]/div[1]/div/div/div[2]/button")
 	WebElement uploadFile;
 		
 	//Initialization
