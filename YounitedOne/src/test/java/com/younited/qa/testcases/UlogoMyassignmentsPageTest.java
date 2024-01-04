@@ -39,9 +39,9 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		homePageAdmin.clickMyAssignmentsTab();
 		testUtil.testWaitFour();
 		//homePageAdmin.moveHoverTologoImage();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitFour();
 			
 	}
 	
@@ -53,14 +53,16 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		myAssignmentsPage.clickChooseCompanyDropDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		myAssignmentsPage.clickCommentsLink();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitFour();
 		myAssignmentsPage.clickStatusThumbsup();
 		testUtil.testWaitEleven();
-		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
 		myAssignmentsPage.clickPendingTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
@@ -86,7 +88,7 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
