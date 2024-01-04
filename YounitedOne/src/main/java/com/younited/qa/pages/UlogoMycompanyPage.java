@@ -1,5 +1,6 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -11,7 +12,7 @@ public class UlogoMycompanyPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/a")
 		WebElement addNewCompany;
 		
-		@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[1]/input")
+		@FindBy(id="bedrijfsnaam")
 		WebElement enterCompanyName;
 		
 		@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[2]/a/div[2]/span/span")
@@ -23,11 +24,14 @@ public class UlogoMycompanyPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
 		WebElement selectSector;
 		
-		@FindBy(id="websitelink")
+		@FindBy(id="organisatie.websitelink")
 		WebElement enterWebsite;
 		
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
 		WebElement saveBtn;
+		
+		@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/a")
+		WebElement cancelBtn;
 		
 		@FindBy(xpath="//*[@id=\"data-body\"]/tr[1]/td[4]/span/a[2]/span")
 		WebElement clickDeleteCompanySign;
@@ -53,7 +57,8 @@ public class UlogoMycompanyPage extends TestBase{
 		}
 		
 		public void clickCompanyNameTooltip() {
-			companyNameTooltip.click();
+			//companyNameTooltip.click();
+			enterCompanyName.sendKeys(Keys.TAB);
 		}
 		
 		public void clickSectorDropDown() {
@@ -74,6 +79,10 @@ public class UlogoMycompanyPage extends TestBase{
 		
 		public void clickSaveBtn() {
 			saveBtn.click();
+		}
+		
+		public void clickCancelBtn() {
+			cancelBtn.click();
 		}
 		
 		public void clickDeleteCompanySign() {

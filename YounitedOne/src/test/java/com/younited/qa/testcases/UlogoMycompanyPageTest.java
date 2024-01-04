@@ -36,8 +36,8 @@ public class UlogoMycompanyPageTest extends TestBase{
 		testUtil.testWaitFour();
 		//homePageAdmin.moveHoverTologoImage();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		
 	}
 	
@@ -45,16 +45,16 @@ public class UlogoMycompanyPageTest extends TestBase{
 	public void uLogoMycompanyPage()throws Exception {
 		uLogoMycompanyPage.clickAddNewCompany();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMycompanyPage.enterCompanyName("Coffeeshop Checkpoint");
 		testUtil.testWaitFour();
 		uLogoMycompanyPage.clickCompanyNameTooltip();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		uLogoMycompanyPage.clickSectorDropDown();
 		testUtil.testWaitFour();
 		uLogoMycompanyPage.selectSector();
@@ -66,12 +66,12 @@ public class UlogoMycompanyPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		uLogoMycompanyPage.clickSaveBtn();
+		testUtil.testWaitEight();
+		//uLogoMycompanyPage.clickSaveBtn();
+		uLogoMycompanyPage.clickCancelBtn();
 		testUtil.testWaitFour();
 		
 	}
-	
 	
 	@AfterMethod
 	public void tearDown() {
