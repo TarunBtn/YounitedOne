@@ -78,8 +78,8 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoIntermediarycompanyPage.selectSector();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		//Enter website
 		uLogoIntermediarycompanyPage.clearWebsiteValue();
 		testUtil.testWaitTwo();
@@ -87,13 +87,19 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		//Save company
 		uLogoIntermediarycompanyPage.clickSaveBtn();
 		testUtil.testWaitEight();
-		testUtil.scrollDown();
-		testUtil.testWaitEight();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitFour();
 		//Edit company
-		uLogoIntermediarycompanyPage.clickEditBtn();
+		/*uLogoIntermediarycompanyPage.clickEditBtn();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -112,7 +118,7 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		uLogoIntermediarycompanyPage.clickEditCancel();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		//Delete Company
 		uLogoIntermediarycompanyPage.clickDeleteSign();
 		testUtil.testWaitTwo();

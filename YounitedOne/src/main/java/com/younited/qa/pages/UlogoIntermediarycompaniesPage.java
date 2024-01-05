@@ -33,22 +33,25 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
 	WebElement selectSector;
 	
-	@FindBy(id="websitelink")
+	@FindBy(id="organisatie.websitelink")
 	WebElement enterWebsite;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/button")
 	WebElement clickSaveBtn;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div[3]/div/table/tbody/tr[1]/td[4]/span/a[1]/span")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/a")
+	WebElement clickCancelBtn;
+	
+	@FindBy(xpath="//*[@id=\"data-body\"]/tr[1]/td[4]/span/a[1]/span")
 	WebElement clickEditSign;
 	
 	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[19]/div/button")
 	WebElement clickEditSaveBtn;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[19]/div/a")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[21]/div/a")
 	WebElement clickEditCancel;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div[3]/div/table/tbody/tr[1]/td[4]/span/a[2]/span")
+	@FindBy(xpath="//*[@id=\"data-body\"]/tr[1]/td[4]/span/a[2]/span")
 	WebElement clickDeleteSign;
 	
 	@FindBy(xpath="//*[@id=\"remove_company\"]/div/div/div[3]/button[1]")
@@ -107,6 +110,10 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	
 	public void clickSaveBtn() {
 		clickSaveBtn.click();
+	}
+	
+	public void clickCancelBtn() {
+		clickCancelBtn.click();
 	}
 	
 	public void clickEditBtn() {
