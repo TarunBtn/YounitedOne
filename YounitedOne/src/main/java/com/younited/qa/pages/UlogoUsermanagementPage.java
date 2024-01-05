@@ -1,5 +1,6 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -11,13 +12,13 @@ public class UlogoUsermanagementPage extends TestBase{
 	@FindBy(xpath="(//input[@id='filter-input'])[1]")
 	WebElement searchName;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div/div[1]/div[1]/div/div/div/div/button")
+	@FindBy(xpath="//*[@id=\"__BVID__18\"]/div/div/div/button")
 	WebElement resetSearchName;
 	
 	@FindBy(xpath="(//input[@id='filter-input'])[2]")
 	WebElement emailAddress;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div/div[1]/div[2]/div/div/div/div/button")
+	@FindBy(xpath="//*[@id=\"__BVID__25\"]/div/div/div/button")
 	WebElement resetEmailAddress;
 	
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div/div[1]/div[3]/div/label")
@@ -53,7 +54,7 @@ public class UlogoUsermanagementPage extends TestBase{
 	@FindBy(id="dropdown-skills-btn")
 	WebElement skillsTab;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div/div[1]/div[5]/div/div/form/div[1]/div/div/div[1]/input")
+	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div/div[1]/div[5]/div/div/form/div[1]/div/div/input")
 	WebElement enterValueSkills;
 	
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div/div[1]/div[5]/div/div/form/div[1]/div/div/div[2]/a/div[2]/span/span")
@@ -136,11 +137,13 @@ public class UlogoUsermanagementPage extends TestBase{
 	}
 	
 	public void enterValueSkills(String value) {
+		enterValueSkills.click();
 		enterValueSkills.sendKeys(value);
 	}
 	
 	public void selectTooltipSkills() {
-		selectTooltipSkills.click();
+		//selectTooltipSkills.click();
+		enterValueSkills.sendKeys(Keys.TAB);
 	}
 	
 	public void clickApplyFilterSkills() {

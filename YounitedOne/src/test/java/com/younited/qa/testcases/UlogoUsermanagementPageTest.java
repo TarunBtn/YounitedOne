@@ -128,10 +128,12 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		//Skills
 		uLogoUsermanagementPage.clickSkillsTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoUsermanagementPage.enterValueSkills("Postman");
 		testUtil.testWaitFour();
 		uLogoUsermanagementPage.selectTooltipSkills();
+		testUtil.testWaitFour();
+		uLogoUsermanagementPage.clickSkillsTab();
 		testUtil.testWaitFour();
 		uLogoUsermanagementPage.clickApplyFilterSkills();
 		testUtil.testWaitEight();
