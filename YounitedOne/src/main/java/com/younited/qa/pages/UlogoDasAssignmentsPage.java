@@ -12,13 +12,13 @@ public class UlogoDasAssignmentsPage extends TestBase{
 	@FindBy(id="filter-input")
 	WebElement searchByAssignment;
 	
-	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div[2]/div/div/div[3]/fieldset[1]/div/div/div/button")
+	@FindBy(xpath="//*[@id=\"__BVID__837\"]/div/div/div/button")
 	WebElement resetSearchByAssignment;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div[2]/div/div/div[3]/fieldset[2]/div/div/input")
+	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div[2]/div/div/div[3]/fieldset[2]/div/div/input")
 	WebElement searchByLocation;
 	
-	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div[2]/div/div/div[3]/fieldset[2]/div/div/div/button")
+	@FindBy(xpath="//*[@id=\"__BVID__843\"]/div/div/div/button")
 	WebElement searchByLocationReset;
 	
 	@FindBy(id="dropdown-uurtarief-btn")

@@ -35,8 +35,8 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		homePageAdmin.clickDasAssignmentOverviewTab();
 		testUtil.testWaitFourteen();
-		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitFour();
 		
 	}
 	
