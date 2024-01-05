@@ -1,5 +1,6 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -51,13 +52,13 @@ public class UlogoAllcompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
 	WebElement selectSector;
 	
-	@FindBy(id="websitelink")
+	@FindBy(id="organisatie.websitelink")
 	WebElement enterWebsite;
 	
 	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
 	WebElement clickSaveBtn;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/a")
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/a")
 	WebElement clickCancelBtn;
 	
 	
@@ -76,7 +77,8 @@ public class UlogoAllcompaniesPage extends TestBase{
 	}
 	
 	public void selectCompanyTooltip() {
-		selectCompanyTooltip.click();
+		//selectCompanyTooltip.click();
+		enterCompanyName.sendKeys(Keys.TAB);
 	}
 	
 	public void clickSectorDropDown() {

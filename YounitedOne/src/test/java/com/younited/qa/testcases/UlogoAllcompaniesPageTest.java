@@ -102,13 +102,15 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		//uLogoAllcompaniesPage.clickSaveBtn();
 		uLogoAllcompaniesPage.clickCancelBtn();
-		testUtil.testWaitEleven();
-		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		uLogoMycompanyPage.clickDeleteCompanySign();
 		testUtil.testWaitFour();
 		System.out.println(uLogoAllcompaniesPage.companyLink());
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//if(uLogoAllcompaniesPage.companyLink().equals("Cybage Software B.V.")) {
 			//testUtil.testWaitTwo();
 		//uLogoMycompanyPage.clickDeleteCompany();
