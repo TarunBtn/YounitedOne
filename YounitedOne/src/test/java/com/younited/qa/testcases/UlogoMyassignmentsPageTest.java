@@ -88,7 +88,7 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
