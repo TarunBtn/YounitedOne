@@ -138,6 +138,8 @@ public class AssignmentsPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		assignmentsPageFree.enterLocation("Noordwijk, Netherlands");
 		testUtil.testWaitFour();
+		assignmentsPageFree.enterLocationToolTip();
+		testUtil.testWaitFour();
 		assignmentsPageFree.applyLocationFilter();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickLocationTab();
