@@ -261,6 +261,10 @@ public class AssignmentsPageFree extends TestBase{
 		public void enterLocation(String value) {
 			enterLocation.sendKeys(value);
 		}
+		
+		public void enterLocationToolTip() {
+			enterLocation.sendKeys(Keys.TAB);
+		}
 			
 		public void applyLocationFilter() {
 			applyLocationFilter.click();
