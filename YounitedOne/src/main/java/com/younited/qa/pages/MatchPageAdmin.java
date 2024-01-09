@@ -1,5 +1,6 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -80,7 +81,7 @@ public class MatchPageAdmin extends TestBase{
 	@FindBy(id="dropdown-skills-btn")
 	WebElement skill;
 			
-	@FindBy(xpath="/html/body/div[1]/main/div/nav/div[2]/div/div[2]/div[6]/div/form/div[1]/div/div/div[1]/input")
+	@FindBy(xpath="//input[@placeholder='Zoek een vaardigheid']")
 	WebElement enterValueSkill;
 			
 	@FindBy(xpath="/html/body/div[1]/main/div/nav/div[2]/div/div[2]/div[6]/div/form/div[1]/div/div/div[2]/a/div[2]/span/span")
@@ -243,7 +244,8 @@ public class MatchPageAdmin extends TestBase{
 	}
 			
 	public void selectTooltipSkill() {
-		selectTooltipSkill.click();
+		//selectTooltipSkill.click();
+		enterValueSkill.sendKeys(Keys.TAB);
 	}
 			
 	public void clickApplyFilterSkill() {
