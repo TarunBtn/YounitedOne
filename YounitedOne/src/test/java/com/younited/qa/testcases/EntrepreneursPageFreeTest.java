@@ -77,6 +77,8 @@ public class EntrepreneursPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		entrepreneursPageFree.selectSkillToolTip();
 		testUtil.testWaitFour();
+		entrepreneursPageFree.clickSkillsTab();
+		testUtil.testWaitTwo();
 		entrepreneursPageFree.clickApplyFilter();
 		testUtil.testWaitFour();
 		entrepreneursPageFree.clickResetFilter();
@@ -94,7 +96,7 @@ public class EntrepreneursPageFreeTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown(){
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
