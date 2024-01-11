@@ -2,6 +2,7 @@ package com.younited.qa.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.younited.qa.base.TestBase;
 
@@ -27,10 +28,40 @@ public class UlogoNativeAssignmentsPage extends TestBase{
 	WebElement clearFilterHourlyRate;
 	
 	@FindBy(xpath="//*[@id=\"dropdown-uurtarief-cancel\"]/font/font")
-	WebElement clickCancel;
+	WebElement clickCancelHourlyRate;
 	
 	//Initialization
+	public UlogoNativeAssignmentsPage() {
+		PageFactory.initElements(Driver, this);
+	}
 	
+	//Actions
+	public void enterSearchAssignment(String value) {
+		searchNativeAssignment.sendKeys(value);
+	}
 	
+	public void clickResetSearchAssignment() {
+		resetBtn.click();
+	}
+	
+	public void clickHourlyRate() {
+		hourlyRate.click();
+	}
+	
+	public void selectHourlyRate() {
+		selectHourlyRate.click();
+	}
+	
+	public void clickApplyFilterHourlyRate() {
+		applyFilterHourlyRate.click();
+	}
+	
+	public void clickClearFilter() {
+		clearFilterHourlyRate.click();
+	}
+	
+	public void clickCancelHourlyRate() {
+		clickCancelHourlyRate.click();
+	}
 
 }
