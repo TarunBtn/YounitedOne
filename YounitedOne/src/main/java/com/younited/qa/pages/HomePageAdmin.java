@@ -75,6 +75,9 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[2]/ul/span[8]/li[1]/a")
 	WebElement profileStatistics;
 	
+	@FindBy(xpath="//a[@href='/netive-opdrachten']")
+	WebElement nativeAssignmentsTab;
+	
 		
 	//Initialization
 	public HomePageAdmin() {
@@ -189,6 +192,10 @@ public class HomePageAdmin extends TestBase{
 	
 	public void clickDasCompaniesTab() {
 		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-bedrijven/");
+	}
+	
+	public void clickNativeAssignmentsTab() {
+		nativeAssignmentsTab.click();
 	}
 
 }
