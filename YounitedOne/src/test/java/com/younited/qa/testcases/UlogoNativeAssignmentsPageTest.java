@@ -41,16 +41,16 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 	@Test
 	public void UlogoNativeAssignmentsPage()throws Exception {
 		uLogoNativeAssignmentsPage.enterSearchAssignment("QA Engineer");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		uLogoNativeAssignmentsPage.clickResetSearchAssignment();
 		testUtil.testWaitFour();
 		
-		
+			
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
