@@ -44,8 +44,7 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 		testUtil.testWaitEight();
 		uLogoNativeAssignmentsPage.clickResetSearchAssignment();
 		testUtil.testWaitFour();
-		
-			
+					
 	}
 	
 	@AfterMethod
