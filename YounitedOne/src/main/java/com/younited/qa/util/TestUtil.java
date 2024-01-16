@@ -53,6 +53,16 @@ public class TestUtil extends TestBase{
 		jsxtwo.executeScript("window.scrollBy(0,-450)");
 	}
 	
+	public void scrollRight() {
+		JavascriptExecutor jsxfour=(JavascriptExecutor)Driver;
+		jsxfour.executeScript("window.scrollBy(250,0)", "");
+	}
+	
+	public void scrollLeft() {
+		JavascriptExecutor jsxfive=(JavascriptExecutor)Driver;
+		jsxfive.executeScript("window.scrollBy(0,250)", "");
+	}
+	
 	public void switchToWindow() {
 		Set<String> AllWindowHandles=Driver.getWindowHandles();
 		String window01=(String)AllWindowHandles.toArray()[0];

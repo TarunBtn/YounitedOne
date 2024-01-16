@@ -56,7 +56,9 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		myAssignmentsPage.clickCommentsLink();
-		testUtil.testWaitFour();
+		testUtil.testWaitFourteen();
+		testUtil.scrollLeft();
+		testUtil.testWaitTwo();
 		//testUtil.scrollDown();
 		//testUtil.testWaitFour();
 		myAssignmentsPage.clickStatusThumbsup();
@@ -88,7 +90,7 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
