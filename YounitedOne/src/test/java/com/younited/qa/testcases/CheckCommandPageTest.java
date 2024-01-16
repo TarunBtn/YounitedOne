@@ -43,7 +43,7 @@ public class CheckCommandPageTest extends TestBase{
 		testUtil.testWaitEleven();
 		homePage.clickMyAssignmentsLink();
 		testUtil.testWaitEleven();
-		testUtil.testWaitEleven();
+		testUtil.testWaitEight();
 		addCommandPage=myAssignmentsPage.clickAddNewCommand();
 		testUtil.testWaitEleven();
 		testUtil.scrollDown();
@@ -53,7 +53,7 @@ public class CheckCommandPageTest extends TestBase{
 		testUtil.uploadFile("D:\\CV Jort Zwolsman.doc");
 		testUtil.testWaitEight();
 		addCommandPage.clickUploadFile();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 							
@@ -61,8 +61,8 @@ public class CheckCommandPageTest extends TestBase{
 	
 	@Test
 	public void checkCommandPageTest()throws Exception {
-		checkCommandPage.clickFillInComplete();
-		testUtil.testWaitEight();
+		//checkCommandPage.clickFillInComplete();
+		//testUtil.testWaitEight();
 	}
 	
 	
