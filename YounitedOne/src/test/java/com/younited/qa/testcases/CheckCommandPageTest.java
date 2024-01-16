@@ -40,7 +40,7 @@ public class CheckCommandPageTest extends TestBase{
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil.testWaitEleven();
 		homePage.clickAcceptAllCookies();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		homePage.clickMyAssignmentsLink();
 		testUtil.testWaitEleven();
 		testUtil.testWaitEleven();
@@ -50,7 +50,7 @@ public class CheckCommandPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		addCommandPage.clickChooseFile();
 		testUtil.testWaitFour();
-		testUtil.uploadFile("D:\\CV Jort Zwolsman");
+		testUtil.uploadFile("D:\\CV Jort Zwolsman.doc");
 		testUtil.testWaitEight();
 		addCommandPage.clickUploadFile();
 		testUtil.testWaitEight();
@@ -61,7 +61,7 @@ public class CheckCommandPageTest extends TestBase{
 	
 	@Test
 	public void checkCommandPageTest()throws Exception {
-		completeAssignment=checkCommandPage.clickFillInComplete();
+		checkCommandPage.clickFillInComplete();
 		testUtil.testWaitEight();
 	}
 	
