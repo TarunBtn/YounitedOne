@@ -8,10 +8,10 @@ import com.younited.qa.base.TestBase;
 
 public class AddCommandPage extends TestBase{
 	//Page factory or Object Repository
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/div[2]/div[1]/div/div/div[2]/div/div/label")
+	@FindBy(xpath="//*[@id=\"assignment-add\"]/div[4]/div/div[1]/div[1]/div[3]/label/span")
 	WebElement chooseFile;
 		
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/div[2]/div[1]/div/div/div[2]/button")
+	@FindBy(xpath="//*[@id=\"assignment-add\"]/div[5]/div/div/div[2]/button")
 	WebElement uploadFile;
 		
 	//Initialization
