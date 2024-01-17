@@ -1,5 +1,7 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -26,7 +28,7 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//a[@href='/mijn-opdrachten/reacties/e1d8e64f-23c5-4719-ac61-eb72e9193f9d']")
 		WebElement clickComments;
 		
-		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div")
+		@FindBy(xpath="document.querySelector(\"#my-companies > div > div > div > div > table > tbody > tr:nth-child(1)\")")
 		WebElement scrollRight;
 		
 		@FindBy(xpath="//span[text()='thumb_up_off_alt']")
@@ -98,6 +100,9 @@ public class MyAssignmentsPage extends TestBase{
 		
 		public void clickScrollRight() {
 			scrollRight.click();
+			//JavascriptExecutor js=(JavascriptExecutor)Driver;
+			//Object document;
+			//js.executeScript(Driver.findElement(By.cssSelector("#my-companies > div > div > div > div > table > tbody > tr:nth-child(1)"))).scrollLeft=300;  
 		}
 		
 		public void clickStatusThumbsup() {
