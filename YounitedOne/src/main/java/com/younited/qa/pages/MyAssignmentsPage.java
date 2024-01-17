@@ -26,7 +26,10 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//a[@href='/mijn-opdrachten/reacties/e1d8e64f-23c5-4719-ac61-eb72e9193f9d']")
 		WebElement clickComments;
 		
-		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/table/tbody/tr[1]/td[7]/button[1]/span")
+		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div")
+		WebElement scrollRight;
+		
+		@FindBy(xpath="//span[text()='thumb_up_off_alt']")
 		WebElement clickStatusThumbsup;
 		
 		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div[2]/div/div/div[1]/div[3]/div/div[1]")
@@ -91,6 +94,10 @@ public class MyAssignmentsPage extends TestBase{
 		
 		public void clickCommentsLink() {
 			clickComments.click();
+		}
+		
+		public void clickScrollRight() {
+			scrollRight.click();
 		}
 		
 		public void clickStatusThumbsup() {

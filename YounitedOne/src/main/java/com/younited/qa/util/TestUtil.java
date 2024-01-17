@@ -55,12 +55,12 @@ public class TestUtil extends TestBase{
 	
 	public void scrollRight() {
 		JavascriptExecutor jsxfour=(JavascriptExecutor)Driver;
-		jsxfour.executeScript("window.scrollBy(250,0)", "");
+		jsxfour.executeScript("window.scrollBy(450,0)");
 	}
 	
 	public void scrollLeft() {
 		JavascriptExecutor jsxfive=(JavascriptExecutor)Driver;
-		jsxfive.executeScript("window.scrollBy(0,250)", "");
+		jsxfive.executeScript("window.scrollBy(-450,0)");
 	}
 	
 	public void switchToWindow() {
