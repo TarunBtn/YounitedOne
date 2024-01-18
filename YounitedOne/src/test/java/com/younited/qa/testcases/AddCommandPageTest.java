@@ -41,7 +41,7 @@ public class AddCommandPageTest extends TestBase{
 		myAssignmentsPage.clickAddNewCommand();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		
 	}
 	
@@ -53,6 +53,7 @@ public class AddCommandPageTest extends TestBase{
 		testUtil.testWaitEight();
 		checkCommandPage=addCommandPage.clickUploadFile();
 		testUtil.testWaitEight();
+		
 	}
 	
 	@AfterMethod

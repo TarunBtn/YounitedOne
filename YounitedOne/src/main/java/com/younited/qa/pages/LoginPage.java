@@ -14,7 +14,7 @@ public class LoginPage extends TestBase{
 	@FindBy(id="password")
 	WebElement password;
 		
-	@FindBy(xpath="/html/body/div/main/section/div/div/div/form/div[3]/button")
+	@FindBy(name="action")
 	WebElement loginBtn;
 		
 	@FindBy(linkText="Sign up")
