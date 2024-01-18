@@ -49,6 +49,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 				
 	}
 	
+	@SuppressWarnings("static-access")
 	@Test
 	public void test()throws Exception {
 		//General Tab
