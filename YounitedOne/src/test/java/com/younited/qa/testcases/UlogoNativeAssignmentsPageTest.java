@@ -34,22 +34,22 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitTwo();
 		homePageAdmin.clickNativeAssignmentsTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		
 	}
 	
 	@Test
 	public void UlogoNativeAssignmentsPage()throws Exception {
 		uLogoNativeAssignmentsPage.enterSearchAssignment("QA Engineer");
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		uLogoNativeAssignmentsPage.clickResetSearchAssignment();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 					
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
