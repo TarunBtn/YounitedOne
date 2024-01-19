@@ -75,8 +75,8 @@ public class BusinessesPageFreeTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown(){
-		//Driver.quit();
-		Driver.close();
+		Driver.quit();
+		
 	}
 
 }
