@@ -24,11 +24,23 @@ public class UlogoNativeAssignmentsPage extends TestBase{
 	@FindBy(id="dropdown-uurtarief-apply")
 	WebElement applyFilterHourlyRate;
 	
-	@FindBy(xpath="//*[@id=\"dropdown-uurtarief-reset\"]/font/font")
+	@FindBy(id="dropdown-uurtarief-reset")
 	WebElement clearFilterHourlyRate;
 	
-	@FindBy(xpath="//*[@id=\"dropdown-uurtarief-cancel\"]/font/font")
+	@FindBy(id="dropdown-uurtarief-cancel")
 	WebElement clickCancelHourlyRate;
+	
+	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[3]/div[1]/div[2]/select")
+	WebElement numberOfEntrepreneursDropDown;
+	
+	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[3]/div[1]/div[2]/select/option[3]")
+	WebElement selectNumberOfEntrepreneurs;
+	
+	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[3]/div[1]/div[2]/select/option[1]")
+	WebElement resetNumberOfEntrepreneurs;
+	
+	
+	
 	
 	//Initialization
 	public UlogoNativeAssignmentsPage() {
@@ -56,12 +68,24 @@ public class UlogoNativeAssignmentsPage extends TestBase{
 		applyFilterHourlyRate.click();
 	}
 	
-	public void clickClearFilter() {
+	public void clickClearFilterHourlyRate() {
 		clearFilterHourlyRate.click();
 	}
 	
 	public void clickCancelHourlyRate() {
 		clickCancelHourlyRate.click();
+	}
+	
+	public void clickNumberOfEntrepreneurs() {
+		numberOfEntrepreneursDropDown.click();
+	}
+	
+	public void selectNumberOfEntrepreneurs() {
+		selectNumberOfEntrepreneurs.click();
+	}
+	
+	public void resetNumberOfEntrepreneurs() {
+		resetNumberOfEntrepreneurs.click();
 	}
 
 }

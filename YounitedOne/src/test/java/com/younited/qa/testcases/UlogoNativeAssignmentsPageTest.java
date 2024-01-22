@@ -40,10 +40,39 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 	
 	@Test
 	public void UlogoNativeAssignmentsPage()throws Exception {
-		uLogoNativeAssignmentsPage.enterSearchAssignment("QA Engineer");
+		/*uLogoNativeAssignmentsPage.enterSearchAssignment("QA Engineer");
 		testUtil.testWaitEleven();
 		uLogoNativeAssignmentsPage.clickResetSearchAssignment();
+		testUtil.testWaitEight();*/
+		//Hourly Rate
+		uLogoNativeAssignmentsPage.clickHourlyRate();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.selectHourlyRate();
+		testUtil.testWaitFour();
+		uLogoNativeAssignmentsPage.clickApplyFilterHourlyRate();
 		testUtil.testWaitEight();
+		uLogoNativeAssignmentsPage.clickHourlyRate();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.clickClearFilterHourlyRate();
+		testUtil.testWaitEight();
+		uLogoNativeAssignmentsPage.clickCancelHourlyRate();
+		testUtil.testWaitTwo();
+		//NumberOfEntrepreneurs
+		uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.selectNumberOfEntrepreneurs();
+		testUtil.testWaitFour();
+		/*uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.selectNumberOfEntrepreneurs();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.resetNumberOfEntrepreneurs();
+		testUtil.testWaitFour();*/
+		
 					
 	}
 	
