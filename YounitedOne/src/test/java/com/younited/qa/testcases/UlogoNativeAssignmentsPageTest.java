@@ -40,10 +40,10 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 	
 	@Test
 	public void UlogoNativeAssignmentsPage()throws Exception {
-		/*uLogoNativeAssignmentsPage.enterSearchAssignment("QA Engineer");
+		uLogoNativeAssignmentsPage.enterSearchAssignment("QA Engineer");
 		testUtil.testWaitEleven();
 		uLogoNativeAssignmentsPage.clickResetSearchAssignment();
-		testUtil.testWaitEight();*/
+		testUtil.testWaitEight();
 		//Hourly Rate
 		uLogoNativeAssignmentsPage.clickHourlyRate();
 		testUtil.testWaitTwo();
@@ -56,29 +56,64 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 		uLogoNativeAssignmentsPage.clickClearFilterHourlyRate();
 		testUtil.testWaitEight();
 		uLogoNativeAssignmentsPage.clickCancelHourlyRate();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//NumberOfEntrepreneurs
 		uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
 		testUtil.testWaitTwo();
 		uLogoNativeAssignmentsPage.selectNumberOfEntrepreneurs();
 		testUtil.testWaitFour();
-		/*uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
+		uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
 		testUtil.testWaitTwo();
 		uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
 		testUtil.testWaitTwo();
-		uLogoNativeAssignmentsPage.selectNumberOfEntrepreneurs();
-		testUtil.testWaitTwo();
-		uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
-		testUtil.testWaitTwo();
+		//uLogoNativeAssignmentsPage.selectNumberOfEntrepreneurs();
+		//testUtil.testWaitTwo();
 		uLogoNativeAssignmentsPage.resetNumberOfEntrepreneurs();
-		testUtil.testWaitFour();*/
+		testUtil.testWaitFour();
+		uLogoNativeAssignmentsPage.clickNumberOfEntrepreneurs();
+		testUtil.testWaitTwo();
+		//Sorting
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.selectClosingDateOldestFirst();
+		testUtil.testWaitFour();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.selectHourlyRateDescending();
+		testUtil.testWaitFour();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.selectHourlyRateRising();
+		testUtil.testWaitFour();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.selectNumberRequestedDescending();
+		testUtil.testWaitFour();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.selectNumberWantedRising();
+		testUtil.testWaitFour();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.clickSortingDropDown();
+		testUtil.testWaitTwo();
+		uLogoNativeAssignmentsPage.selectClosingDateNewestFirst();
+		testUtil.testWaitFour();
 		
-					
+						
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }

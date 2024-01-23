@@ -39,6 +39,26 @@ public class UlogoNativeAssignmentsPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[3]/div[1]/div[2]/select/option[1]")
 	WebElement resetNumberOfEntrepreneurs;
 	
+	@FindBy(xpath="//option[text()='Aantal ondernemers']")
+	WebElement clickSortingDropDown;
+	
+	@FindBy(xpath="//option[@value='optie1']")
+	WebElement closingDateNewestFirst;
+	
+	@FindBy(xpath="//option[@value='optie2']")
+	WebElement closingDateOldestFirst;
+	
+	@FindBy(xpath="//option[@value='optie3']")
+	WebElement hourlyRateDescending;
+	
+	@FindBy(xpath="//option[@value='optie4']")
+	WebElement hourlyRateRising;
+	
+	@FindBy(xpath="//option[@value='optie5']")
+	WebElement numberRequestedDesc;
+	
+	@FindBy(xpath="//option[@value='optie6']")
+	WebElement numberWantedRising;
 	
 	
 	
@@ -87,5 +107,34 @@ public class UlogoNativeAssignmentsPage extends TestBase{
 	public void resetNumberOfEntrepreneurs() {
 		resetNumberOfEntrepreneurs.click();
 	}
+	
+	public void clickSortingDropDown() {
+		clickSortingDropDown.click();
+	}
+	
+	public void selectClosingDateNewestFirst() {
+		closingDateNewestFirst.click();
+	}
+	
+	public void selectClosingDateOldestFirst() {
+		closingDateOldestFirst.click();
+	}
+	
+	public void selectHourlyRateDescending() {
+		hourlyRateDescending.click();
+	}
+	
+	public void selectHourlyRateRising() {
+		hourlyRateRising.click();
+	}
+	
+	public void selectNumberRequestedDescending() {
+		numberRequestedDesc.click();
+	}
+	
+	public void selectNumberWantedRising() {
+		numberWantedRising.click();
+	}
+	
 
 }
