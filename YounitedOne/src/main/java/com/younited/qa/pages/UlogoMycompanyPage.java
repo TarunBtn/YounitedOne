@@ -33,7 +33,7 @@ public class UlogoMycompanyPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/a")
 		WebElement cancelBtn;
 		
-		@FindBy(xpath="//*[@id=\"data-body\"]/tr[1]/td[4]/span/a[2]/span")
+		@FindBy(xpath="//span[text()='remove_circle_outline']")
 		WebElement clickDeleteCompanySign;
 		
 		@FindBy(xpath="//*[@id=\"remove_company\"]/div/div/div[3]/button[1]")
