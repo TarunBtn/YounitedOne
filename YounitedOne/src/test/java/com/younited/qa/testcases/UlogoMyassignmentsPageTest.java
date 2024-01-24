@@ -53,10 +53,10 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		myAssignmentsPage.clickChooseCompanyDropDown();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		myAssignmentsPage.clickCommentsLink();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		//testUtil.scrollRight();
 		//testUtil.testWaitTwo();
 		//myAssignmentsPage.clickScrollRight();
