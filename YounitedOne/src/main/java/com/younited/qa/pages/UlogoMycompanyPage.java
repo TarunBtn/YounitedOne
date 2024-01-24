@@ -39,7 +39,7 @@ public class UlogoMycompanyPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"remove_company\"]/div/div/div[3]/button[1]")
 		WebElement clickDeleteCompany;
 		
-		@FindBy(xpath="//*[@id=\"remove_company\"]/div/div/div[3]/button[2]")
+		@FindBy(xpath="//button[@title='Nee, annuleren']")
 		WebElement cancelDelete;
 		
 		//Initialization

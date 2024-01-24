@@ -58,7 +58,7 @@ public class UlogoAllcompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
 	WebElement clickSaveBtn;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/a")
+	@FindBy(xpath="//a[@title='Annuleren']")
 	WebElement clickCancelBtn;
 	
 	
