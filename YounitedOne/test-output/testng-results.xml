@@ -1,98 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-23T20:01:19 IST" name="Default suite" finished-at="2024-01-23T20:04:01 IST" duration-ms="161572">
+  <suite started-at="2024-01-24T13:02:34 IST" name="Default suite" finished-at="2024-01-24T13:05:05 IST" duration-ms="151120">
     <groups>
     </groups>
-    <test started-at="2024-01-23T20:01:19 IST" name="Default test" finished-at="2024-01-23T20:04:01 IST" duration-ms="161572">
-      <class name="com.younited.qa.testcases.UlogoAllcompaniesPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoAllcompaniesPageTest@72e5a8e]" started-at="2024-01-23T20:01:19 IST" name="setUp" finished-at="2024-01-23T20:02:07 IST" duration-ms="47839" status="PASS">
+    <test started-at="2024-01-24T13:02:34 IST" name="Default test" finished-at="2024-01-24T13:05:05 IST" duration-ms="151120">
+      <class name="com.younited.qa.testcases.UlogoDasAssignmentsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoDasAssignmentsPageTest@72e5a8e]" started-at="2024-01-24T13:02:34 IST" name="setUp" finished-at="2024-01-24T13:03:25 IST" duration-ms="51004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UlogoAllcompaniesPage()[pri:0, instance:com.younited.qa.testcases.UlogoAllcompaniesPageTest@72e5a8e]" started-at="2024-01-23T20:02:07 IST" name="UlogoAllcompaniesPage" finished-at="2024-01-23T20:04:01 IST" duration-ms="113701" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span data-v-35b67942="" class="material-icons md-24">...</span> is not clickable at point (1487, 635). Other element would receive the click: <iframe src="https://wm-livechat-2-prod-dot-watermelonmessenger.appspot.com?config={&quot;id&quot;:&quot;V19EZYCJbl1&quot;,&quot;toggled&quot;:&quot;false&quot;}" id="wm-livechat" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
-  (Session info: chrome=120.0.6099.225)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd1f20ce9140390f64293a048b9466cf, clickElement {id=36702A6E010FFC625E1465C24415548A_element_283}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64519/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bd1f20ce9140390f64293a048b9466cf)] -> xpath: //span[text()='remove_circle_outline']]
-Session ID: bd1f20ce9140390f64293a048b9466cf]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span data-v-35b67942="" class="material-icons md-24">...</span> is not clickable at point (1487, 635). Other element would receive the click: <iframe src="https://wm-livechat-2-prod-dot-watermelonmessenger.appspot.com?config={&quot;id&quot;:&quot;V19EZYCJbl1&quot;,&quot;toggled&quot;:&quot;false&quot;}" id="wm-livechat" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
-  (Session info: chrome=120.0.6099.225)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd1f20ce9140390f64293a048b9466cf, clickElement {id=36702A6E010FFC625E1465C24415548A_element_283}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64519/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bd1f20ce9140390f64293a048b9466cf)] -> xpath: //span[text()='remove_circle_outline']]
-Session ID: bd1f20ce9140390f64293a048b9466cf
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.younited.qa.pages.UlogoMycompanyPage.clickDeleteCompanySign(UlogoMycompanyPage.java:89)
-at com.younited.qa.testcases.UlogoAllcompaniesPageTest.UlogoAllcompaniesPage(UlogoAllcompaniesPageTest.java:110)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="UlogoDasAssignmentsPage()[pri:0, instance:com.younited.qa.testcases.UlogoDasAssignmentsPageTest@72e5a8e]" started-at="2024-01-24T13:03:25 IST" name="UlogoDasAssignmentsPage" finished-at="2024-01-24T13:05:05 IST" duration-ms="100088" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UlogoAllcompaniesPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoAllcompaniesPageTest@72e5a8e]" started-at="2024-01-23T20:04:01 IST" name="tearDown" finished-at="2024-01-23T20:04:01 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- UlogoDasAssignmentsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoDasAssignmentsPageTest@72e5a8e]" started-at="2024-01-24T13:05:05 IST" name="tearDown" finished-at="2024-01-24T13:05:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.UlogoAllcompaniesPageTest -->
+      </class> <!-- com.younited.qa.testcases.UlogoDasAssignmentsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
