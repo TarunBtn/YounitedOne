@@ -92,11 +92,13 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		//Save company
 		uLogoIntermediarycompanyPage.clickSaveBtn();
 		testUtil.testWaitEight();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
+		uLogoIntermediarycompanyPage.clickCancelBtn();
 		testUtil.testWaitFour();
 		//Edit company
 		/*uLogoIntermediarycompanyPage.clickEditBtn();
@@ -121,11 +123,12 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitFour();*/
 		//Delete Company
 		uLogoIntermediarycompanyPage.clickDeleteSign();
-		testUtil.testWaitTwo();
-		uLogoIntermediarycompanyPage.clickDeleteCompany();
+		testUtil.testWaitEight();
+		//uLogoIntermediarycompanyPage.clickDeleteCompany();
+		uLogoIntermediarycompanyPage.clickCancelDelete();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitFour();
 		
 	}
 	
