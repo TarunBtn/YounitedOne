@@ -11,10 +11,10 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"navigation\"]/div/div/nav/a[1]")
 			WebElement generalTab;
 					
-			@FindBy(xpath="//a[title()='Wijzig mijn algemene gegevens']")
+			@FindBy(xpath="//*[@id=\"page-header\"]/div[2]/div/div[2]/div/div[3]/div[2]/button")
 			WebElement changeMyGeneralInformation;
 					
-			@FindBy(xpath="//*[@id=\"general-profile-edit\"]/div/form/div[10]/div/a")
+			@FindBy(xpath="//*[@id=\"general-profile-edit\"]/div/form/div[11]/div/a")
 			WebElement changeMyGeneralInformationCancel;
 					
 			@FindBy(xpath="//*[@id=\"profile-detailed\"]/div/div[1]/div[4]/div/div/a")
@@ -23,16 +23,16 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[22]/div/a")
 			WebElement fillInCompanyCancel;
 			
-			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[2]")
+			@FindBy(xpath="//a[@href='/mijn-profiel/beschikbaarheid']")
 			WebElement availabilityTab;
 					
 			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[3]")
 			WebElement skillsTab;
 					
-			@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div[1]/div/div/div[1]/input")
+			@FindBy(xpath="//div[@id='suggestionsForJobTitle_wrapper']")
 			WebElement enterSkillsValue;
 					
-			@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div[1]/div/div/div[2]/a[3]/div[2]/span")
+			@FindBy(xpath="//*[@id=\"my-profile\"]")
 			WebElement selectSkillsValue;
 					
 			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div[1]/div/form/div/button")

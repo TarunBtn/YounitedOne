@@ -42,7 +42,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();	
 		homePageFree.clickManageProfileTab();
 		testUtil.testWaitEleven();
-		testUtil.testWaitEight();
+		//testUtil.testWaitEight();
 		testUtil.testWaitFour();
 		homePageFree.mouseHoverToLogoImage();
 		testUtil.testWaitEight();
@@ -53,16 +53,16 @@ public class ManageProfilePageFreeTest extends TestBase{
 	@Test
 	public void test()throws Exception {
 		//General Tab
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();	
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();	
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickChangeMyGeneralInformation();
 		testUtil.testWaitEleven();
 		testUtil.scrollDown();
@@ -81,8 +81,10 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
-		testUtil.testWaitEleven();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		//uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
+		//testUtil.testWaitEleven();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		//testUtil.scrollUp();
@@ -101,6 +103,24 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.clickFillInCompanyCancel();
 		//testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitFour();
 		//Availability Tab
 		uLogoMyprofilePage.clickAvailabilityTab();
 		testUtil.testWaitFour();
@@ -324,7 +344,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
