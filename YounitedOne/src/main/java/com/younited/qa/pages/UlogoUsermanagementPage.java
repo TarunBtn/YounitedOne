@@ -12,13 +12,13 @@ public class UlogoUsermanagementPage extends TestBase{
 	@FindBy(xpath="(//input[@id='filter-input'])[1]")
 	WebElement searchName;
 	
-	@FindBy(xpath="//*[@id=\"__BVID__18\"]/div/div/div/button")
+	@FindBy(xpath="//*[@id=\"__BVID__19\"]/div/div/div/button")
 	WebElement resetSearchName;
 	
 	@FindBy(xpath="(//input[@id='filter-input'])[2]")
 	WebElement emailAddress;
 	
-	@FindBy(xpath="//*[@id=\"__BVID__25\"]/div/div/div/button")
+	@FindBy(xpath="//*[@id=\"__BVID__26\"]/div/div/div/button")
 	WebElement resetEmailAddress;
 	
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div/div[1]/div[3]/div/label")
