@@ -50,8 +50,8 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickResetSearchByLocation();
 		testUtil.testWaitEight();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		//HourlyRate
 		uLogoDasAssignmentsPage.clickHourlyRateDropDown();
 		testUtil.testWaitTwo();
