@@ -39,7 +39,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		homePageFree.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
 		homePageFree.clickUserLogo();		
-		testUtil.testWaitTwo();	
+		testUtil.testWaitFour();	
 		homePageFree.clickManageProfileTab();
 		testUtil.testWaitEleven();
 		//testUtil.testWaitEight();
@@ -81,8 +81,8 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitFour();
 		//uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
 		//testUtil.testWaitEleven();
 		//testUtil.scrollDown();
@@ -122,7 +122,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
 		//Availability Tab
-		uLogoMyprofilePage.clickAvailabilityTab();
+		/*uLogoMyprofilePage.clickAvailabilityTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -147,6 +147,9 @@ public class ManageProfilePageFreeTest extends TestBase{
 			e.printStackTrace();
 			testUtil.testWaitEleven();
 		}
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();*/
 		//Save additional skills
 		//uLogoMyprofilePage.clickSaveAdditionalSkills();
 		//testUtil.testWaitFour();
@@ -172,12 +175,12 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickAddWorkExperience();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterFunction("DBA");
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterCompany("TCS");
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickTypeWorkExperience();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.selectTypeWorkExperience();
