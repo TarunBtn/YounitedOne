@@ -42,8 +42,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitFour();	
 		homePageFree.clickManageProfileTab();
 		testUtil.testWaitEleven();
-		//testUtil.testWaitEight();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		homePageFree.mouseHoverToLogoImage();
 		testUtil.testWaitEight();
 				
@@ -65,7 +64,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickChangeMyGeneralInformation();
 		testUtil.testWaitEleven();
-		testUtil.scrollDown();
+		/*testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -120,7 +119,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		//Availability Tab
 		/*uLogoMyprofilePage.clickAvailabilityTab();
 		testUtil.testWaitFour();
@@ -187,9 +186,9 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickTypeWorkExperience();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterDescription("This is test data");
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickStartDateCalender();
 		testUtil.testWaitTwo();

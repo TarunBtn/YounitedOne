@@ -65,10 +65,10 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(id="beschrijving")
 			WebElement description;
 					
-			@FindBy(xpath="//*[@id=\"startdatum\"]/div[2]/div/div[2]/div/div/div/div[1]/button[1]/span/svg")
+			@FindBy(xpath="//*[@id=\"startdatum\"]/div/div/input")
 			WebElement startDateCalender;
 					
-			@FindBy(xpath="//*[@id=\"startdatum\"]/div[2]/div/div[2]/div/div/div/div[1]/button[1]/span/svg")
+			@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/form/div[7]/div[2]/div/div[2]/div/div[2]/div/div/div/div[1]/button[1]/span/svg")
 			WebElement selectYear;
 					
 			@FindBy(xpath="//*[@id=\"my-profile\"]/div[6]/div/div/div/div[2]/table/tbody/tr[1]/td[2]/div")
