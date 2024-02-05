@@ -51,7 +51,7 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[21]/div/a")
 	WebElement clickEditCancel;
 	
-	@FindBy(xpath="//span[text()='remove_circle_outline']")
+	@FindBy(xpath="//font[text()='remove_circle_outline']")
 	WebElement clickDeleteSign;
 	
 	@FindBy(xpath="//*[@id=\"remove\"]/div/div/div[3]/button[2]")
