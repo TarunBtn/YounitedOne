@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.younited.qa.testcases.UlogoUsermanagementPageTest">
+      <class name="com.younited.qa.testcases.HomePageTest">
         <methods>
-          <include name="uLogoUsermanagementPageTest"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="clickMyAssignmentsLinkTest"/>
+          <include name="verifyImageLogoTest"/>
         </methods>
-      </class> <!-- com.younited.qa.testcases.UlogoUsermanagementPageTest -->
+      </class> <!-- com.younited.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
