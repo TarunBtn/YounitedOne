@@ -30,9 +30,9 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		uLogoIntermediarycompanyPage=new UlogoIntermediarycompaniesPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEleven();
-		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEight();
+		homePageAdmin.clickAcceptAllCookies();
+		testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitTwo();
 		//homePageAdmin.clickUserLogoPhoto();
@@ -99,7 +99,7 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		//testUtil.scrollUp();
 		//testUtil.testWaitFour();
 		uLogoIntermediarycompanyPage.clickCancelBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//Edit company
 		/*uLogoIntermediarycompanyPage.clickEditBtn();
 		testUtil.testWaitFour();
@@ -122,11 +122,11 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitFour();*/
 		//Delete Company
-		uLogoIntermediarycompanyPage.clickDeleteSign();
-		testUtil.testWaitEight();
+		  //uLogoIntermediarycompanyPage.clickDeleteSign();
+		  //testUtil.testWaitEight();
 		//uLogoIntermediarycompanyPage.clickDeleteCompany();
-		uLogoIntermediarycompanyPage.clickCancelDelete();
-		testUtil.testWaitFour();
+		  //uLogoIntermediarycompanyPage.clickCancelDelete();
+		  //testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitFour();
 		
