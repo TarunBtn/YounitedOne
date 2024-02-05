@@ -12,6 +12,7 @@ import com.younited.qa.pages.UlogoMyassignmentsPage;
 import com.younited.qa.util.TestUtil;
 
 public class UlogoMyassignmentsPageTest extends TestBase{
+	
 	LoginPage loginPage;
 	HomePageAdmin homePageAdmin;
 	MyAssignmentsPage myAssignmentsPage;
