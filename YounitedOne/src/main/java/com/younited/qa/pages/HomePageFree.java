@@ -18,7 +18,7 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//span[text()='Accepteer alles']")
 		WebElement acceptAllCookies;
 		
-		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[3]/a/span")
+		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul[1]/li[3]/a/span")
 		WebElement networkTab;
 		
 		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[3]/a/ul/li[1]/a")
