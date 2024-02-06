@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T19:02:58 IST" name="Default suite" finished-at="2024-02-06T19:03:48 IST" duration-ms="49654">
+  <suite started-at="2024-02-06T19:05:47 IST" name="Default suite" finished-at="2024-02-06T19:06:35 IST" duration-ms="47703">
     <groups>
     </groups>
-    <test started-at="2024-02-06T19:02:58 IST" name="Default test" finished-at="2024-02-06T19:03:48 IST" duration-ms="49654">
+    <test started-at="2024-02-06T19:05:47 IST" name="Default test" finished-at="2024-02-06T19:06:35 IST" duration-ms="47703">
       <class name="com.younited.qa.testcases.AddCommandPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@72e5a8e]" started-at="2024-02-06T19:02:58 IST" name="setUp" finished-at="2024-02-06T19:03:48 IST" duration-ms="49623" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@72e5a8e]" started-at="2024-02-06T19:05:47 IST" name="setUp" finished-at="2024-02-06T19:06:35 IST" duration-ms="47673" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -15,10 +15,10 @@
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af271b1a6eb6ca9cbead3951cbb3e3f4, clickElement {id=115C80EAF24D044B3CF4845A480DBD77_element_83}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53750/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome-headless-shell on windows (af271b1a6eb6ca9cbead3951cbb3e3f4)] -> xpath: //*[@id="navbarSupportedContent"]/ul[1]/li[3]/a]
-Session ID: af271b1a6eb6ca9cbead3951cbb3e3f4]]>
+Command: [5cf7b47c2fce6ee6cdc7632a400998a0, clickElement {id=67CE748544D3CF6E62F61024BD56AFE9_element_87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53974/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (5cf7b47c2fce6ee6cdc7632a400998a0)] -> xpath: //*[@id="navbarSupportedContent"]/ul[1]/li[3]/a]
+Session ID: 5cf7b47c2fce6ee6cdc7632a400998a0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -26,10 +26,10 @@ Session ID: af271b1a6eb6ca9cbead3951cbb3e3f4]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af271b1a6eb6ca9cbead3951cbb3e3f4, clickElement {id=115C80EAF24D044B3CF4845A480DBD77_element_83}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53750/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome-headless-shell on windows (af271b1a6eb6ca9cbead3951cbb3e3f4)] -> xpath: //*[@id="navbarSupportedContent"]/ul[1]/li[3]/a]
-Session ID: af271b1a6eb6ca9cbead3951cbb3e3f4
+Command: [5cf7b47c2fce6ee6cdc7632a400998a0, clickElement {id=67CE748544D3CF6E62F61024BD56AFE9_element_87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53974/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (5cf7b47c2fce6ee6cdc7632a400998a0)] -> xpath: //*[@id="navbarSupportedContent"]/ul[1]/li[3]/a]
+Session ID: 5cf7b47c2fce6ee6cdc7632a400998a0
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -89,7 +89,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadFileTest()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@72e5a8e]" started-at="2024-02-06T19:03:48 IST" name="uploadFileTest" finished-at="2024-02-06T19:03:48 IST" duration-ms="0" status="SKIP">
+        <test-method signature="uploadFileTest()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@72e5a8e]" started-at="2024-02-06T19:06:35 IST" name="uploadFileTest" finished-at="2024-02-06T19:06:35 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -97,10 +97,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af271b1a6eb6ca9cbead3951cbb3e3f4, clickElement {id=115C80EAF24D044B3CF4845A480DBD77_element_83}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53750/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome-headless-shell on windows (af271b1a6eb6ca9cbead3951cbb3e3f4)] -> xpath: //*[@id="navbarSupportedContent"]/ul[1]/li[3]/a]
-Session ID: af271b1a6eb6ca9cbead3951cbb3e3f4]]>
+Command: [5cf7b47c2fce6ee6cdc7632a400998a0, clickElement {id=67CE748544D3CF6E62F61024BD56AFE9_element_87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53974/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (5cf7b47c2fce6ee6cdc7632a400998a0)] -> xpath: //*[@id="navbarSupportedContent"]/ul[1]/li[3]/a]
+Session ID: 5cf7b47c2fce6ee6cdc7632a400998a0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -108,10 +108,10 @@ Session ID: af271b1a6eb6ca9cbead3951cbb3e3f4]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af271b1a6eb6ca9cbead3951cbb3e3f4, clickElement {id=115C80EAF24D044B3CF4845A480DBD77_element_83}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53750}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53750/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome-headless-shell on windows (af271b1a6eb6ca9cbead3951cbb3e3f4)] -> xpath: //*[@id="navbarSupportedContent"]/ul[1]/li[3]/a]
-Session ID: af271b1a6eb6ca9cbead3951cbb3e3f4
+Command: [5cf7b47c2fce6ee6cdc7632a400998a0, clickElement {id=67CE748544D3CF6E62F61024BD56AFE9_element_87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53974/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (5cf7b47c2fce6ee6cdc7632a400998a0)] -> xpath: //*[@id="navbarSupportedContent"]/ul[1]/li[3]/a]
+Session ID: 5cf7b47c2fce6ee6cdc7632a400998a0
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -171,7 +171,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadFileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@72e5a8e]" started-at="2024-02-06T19:03:48 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1707226428312" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@72e5a8e]" started-at="2024-02-06T19:06:35 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1707226595231" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
