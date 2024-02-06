@@ -39,7 +39,9 @@ public class MyAssignmentsPageTest extends TestBase{
 		testUtil.testWaitEight();
 		//checkCommandPage=new CheckCommandPage();
 		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 													
 	}
 	
