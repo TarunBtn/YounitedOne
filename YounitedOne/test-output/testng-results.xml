@@ -1,25 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T12:45:33 IST" name="Default suite" finished-at="2024-02-06T12:47:50 IST" duration-ms="136796">
+  <suite started-at="2024-02-06T14:39:48 IST" name="Default suite" finished-at="2024-02-06T14:41:17 IST" duration-ms="88550">
     <groups>
     </groups>
-    <test started-at="2024-02-06T12:45:33 IST" name="Default test" finished-at="2024-02-06T12:47:50 IST" duration-ms="136796">
-      <class name="com.younited.qa.testcases.EntrepreneursPageFreeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.EntrepreneursPageFreeTest@72e5a8e]" started-at="2024-02-06T12:45:33 IST" name="setUp" finished-at="2024-02-06T12:46:22 IST" duration-ms="48892" status="PASS">
+    <test started-at="2024-02-06T14:39:48 IST" name="Default test" finished-at="2024-02-06T14:41:17 IST" duration-ms="88550">
+      <class name="com.younited.qa.testcases.MyAssignmentsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MyAssignmentsPageTest@72e5a8e]" started-at="2024-02-06T14:39:48 IST" name="setUp" finished-at="2024-02-06T14:41:05 IST" duration-ms="76299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="entrepreneurPageFilter()[pri:0, instance:com.younited.qa.testcases.EntrepreneursPageFreeTest@72e5a8e]" started-at="2024-02-06T12:46:22 IST" name="entrepreneurPageFilter" finished-at="2024-02-06T12:47:50 IST" duration-ms="87528" status="PASS">
+        <test-method signature="myAssignmentsPageTest()[pri:0, instance:com.younited.qa.testcases.MyAssignmentsPageTest@72e5a8e]" started-at="2024-02-06T14:41:05 IST" name="myAssignmentsPageTest" finished-at="2024-02-06T14:41:17 IST" duration-ms="12203" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button data-v-410ca083="" class="btn btn-secondary btn-primary common-reset-button" type="button">...</button> is not clickable at point (343, 84). Other element would receive the click: <div data-v-3bbd1b14="" class="container-fluid">...</div>
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283617630359ae6503e14706038e2e88, clickElement {id=DD1C2A9E1B9762A532594A1A24EC21C5_element_106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58520}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58520/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (283617630359ae6503e14706038e2e88)] -> xpath: //button[normalize-space()='Reset']]
+Session ID: 283617630359ae6503e14706038e2e88]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-v-410ca083="" class="btn btn-secondary btn-primary common-reset-button" type="button">...</button> is not clickable at point (343, 84). Other element would receive the click: <div data-v-3bbd1b14="" class="container-fluid">...</div>
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283617630359ae6503e14706038e2e88, clickElement {id=DD1C2A9E1B9762A532594A1A24EC21C5_element_106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58520}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58520/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (283617630359ae6503e14706038e2e88)] -> xpath: //button[normalize-space()='Reset']]
+Session ID: 283617630359ae6503e14706038e2e88
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.younited.qa.pages.MyAssignmentsPage.clickResetFilter(MyAssignmentsPage.java:86)
+at com.younited.qa.testcases.MyAssignmentsPageTest.myAssignmentsPageTest(MyAssignmentsPageTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- entrepreneurPageFilter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.EntrepreneursPageFreeTest@72e5a8e]" started-at="2024-02-06T12:47:50 IST" name="tearDown" finished-at="2024-02-06T12:47:50 IST" duration-ms="336" status="PASS">
+        </test-method> <!-- myAssignmentsPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MyAssignmentsPageTest@72e5a8e]" started-at="2024-02-06T14:41:17 IST" name="tearDown" finished-at="2024-02-06T14:41:17 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.EntrepreneursPageFreeTest -->
+      </class> <!-- com.younited.qa.testcases.MyAssignmentsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
