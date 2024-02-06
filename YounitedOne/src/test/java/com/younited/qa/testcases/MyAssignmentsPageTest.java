@@ -31,9 +31,9 @@ public class MyAssignmentsPageTest extends TestBase{
 		myAssignmentsPage=new MyAssignmentsPage();
 		testUtil=new TestUtil();
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		testUtil.testWaitFourteen();
+		testUtil.testWaitEight();
 		homePage.clickAcceptAllCookies();
-		testUtil.testWaitEight();		
+		testUtil.testWaitEleven();		
 		homePage.clickMyAssignmentsLink();
 		testUtil.testWaitEleven();
 		testUtil.testWaitEight();
@@ -57,6 +57,10 @@ public class MyAssignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		myAssignmentsPage.clickChooseCompanyDropDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		myAssignmentsPage.StatusDropDown();
 		testUtil.testWaitFour();
 		myAssignmentsPage.selectStatusFromDropDownOpen();
@@ -66,7 +70,11 @@ public class MyAssignmentsPageTest extends TestBase{
 		//myAssignmentsPage.selectStatusFromDropDownClosed();
 		//testUtil.testWaitFour();
 		myAssignmentsPage.StatusDropDown();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		myAssignmentsPage.StatusDropDown();
 		testUtil.testWaitFour();
 		myAssignmentsPage.clearStatusFromDropDown();
@@ -77,7 +85,7 @@ public class MyAssignmentsPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }

@@ -22,7 +22,7 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"initial-sort-select\"]")
 		WebElement chooseCompanyDropDown;
 			
-		@FindBy(xpath="//option[text()='The Green Clean Company']")
+		@FindBy(xpath="//option[text()='Horecaexploitatie Moeke B.V.']")
 		WebElement selectCompanyFromDropDown;
 		
 		@FindBy(xpath="//a[@href='/mijn-opdrachten/reacties/e1d8e64f-23c5-4719-ac61-eb72e9193f9d']")
@@ -40,7 +40,7 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div[2]/div/div/div[1]/div[3]/div/div[3]/ul/li[2]/span")
 		WebElement selectOwnerFromDropDown;
 			
-		@FindBy(xpath="//div[@class='ml-auto my-1 col-lg-3']//select[@id='initial-sort-select']")
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div/div/div[1]/div[3]/select")
 		WebElement statusDropDown;
 		
 		@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/table/tbody/tr[1]/td[1]/label/input")
@@ -67,7 +67,7 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[4]")
 		WebElement selectStatusFromDropDownClosed;
 		
-		@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div/div/div[1]/div[3]/select/option[1]")
+		@FindBy(xpath="//option[text()='Selecteer status']")
 		WebElement clearStatusFromDropDown;
 			
 			
