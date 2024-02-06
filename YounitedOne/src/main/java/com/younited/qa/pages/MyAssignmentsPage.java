@@ -16,7 +16,7 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(id="filter-input")
 		WebElement filter;
 			
-		@FindBy(xpath="//button[normalize-space()='Reset']")
+		@FindBy(xpath="//Button[text()='Reset']")
 		WebElement resetFilter;
 			
 		@FindBy(xpath="//*[@id=\"initial-sort-select\"]")
