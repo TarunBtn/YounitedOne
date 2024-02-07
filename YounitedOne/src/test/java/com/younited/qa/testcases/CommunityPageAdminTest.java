@@ -30,9 +30,9 @@ public class CommunityPageAdminTest extends TestBase{
 		communityPageAdmin=new CommunityPageAdmin();		
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		homePageAdmin.clickAcceptAllCookies();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		homePageAdmin.clickCommunityPageAdmin();
 		testUtil.testWaitEight();
 						

@@ -26,9 +26,9 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree=new AssignmentsPageFree();
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		homePageFree.clickAcceptAllCookies();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		homePageFree.clickAssignmentsLink();
 		testUtil.testWaitEight();
 			
