@@ -28,9 +28,9 @@ public class MatchPageAdminTest extends TestBase{
 		matchPageAdmin=new MatchPageAdmin();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		homePageAdmin.clickAcceptAllCookies();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		homePageAdmin.clickMatchTab();
 		testUtil.testWaitEleven();	
 		

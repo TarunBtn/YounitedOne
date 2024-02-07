@@ -56,7 +56,7 @@ public class TestBase {
 		Driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		Thread.sleep(2000);
 		Driver.get(prop.getProperty("url"));
-		Thread.sleep(1000);	
+		Thread.sleep(2000);	
 				
 	}
 

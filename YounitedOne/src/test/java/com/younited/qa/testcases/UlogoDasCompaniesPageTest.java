@@ -28,9 +28,9 @@ public class UlogoDasCompaniesPageTest extends TestBase{
 		uLogoDasCompaniesPage=new UlogoDasCompaniesPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		homePageAdmin.clickAcceptAllCookies();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitTwo();
 		homePageAdmin.clickDasCompaniesTab();

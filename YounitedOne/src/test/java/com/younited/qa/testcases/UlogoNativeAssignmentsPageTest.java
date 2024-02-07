@@ -28,7 +28,7 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 		uLogoNativeAssignmentsPage=new UlogoNativeAssignmentsPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();

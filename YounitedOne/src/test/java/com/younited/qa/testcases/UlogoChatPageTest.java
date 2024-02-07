@@ -24,7 +24,7 @@ public class UlogoChatPageTest extends TestBase{
 		loginPage=new LoginPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();

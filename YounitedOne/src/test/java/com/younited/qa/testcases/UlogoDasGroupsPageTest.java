@@ -28,7 +28,7 @@ public class UlogoDasGroupsPageTest extends TestBase{
 		uLogoDasGroupPage=new UlogoDasGroupsPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();

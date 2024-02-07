@@ -35,7 +35,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		uLogoMyprofilePage=new UlogoMyprofilePage();
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		homePageFree.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
 		homePageFree.clickUserLogo();		

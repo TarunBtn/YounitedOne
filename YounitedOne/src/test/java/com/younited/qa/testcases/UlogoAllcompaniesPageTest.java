@@ -30,7 +30,7 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		uLogoAllcompaniesPage=new UlogoAllcompaniesPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
