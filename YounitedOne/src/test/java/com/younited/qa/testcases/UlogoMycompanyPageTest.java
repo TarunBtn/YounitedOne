@@ -54,7 +54,7 @@ public class UlogoMycompanyPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMycompanyPage.clickSectorDropDown();
 		testUtil.testWaitFour();
 		uLogoMycompanyPage.selectSector();

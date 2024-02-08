@@ -18,7 +18,7 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[4]/a")
 	WebElement matchTab;
 		
-	@FindBy(xpath="//span[text()='Accepteer alles']")
+	@FindBy(xpath="/html/body/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[1]/button/span")
 	WebElement acceptAllCookies;
 	
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/button/img")
