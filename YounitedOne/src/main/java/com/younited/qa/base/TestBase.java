@@ -13,7 +13,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.younited.qa.util.TestUtil;
 
-@SuppressWarnings("unused")
 public class TestBase {
 	
 	public static WebDriver Driver;
@@ -32,7 +31,6 @@ public class TestBase {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	public void initialization()throws Exception {
 		//String browserName=prop.getProperty("browser");
 		//if(browserName.equals("chrome")) {
