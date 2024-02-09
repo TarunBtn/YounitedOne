@@ -13,6 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.younited.qa.util.TestUtil;
 
+@SuppressWarnings("unused")
 public class TestBase {
 	
 	public static WebDriver Driver;
