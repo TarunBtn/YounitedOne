@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-09T20:13:21 IST" name="Default suite" finished-at="2024-02-09T20:13:50 IST" duration-ms="29290">
+  <suite started-at="2024-02-12T15:19:47 IST" name="Default suite" finished-at="2024-02-12T15:20:18 IST" duration-ms="31806">
     <groups>
     </groups>
-    <test started-at="2024-02-09T20:13:21 IST" name="Default test" finished-at="2024-02-09T20:13:50 IST" duration-ms="29290">
-      <class name="com.younited.qa.testcases.AddCommandPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@72e5a8e]" started-at="2024-02-09T20:13:21 IST" name="setUp" finished-at="2024-02-09T20:13:50 IST" duration-ms="29241" status="FAIL">
+    <test started-at="2024-02-12T15:19:47 IST" name="Default test" finished-at="2024-02-12T15:20:18 IST" duration-ms="31806">
+      <class name="com.younited.qa.testcases.UlogoMyassignmentsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoMyassignmentsPageTest@72e5a8e]" started-at="2024-02-12T15:19:47 IST" name="setUp" finished-at="2024-02-12T15:20:18 IST" duration-ms="31768" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=121.0.6167.160)
+  (Session info: chrome=121.0.6167.161)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [698487211a1f05e390bb134d6a64d217, clickElement {id=D7D9EF1C95C43CDEC07178287A11D8C3_element_16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.160, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65295/devtoo..., se:cdpVersion: 121.0.6167.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (698487211a1f05e390bb134d6a64d217)] -> name: action]
-Session ID: 698487211a1f05e390bb134d6a64d217]]>
+Command: [b6bb020d6ceb623636f96eb8e99749dd, clickElement {id=C055979EBEB85B437B5362B01249A73A_element_16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54490/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b6bb020d6ceb623636f96eb8e99749dd)] -> name: action]
+Session ID: b6bb020d6ceb623636f96eb8e99749dd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=121.0.6167.160)
+  (Session info: chrome=121.0.6167.161)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [698487211a1f05e390bb134d6a64d217, clickElement {id=D7D9EF1C95C43CDEC07178287A11D8C3_element_16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.160, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65295/devtoo..., se:cdpVersion: 121.0.6167.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (698487211a1f05e390bb134d6a64d217)] -> name: action]
-Session ID: 698487211a1f05e390bb134d6a64d217
+Command: [b6bb020d6ceb623636f96eb8e99749dd, clickElement {id=C055979EBEB85B437B5362B01249A73A_element_16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54490/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b6bb020d6ceb623636f96eb8e99749dd)] -> name: action]
+Session ID: b6bb020d6ceb623636f96eb8e99749dd
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -49,8 +49,8 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.younited.qa.pages.LoginPage.login(LoginPage.java:43)
-at com.younited.qa.testcases.AddCommandPageTest.setUp(AddCommandPageTest.java:35)
+at com.younited.qa.pages.LoginPage.loginHomePageAdmin(LoginPage.java:59)
+at com.younited.qa.testcases.UlogoMyassignmentsPageTest.setUp(UlogoMyassignmentsPageTest.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,29 +89,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadFileTest()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@72e5a8e]" started-at="2024-02-09T20:13:50 IST" name="uploadFileTest" finished-at="2024-02-09T20:13:50 IST" duration-ms="0" status="SKIP">
+        <test-method signature="UlogoMyassignmentsPage()[pri:0, instance:com.younited.qa.testcases.UlogoMyassignmentsPageTest@72e5a8e]" started-at="2024-02-12T15:20:18 IST" name="UlogoMyassignmentsPage" finished-at="2024-02-12T15:20:18 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=121.0.6167.160)
+  (Session info: chrome=121.0.6167.161)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [698487211a1f05e390bb134d6a64d217, clickElement {id=D7D9EF1C95C43CDEC07178287A11D8C3_element_16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.160, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65295/devtoo..., se:cdpVersion: 121.0.6167.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (698487211a1f05e390bb134d6a64d217)] -> name: action]
-Session ID: 698487211a1f05e390bb134d6a64d217]]>
+Command: [b6bb020d6ceb623636f96eb8e99749dd, clickElement {id=C055979EBEB85B437B5362B01249A73A_element_16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54490/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b6bb020d6ceb623636f96eb8e99749dd)] -> name: action]
+Session ID: b6bb020d6ceb623636f96eb8e99749dd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=121.0.6167.160)
+  (Session info: chrome=121.0.6167.161)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [698487211a1f05e390bb134d6a64d217, clickElement {id=D7D9EF1C95C43CDEC07178287A11D8C3_element_16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.160, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65295/devtoo..., se:cdpVersion: 121.0.6167.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (698487211a1f05e390bb134d6a64d217)] -> name: action]
-Session ID: 698487211a1f05e390bb134d6a64d217
+Command: [b6bb020d6ceb623636f96eb8e99749dd, clickElement {id=C055979EBEB85B437B5362B01249A73A_element_16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54490/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b6bb020d6ceb623636f96eb8e99749dd)] -> name: action]
+Session ID: b6bb020d6ceb623636f96eb8e99749dd
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -131,8 +131,8 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.younited.qa.pages.LoginPage.login(LoginPage.java:43)
-at com.younited.qa.testcases.AddCommandPageTest.setUp(AddCommandPageTest.java:35)
+at com.younited.qa.pages.LoginPage.loginHomePageAdmin(LoginPage.java:59)
+at com.younited.qa.testcases.UlogoMyassignmentsPageTest.setUp(UlogoMyassignmentsPageTest.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,12 +170,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadFileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@72e5a8e]" started-at="2024-02-09T20:13:50 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1707489830613" status="SKIP">
+        </test-method> <!-- UlogoMyassignmentsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoMyassignmentsPageTest@72e5a8e]" started-at="2024-02-12T15:20:18 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1707731418916" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.AddCommandPageTest -->
+      </class> <!-- com.younited.qa.testcases.UlogoMyassignmentsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
