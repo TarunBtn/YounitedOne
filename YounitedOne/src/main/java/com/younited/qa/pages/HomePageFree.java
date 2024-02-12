@@ -15,7 +15,7 @@ public class HomePageFree extends TestBase{
 		@FindBy(partialLinkText="Opdrachten")
 		WebElement assignmentsLink;
 			
-		@FindBy(xpath="//span[text()='Accepteer alles']")
+		@FindBy(xpath="/html/body/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[1]/button/span")
 		WebElement acceptAllCookies;
 		
 		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul[1]/li[3]/a/span")
@@ -45,6 +45,9 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/a/img[1]")
 		WebElement logoImage;
 		
+		@FindBy(xpath="//*[@id=\"lead-reaction-modal___BV_modal_body_\"]/div[2]/button")
+		WebElement suitableAssignments;
+		
 			
 		//Initialization
 		public HomePageFree() {
@@ -52,6 +55,10 @@ public class HomePageFree extends TestBase{
 		}
 			
 		//Actions
+		public void suitableAssignments() {
+			suitableAssignments.click();
+		}
+		
 		public void clickDashboardTab() {
 			dashboard.click();
 		}
