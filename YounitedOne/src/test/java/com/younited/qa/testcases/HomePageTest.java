@@ -32,7 +32,7 @@ public class HomePageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));		
 		testUtil.testWaitFourteen();
-		testUtil.testWaitEight();
+		//testUtil.testWaitEight();
 		homePage.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
 				
