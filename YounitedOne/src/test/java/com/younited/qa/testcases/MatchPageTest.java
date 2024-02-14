@@ -111,16 +111,22 @@ public class MatchPageTest extends TestBase{
 		testUtil.testWaitTwo();		
 		matchPage.clickEnterValueSkill();
 		testUtil.testWaitTwo();
-		matchPage.enterValueSkill("Account");
+		matchPage.enterValueSkill("Accountbeheer");
 		testUtil.testWaitFour();
-		matchPage.selectTooltipSkill();
+		//matchPage.selectTooltipSkill();
+		//testUtil.testWaitFour();
+		matchPage.enterValueSkillTab();
 		testUtil.testWaitFour();
+		matchPage.clickSkillTab();
+		testUtil.testWaitTwo();
 		try {
 		matchPage.clickApplyFilterSkill();
 		testUtil.testWaitEight();
 		}catch(ElementClickInterceptedException e) {
 			e.printStackTrace();
 		}
+		//matchPage.clickSkillTab();
+		testUtil.testWaitFour();
 		matchPage.clickResetFilterSkill();
 		testUtil.testWaitEight();
 		matchPage.clickSkillTab();
