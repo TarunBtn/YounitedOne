@@ -14,7 +14,6 @@ import com.younited.qa.pages.UlogoMyprofilePage;
 import com.younited.qa.util.TestUtil;
 
 public class ManageProfilePageFreeTest extends TestBase{
-	
 	LoginPage loginPage;
 	HomePageFree homePageFree;
 	HomePageAdmin homePageAdmin;
