@@ -32,14 +32,14 @@ public class TestBase {
 	}
 	
 	public void initialization()throws Exception {
-		//String browserName=prop.getProperty("browser");
-		//if(browserName.equals("chrome")) {
-			//System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-			//Driver=new ChromeDriver();
-		//}else if(browserName.equals("FF")) {
-			//System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
-			//Driver=new FirefoxDriver();
-		//}
+		String browserName=prop.getProperty("browser");
+		if(browserName.equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+			Driver=new ChromeDriver();
+		}else if(browserName.equals("FF")) {
+			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
+			Driver=new FirefoxDriver();
+		}
 		
 		 //ChromeOptions options = new ChromeOptions();
          //options.setHeadless(true);
@@ -48,7 +48,7 @@ public class TestBase {
          //System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
          //Driver = new ChromeDriver(options);
 		
-		Driver=new ChromeDriver();
+		//Driver=new ChromeDriver();
 		Driver.manage().window().maximize();
 		Driver.manage().deleteAllCookies();
 		Driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
