@@ -129,9 +129,9 @@ public class MatchPageAdminTest extends TestBase{
 		matchPageAdmin.clickApplyFilterSkill();
 		testUtil.testWaitEleven();
 		matchPageAdmin.clickResetFilterSkill();
-		testUtil.testWaitEight();
-		matchPageAdmin.clickSkillTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitEleven();
+		//matchPageAdmin.clickSkillTab();
+		//testUtil.testWaitTwo();
 		matchPageAdmin.clickCancelSkill();
 		testUtil.testWaitTwo();
 		//Stored
