@@ -32,7 +32,7 @@ public class MatchPageTest extends TestBase{
 		homePage.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
 		homePage.clickMatchLink();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 				
 	}
 	
