@@ -30,6 +30,8 @@ public class EntrepreneursPageFreeTest extends TestBase{
 		testUtil.testWaitFourteen();
 		homePageFree.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
+		homePageFree.suitableAssignments();
+		testUtil.testWaitFour();
 		homePageFree.clickEntrepreneurTab();
 		testUtil.testWaitEleven();
 				
