@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-19T17:18:47 IST" name="Default suite" finished-at="2024-02-19T17:20:45 IST" duration-ms="118249">
+  <suite started-at="2024-02-19T19:55:22 IST" name="Default suite" finished-at="2024-02-19T19:57:21 IST" duration-ms="118736">
     <groups>
     </groups>
-    <test started-at="2024-02-19T17:18:47 IST" name="Default test" finished-at="2024-02-19T17:20:45 IST" duration-ms="118249">
+    <test started-at="2024-02-19T19:55:22 IST" name="Default test" finished-at="2024-02-19T19:57:21 IST" duration-ms="118736">
       <class name="com.younited.qa.testcases.MyNetworkPageFreeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MyNetworkPageFreeTest@273e7444]" started-at="2024-02-19T17:18:47 IST" name="setUp" finished-at="2024-02-19T17:19:57 IST" duration-ms="70447" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MyNetworkPageFreeTest@273e7444]" started-at="2024-02-19T19:55:22 IST" name="setUp" finished-at="2024-02-19T19:56:33 IST" duration-ms="70870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myNetworkPageFreeTest()[pri:0, instance:com.younited.qa.testcases.MyNetworkPageFreeTest@273e7444]" started-at="2024-02-19T17:19:57 IST" name="myNetworkPageFreeTest" finished-at="2024-02-19T17:20:45 IST" duration-ms="47520" status="PASS">
+        <test-method signature="myNetworkPageFreeTest()[pri:0, instance:com.younited.qa.testcases.MyNetworkPageFreeTest@273e7444]" started-at="2024-02-19T19:56:33 IST" name="myNetworkPageFreeTest" finished-at="2024-02-19T19:57:20 IST" duration-ms="47594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myNetworkPageFreeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MyNetworkPageFreeTest@273e7444]" started-at="2024-02-19T17:20:45 IST" name="tearDown" finished-at="2024-02-19T17:20:45 IST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MyNetworkPageFreeTest@273e7444]" started-at="2024-02-19T19:57:20 IST" name="tearDown" finished-at="2024-02-19T19:57:21 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
