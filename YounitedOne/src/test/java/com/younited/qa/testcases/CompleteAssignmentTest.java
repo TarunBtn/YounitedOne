@@ -52,7 +52,7 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitTwo();
 		addCommandPage.clickChooseFile();		
 		testUtil.testWaitFour();
-		testUtil.uploadFile("D:\\Testfile.docx");
+		testUtil.uploadFile("D:\\CV Jort Zwolsman.doc");
 		testUtil.testWaitEight();
 		addCommandPage.clickUploadFile();
 		testUtil.testWaitEight();
