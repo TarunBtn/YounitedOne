@@ -182,7 +182,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickChooseFile();
 		testUtil.testWaitFour();
-		testUtil.uploadFile("D:\\Testfile.docx");
+		testUtil.uploadFile("D:\\CV Jort Zwolsman.doc");
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickUploadFile();
 		testUtil.testWaitFour();
