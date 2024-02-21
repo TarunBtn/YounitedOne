@@ -187,7 +187,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();
 		//Upload CV
 		uLogoMyprofilePage.clickUploadCV();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickChooseFile();
 		testUtil.testWaitFour();
 		testUtil.uploadFile("D:\\CV Jort Zwolsman.doc");
