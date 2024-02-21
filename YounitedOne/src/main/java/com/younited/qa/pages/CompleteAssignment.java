@@ -10,10 +10,10 @@ import com.younited.qa.base.TestBase;
 
 public class CompleteAssignment extends TestBase{
 	//Page factory or Object Repository
-		@FindBy(id="selected_company")
+		@FindBy(xpath="//*[@id=\"assignment-add\"]/span[2]/div/span/div[2]/form/div[1]/div[2]/div/div/div[1]")
 		WebElement companyDropDown;
 		
-		@FindBy(xpath="//*[@id=\"selected_company\"]/option[3]")
+		@FindBy(xpath="//*[@id=\"opdracht.selected_company-3\"]/span/span")
 		WebElement selectCompany;
 		
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[10]/div[2]/div/div[1]")
@@ -21,6 +21,12 @@ public class CompleteAssignment extends TestBase{
 		
 		@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
 		WebElement sectorSelect;
+		
+		@FindBy(xpath="//*[@id=\"assignment-add\"]/span[2]/div/span/div[2]/form/div[8]/div[2]/div/div/div[1]")
+		WebElement disciplineDropDown;
+		
+		@FindBy(xpath="//*[@id=\"opdracht.vakgebied-6\"]/span/span")
+		WebElement selectDescipline;
 		
 		@FindBy(id="werklocatie")
 		WebElement workLocation;
@@ -108,6 +114,14 @@ public class CompleteAssignment extends TestBase{
 		
 		public void selectSectorFromDropDown() {
 			sectorSelect.click();
+		}
+		
+		public void clickDesciplineDropDown() {
+			disciplineDropDown.click();
+		}
+		
+		public void selectDescipline() {
+			selectDescipline.click();
 		}
 		
 		public void selectWorkLocation() {
