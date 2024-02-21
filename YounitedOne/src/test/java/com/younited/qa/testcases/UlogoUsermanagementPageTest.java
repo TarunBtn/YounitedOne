@@ -33,7 +33,7 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitEight();
 		homePageAdmin.clickUserManagementTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//homePageAdmin.moveHoverTologoImage();
 		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
