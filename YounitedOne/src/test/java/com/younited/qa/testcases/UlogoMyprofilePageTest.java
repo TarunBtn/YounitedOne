@@ -34,39 +34,41 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitEight();
 		homePageAdmin.clickMyProfileTab();
 		testUtil.testWaitEight();
-		homePageAdmin.moveHoverTologoImage();
-		testUtil.testWaitFour();
+		//homePageAdmin.moveHoverTologoImage();
+		//testUtil.testWaitFour();
 		
 	}
 	
 	@Test
 	public void UlogoMyProfilePage()throws Exception {
+		uLogoMyprofilePage.clickEditYourProfile();
+		testUtil.testWaitFourteen();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();		
+		//uLogoMyprofilePage.clickChangeMyGeneralInformation();
+		//testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();		
-		uLogoMyprofilePage.clickChangeMyGeneralInformation();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
-		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		//uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
 		//uLogoMyprofilePage.clickFillInCompany();
 		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
@@ -85,8 +87,14 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		//Enter skill value
-		uLogoMyprofilePage.enterSkillsValue("Account");
+		/*uLogoMyprofilePage.enterSkillsValue("Account");
 		testUtil.testWaitEight();
 		uLogoMyprofilePage.selectSkillsValue();
 		testUtil.testWaitFour();
@@ -105,16 +113,16 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
 		//Work experience
 		uLogoMyprofilePage.clickWorkExperienceTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickAddWorkExperience();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterFunction("DBA");
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.enterCompany("TCS");
@@ -130,51 +138,51 @@ public class UlogoMyprofilePageTest extends TestBase{
 		uLogoMyprofilePage.enterDescription("This is test data");
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickStartDateCalender();
-		testUtil.testWaitTwo();
-		uLogoMyprofilePage.selectStartYear();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
+		//uLogoMyprofilePage.selectStartYear();
+		//testUtil.testWaitFour();
 		//uLogoMyprofilePage.selectStartYear();
 		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.selectStartYear();
 		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.selectStartDate();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickEndDateCalender();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.selectEndDate();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterProfile("Database administrator");
-		testUtil.testWaitFour();
+		testUtil.testWaitFourteen();
 		uLogoMyprofilePage.selectProfile();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveBtn();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickEditWorkExperience();
+		testUtil.scrollUp();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//uLogoMyprofilePage.clickEditWorkExperience();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.deleteWorkExperience();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickDeleteWorkExperience();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
 		//Upload CV
@@ -186,10 +194,12 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickUploadFile();
 		testUtil.testWaitFour();
-		uLogoMyprofilePage.clickUpdateMyProfile();
-		testUtil.testWaitFour();
-		//uLogoMyprofilePage.clickCancelUploadCV();
+		//uLogoMyprofilePage.clickUpdateMyProfile();
 		//testUtil.testWaitFour();
+		uLogoMyprofilePage.clickCancelUploadCV();
+		testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
 		//Educations
@@ -269,7 +279,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
