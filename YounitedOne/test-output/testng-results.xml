@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-21T18:27:15 IST" name="Default suite" finished-at="2024-02-21T18:30:51 IST" duration-ms="215250">
+  <suite started-at="2024-02-21T19:48:26 IST" name="Default suite" finished-at="2024-02-21T19:52:36 IST" duration-ms="250406">
     <groups>
     </groups>
-    <test started-at="2024-02-21T18:27:15 IST" name="Default test" finished-at="2024-02-21T18:30:51 IST" duration-ms="215250">
+    <test started-at="2024-02-21T19:48:26 IST" name="Default test" finished-at="2024-02-21T19:52:36 IST" duration-ms="250406">
       <class name="com.younited.qa.testcases.UlogoMyprofilePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoMyprofilePageTest@273e7444]" started-at="2024-02-21T18:27:15 IST" name="setUp" finished-at="2024-02-21T18:28:19 IST" duration-ms="64035" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoMyprofilePageTest@273e7444]" started-at="2024-02-21T19:48:26 IST" name="setUp" finished-at="2024-02-21T19:49:32 IST" duration-ms="66523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UlogoMyProfilePage()[pri:0, instance:com.younited.qa.testcases.UlogoMyprofilePageTest@273e7444]" started-at="2024-02-21T18:28:19 IST" name="UlogoMyProfilePage" finished-at="2024-02-21T18:30:51 IST" duration-ms="151192" status="FAIL">
+        <test-method signature="UlogoMyProfilePage()[pri:0, instance:com.younited.qa.testcases.UlogoMyprofilePageTest@273e7444]" started-at="2024-02-21T19:49:32 IST" name="UlogoMyProfilePage" finished-at="2024-02-21T19:52:36 IST" duration-ms="183836" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/main/div/div[2]/div/div[1]/div/div/a[2]"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/main/div/div[2]/div[1]/div/a"}
   (Session info: chrome=121.0.6167.185)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e883a3dd29d66b63d08fa7d7c12d0ef, findElement {using=xpath, value=//*[@id="app"]/main/div/div[2]/div/div[1]/div/div/a[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52533/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e883a3dd29d66b63d08fa7d7c12d0ef]]>
+Command: [7dc4dd4f7cf5d3b33e1363e33ec11913, findElement {using=xpath, value=//*[@id="app"]/main/div/div[2]/div[1]/div/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59830/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dc4dd4f7cf5d3b33e1363e33ec11913]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/main/div/div[2]/div/div[1]/div/div/a[2]"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/main/div/div[2]/div[1]/div/a"}
   (Session info: chrome=121.0.6167.185)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e883a3dd29d66b63d08fa7d7c12d0ef, findElement {using=xpath, value=//*[@id="app"]/main/div/div[2]/div/div[1]/div/div/a[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52533/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e883a3dd29d66b63d08fa7d7c12d0ef
+Command: [7dc4dd4f7cf5d3b33e1363e33ec11913, findElement {using=xpath, value=//*[@id="app"]/main/div/div[2]/div[1]/div/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59830/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dc4dd4f7cf5d3b33e1363e33ec11913
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -52,8 +52,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.younited.qa.pages.UlogoMyprofilePage.clickUploadCV(UlogoMyprofilePage.java:317)
-at com.younited.qa.testcases.UlogoMyprofilePageTest.UlogoMyProfilePage(UlogoMyprofilePageTest.java:189)
+at com.younited.qa.pages.UlogoMyprofilePage.clickAddTraining(UlogoMyprofilePage.java:341)
+at com.younited.qa.testcases.UlogoMyprofilePageTest.UlogoMyProfilePage(UlogoMyprofilePageTest.java:210)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -88,7 +88,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UlogoMyProfilePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoMyprofilePageTest@273e7444]" started-at="2024-02-21T18:30:51 IST" name="tearDown" finished-at="2024-02-21T18:30:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoMyprofilePageTest@273e7444]" started-at="2024-02-21T19:52:36 IST" name="tearDown" finished-at="2024-02-21T19:52:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
