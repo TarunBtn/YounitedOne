@@ -8,8 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.younited.qa.base.TestBase;
 
 public class UlogoAllcompaniesPage extends TestBase{
-	//Pagefactory OR Object Repository
-	
+	//Pagefactory OR Object Repository	
 	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select")
 	WebElement verifiedCompanyDropDown;
 	
@@ -46,7 +45,13 @@ public class UlogoAllcompaniesPage extends TestBase{
 	@FindBy(xpath="/html/body")
 	WebElement selectCompanyTooltip;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[7]/div[2]/div/div/div[1]")
+	@FindBy(xpath="//*[@id=\"totaal_aantal_medewerkers\"]")
+	WebElement employees;
+	
+	@FindBy(xpath="//*[@id=\"51-100\"]")
+	WebElement selectEmployees;
+	
+	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[11]/div[2]/div/div/div[1]")
 	WebElement clickSectorDropDown;
 	
 	@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
@@ -79,6 +84,14 @@ public class UlogoAllcompaniesPage extends TestBase{
 	public void selectCompanyTooltip() {
 		//selectCompanyTooltip.click();
 		enterCompanyName.sendKeys(Keys.TAB);
+	}
+	
+	public void clickEmployeeDropDown() {
+		employees.click();
+	}
+	
+	public void selectEmployees() {
+		selectEmployees.click();
 	}
 	
 	public void clickSectorDropDown() {
@@ -142,5 +155,4 @@ public class UlogoAllcompaniesPage extends TestBase{
 		
 	}
 	
-
 }
