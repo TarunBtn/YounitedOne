@@ -63,6 +63,8 @@ public class UlogoAllassignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 			
 	}
 	
