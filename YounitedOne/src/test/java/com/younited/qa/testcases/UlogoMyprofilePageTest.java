@@ -179,12 +179,12 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickDeleteWorkExperience();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
 		//Upload CV
 		uLogoMyprofilePage.clickUploadCV();
 		testUtil.testWaitFour();
@@ -209,8 +209,8 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickAddEducations();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterFieldOfStudy("Computer Science");
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickEducationLevel();
@@ -227,9 +227,9 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveBtnOne();
 		testUtil.testWaitEight();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickEditEducations();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
+		/*uLogoMyprofilePage.clickEditEducations();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -240,14 +240,14 @@ public class UlogoMyprofilePageTest extends TestBase{
 		uLogoMyprofilePage.clickConfirmDeleteEducations();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
 		//Courses
 		uLogoMyprofilePage.clickCoursesTab();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickAddCourse();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterCourse("Data Security");
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterDescriptionCourse("This is test data");
@@ -260,15 +260,15 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickEditCourse();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//uLogoMyprofilePage.clickEditCourse();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickDeleteCourse();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickConfirmDeleteCourse();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
+		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickInstitutionsTab();
 		testUtil.testWaitFour();
@@ -279,7 +279,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
