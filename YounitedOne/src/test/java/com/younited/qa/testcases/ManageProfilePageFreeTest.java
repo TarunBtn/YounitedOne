@@ -257,7 +257,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickAddTraining();
+		uLogoMyprofilePage.clickAddEducations();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();

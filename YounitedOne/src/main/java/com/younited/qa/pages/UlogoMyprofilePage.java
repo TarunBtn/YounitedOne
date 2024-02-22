@@ -120,8 +120,8 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[4]")
 			WebElement educationsTab;
 			
-			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div[1]/div/a")
-			WebElement addTraining;
+			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div[2]/a")
+			WebElement addEducations;
 			
 			@FindBy(id="studierichting")
 			WebElement fieldOfStudy;
@@ -337,8 +337,8 @@ public class UlogoMyprofilePage extends TestBase{
 				educationsTab.click();
 			}
 			
-			public void clickAddTraining() {
-				addTraining.click();
+			public void clickAddEducations() {
+				addEducations.click();
 			}
 			
 			public void enterFieldOfStudy(String value) {
