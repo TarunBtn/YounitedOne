@@ -11,12 +11,10 @@ import com.younited.qa.pages.UlogoProfilestatisticsPage;
 import com.younited.qa.util.TestUtil;
 
 public class UlogoProfilestatisticsPageTest extends TestBase{
-	
 	LoginPage loginPage;
 	HomePageAdmin homePageAdmin;
 	UlogoProfilestatisticsPage uLogoProfilestatisticsPage;
 	TestUtil testUtil;
-	
 	
 	public UlogoProfilestatisticsPageTest() {
 		super();
