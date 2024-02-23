@@ -40,6 +40,7 @@ public class MyNetworkPageFreeTest extends TestBase{
 		testUtil.testWaitEight();
 		homePageFree.clickNetworkTabTooltip();
 		testUtil.testWaitFourteen();
+		testUtil.testWaitEight();
 		communityPageFree.clickMyNetworkBtn();
 		testUtil.testWaitFourteen();
 		testUtil.testWaitFour();
