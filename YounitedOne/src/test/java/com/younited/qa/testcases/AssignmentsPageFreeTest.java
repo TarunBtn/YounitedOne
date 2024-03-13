@@ -19,6 +19,7 @@ public class AssignmentsPageFreeTest extends TestBase{
 	public AssignmentsPageFreeTest() {
 		super();
 	}
+	
 	@BeforeMethod
 	public void setUp()throws Exception {
 		initialization();
