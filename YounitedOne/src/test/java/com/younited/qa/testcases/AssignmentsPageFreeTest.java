@@ -1,5 +1,6 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -28,7 +29,11 @@ public class AssignmentsPageFreeTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
 		testUtil.testWaitFourteen();
+		try {
 		homePageFree.clickAcceptAllCookies();
+		}catch(NoSuchElementException e) {
+			e.printStackTrace();
+		}
 		testUtil.testWaitEleven();
 		homePageFree.clickAssignmentsLink();
 		testUtil.testWaitEight();
@@ -64,8 +69,10 @@ public class AssignmentsPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		assignmentsPageFree.enterSkillValue("Postman");
 		testUtil.testWaitFour();
-		//assignmentsPageFree.selectSkillToolTip();
-		//testUtil.testWaitFour();
+		assignmentsPageFree.selectSkillToolTip();
+		testUtil.testWaitFour();
+		assignmentsPageFree.clickSkillTab();
+		testUtil.testWaitFour();
 		assignmentsPageFree.applySkillFilter();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickSkillTab();

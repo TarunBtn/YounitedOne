@@ -12,13 +12,13 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[1]/a")
 		WebElement dashboard;
 			
-		@FindBy(partialLinkText="Opdrachten")
+		@FindBy(xpath="//a[@href='/opdrachten']")
 		WebElement assignmentsLink;
 			
 		@FindBy(xpath="//button[@data-cookiefirst-button='primary']")
 		WebElement acceptAllCookies;
 		
-		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul[1]/li[3]/a/span")
+		@FindBy(xpath="//span[@class='material-icons-outlined downArraow']")
 		WebElement networkTab;
 		
 		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[3]/a/ul/li[1]/a")
@@ -30,10 +30,10 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[4]/a")
 		WebElement communityTab;
 		
-		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul[1]/li[6]/a")
+		@FindBy(xpath="//a[@href='/community-volgers']")
 		WebElement entrepreneurTab;
 		
-		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[7]/a")
+		@FindBy(xpath="//a[@href='/bedrijven']")
 		WebElement BusinessesTab;
 		
 		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/button/img")

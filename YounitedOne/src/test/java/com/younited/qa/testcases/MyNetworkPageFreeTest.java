@@ -1,5 +1,6 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -31,15 +32,23 @@ public class MyNetworkPageFreeTest extends TestBase{
 		communityPageFree=new CommunityPageFree();
 		myNetworkPageFree=new MyNetworkPageFree();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitFourteen();
-		homePageFree.clickAcceptAllCookies();
-		testUtil.testWaitEleven();
-		homePageFree.suitableAssignments();
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
+		//try {
+			//homePageFree.clickAcceptAllCookies();
+		//}catch(NoSuchElementException e) {
+				//e.printStackTrace();
+		//}
+		//testUtil.testWaitFour();
+		//try {
+		    //homePageFree.suitableAssignments();
+		//}catch(NoSuchElementException e) {
+			//e.printStackTrace();
+		//}
+		//testUtil.testWaitFour();
 		homePageFree.clickNetworkTab();
 		testUtil.testWaitEight();
 		homePageFree.clickNetworkTabTooltip();
-		testUtil.testWaitFourteen();
+		//testUtil.testWaitFourteen();
 		testUtil.testWaitEight();
 		communityPageFree.clickMyNetworkBtn();
 		testUtil.testWaitFourteen();

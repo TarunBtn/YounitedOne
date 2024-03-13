@@ -33,7 +33,7 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(id="dropdown-skills-btn")
 		WebElement skill;
 			
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/nav/div[3]/div/div[1]/div[3]/div/form/div[1]/div[1]/div/input")
+		@FindBy(xpath="//input[@placeholder='Zoek een vaardigheid']")
 		WebElement enterSkill;
 			
 		@FindBy(xpath="/html/body/div[1]/main/div/nav/div[2]/div/div[1]/div[3]/div/form/div[1]/div[1]/div/div[2]/a/div[2]")
@@ -180,7 +180,8 @@ public class AssignmentsPageFree extends TestBase{
 		}
 			
 		public void selectSkillToolTip() {
-			selectSkillToolTip.click();
+			//selectSkillToolTip.click();
+			enterSkill.sendKeys(Keys.TAB);
 		}
 			
 		public void applySkillFilter() {
