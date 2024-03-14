@@ -98,23 +98,23 @@ public class MyNetworkPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		//MyNetwork
 		myNetworkPageFree.clickMyNetworkBtn();
-		testUtil.testWaitFourteen();
+		testUtil.testWaitEight();
 		myNetworkPageFree.clickMyNetworkTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 		myNetworkPageFree.clickMyRequestsTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		myNetworkPageFree.clickSuggestionsForYouTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		myNetworkPageFree.clickAreaOfInterest();
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 	}
 	
 	@AfterMethod

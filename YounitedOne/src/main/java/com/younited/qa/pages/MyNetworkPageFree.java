@@ -41,7 +41,7 @@ public class MyNetworkPageFree extends TestBase{
 	    @FindBy(xpath="//label[@for='Iedereen']")
 	    WebElement selectEveryOneEveryOne;
 	    
-	    @FindBy(xpath="//button[@class='btn btn-default-outline active']")
+	    @FindBy(xpath="//div[@id='toggle-saved']")
 	    WebElement favouritesPosts;
 	    
 	    @FindBy(xpath="//a[@href='/mijn-netwerk' and @class='btn btn-secondary mr-3 inverted-btn-outline']")
