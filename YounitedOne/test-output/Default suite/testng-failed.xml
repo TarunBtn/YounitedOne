@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.younited.qa.testcases.MyNetworkPageFreeTest">
+      <class name="com.younited.qa.testcases.StorePageFreeTest">
         <methods>
+          <include name="clickStoreTab"/>
           <include name="setUp"/>
-          <include name="myNetworkPageFreeTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.younited.qa.testcases.MyNetworkPageFreeTest -->
+      </class> <!-- com.younited.qa.testcases.StorePageFreeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
