@@ -28,13 +28,13 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree=new AssignmentsPageFree();
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitFourteen();
-		try {
-		homePageFree.clickAcceptAllCookies();
-		}catch(NoSuchElementException e) {
-			e.printStackTrace();
-		}
-		testUtil.testWaitEleven();
+		testUtil.testWaitEight();
+		//try {
+		//homePageFree.clickAcceptAllCookies();
+		//}catch(NoSuchElementException e) {
+			//e.printStackTrace();
+		//}
+		//testUtil.testWaitEleven();
 		homePageFree.clickAssignmentsLink();
 		testUtil.testWaitEight();
 			
@@ -64,7 +64,7 @@ public class AssignmentsPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		//Skill
 		assignmentsPageFree.clickSkillTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.enterSkill();
 		testUtil.testWaitFour();
 		assignmentsPageFree.enterSkillValue("Postman");
@@ -85,7 +85,7 @@ public class AssignmentsPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		//Duration
 		assignmentsPageFree.clickDuration();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectDuration();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickDuration();

@@ -21,7 +21,7 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//span[@class='material-icons-outlined downArraow']")
 		WebElement networkTab;
 		
-		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[3]/a/ul/li[1]/a")
+		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[2]/ul[1]/li[3]/a/ul/li[1]/a")
 		WebElement networkTooltip;
 		
 		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[3]/a/ul/li[2]/a")

@@ -46,18 +46,59 @@ public class MyNetworkPageFreeTest extends TestBase{
 		//}
 		//testUtil.testWaitFour();
 		homePageFree.clickNetworkTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitTwo();
 		homePageFree.clickNetworkTabTooltip();
-		//testUtil.testWaitFourteen();
 		testUtil.testWaitEight();
-		communityPageFree.clickMyNetworkBtn();
-		testUtil.testWaitFourteen();
-		testUtil.testWaitFour();
-		
+	
 	}
 	
 	@Test
 	public void myNetworkPageFreeTest()throws Exception {
+		myNetworkPageFree.clickSeachValue();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.enterSearchValue("Test");
+		testUtil.testWaitFour();
+		myNetworkPageFree.clickCancelSearch();
+		testUtil.testWaitFour();
+		myNetworkPageFree.clickTypeMessageDropDown();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.selectTypeMessage();
+		testUtil.testWaitFour();
+		myNetworkPageFree.selectTypeMessage();
+		testUtil.testWaitFour();
+		myNetworkPageFree.clickTypeMessageDropDown();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.clickAreaOfInterestDropDown();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.selectAreaOfInterest();
+		testUtil.testWaitFour();
+		myNetworkPageFree.selectAreaOfInterest();
+		testUtil.testWaitFour();
+		myNetworkPageFree.clickAreaOfInterestDropDown();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.clickSectorDropDown();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.selectSector();
+		testUtil.testWaitFour();
+		myNetworkPageFree.selectSector();
+		testUtil.testWaitFour();
+		myNetworkPageFree.clickSectorDropDown();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.clickEveryOneDropDown();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.selectEveryOneMyOwnNetwork();
+		testUtil.testWaitFour();
+		myNetworkPageFree.selectEveryOneEveryOne();
+		testUtil.testWaitFour();
+		myNetworkPageFree.clickEveryOneDropDown();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.clickFavoiritesPosts();
+		testUtil.testWaitFour();
+		myNetworkPageFree.clickFavoiritesPosts();
+		testUtil.testWaitFour();
+		//MyNetwork
+		myNetworkPageFree.clickMyNetworkBtn();
+		testUtil.testWaitFourteen();
 		myNetworkPageFree.clickMyNetworkTab();
 		testUtil.testWaitEight();
 		myNetworkPageFree.clickMyRequestsTab();
