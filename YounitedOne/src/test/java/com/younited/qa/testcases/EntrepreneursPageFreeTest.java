@@ -33,7 +33,7 @@ public class EntrepreneursPageFreeTest extends TestBase{
 		//homePageFree.suitableAssignments();
 		//testUtil.testWaitFour();
 		homePageFree.clickEntrepreneurTab();
-		testUtil.testWaitEleven();
+		testUtil.testWaitEight();
 				
 	}
 	
