@@ -29,8 +29,8 @@ public class MatchPageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil.testWaitFourteen();
-		homePage.clickAcceptAllCookies();
-		testUtil.testWaitEleven();
+		//homePage.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();
 		homePage.clickMatchLink();
 		testUtil.testWaitEleven();
 				
@@ -38,10 +38,10 @@ public class MatchPageTest extends TestBase{
 	
 	@Test
 	public void matchPage()throws Exception {
-		//Value Filter
-		matchPage.clickValueFilterDropdown();
+		//Assignment Filter
+		matchPage.clickAssignmentFilterDropdown();
 		testUtil.testWaitTwo();
-		matchPage.selectValueFilter();
+		matchPage.selectAssignmentFilter();
 		testUtil.testWaitEight();
 		//Availability
 		matchPage.clickAvailabilityDropDown();
@@ -127,31 +127,13 @@ public class MatchPageTest extends TestBase{
 		}
 		//matchPage.clickSkillTab();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
 		matchPage.clickResetFilterSkill();
 		testUtil.testWaitEight();
-		//matchPage.clickSkillTab();
-		//testUtil.testWaitTwo();
-		//matchPage.clickCancelSkill();
-		//testUtil.testWaitTwo();
-		testUtil.scrollUp();
+		matchPage.clickSkillTab();
 		testUtil.testWaitTwo();
-		testUtil.scrollUp();
+		matchPage.clickSkillTab();
 		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
+		matchPage.clickCancelSkill();
 		testUtil.testWaitTwo();
 		//Stored
 		matchPage.clickStored();

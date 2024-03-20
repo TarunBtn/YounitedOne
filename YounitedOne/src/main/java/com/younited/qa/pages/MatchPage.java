@@ -9,22 +9,32 @@ import com.younited.qa.base.TestBase;
 public class MatchPage extends TestBase{
 	//Page factory or Object repository
 	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[1]")
-	WebElement valueFilterDropdown;
+	WebElement assignmentFilterDropdown;
 	
 	@FindBy(xpath="//*[@id=\"assignments-2\"]/span/span")
-	WebElement selectValueFilter;
-				
+	WebElement selectAssignmentFilter;
+	
 	@FindBy(xpath="//*[@id=\"filter\"]/div[1]/div/span")
-	WebElement clickCancelValueFilter;
-				
+	WebElement clickCancelAssignmentFilter;
+	
+	//For MatchPageAdminTest side
+	@FindBy(id="filter-search-input")
+	WebElement assignmentFilter;
+	
+	//For MatchPageAdminTest side
+	@FindBy(xpath="//*[@id=\"filter\"]/div[1]/div/span")
+	WebElement clickCancelAssignmentFilterOne;
+	
+	//For MatchPageAdminTest side
 	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[1]")
-	WebElement clickAssignmentDropDown;
-				
-	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[3]/ul/li[7]/span/span")
-	WebElement selectAssignmentValue;
+	WebElement clickCommandDropDown;
+	
+	//For MatchPageAdminTest side
+	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[3]/ul/li[3]/span/span")
+	WebElement selectCommandValue;
 			
 	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/span")
-	WebElement cancelAssignment;
+	WebElement cancelCommand;
 			
 	@FindBy(xpath="//*[@id=\"dropdown-beschikbaar\"]/button")
 	WebElement availabilityDropDown;
@@ -83,7 +93,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"dropdown-skills-btn\"]")
 	WebElement skill;
 			
-	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/nav/div[2]/div/div[2]/div[6]/div/form/div[1]/div/div/input")
+	@FindBy(xpath="//input[@class='simple-typeahead-input']")
 	WebElement enterValueSkill;
 			
 	@FindBy(xpath="/html/body")
@@ -92,7 +102,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"dropdown-skills\"]/div/form/div[4]/button")
 	WebElement applyFilterSkill;
 			
-	@FindBy(xpath="//*[@id=\"dropdown-skills\"]/div/form/div[4]/a[2]")
+	@FindBy(xpath="//a[text()='Extra Filters wissen']")
 	WebElement resetFilterSkill;
 			
 	@FindBy(xpath="//*[@id=\"dropdown-skills\"]/div/form/div[4]/a[1]")
@@ -134,28 +144,37 @@ public class MatchPage extends TestBase{
 	}
 			
 	//Actions
-	public void clickValueFilterDropdown() {
-		valueFilterDropdown.click();
+	public void clickAssignmentFilterDropdown() {
+		assignmentFilterDropdown.click();
 	}
 			
-	public void selectValueFilter() {
-		selectValueFilter.click();
+	public void selectAssignmentFilter() {
+		selectAssignmentFilter.click();
 	}
-			
-	public void clickCancelValueFilter() {
-		clickCancelValueFilter.click();
+	
+	//For MatchPageAdminTest side
+	public void clickAssignmentFilter() {
+		assignmentFilter.click();
 	}
-			
-	public void clickAssignmentDropDown() {
-		clickAssignmentDropDown.click();
+	//For MatchPageAdminTest side		
+	public void enterAssignmentFilter(String value) {
+		assignmentFilter.sendKeys(value);
 	}
-			
-	public void selectAssignmentValue() {
-		selectAssignmentValue.click();
+	//For MatchPageAdminTest side
+	public void clickCancelAssignmentFilter() {
+		clickCancelAssignmentFilter.click();
 	}
-			
-	public void clickCancelAssignmentValue() {
-		cancelAssignment.click();
+	//For MatchPageAdminTest side		
+	public void clickCommandDropDown() {
+		clickCommandDropDown.click();
+	}
+	//For MatchPageAdminTest side		
+	public void selectCommandValue() {
+		selectCommandValue.click();
+	}
+	//For MatchPageAdminTest side		
+	public void cancelCommandValue() {
+		cancelCommand.click();
 	}
 			
 	public void clickAvailabilityDropDown() {
