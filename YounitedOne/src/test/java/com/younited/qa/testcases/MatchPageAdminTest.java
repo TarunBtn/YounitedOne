@@ -140,32 +140,14 @@ public class MatchPageAdminTest extends TestBase{
 			e.printStackTrace();
 		}
 		//matchPage.clickSkillTab();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+	    testUtil.testWaitFour();
 		matchPage.clickResetFilterSkill();
 		testUtil.testWaitEight();
-		//matchPage.clickSkillTab();
-		//testUtil.testWaitTwo();
-		//matchPage.clickCancelSkill();
-		//testUtil.testWaitTwo();
-		testUtil.scrollUp();
+		matchPage.clickSkillTab();
 		testUtil.testWaitTwo();
-		testUtil.scrollUp();
+		matchPage.clickSkillTab();
 		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
+		matchPage.clickCancelSkill();
 		testUtil.testWaitTwo();
 		//Stored
 		matchPage.clickStored();
