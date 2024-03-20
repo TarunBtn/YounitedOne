@@ -60,6 +60,7 @@ public class MyNetworkPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickCancelSearch();
 		testUtil.testWaitFour();
+		//Type of Message
 		myNetworkPageFree.clickTypeMessageDropDown();
 		testUtil.testWaitTwo();
 		myNetworkPageFree.selectTypeMessage();
@@ -68,6 +69,7 @@ public class MyNetworkPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickTypeMessageDropDown();
 		testUtil.testWaitTwo();
+		//Area of Interest
 		myNetworkPageFree.clickAreaOfInterestDropDown();
 		testUtil.testWaitTwo();
 		myNetworkPageFree.selectAreaOfInterest();
@@ -76,6 +78,7 @@ public class MyNetworkPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickAreaOfInterestDropDown();
 		testUtil.testWaitTwo();
+		//Sector
 		myNetworkPageFree.clickSectorDropDown();
 		testUtil.testWaitTwo();
 		myNetworkPageFree.selectSector();

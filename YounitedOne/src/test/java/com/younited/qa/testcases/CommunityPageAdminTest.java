@@ -9,6 +9,7 @@ import com.younited.qa.pages.CommunityPageAdmin;
 import com.younited.qa.pages.CommunityPageFree;
 import com.younited.qa.pages.HomePageAdmin;
 import com.younited.qa.pages.LoginPage;
+import com.younited.qa.pages.MyNetworkPageFree;
 import com.younited.qa.util.TestUtil;
 
 public class CommunityPageAdminTest extends TestBase{
@@ -16,6 +17,7 @@ public class CommunityPageAdminTest extends TestBase{
 	HomePageAdmin homePageAdmin;
 	CommunityPageFree communityPageFree;
 	CommunityPageAdmin communityPageAdmin;
+	MyNetworkPageFree myNetworkPageFree;
 	TestUtil testUtil;
 	
 	public CommunityPageAdminTest() {
@@ -27,12 +29,13 @@ public class CommunityPageAdminTest extends TestBase{
 		initialization();
 		loginPage=new LoginPage();
 		communityPageFree=new CommunityPageFree();
-		communityPageAdmin=new CommunityPageAdmin();		
+		communityPageAdmin=new CommunityPageAdmin();
+		myNetworkPageFree=new MyNetworkPageFree();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
-		homePageAdmin.clickAcceptAllCookies();
-		testUtil.testWaitEleven();
+		//homePageAdmin.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();
 		homePageAdmin.clickCommunityPageAdmin();
 		testUtil.testWaitEight();
 						
@@ -40,53 +43,69 @@ public class CommunityPageAdminTest extends TestBase{
 	
 	@Test
 	public void community() throws Exception{
-		//CommunityPage
-		communityPageFree.clickValueFilter();
+		myNetworkPageFree.clickSeachValue();
 		testUtil.testWaitTwo();
-		communityPageFree.enterValueFilter("Hr");
-		testUtil.testWaitEight();
-		communityPageFree.clickCancelSign();
-		testUtil.testWaitEight();
-		//Type of message
-		communityPageFree.clickTypeOfMessageDropDown();
+		myNetworkPageFree.enterSearchValue("Hr");
+		testUtil.testWaitFour();
+		myNetworkPageFree.clickCancelSearch();
+		testUtil.testWaitFour();
+		//Type of Message
+		myNetworkPageFree.clickTypeMessageDropDown();
 		testUtil.testWaitTwo();
-		communityPageFree.selectTypeOfMessage();
+		myNetworkPageFree.selectTypeMessage();
 		testUtil.testWaitFour();
-		communityPageFree.selectTypeOfMessage();
+		myNetworkPageFree.selectTypeMessage();
 		testUtil.testWaitFour();
-		communityPageFree.clickTypeOfMessageDropDown();
+		myNetworkPageFree.clickTypeMessageDropDown();
 		testUtil.testWaitTwo();
 		//Area of Interest
-		communityPageFree.clickAreaOfInterestDropDown();
+		myNetworkPageFree.clickAreaOfInterestDropDown();
 		testUtil.testWaitTwo();
-		communityPageFree.selectAreaOfInterestDropDown();
+		myNetworkPageFree.selectAreaOfInterest();
 		testUtil.testWaitFour();
-		communityPageFree.selectAreaOfInterestDropDown();
+		myNetworkPageFree.selectAreaOfInterest();
 		testUtil.testWaitFour();
-		communityPageFree.clickAreaOfInterestDropDown();
+		myNetworkPageFree.clickAreaOfInterestDropDown();
 		testUtil.testWaitTwo();
 		//Sector
-		communityPageFree.clickSectorTab();
+		myNetworkPageFree.clickSectorDropDown();
 		testUtil.testWaitTwo();
-		communityPageFree.selectSector();
+		myNetworkPageFree.selectSector();
 		testUtil.testWaitFour();
-		communityPageFree.selectSector();
+		myNetworkPageFree.selectSector();
 		testUtil.testWaitFour();
-		communityPageFree.clickSectorTab();
+		myNetworkPageFree.clickSectorDropDown();
 		testUtil.testWaitTwo();
-		//EveryOne
-		communityPageFree.clickEveryoneDropDown();
+		myNetworkPageFree.clickEveryOneDropDown();
 		testUtil.testWaitTwo();
-		communityPageFree.selectMyOwnNetwork();
+		myNetworkPageFree.selectEveryOneMyOwnNetwork();
 		testUtil.testWaitFour();
-		communityPageFree.selectEveryoneNetwork();
+		myNetworkPageFree.selectEveryOneEveryOne();
 		testUtil.testWaitFour();
-		communityPageFree.clickEveryoneDropDown();
+		myNetworkPageFree.clickEveryOneDropDown();
 		testUtil.testWaitTwo();
-		//Favourites
-		communityPageFree.clickFouriteMessage();
+		myNetworkPageFree.clickFavoiritesPosts();
 		testUtil.testWaitFour();
-		communityPageFree.clickFouriteMessage();
+		myNetworkPageFree.clickFavoiritesPosts();
+		testUtil.testWaitFour();
+		//MyNetwork
+		myNetworkPageFree.clickMyNetworkBtn();
+		testUtil.testWaitEight();
+		myNetworkPageFree.clickMyNetworkTab();
+		testUtil.testWaitFour();
+		myNetworkPageFree.clickMyRequestsTab();
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.clickSuggestionsForYouTab();
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		myNetworkPageFree.clickAreaOfInterest();
 		testUtil.testWaitFour();
 		
 				
