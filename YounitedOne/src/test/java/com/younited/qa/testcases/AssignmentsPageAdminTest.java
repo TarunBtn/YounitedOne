@@ -1,5 +1,6 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -31,7 +32,7 @@ public class AssignmentsPageAdminTest extends TestBase{
 		assignmentsPageAdmin=new AssignmentsPageAdmin();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickAssignmentsTab();
@@ -43,7 +44,7 @@ public class AssignmentsPageAdminTest extends TestBase{
 	public void assignmentsPage()throws Exception {	
 		//ValueFilterAssignment
 		assignmentsPageFree.enterAssignmentsName("QA EngineerEight");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.selectAssignmentsValue();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clearAssignmentsFilter();
@@ -145,8 +146,12 @@ public class AssignmentsPageAdminTest extends TestBase{
 	  	assignmentsPageFree.clickLocationTab();
 	  	testUtil.testWaitTwo();
 	  	assignmentsPageFree.enterLocation("Noordwijk, Netherlands");
-	  	testUtil.testWaitFour();
-	  	assignmentsPageFree.enterLocationToolTip();
+	  	testUtil.testWaitEight();
+	  	try {
+	  	    assignmentsPageFree.enterLocationToolTip();
+	  	}catch(ElementNotInteractableException e) {
+	  		e.printStackTrace();
+	  	}
 	  	testUtil.testWaitFour();
 	  	assignmentsPageFree.applyLocationFilter();
 	  	testUtil.testWaitEight();

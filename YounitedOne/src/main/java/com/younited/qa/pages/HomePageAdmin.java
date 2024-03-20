@@ -9,13 +9,13 @@ import com.younited.qa.base.TestBase;
 
 public class HomePageAdmin extends TestBase{
 	//Page factory OR Object repository
-	@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[2]/a/span")
+	@FindBy(xpath="//span[@class='d-flex']")
 	WebElement assignmentsTab;
 		
-	@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[3]/a")
+	@FindBy(xpath="//a[@href='/community']")
 	WebElement communityTab;
 		
-	@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[4]/a")
+	@FindBy(xpath="//a[@href='/ondernemer']")
 	WebElement matchTab;
 		
 	@FindBy(xpath="/html/body/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[1]/button/span")
