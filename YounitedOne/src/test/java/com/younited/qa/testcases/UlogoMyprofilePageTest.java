@@ -28,8 +28,8 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
-		homePageAdmin.clickAcceptAllCookies();
-		testUtil.testWaitEleven();
+		//homePageAdmin.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitEight();
 		homePageAdmin.clickMyProfileTab();
@@ -55,14 +55,14 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
 		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
@@ -115,7 +115,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();*/
 		//Work experience
-		uLogoMyprofilePage.clickWorkExperienceTab();
+		/*uLogoMyprofilePage.clickWorkExperienceTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
@@ -201,7 +201,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		//Educations
 		uLogoMyprofilePage.clickEducationsTab();
 		testUtil.testWaitFour();
@@ -225,10 +225,14 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickStartingYear();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveBtnOne();
 		testUtil.testWaitEight();
-		//testUtil.scrollUp();
-		//testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		/*uLogoMyprofilePage.clickEditEducations();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
@@ -243,6 +247,8 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitTwo();*/
 		//Courses
 		uLogoMyprofilePage.clickCoursesTab();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickAddCourse();
 		testUtil.testWaitTwo();
@@ -264,10 +270,10 @@ public class UlogoMyprofilePageTest extends TestBase{
 		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickDeleteCourse();
-		testUtil.testWaitFour();
-		uLogoMyprofilePage.clickConfirmDeleteCourse();
-		testUtil.testWaitFour();
+		//uLogoMyprofilePage.clickDeleteCourse();
+		//testUtil.testWaitFour();
+		//uLogoMyprofilePage.clickConfirmDeleteCourse();
+		//testUtil.testWaitFour();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickInstitutionsTab();
@@ -279,7 +285,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }

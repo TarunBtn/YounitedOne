@@ -120,7 +120,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[4]")
 			WebElement educationsTab;
 			
-			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div[2]/a")
+			@FindBy(xpath="//a[@class='btn btn-primary-outline margin-left-add-button']")
 			WebElement addEducations;
 			
 			@FindBy(id="studierichting")
@@ -138,7 +138,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"van\"]/option[7]")
 			WebElement selectStartingYear;
 			
-			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/form/div[8]/div/button")
+			@FindBy(xpath="//button[@class='btn btn-primary mb-2 mb-sm-0 mr-sm-2 d-inline-flex justify-content-center align-items-center']")
 			WebElement clickSaveBtn;
 			
 			@FindBy(xpath="//*[@id=\"timeline\"]/div[1]/div[2]/div/div/a[1]")
