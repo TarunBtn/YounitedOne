@@ -49,7 +49,6 @@ public class MatchPageAdminTest extends TestBase{
 		testUtil.testWaitEight();
 		matchPageAdmin.clickCancelValueFilter();
 		testUtil.testWaitEight();
-		
 		//Command Filter
 		matchPage.clickCommandDropDown();
 		testUtil.testWaitTwo();
