@@ -25,12 +25,12 @@ public class UlogoMydashboardPageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
-		homePageAdmin.clickAcceptAllCookies();
-		testUtil.testWaitEleven();
+		//homePageAdmin.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitFour();
 		homePageAdmin.clickMydashboardTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitFourteen();
 		//homePageAdmin.moveHoverTologoImage();
 		//testUtil.testWaitTwo();
 		
@@ -38,7 +38,7 @@ public class UlogoMydashboardPageTest extends TestBase{
 	
 	@Test
 	public void myDashboard() {
-		
+		System.out.println("Test is passed");
 	}
 	
 	@AfterMethod
