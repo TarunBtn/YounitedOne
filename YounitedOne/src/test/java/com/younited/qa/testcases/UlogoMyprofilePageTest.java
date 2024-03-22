@@ -264,13 +264,8 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveCourse();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		//uLogoMyprofilePage.clickEditCourse();
-		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
-		//uLogoMyprofilePage.clickDeleteCourse();
+		//clickDeleteCourse();
 		//testUtil.testWaitFour();
 		//uLogoMyprofilePage.clickConfirmDeleteCourse();
 		//testUtil.testWaitFour();
@@ -285,7 +280,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
