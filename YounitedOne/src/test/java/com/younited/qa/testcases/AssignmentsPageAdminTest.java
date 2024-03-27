@@ -161,12 +161,12 @@ public class AssignmentsPageAdminTest extends TestBase{
 	  	testUtil.testWaitEight();
 	    //View matches
 	  	assignmentsPageFree.clickViewMatches();
-	  	testUtil.testWaitEight();
+	  	testUtil.testWaitEleven();
 	  	assignmentsPageFree.clickViewMatches();
-	  	testUtil.testWaitEight();
+	  	testUtil.testWaitEleven();
 	  	//Favourites
 	  	assignmentsPageFree.clickFavorites();
-	  	testUtil.testWaitEight();
+	  	testUtil.testWaitEleven();
 	  	assignmentsPageFree.clickFavorites();
 	  	testUtil.testWaitEleven();
 	  	//Sorting
