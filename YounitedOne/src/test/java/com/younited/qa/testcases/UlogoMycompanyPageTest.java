@@ -28,8 +28,8 @@ public class UlogoMycompanyPageTest extends TestBase{
 		uLogoMycompanyPage=new UlogoMycompanyPage();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
-		homePageAdmin.clickAcceptAllCookies();
-		testUtil.testWaitEleven();
+		//homePageAdmin.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitFour();
 		homePageAdmin.clickMyCompanyTab();
@@ -44,7 +44,7 @@ public class UlogoMycompanyPageTest extends TestBase{
 	@Test
 	public void uLogoMycompanyPage()throws Exception {
 		uLogoMycompanyPage.clickAddNewCompany();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		uLogoMycompanyPage.enterCompanyName("Coffeeshop Checkpoint");
@@ -55,6 +55,10 @@ public class UlogoMycompanyPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
+		uLogoMycompanyPage.clickEmployeeDropDown();
+		testUtil.testWaitTwo();
+		uLogoMycompanyPage.selectEmployee();
+		testUtil.testWaitTwo();
 		uLogoMycompanyPage.clickSectorDropDown();
 		testUtil.testWaitFour();
 		uLogoMycompanyPage.selectSector();
@@ -66,9 +70,9 @@ public class UlogoMycompanyPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
-		testUtil.testWaitEight();
-		//uLogoMycompanyPage.clickSaveBtn();
-		uLogoMycompanyPage.clickCancelBtn();
+		testUtil.testWaitTwo();
+		uLogoMycompanyPage.clickSaveBtn();
+		//uLogoMycompanyPage.clickCancelBtn();
 		testUtil.testWaitFour();
 		
 	}

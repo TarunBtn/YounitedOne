@@ -18,7 +18,13 @@ public class UlogoMycompanyPage extends TestBase{
 		@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[2]/a/div[2]/span/span")
 		WebElement companyNameTooltip;
 		
-		@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[7]/div[2]/div/div/div[1]")
+		@FindBy(xpath="//select[@id='totaal_aantal_medewerkers']")
+		WebElement employeeDropDown;
+		
+		@FindBy(xpath="//option[@id='51-100']")
+		WebElement selectEmployee;
+		
+		@FindBy(xpath="//div[@class='multiselect__select']")
 		WebElement sectorDropDown;
 		
 		@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
@@ -27,7 +33,7 @@ public class UlogoMycompanyPage extends TestBase{
 		@FindBy(id="organisatie.websitelink")
 		WebElement enterWebsite;
 		
-		@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
+		@FindBy(xpath="//button[@class='btn btn-primary mr-sm-2 mb-2 mb-sm-0 d-inline-flex justify-content-center align-items-center']")
 		WebElement saveBtn;
 		
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/a")
@@ -59,6 +65,14 @@ public class UlogoMycompanyPage extends TestBase{
 		public void clickCompanyNameTooltip() {
 			//companyNameTooltip.click();
 			enterCompanyName.sendKeys(Keys.TAB);
+		}
+		
+		public void clickEmployeeDropDown() {
+			employeeDropDown.click();
+		}
+		
+		public void selectEmployee() {
+			selectEmployee.click();
 		}
 		
 		public void clickSectorDropDown() {
