@@ -22,7 +22,7 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"initial-sort-select\"]")
 		WebElement chooseCompanyDropDown;
 			
-		@FindBy(xpath="//option[text()='Horecaexploitatie Moeke B.V.']")
+		@FindBy(xpath="//Option[text()='J.Dev']")
 		WebElement selectCompanyFromDropDown;
 		
 		@FindBy(xpath="//a[@href='/mijn-opdrachten/reacties/e1d8e64f-23c5-4719-ac61-eb72e9193f9d']")
