@@ -9,16 +9,16 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoAllcompaniesPage extends TestBase{
 	//Pagefactory OR Object Repository	
-	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select")
+	@FindBy(xpath="//select[@class='custom-select common-filter-height']")
 	WebElement verifiedCompanyDropDown;
 	
-	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select/option[1]")
+	@FindBy(xpath="//option[text()='Alle']")
 	WebElement allCompany;
 	
-	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select/option[2]")
+	@FindBy(xpath="//option[text()='Geverifieerd']")
 	WebElement verifiedCompany;
 	
-	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div[1]/div[2]/select/option[3]")
+	@FindBy(xpath="//option[text()='Niet geverifieerd']")
 	WebElement notVerifiedCompany;
 	
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div[1]/div[3]/div/label")
@@ -39,7 +39,7 @@ public class UlogoAllcompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div[1]/div[1]/a")
 	WebElement addNewCompany;
 	
-	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div/input")
+	@FindBy(xpath="//input[@id='bedrijfsnaam']")
 	WebElement enterCompanyName;
 	
 	@FindBy(xpath="/html/body")
