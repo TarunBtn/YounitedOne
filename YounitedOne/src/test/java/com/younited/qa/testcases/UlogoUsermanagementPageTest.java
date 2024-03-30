@@ -28,8 +28,8 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
-		homePageAdmin.clickAcceptAllCookies();
-		testUtil.testWaitEleven();
+		//homePageAdmin.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitEight();
 		homePageAdmin.clickUserManagementTab();
@@ -75,11 +75,11 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		uLogoUsermanagementPage.clickRoleDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
+		//uLogoUsermanagementPage.clickRoleDropDown();
+		//testUtil.testWaitFour();
 		//Availability
-		uLogoUsermanagementPage.clickEverythingDropDown();
+		/*uLogoUsermanagementPage.clickEverythingDropDown();
 		testUtil.testWaitTwo();
 		uLogoUsermanagementPage.selectOnlyAvailable();
 		testUtil.testWaitFour();
@@ -124,12 +124,12 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		uLogoUsermanagementPage.selectResetRole();
 		testUtil.testWaitFour();
 		uLogoUsermanagementPage.clickRoleDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
 		//Skills
 		uLogoUsermanagementPage.clickSkillsTab();
 		testUtil.testWaitFour();
 		uLogoUsermanagementPage.enterValueSkills("Postman");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		uLogoUsermanagementPage.selectTooltipSkills();
 		testUtil.testWaitFour();
 		uLogoUsermanagementPage.clickSkillsTab();

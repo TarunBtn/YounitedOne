@@ -12,13 +12,13 @@ public class UlogoUsermanagementPage extends TestBase{
 	@FindBy(xpath="(//input[@id='filter-input'])[1]")
 	WebElement searchName;
 	
-	@FindBy(xpath="//*[@id=\"__BVID__19\"]/div/div/div/button")
+	@FindBy(xpath="//input[@placeholder='Type om te zoeken naam']/following-sibling::*/button")
 	WebElement resetSearchName;
 	
 	@FindBy(xpath="(//input[@id='filter-input'])[2]")
 	WebElement emailAddress;
 	
-	@FindBy(xpath="//*[@id=\"__BVID__26\"]/div/div/div/button")
+	@FindBy(xpath="//input[@placeholder='Type om te zoeken emailadres']/following-sibling::*/button")
 	WebElement resetEmailAddress;
 	
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div/div[1]/div[3]/div/label")
@@ -54,7 +54,7 @@ public class UlogoUsermanagementPage extends TestBase{
 	@FindBy(id="dropdown-skills-btn")
 	WebElement skillsTab;
 	
-	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div/div/div/div[1]/div[5]/div/div/form/div[1]/div/div/input")
+	@FindBy(xpath="//input[@class='simple-typeahead-input']")
 	WebElement enterValueSkills;
 	
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div/div/div/div/div[1]/div[5]/div/div/form/div[1]/div/div/div[2]/a/div[2]/span/span")
