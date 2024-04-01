@@ -14,10 +14,10 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/a/img[1]")
 	WebElement imageLogo;
 		
-	@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul[1]/li[3]/a")
+	@FindBy(xpath="//a[@href='/mijn-opdrachten']")
 	WebElement myAssignmentsLink;
 		
-	@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[1]/a")
+	@FindBy(xpath="//a[@class='nav-link active']")
 	WebElement dashboardLink;
 		
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[2]/ul[1]/li[2]/a")
