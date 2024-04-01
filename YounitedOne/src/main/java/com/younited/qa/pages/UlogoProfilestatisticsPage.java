@@ -13,10 +13,10 @@ public class UlogoProfilestatisticsPage extends TestBase{
 	@FindBy(id="initial-sort-select")
 	WebElement roleDropDown;
 	
-	@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[2]")
+	@FindBy(xpath="//option[text()='Freelancer']")
 	WebElement selectRole;
 	
-	@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[1]")
+	@FindBy(xpath="//option[text()='Selecteer rol']")
 	WebElement resetRoleDropDown;
 	
 	@FindBy(id="filter-input")
