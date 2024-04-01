@@ -99,7 +99,7 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(id="dropdown-location-and-distance-apply")
 		WebElement applyLocationFilter;
 			
-		@FindBy(xpath="//button[@id='dropdown-location-and-distance-reset']")
+		@FindBy(xpath="//*[@id=\"dropdown-location-and-distance-reset\"]")
 		WebElement resetLocation;
 		//
 		@FindBy(id="dropdown-location-and-distance-cancel")
