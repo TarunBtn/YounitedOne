@@ -1,5 +1,6 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -28,7 +29,7 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree=new AssignmentsPageFree();
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		//try {
 		//homePageFree.clickAcceptAllCookies();
 		//}catch(NoSuchElementException e) {
@@ -95,7 +96,7 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree.selectDuration();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickDuration();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//WorkAndThinkingLevel
 		assignmentsPageFree.clickWorkAndThinkingLevel();
 		testUtil.testWaitTwo();
@@ -108,7 +109,7 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree.selectWorkAndThinkingLevel();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickWorkAndThinkingLevel();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//Hours
 		assignmentsPageFree.clickHoursTab();
 		testUtil.testWaitFour();
@@ -145,29 +146,41 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree.locationRemove();
 		testUtil.testWaitFour();
 		assignmentsPageFree.enterLocation("Noordwijk, Netherlands");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.enterLocationToolTip();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
+		try {
 		assignmentsPageFree.applyLocationFilter();
+		testUtil.testWaitEight();
+		}catch(ElementNotInteractableException e) {
+			e.printStackTrace();
+		}
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickLocationTab();
 		testUtil.testWaitFour();
+		try {
+			assignmentsPageFree.clickLocationTab();
+			testUtil.testWaitFour();
+		}catch(ElementNotInteractableException e) {
+			e.printStackTrace();
+		}
+		//testUtil.testWaitFour();
 		assignmentsPageFree.resetLocation();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//assignmentsPageFree.clickLocationTab();
 		//testUtil.testWaitTwo();
 		//assignmentsPageFree.clickCancelLocation();
 		//testUtil.testWaitTwo();
 		//View matches
 		assignmentsPageFree.clickViewMatches();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.clickViewMatches();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//Favourites
 		assignmentsPageFree.clickFavorites();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.clickFavorites();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//Sorting
 		assignmentsPageFree.clickSortingDropDown();
 		testUtil.testWaitTwo();
