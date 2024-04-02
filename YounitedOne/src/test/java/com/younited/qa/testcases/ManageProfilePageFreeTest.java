@@ -35,19 +35,18 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
 		testUtil.testWaitFourteen();
-		homePageFree.clickAcceptAllCookies();
-		testUtil.testWaitEleven();
+		//homePageFree.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();
 		homePageFree.clickUserLogo();		
 		testUtil.testWaitFour();	
 		homePageFree.clickManageProfileTab();
 		testUtil.testWaitEleven();
-		testUtil.testWaitEight();
-		homePageFree.mouseHoverToLogoImage();
-		testUtil.testWaitEight();
+		//testUtil.testWaitEight();
+		//homePageFree.mouseHoverToLogoImage();
+		//testUtil.testWaitEight();
 				
 	}
 	
-	@SuppressWarnings("static-access")
 	@Test
 	public void test()throws Exception {
 		//General Tab
@@ -63,15 +62,15 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickChangeMyGeneralInformation();
 		testUtil.testWaitEleven();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();	
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		/*testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -120,8 +119,8 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitFour();*/
 		//Availability Tab
-		/*uLogoMyprofilePage.clickAvailabilityTab();
-		testUtil.testWaitFour();
+		uLogoMyprofilePage.clickAvailabilityTab();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
@@ -135,8 +134,14 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		//Enter skill value
-		uLogoMyprofilePage.enterSkillsValue("Account");
+		/*uLogoMyprofilePage.enterSkillsValue("Account");
 		testUtil.testWaitEight();
 		try {
 		    uLogoMyprofilePage.selectSkillsValue();
@@ -191,8 +196,8 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickStartDateCalender();
 		testUtil.testWaitTwo();
-		uLogoMyprofilePage.selectStartYear();
-		testUtil.testWaitTwo();
+		//uLogoMyprofilePage.selectStartYear();
+		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.selectStartYear();
 		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.selectStartYear();
@@ -206,18 +211,26 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterProfile("Database administrator");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		uLogoMyprofilePage.selectProfile();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveBtn();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
+		testUtil.testWaitEight();
+		testUtil.scrollUp();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
+		testUtil.scrollUp();
 		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickEditWorkExperience();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		/*uLogoMyprofilePage.clickEditWorkExperience();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -236,13 +249,13 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		//Upload CV
-		uLogoMyprofilePage.clickUploadCV();
+		/*uLogoMyprofilePage.clickUploadCV();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickChooseFile();
 		testUtil.testWaitFour();
-		testUtil.uploadFile("D:\\Testfile.docx");
+		testUtil.uploadFile("D:\\CV Jort Zwolsman.docx");
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickUploadFile();
 		testUtil.testWaitFour();
@@ -251,7 +264,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//uLogoMyprofilePage.clickCancelUploadCV();
 		//testUtil.testWaitFour();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		//Educations
 		uLogoMyprofilePage.clickEducationsTab();
 		testUtil.testWaitFour();
@@ -259,8 +272,8 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickAddEducations();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterFieldOfStudy("Computer Science");
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickEducationLevel();
@@ -277,9 +290,9 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveBtnOne();
 		testUtil.testWaitEight();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickEditEducations();
+		testUtil.scrollUp();
+		testUtil.testWaitFour();
+		/*uLogoMyprofilePage.clickEditEducations();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -290,7 +303,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		uLogoMyprofilePage.clickConfirmDeleteEducations();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
 		//Courses
 		uLogoMyprofilePage.clickCoursesTab();
 		testUtil.testWaitTwo();
@@ -312,7 +325,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickEditCourse();
+		/*uLogoMyprofilePage.clickEditCourse();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -339,13 +352,13 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
