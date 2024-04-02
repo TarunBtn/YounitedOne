@@ -32,7 +32,7 @@ public class MyNetworkPageFreeTest extends TestBase{
 		communityPageFree=new CommunityPageFree();
 		myNetworkPageFree=new MyNetworkPageFree();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//try {
 			//homePageFree.clickAcceptAllCookies();
 		//}catch(NoSuchElementException e) {
