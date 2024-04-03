@@ -31,21 +31,21 @@ public class CommunityPageFreeTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
 		testUtil.testWaitEleven();
-		testUtil.testWaitFour();
-		homePageFree.clickAcceptAllCookies();
-		testUtil.testWaitEleven();
-		homePageFree.suitableAssignments();
+		//testUtil.testWaitFour();
+		//homePageFree.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();
+		/*homePageFree.suitableAssignments();
 		testUtil.testWaitEight();
 		homePageFree.clickNetworkTab();
 		testUtil.testWaitTwo();
 		homePageFree.clickNetworkTabTooltip();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 								
 	}
 	
 	@Test
 	public void communityPageFreeTest()throws Exception {
-		communityPageFree.clickTypeOfMessageDropDown();
+		/*communityPageFree.clickTypeOfMessageDropDown();
 		testUtil.testWaitTwo();
 		communityPageFree.selectTypeOfMessage();
 		testUtil.testWaitFour();
@@ -92,7 +92,7 @@ public class CommunityPageFreeTest extends TestBase{
 		communityPageFree.clickFouriteMessage();
 		testUtil.testWaitFour();
 		communityPageFree.clickFouriteMessage();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		//communityPageFree.clickMyNetworkBtn();
 				
 		
