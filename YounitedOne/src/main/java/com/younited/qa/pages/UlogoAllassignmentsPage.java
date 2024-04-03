@@ -11,22 +11,22 @@ public class UlogoAllassignmentsPage extends TestBase{
 	@FindBy(id="filter-input")
 	WebElement searchCompany;
 	
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[2]/div/div/button")
+	@FindBy(xpath="//button[@class='btn btn-secondary btn-primary common-reset-button']")
 	WebElement resetBtn;
 	
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[3]/div/label")
+	@FindBy(xpath="//label[@class='ml-5 pl-3 mt-2']")
 	WebElement exactSearch;
 	
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[4]/div/div/div[1]")
+	@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[2]/div/div[1]/div[3]/div/select")
 	WebElement clickSelectFilterDropDown;
 	
-	@FindBy(xpath="//*[@id=\"null-2\"]/span/span")
+	@FindBy(xpath="//option[@value='Open']")
 	WebElement selectFilterDropDown;
 	
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[5]/div/div/div/div/div/div/div[1]")
+	@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[2]/div/div[1]/div[4]/div/select")
 	WebElement clickStatusDropDown;
 	
-	@FindBy(xpath="//*[@id=\"filter_opdracht-status-0\"]/span")
+	@FindBy(xpath="//option[@value='0']")
 	WebElement selectStatus;
 	
 	
