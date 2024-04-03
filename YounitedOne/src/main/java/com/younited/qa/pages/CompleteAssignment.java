@@ -22,10 +22,10 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
 		WebElement sectorSelect;
 		
-		@FindBy(xpath="//*[@id=\"assignment-add\"]/span[2]/div/span/div[2]/form/div[8]/div[2]/div/div/div[1]")
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[7]/div[2]/div/div/div[1]")
 		WebElement disciplineDropDown;
 		
-		@FindBy(xpath="//*[@id=\"opdracht.vakgebied-6\"]/span/span")
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[7]/div[2]/div/div/div[3]/ul/li[7]/span/span")
 		WebElement selectDescipline;
 		
 		@FindBy(id="werklocatie")

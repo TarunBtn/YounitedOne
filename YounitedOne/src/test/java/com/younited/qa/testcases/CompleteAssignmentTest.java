@@ -39,8 +39,8 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil=new TestUtil();		
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil.testWaitFourteen();
-		homePage.clickAcceptAllCookies();
-		testUtil.testWaitEleven();		
+		//homePage.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();		
 		homePage.clickMyAssignmentsLink();
 		testUtil.testWaitEleven();
 		testUtil.testWaitEight();
