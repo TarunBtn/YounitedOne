@@ -288,8 +288,12 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickStartingYear();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveBtnOne();
 		testUtil.testWaitEight();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
 		/*uLogoMyprofilePage.clickEditEducations();
@@ -306,11 +310,13 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();*/
 		//Courses
 		uLogoMyprofilePage.clickCoursesTab();
-		testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickAddCourse();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		uLogoMyprofilePage.clickAddCourse();
+		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterCourse("Data Security");
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterDescriptionCourse("This is test data");
@@ -319,12 +325,14 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.selectCompletedOnDateCourse();
 		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveCourse();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		/*uLogoMyprofilePage.clickEditCourse();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
@@ -342,7 +350,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
 		uLogoMyprofilePage.clickInstitutionsTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
@@ -352,13 +360,13 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();*/
+		testUtil.testWaitFour();
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
