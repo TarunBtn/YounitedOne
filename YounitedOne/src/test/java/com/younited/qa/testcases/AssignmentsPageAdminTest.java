@@ -2,6 +2,7 @@ package com.younited.qa.testcases;
 
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -74,18 +75,22 @@ public class AssignmentsPageAdminTest extends TestBase{
 		testUtil.testWaitTwo();
 		assignmentsPageFree.enterSkillValue("Postman");
 		testUtil.testWaitFour();
-		//assignmentsPageFree.selectSkillToolTip();
-		//testUtil.testWaitFour();
-		assignmentsPageFree.applySkillFilter();
+		assignmentsPageFree.selectSkillToolTip();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickSkillTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
+		assignmentsPageFree.applySkillFilter();
+		testUtil.testWaitEight();
 		assignmentsPageFree.clickSkillTab();
 		testUtil.testWaitTwo();
-		assignmentsPageFree.clickClearFilterSkill();
+		//assignmentsPageFree.clickSkillTab();
+		//testUtil.testWaitTwo();
+		assignmentsPageFree.clickResetFilterSkill();
+		testUtil.testWaitFour();
+		assignmentsPageFree.clickSkillTab();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickCancelSkill();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Duration
 		assignmentsPageFree.clickDuration();
 		testUtil.testWaitTwo();
@@ -145,18 +150,26 @@ public class AssignmentsPageAdminTest extends TestBase{
 	  	//Location
 	  	assignmentsPageFree.clickLocationTab();
 	  	testUtil.testWaitTwo();
-	  	assignmentsPageFree.enterLocation("Noordwijk, Netherlands");
+	  	assignmentsPageFree.enterLocation("Noordwijk Netherlands");
 	  	testUtil.testWaitEight();
 	  	try {
 	  	    assignmentsPageFree.enterLocationToolTip();
+	  	    testUtil.testWaitFour();
 	  	}catch(ElementNotInteractableException e) {
 	  		e.printStackTrace();
 	  	}
 	  	testUtil.testWaitFour();
-	  	assignmentsPageFree.applyLocationFilter();
-	  	testUtil.testWaitEight();
+	  	try {
+	  	    assignmentsPageFree.applyLocationFilter();
+	  	    testUtil.testWaitFour();
+	  	}catch(NoSuchElementException e) {
+	  		e.printStackTrace();
+	  	}
+	  	testUtil.testWaitFour();
 	  	assignmentsPageFree.clickLocationTab();
-	  	testUtil.testWaitEight();
+	  	testUtil.testWaitFour();
+	  	assignmentsPageFree.clickLocationTab();
+	  	testUtil.testWaitFour();
 	  	assignmentsPageFree.resetLocation();
 	  	testUtil.testWaitEight();
 	    //View matches

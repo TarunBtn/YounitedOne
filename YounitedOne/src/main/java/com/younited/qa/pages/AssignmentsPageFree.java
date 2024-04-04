@@ -188,7 +188,7 @@ public class AssignmentsPageFree extends TestBase{
 			applySkillFilter.click();
 		}
 			
-		public void clickClearFilterSkill() {
+		public void clickResetFilterSkill() {
 			resetSkillFilter.click();
 		}
 			
