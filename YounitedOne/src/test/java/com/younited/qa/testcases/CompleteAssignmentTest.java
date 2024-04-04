@@ -80,6 +80,12 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitTwo();
 		completeAssignment.selectDescipline();
 		testUtil.testWaitFour();
+		completeAssignment.clickNextButton();
+		testUtil.testWaitFourteen();
+		completeAssignment.clickNextButton();
+		testUtil.testWaitFourteen();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		
 		//completeAssignment.selectWorkLocation();
 		//testUtil.testWaitFour();
@@ -129,27 +135,27 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();        
+		testUtil.testWaitTwo();*/        
 		//Select start date
 		completeAssignment.clickStartDateDropDown();
 		testUtil.testWaitTwo();
-		completeAssignment.selectStartYear();
-		testUtil.testWaitTwo();
+		//completeAssignment.selectStartYear();
+		//testUtil.testWaitTwo();
 		completeAssignment.selectStartDate();
-		testUtil.testWaitTwo();		
+		testUtil.testWaitFour();		
 		//Select end date
 		completeAssignment.clickEndDateDropDown();
 		testUtil.testWaitTwo();
-		completeAssignment.selectEndYear();
-		testUtil.testWaitTwo();
+		//completeAssignment.selectEndYear();
+		//testUtil.testWaitTwo();
 		//completeAssignment.selectEndYear();
 		//testUtil.testWaitTwo();
 		completeAssignment.selectEndDate();
 		testUtil.testWaitFour();
-		//testUtil.scrollDown();
-		//testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
 		//NumberofHours
-		completeAssignment.selectNumberOfHours();
+		/*completeAssignment.selectNumberOfHours();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -186,7 +192,20 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitTwo();
 		completeAssignment.unSelectSkillsTwo();
 		testUtil.testWaitTwo();*/
+		completeAssignment.clickNextButton();
+		testUtil.testWaitEight();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		completeAssignment.clickNextButton();
+		testUtil.testWaitEight();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		completeAssignment.clickNextButton();
+		testUtil.testWaitEight();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
 		//completeAssignment.clickSaveButton();
+		
 		
 	}
 	
