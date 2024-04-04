@@ -87,12 +87,12 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
 		//Enter skill value
 		/*uLogoMyprofilePage.enterSkillsValue("Account");
 		testUtil.testWaitEight();
@@ -263,7 +263,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		uLogoMyprofilePage.selectCompletedOnDateCourse();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveCourse();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//testUtil.scrollDown();
 		//clickDeleteCourse();
 		//testUtil.testWaitFour();

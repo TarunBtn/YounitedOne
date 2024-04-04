@@ -180,7 +180,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"remove\"]/div/div/div[3]/button[1]")
 			WebElement confirmDeleteCourse;
 			
-			@FindBy(xpath="//*[@id=\"navigation\"]/div/nav/a[7]")
+			@FindBy(xpath="//a[@title='Instellingen']")
 			WebElement institutions;
 					
 			//Initialization
