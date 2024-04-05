@@ -10,7 +10,7 @@ public class UlogoDasPlatformPage extends TestBase{
 	
 	//Page factory OR Object Repository
 	
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[1]/a")
+	@FindBy(xpath="//div[@class='d-flex align-items-center']//a[@href='/das-platform/toevoegen']")
 	WebElement addNewDasPlatform;
 	
 	@FindBy(id="name")
@@ -19,13 +19,13 @@ public class UlogoDasPlatformPage extends TestBase{
 	@FindBy(id="order")
 	WebElement order;
 	
-	@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/form/div[3]/div/a")
+	@FindBy(xpath="//div[@class='row mb-4']//a[@href='/das-platform']")
 	WebElement clickCancel;
 	
 	@FindBy(id="filter-input")
 	WebElement searchByName;
 	
-	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[2]/div/div/button")
+	@FindBy(xpath="//input[@id='filter-input']")
 	WebElement clickResetSearchByName;
 	
 	
