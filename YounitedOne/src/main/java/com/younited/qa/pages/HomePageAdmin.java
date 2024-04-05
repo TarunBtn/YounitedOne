@@ -179,19 +179,19 @@ public class HomePageAdmin extends TestBase{
 	}
 	
 	public void clickDasAssignmentOverviewTab() {
-		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-opdrachten/");
+		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/das-opdrachten/");
 	}
 	
 	public void clickDasPlatformTab() {
-		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-platform/");
+		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/das-platform/");
 	}
 	
 	public void clickDasGroupsTab() {
-		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-groep/");
+		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/das-groep/");
 	}
 	
 	public void clickDasCompaniesTab() {
-		Driver.get("https://acc-freelancemarktplaats-mobility.azurewebsites.net/das-bedrijven/");
+		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/das-bedrijven/");
 	}
 	
 	public void clickNativeAssignmentsTab() {

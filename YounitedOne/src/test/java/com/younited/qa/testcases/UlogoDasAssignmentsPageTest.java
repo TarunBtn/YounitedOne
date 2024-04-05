@@ -44,10 +44,18 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 	public void UlogoDasAssignmentsPage()throws Exception{
 		uLogoDasAssignmentsPage.enterValueSearchByAssignment("QA");
 		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		uLogoDasAssignmentsPage.clickResetSearchByAssignment();
 		testUtil.testWaitEight();
 		uLogoDasAssignmentsPage.enterValueSearchByLocation("nl");
 		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		uLogoDasAssignmentsPage.clickResetSearchByLocation();
 		testUtil.testWaitEight();
 		//testUtil.scrollDown();
@@ -61,6 +69,10 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickHourlyRateDropDown();
 		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
 		uLogoDasAssignmentsPage.clickResetHourlyRate();
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickCancelHourlyRate();

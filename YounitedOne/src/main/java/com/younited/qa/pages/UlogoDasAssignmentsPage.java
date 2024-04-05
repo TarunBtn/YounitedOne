@@ -9,16 +9,16 @@ import com.younited.qa.base.TestBase;
 public class UlogoDasAssignmentsPage extends TestBase{
 	
 	//Page factory OR Object Repository
-	@FindBy(id="filter-input")
+	@FindBy(xpath="//input[@placeholder='Type om te zoeken op Opdrachtnaam']")
 	WebElement searchByAssignment;
 	
-	@FindBy(xpath="//button[text()='Reset']")
+	@FindBy(xpath="//fieldset[@class='form-group col-lg-6 col-md-6 mb-md-0 mb-2']//following-sibling::*/button")
 	WebElement resetSearchByAssignment;
 	
-	@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/div/div/div[2]/div/div/div[3]/fieldset[2]/div/div/input")
+	@FindBy(xpath="//input[@placeholder='Type om te zoeken op Locatie']")
 	WebElement searchByLocation;
 	
-	@FindBy(xpath="//*[@id=\"__BVID__851\"]/div/div/div/button")
+	@FindBy(xpath="//fieldset[@class='form-group col-lg-6 col-md-6 mb-0']//following-sibling::*/button")
 	WebElement searchByLocationReset;
 	
 	@FindBy(id="dropdown-uurtarief-btn")
