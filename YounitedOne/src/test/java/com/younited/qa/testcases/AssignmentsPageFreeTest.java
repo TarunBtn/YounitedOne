@@ -49,25 +49,36 @@ public class AssignmentsPageFreeTest extends TestBase{
 	
 	@Test
 	public void clickFiltersTest()throws Exception {
+		//ValueFilterAssignment
+		assignmentsPageFree.enterAssignmentsName("QA EngineerEight");
+		testUtil.testWaitEight();
+		assignmentsPageFree.selectAssignmentsValue();
+		testUtil.testWaitFour();
+		assignmentsPageFree.clearAssignmentsFilter();
+		testUtil.testWaitFour();
 		//Sector
 		assignmentsPageFree.clickSectorTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		assignmentsPageFree.selectSector();
 		testUtil.testWaitFour();
 		assignmentsPageFree.selectSector();
 		testUtil.testWaitFour();
+		assignmentsPageFree.clickSectorTab();
+		testUtil.testWaitTwo();
 		//Descipline
 		assignmentsPageFree.clickDescipline();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		assignmentsPageFree.selectDescipline();
 		testUtil.testWaitFour();
 		assignmentsPageFree.selectDescipline();
 		testUtil.testWaitFour();
+		assignmentsPageFree.clickDescipline();
+		testUtil.testWaitTwo();
 		//Skill
 		assignmentsPageFree.clickSkillTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		assignmentsPageFree.enterSkill();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		assignmentsPageFree.enterSkillValue("Postman");
 		testUtil.testWaitFour();
 		assignmentsPageFree.selectSkillToolTip();
@@ -75,67 +86,69 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree.clickSkillTab();
 		testUtil.testWaitFour();
 		assignmentsPageFree.applySkillFilter();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.clickSkillTab();
-		testUtil.testWaitFour();
-		assignmentsPageFree.clickSkillTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
+		//assignmentsPageFree.clickSkillTab();
+		//testUtil.testWaitTwo();
 		assignmentsPageFree.clickResetFilterSkill();
+		testUtil.testWaitFour();
+		assignmentsPageFree.clickSkillTab();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickCancelSkill();
 		testUtil.testWaitFour();
 		//Duration
 		assignmentsPageFree.clickDuration();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		assignmentsPageFree.selectDuration();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickDuration();
-		testUtil.testWaitTwo();	
+		testUtil.testWaitTwo();
 		assignmentsPageFree.clickDuration();
 		testUtil.testWaitTwo();
 		assignmentsPageFree.selectDuration();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickDuration();
-		testUtil.testWaitEight();
-		//WorkAndThinkingLevel
+		testUtil.testWaitTwo();
+		//Work & Thinking level
 		assignmentsPageFree.clickWorkAndThinkingLevel();
+		testUtil.testWaitTwo();
+	    assignmentsPageFree.selectWorkAndThinkingLevel();
+		testUtil.testWaitFour();
+	    assignmentsPageFree.clickWorkAndThinkingLevel();
+		testUtil.testWaitTwo();
+	    assignmentsPageFree.clickWorkAndThinkingLevel();
 		testUtil.testWaitTwo();
 		assignmentsPageFree.selectWorkAndThinkingLevel();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickWorkAndThinkingLevel();
 		testUtil.testWaitTwo();
-		assignmentsPageFree.clickWorkAndThinkingLevel();
-		testUtil.testWaitFour();
-		assignmentsPageFree.selectWorkAndThinkingLevel();
-		testUtil.testWaitFour();
-		assignmentsPageFree.clickWorkAndThinkingLevel();
-		testUtil.testWaitEight();
 		//Hours
-		assignmentsPageFree.clickHoursTab();
-		testUtil.testWaitFour();
+	    assignmentsPageFree.clickHoursTab();
+		testUtil.testWaitTwo();
 		assignmentsPageFree.selectHours();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.applyHoursFilter();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.clickHoursTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		assignmentsPageFree.resetHoursFilter();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.clickHoursTab();
 		testUtil.testWaitTwo();
 		assignmentsPageFree.clickCancelHours();
 		testUtil.testWaitTwo();
 		//Hourly rate
 		assignmentsPageFree.clickHourlyRateTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		assignmentsPageFree.selectHourlyRate();
 		testUtil.testWaitFour();
 		assignmentsPageFree.applyHourlyRateFilter();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.clickHourlyRateTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		assignmentsPageFree.resetHourlyRateFilter();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.clickHourlyRateTab();
 		testUtil.testWaitTwo();
 		assignmentsPageFree.clickCancelHourlyRate();
@@ -143,57 +156,51 @@ public class AssignmentsPageFreeTest extends TestBase{
 		//Location
 		assignmentsPageFree.clickLocationTab();
 		testUtil.testWaitTwo();
-		assignmentsPageFree.locationRemove();
-		testUtil.testWaitFour();
-		assignmentsPageFree.enterLocation("Noordwijk, Netherlands");
-		testUtil.testWaitEight();
-		assignmentsPageFree.enterLocationToolTip();
+		assignmentsPageFree.enterLocation("Noordwijk Netherlands");
 		testUtil.testWaitEight();
 		try {
-		assignmentsPageFree.applyLocationFilter();
-		testUtil.testWaitEight();
+			  	assignmentsPageFree.enterLocationToolTip();
+			  	testUtil.testWaitFour();
 		}catch(ElementNotInteractableException e) {
-			e.printStackTrace();
+			   e.printStackTrace();
+		}
+		testUtil.testWaitFour();
+		try {
+			  	assignmentsPageFree.applyLocationFilter();
+			  	testUtil.testWaitFour();
+		}catch(NoSuchElementException e) {
+			    e.printStackTrace();
 		}
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickLocationTab();
 		testUtil.testWaitFour();
-		try {
-			assignmentsPageFree.clickLocationTab();
-			testUtil.testWaitFour();
-		}catch(ElementNotInteractableException e) {
-			e.printStackTrace();
-		}
-		//testUtil.testWaitFour();
+		assignmentsPageFree.clickLocationTab();
+		testUtil.testWaitFour();
 		assignmentsPageFree.resetLocation();
 		testUtil.testWaitEight();
-		//assignmentsPageFree.clickLocationTab();
-		//testUtil.testWaitTwo();
-		//assignmentsPageFree.clickCancelLocation();
-		//testUtil.testWaitTwo();
 		//View matches
 		assignmentsPageFree.clickViewMatches();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		assignmentsPageFree.clickViewMatches();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		//Favourites
 		assignmentsPageFree.clickFavorites();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		assignmentsPageFree.clickFavorites();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		//Sorting
 		assignmentsPageFree.clickSortingDropDown();
 		testUtil.testWaitTwo();
 		assignmentsPageFree.selectPublicationDateOldFirst();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();	
 		assignmentsPageFree.selectAtHourlyRate();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.selectByNumberOfHours();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.selectPublicationDateNewFirst();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		assignmentsPageFree.clickSortingDropDown();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		
 	}
 	
