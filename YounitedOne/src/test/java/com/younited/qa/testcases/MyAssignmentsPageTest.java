@@ -32,11 +32,11 @@ public class MyAssignmentsPageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil.testWaitFourteen();
-		homePage.clickAcceptAllCookies();
-		testUtil.testWaitEleven();		
+		//homePage.clickAcceptAllCookies();
+		//testUtil.testWaitEleven();		
 		homePage.clickMyAssignmentsLink();
 		testUtil.testWaitEleven();
-		testUtil.testWaitEight();
+		//testUtil.testWaitEight();
 		//checkCommandPage=new CheckCommandPage();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -85,7 +85,7 @@ public class MyAssignmentsPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
