@@ -105,10 +105,10 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="//a[text()='Extra Filters wissen']")
 	WebElement resetFilterSkill;
 			
-	@FindBy(xpath="//*[@id=\"dropdown-skills\"]/div/form/div[4]/a[1]")
+	@FindBy(xpath="//a[@class='link']")
 	WebElement cancelSkill;
 			
-	@FindBy(xpath="//*[@id=\"toggle-saved\"]/button")
+	@FindBy(xpath="//div[@id='toggle-saved']")
 	WebElement stored;
 			
 	@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div/select")

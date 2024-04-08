@@ -130,11 +130,11 @@ public class MatchPageTest extends TestBase{
 		matchPage.clickResetFilterSkill();
 		testUtil.testWaitEight();
 		matchPage.clickSkillTab();
-		testUtil.testWaitTwo();
-		matchPage.clickSkillTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
+		//matchPage.clickSkillTab();
+		//testUtil.testWaitFour();
 		matchPage.clickCancelSkill();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Stored
 		matchPage.clickStored();
 		testUtil.testWaitEight();
