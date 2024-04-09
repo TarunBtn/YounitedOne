@@ -42,9 +42,8 @@ public class CompleteAssignmentTest extends TestBase{
 		//homePage.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();		
 		homePage.clickMyAssignmentsLink();
-		testUtil.testWaitEleven();
-		testUtil.testWaitEight();
-		testUtil.testWaitFour();
+		testUtil.testWaitFourteen();
+		//testUtil.testWaitEight();
 		//addCommandPage=myAssignmentsPage.clickAddNewCommand();
 		myAssignmentsPage.clickAddNewCommand();
 		testUtil.testWaitEight();
