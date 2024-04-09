@@ -145,7 +145,7 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitFour();		
 		//Select end date
 		completeAssignment.clickEndDateDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//completeAssignment.selectEndYear();
 		//testUtil.testWaitTwo();
 		//completeAssignment.selectEndYear();
