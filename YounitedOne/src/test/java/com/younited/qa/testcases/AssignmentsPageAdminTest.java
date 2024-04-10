@@ -37,7 +37,7 @@ public class AssignmentsPageAdminTest extends TestBase{
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickAssignmentsTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 							
 	}
 	
