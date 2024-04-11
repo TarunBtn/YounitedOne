@@ -12,7 +12,7 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[1]/a")
 		WebElement dashboard;
 			
-		@FindBy(xpath="//a[@href='/opdrachten']")
+		@FindBy(xpath="//span[@class='d-flex']")
 		WebElement assignmentsLink;
 			
 		@FindBy(xpath="//button[@data-cookiefirst-button='primary']")
@@ -27,7 +27,7 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[2]/ul[1]/li[3]/a/ul/li[2]/a")
 		WebElement storeTooltip;
 		
-		@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[4]/a")
+		@FindBy(xpath="//a[@href='/community']")
 		WebElement communityTab;
 		
 		@FindBy(xpath="//a[@href='/community-volgers']")
@@ -36,10 +36,10 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//a[@href='/bedrijven']")
 		WebElement BusinessesTab;
 		
-		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/button/img")
+		@FindBy(xpath="//img[@class='profile-img']")
 		WebElement userLogo;
 		
-		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[1]/a")
+		@FindBy(xpath="//a[@href='/mijn-profiel']")
 		WebElement manageProfile;
 		
 		@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/a/img[1]")
