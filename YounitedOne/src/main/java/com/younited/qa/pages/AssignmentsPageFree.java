@@ -12,22 +12,22 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(id="assignment-search")
 		WebElement enterValue;
 			
-		@FindBy(xpath="/html/body/div[1]/main/div/nav/div[1]/div[1]/div[2]/a[1]/div[2]/div/div[1]/span/span")
+		@FindBy(xpath="//span[@class='d-flex']//span[contains(text(),'QA EngineerEight')]")
 		WebElement selectValue;
 			
-		@FindBy(xpath="//*[@id=\"filter\"]/div[1]/div[2]/span")
+		@FindBy(xpath="//span[@class='material-icons clear-icon']")
 		WebElement clearFilter;
 		
 		@FindBy(id="dropdown-sector")
 		WebElement sector;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-sector\"]/div/form/div[3]/label")
+		@FindBy(xpath="//label[@for='Agrarisch / Visserij']")
 		WebElement selectSector;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-vakgebied\"]/button")
+		@FindBy(xpath="//div[@id='dropdown-vakgebied']//button[@type='button']")
 		WebElement discipline;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-vakgebied\"]/div/form/div[8]/label")
+		@FindBy(xpath="//label[@for='vakgebied_Engineering']")
 		WebElement selectDescipline;
 			
 		@FindBy(id="dropdown-skills-btn")
@@ -36,10 +36,10 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(xpath="//input[@placeholder='Zoek een vaardigheid']")
 		WebElement enterSkill;
 			
-		@FindBy(xpath="/html/body/div[1]/main/div/nav/div[2]/div/div[1]/div[3]/div/form/div[1]/div[1]/div/div[2]/a/div[2]")
+		@FindBy(xpath="//strong[normalize-space()='Postman']")
 		WebElement selectSkillToolTip;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-skills\"]/div/form/div[5]/button")
+		@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//button[@type='button'][normalize-space()='Filters toepassen']")
 		WebElement applySkillFilter;
 			
 		@FindBy(linkText="Filters wissen")
@@ -48,22 +48,22 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(linkText="Annuleren")
 		WebElement cancelSkill;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-assignment-type\"]/button")
+		@FindBy(xpath="//div[@id='dropdown-assignment-type']//button[@type='button']")
 		WebElement duration;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-assignment-type\"]/div/form/div[3]/label")
+		@FindBy(xpath="//label[@for='3 tot 6 maanden']")
 		WebElement selectDuration;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-werkendenkniveau\"]/button")
+		@FindBy(xpath="//div[@id='dropdown-werkendenkniveau']//button[@type='button']")
 		WebElement workAndThinkingLevel;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-werkendenkniveau\"]/div/form/div[4]/label")
+		@FindBy(xpath="//label[@for='HAVO']")
 		WebElement selectWorkAndThinkingLevel;
 			
 		@FindBy(id="dropdown-uren-btn")
 		WebElement hours;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-uren\"]/div/form/div[1]/div/div[2]/div[2]/div[1]")
+		@FindBy(xpath="//div[@id='dropdown-uren']//div[@class='vue-slider-marks']//div[2]//div[1]")
 		WebElement selectHours;
 			
 		@FindBy(id="dropdown-uren-apply")
@@ -78,7 +78,7 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(id="dropdown-uurtarief-btn")
 		WebElement hourlyRate;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-uurtarief\"]/div/form/div[1]/div/div[2]/div[4]/div[1]")
+		@FindBy(xpath="//div[@id='dropdown-uurtarief']//div[@class='vue-slider-marks']//div[4]//div[1]")
 		WebElement selectHourlyRate;
 			
 		@FindBy(id="dropdown-uurtarief-apply")
@@ -90,11 +90,14 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(id="dropdown-uurtarief-cancel")
 		WebElement cancelHourlyRate;
 		
-		@FindBy(xpath="//*[@id=\"custom-location-and-distance-location\"]/span")
+		@FindBy(xpath="//button[@id='dropdown-location']")
 		WebElement location;
 			
-		@FindBy(xpath="//*[@id=\"dropdown-location-and-distance\"]/div/form/div[1]/div[2]/input")
+		@FindBy(xpath="//input[@id='map']")
 		WebElement enterLocation;
+		
+		@FindBy(xpath="//div[@class='dropdown-menu show']//div[@class='dropdown-divider']")
+		WebElement enterLocationToolTip;
 			
 		@FindBy(xpath="//button[@id='dropdown-location-and-distance-apply']")
 		WebElement applyLocationFilter;
@@ -264,7 +267,8 @@ public class AssignmentsPageFree extends TestBase{
 		}
 		
 		public void enterLocationToolTip() {
-			enterLocation.sendKeys(Keys.TAB);
+			//enterLocation.sendKeys(Keys.TAB);
+			enterLocationToolTip.click();
 		}
 			
 		public void applyLocationFilter() {
