@@ -82,9 +82,11 @@ public class EntrepreneursPageFreeTest extends TestBase{
 		entrepreneursPageFree.clickSkillsTab();
 		testUtil.testWaitTwo();
 		entrepreneursPageFree.clickApplyFilter();
+		testUtil.testWaitEight();
+		entrepreneursPageFree.clickSkillsTab();
 		testUtil.testWaitFour();
 		entrepreneursPageFree.clickResetFilter();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		entrepreneursPageFree.clickSortingDropDown();
 		testUtil.testWaitTwo();
 		entrepreneursPageFree.selectSortingZtoA();
@@ -92,7 +94,7 @@ public class EntrepreneursPageFreeTest extends TestBase{
 		entrepreneursPageFree.selectSortingAtoZ();
 		testUtil.testWaitFour();
 		entrepreneursPageFree.clickSortingDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		
 	}
 	

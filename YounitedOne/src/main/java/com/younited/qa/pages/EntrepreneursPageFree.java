@@ -9,28 +9,28 @@ import com.younited.qa.base.TestBase;
 
 public class EntrepreneursPageFree extends TestBase{
 	//Page factory OR Object Repository
-		@FindBy(xpath="//*[@id=\"filter-search-input\"]")
+		@FindBy(xpath="//input[@id='filter-search-input']")
 		WebElement findEntrepreneur;
 		
-		@FindBy(xpath="//*[@id=\"filter\"]/div[1]/div/span")
+		@FindBy(xpath="//span[@class='material-icons clear-icon']")
 		WebElement clickCancel;
 		
-		@FindBy(xpath="//*[@id=\"dropdown-werkdenkniveau\"]/button")
+		@FindBy(xpath="//div[@id='dropdown-werkdenkniveau']//button[@type='button']")
 		WebElement workingThinkingLevel;
 		
-		@FindBy(xpath="//*[@id=\"dropdown-werkdenkniveau\"]/div/form/div[4]/label")
+		@FindBy(xpath="//label[@for='HAVO']")
 		WebElement selectWorkingThinkingLevel;
 		
-		@FindBy(xpath="//*[@id=\"dropdown-vakgebied\"]/button")
+		@FindBy(xpath="//div[@id='dropdown-vakgebied']//button[@type='button']")
 		WebElement descipline;
 		
-		@FindBy(xpath="//*[@id=\"dropdown-vakgebied\"]/div/form/div[7]/label")
+		@FindBy(xpath="//label[@for='Engineering']")
 		WebElement selectDescipline;
 		
-		@FindBy(xpath="//*[@id=\"dropdown-interessegebied\"]/button")
+		@FindBy(xpath="//div[@id='dropdown-interessegebied']//button[@type='button']")
 		WebElement areaOfInterest;
 		
-		@FindBy(xpath="//*[@id=\"dropdown-interessegebied\"]/div/form/div[8]/label")
+		@FindBy(xpath="//label[@for='interessegebied_Sales']")
 		WebElement selectAreaOfInterest;
 		
 		@FindBy(xpath="//*[@id=\"dropdown-skills-btn\"]")
@@ -45,10 +45,10 @@ public class EntrepreneursPageFree extends TestBase{
 		@FindBy(xpath="/html/body/div[1]/main/div/nav/div[2]/div/div[4]/div/form/div[1]/div/div/div[2]/a/div[2]/span/span")
 		WebElement selectSkillToolTip;
 		
-		@FindBy(xpath="//*[@id=\"dropdown-skills\"]/div/form/div[4]/button")
+		@FindBy(xpath="//button[normalize-space()='Filters toepassen']")
 		WebElement clickApplyFilter;
 		
-		@FindBy(xpath="//*[@id=\"dropdown-skills\"]/div/form/div[4]/a[2]")
+		@FindBy(xpath="//a[normalize-space()='Filters wissen']")
 		WebElement clickResetFilter;
 		
 		@FindBy(xpath="//*[@id=\"assignment-sorting\"]/div/select")

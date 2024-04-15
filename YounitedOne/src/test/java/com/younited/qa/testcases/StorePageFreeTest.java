@@ -28,13 +28,13 @@ public class StorePageFreeTest extends TestBase{
 		testUtil=new TestUtil();
 		storePageFree=new StorePageFree();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		//homePageFree.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageFree.clickNetworkTab();
 		testUtil.testWaitFour();
 		homePageFree.clickStoreTooltip();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		
 		
 	}
