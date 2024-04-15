@@ -27,13 +27,13 @@ public class BusinessesPageFreeTest extends TestBase{
 		businessesPageFree=new BusinessesPageFree();
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		//homePageFree.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		//homePageFree.suitableAssignments();
 		//testUtil.testWaitFour();
 		homePageFree.clickBusinessesTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 				
 	}
 	
@@ -70,7 +70,7 @@ public class BusinessesPageFreeTest extends TestBase{
 		businessesPageFree.sortingAtoZ();
 		testUtil.testWaitFour();
 		businessesPageFree.clickSortingDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		
 	}
 	

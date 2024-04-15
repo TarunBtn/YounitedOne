@@ -33,7 +33,7 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//a[@href='/community-volgers']")
 		WebElement entrepreneurTab;
 		
-		@FindBy(xpath="//a[@href='/bedrijven']")
+		@FindBy(xpath="//a[normalize-space()='Bedrijven']")
 		WebElement BusinessesTab;
 		
 		@FindBy(xpath="//img[@class='profile-img']")
@@ -95,8 +95,9 @@ public class HomePageFree extends TestBase{
 			return new EntrepreneursPageFree();
 		}
 		
-		public void clickBusinessesTab() {
+		public BusinessesPageFree clickBusinessesTab() {
 			BusinessesTab.click();
+			return new BusinessesPageFree();
 		}
 		
 		public void clickUserLogo() {
