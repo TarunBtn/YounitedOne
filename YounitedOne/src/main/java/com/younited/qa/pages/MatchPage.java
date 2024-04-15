@@ -8,13 +8,13 @@ import com.younited.qa.base.TestBase;
 
 public class MatchPage extends TestBase{
 	//Page factory or Object repository
-	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[1]")
+	@FindBy(xpath="//div[@class='multiselect__select']")
 	WebElement assignmentFilterDropdown;
 	
-	@FindBy(xpath="//*[@id=\"assignments-2\"]/span/span")
+	@FindBy(xpath="//span[@class='multiselect__option--highlight multiselect__option']")
 	WebElement selectAssignmentFilter;
 	
-	@FindBy(xpath="//*[@id=\"filter\"]/div[1]/div/span")
+	@FindBy(xpath="//span[@class='material-icons reset_assignment md-18']")
 	WebElement clickCancelAssignmentFilter;
 	
 	//For MatchPageAdminTest side
@@ -84,13 +84,13 @@ public class MatchPage extends TestBase{
 	@FindBy(id="dropdown-uren-cancel")
 	WebElement cancelHours;
 			
-	@FindBy(xpath="//*[@id=\"dropdown-vakgebied\"]/button")
+	@FindBy(xpath="//div[@id='dropdown-vakgebied']//button[@type='button']")
 	WebElement descipline;
 			
-	@FindBy(xpath="//*[@id=\"dropdown-vakgebied\"]/div/form/div[8]/label")
+	@FindBy(xpath="//label[@for='Engineering']")
 	WebElement selectDescipline;
 			
-	@FindBy(xpath="//*[@id=\"dropdown-skills-btn\"]")
+	@FindBy(xpath="//button[@id='dropdown-skills-btn']")
 	WebElement skill;
 			
 	@FindBy(xpath="//input[@class='simple-typeahead-input']")
@@ -99,13 +99,13 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="/html/body")
 	WebElement selectTooltipSkill;
 			
-	@FindBy(xpath="//*[@id=\"dropdown-skills\"]/div/form/div[4]/button")
+	@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//button[@type='button'][normalize-space()='Filters toepassen']")
 	WebElement applyFilterSkill;
 			
-	@FindBy(xpath="//a[text()='Extra Filters wissen']")
+	@FindBy(xpath="//a[normalize-space()='Extra Filters wissen']")
 	WebElement resetFilterSkill;
 			
-	@FindBy(xpath="//a[@class='link']")
+	@FindBy(xpath="//a[normalize-space()='Annuleren']")
 	WebElement cancelSkill;
 			
 	@FindBy(xpath="//div[@id='toggle-saved']")

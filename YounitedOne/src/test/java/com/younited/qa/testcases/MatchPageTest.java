@@ -125,7 +125,7 @@ public class MatchPageTest extends TestBase{
 		}catch(ElementClickInterceptedException e) {
 			e.printStackTrace();
 		}
-		//matchPage.clickSkillTab();
+		matchPage.clickSkillTab();
 		testUtil.testWaitFour();
 		matchPage.clickResetFilterSkill();
 		testUtil.testWaitEight();
