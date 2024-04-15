@@ -12,7 +12,7 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//span[@class='d-flex']")
 	WebElement assignmentsTab;
 				
-	@FindBy(xpath="//a[@href='/community']")
+	@FindBy(xpath="//a[normalize-space()='Community']")
 	WebElement communityTab;
 				
 	@FindBy(xpath="//a[@href='/ondernemer']")
