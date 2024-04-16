@@ -9,7 +9,7 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoMyprofilePage extends TestBase{
 	//Pagefactory OR Object Repository
-	        @FindBy(xpath="//*[@id=\"page-header\"]/div[2]/div/div[2]/div/div[3]/div[2]/button")
+	        @FindBy(xpath="//button[@class='btn btn-gold ml-4']")
 	        WebElement editYourProfile;
 	
 			@FindBy(xpath="//*[@id=\"navigation\"]/div/div/nav/a[1]")

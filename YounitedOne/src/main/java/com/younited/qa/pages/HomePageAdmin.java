@@ -24,7 +24,7 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//img[@class='profile-img']")
 	WebElement userLogo;
 			
-	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div/ul/li[4]/div/div/div/div[2]/ul/span[11]/li[1]/a")
+	@FindBy(xpath="//a[normalize-space()='Mijn dashboard']")
 	WebElement myDashboard;
 			
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[3]/a")
@@ -57,7 +57,7 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//a[@href='/mijn-bedrijven/']")
 	WebElement myCompanyTab;
 			
-	@FindBy(xpath="//a[@href='/mijn-reacties/']")
+	@FindBy(xpath="//a[normalize-space()='Mijn reacties']")
 	WebElement myReactionsTab;
 			
 	@FindBy(xpath="//a[normalize-space()='Gebruikersbeheer']")
@@ -72,10 +72,10 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//a[@href='/alleopdrachten/']")
 	WebElement allAssignments;
 			
-	@FindBy(xpath="//a[@href='/profielstatistieken']")
+	@FindBy(xpath="//a[normalize-space()='Profielstatistieken']")
 	WebElement profileStatistics;
 			
-	@FindBy(xpath="//a[@href='/netive-opdrachten']")
+	@FindBy(xpath="//a[normalize-space()='Netive Opdrachten overzicht']")
 	WebElement nativeAssignmentsTab;
 	
 		
