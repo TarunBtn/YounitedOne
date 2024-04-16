@@ -42,10 +42,10 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"sidebar-right\"]/div/div/div/a[3]")
 	WebElement myNotificationsTab;
 			
-	@FindBy(xpath="//a[@href='/mijn-profiel']")
+	@FindBy(xpath="//a[@class='manage-profile-button']")
 	WebElement myProfileTab;
 			
-	@FindBy(xpath="//a[@href='/mijn-opdrachten/']")
+	@FindBy(xpath="//a[normalize-space()='Mijn opdrachten']")
 	WebElement myAssignmentsTab;
 			
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/button/img")
@@ -54,7 +54,7 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[1]/ul/li[4]/div/div/div/div[1]/img")
 	WebElement userLogoPhoto;
 			
-	@FindBy(xpath="//a[@href='/mijn-bedrijven/']")
+	@FindBy(xpath="//a[normalize-space()='Mijn bedrijf/bedrijven']")
 	WebElement myCompanyTab;
 			
 	@FindBy(xpath="//a[normalize-space()='Mijn reacties']")
@@ -63,13 +63,13 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//a[normalize-space()='Gebruikersbeheer']")
 	WebElement userManagementTab;
 			
-	@FindBy(xpath="//a[@href='/alle-bedrijven']")
+	@FindBy(xpath="//a[normalize-space()='Alle bedrijven']")
 	WebElement allCompanies;
 			
 	@FindBy(xpath="//a[@href='/netive-bedrijven']")
 	WebElement nativeCompany;
 			
-	@FindBy(xpath="//a[@href='/alleopdrachten/']")
+	@FindBy(xpath="//a[normalize-space()='Alle opdrachten']")
 	WebElement allAssignments;
 			
 	@FindBy(xpath="//a[normalize-space()='Profielstatistieken']")
