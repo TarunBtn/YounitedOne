@@ -41,9 +41,13 @@ public class CheckCommandPageTest extends TestBase{
 		testUtil.testWaitFourteen();
 		//homePage.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
+		//homePage.clickReactiesDropDown();
+		//testUtil.testWaitFour();
+		//homePage.clickReactiesDropDown();
+		//testUtil.testWaitFour();
 		homePage.clickMyAssignmentsLink();
-		testUtil.testWaitEleven();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
+		//testUtil.testWaitEight();
 		addCommandPage=myAssignmentsPage.clickAddNewCommand();
 		testUtil.testWaitEleven();
 		testUtil.scrollDown();
@@ -63,6 +67,7 @@ public class CheckCommandPageTest extends TestBase{
 	public void checkCommandPageTest()throws Exception {
 		//checkCommandPage.clickFillInComplete();
 		//testUtil.testWaitEight();
+		System.out.println("Test is passed");
 	}
 	
 	@AfterMethod

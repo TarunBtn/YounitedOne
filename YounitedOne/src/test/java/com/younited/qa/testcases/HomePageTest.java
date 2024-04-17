@@ -55,7 +55,8 @@ public class HomePageTest extends TestBase{
 	
 	@Test(priority=3)
 	public void myAssignmentsPage()throws Exception {
-		myAssignmentsPage=homePage.clickMyAssignmentsLink();
+		//myAssignmentsPage=homePage.clickMyAssignmentsLink();
+		homePage.clickMyAssignmentsLink();
 		testUtil.testWaitFourteen();
 		//testUtil.testWaitEight();
 	}

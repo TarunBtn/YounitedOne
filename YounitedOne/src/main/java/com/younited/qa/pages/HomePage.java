@@ -11,8 +11,11 @@ public class HomePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div[2]/a/img")
 			WebElement userNameLabel;
 				
-			@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/a/img[1]")
+			@FindBy(xpath="//img[@class='d-none d-lg-block']")
 			WebElement imageLogo;
+			
+			@FindBy(xpath="//div[@class='multiselect__select']")
+			WebElement reactiesDropDown;
 				
 			@FindBy(xpath="//a[@class='nav-link'][normalize-space()='Mijn opdrachten']")
 			WebElement myAssignmentsLink;
@@ -39,15 +42,19 @@ public class HomePage extends TestBase{
 			public boolean verifyImageLogo() {
 				return imageLogo.isDisplayed();
 			}
+			
+			public void clickReactiesDropDown() {
+				reactiesDropDown.click();
+			}
 				
 			public MatchPage clickMatchLink() {
 				matchLink.click();
 				return new MatchPage();
 			}
 				
-			public MyAssignmentsPage clickMyAssignmentsLink() {
+			public void clickMyAssignmentsLink() {
 				myAssignmentsLink.click();
-				return new MyAssignmentsPage();
+				//return new MyAssignmentsPage();
 			}
 				
 			public void clickAcceptAllCookies() {
