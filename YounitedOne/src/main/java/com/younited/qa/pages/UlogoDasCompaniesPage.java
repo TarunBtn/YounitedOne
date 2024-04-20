@@ -7,8 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.younited.qa.base.TestBase;
 
-public class UlogoDasCompaniesPage extends TestBase{
-	
+public class UlogoDasCompaniesPage extends TestBase{	
 	//PageFactory OR Object Repository
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[1]/a")
 	WebElement addNewCompany;

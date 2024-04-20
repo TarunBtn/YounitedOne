@@ -13,7 +13,6 @@
       <class name="com.younited.qa.testcases.AssignmentsPageFreeTest"/>
       <class name="com.younited.qa.testcases.MyNetworkPageFreeTest"/> 
       <class name="com.younited.qa.testcases.StorePageFreeTest"/>
- 
       <class name="com.younited.qa.testcases.EntrepreneursPageFreeTest"/>
       <class name="com.younited.qa.testcases.BusinessesPageFreeTest"/>
       <class name="com.younited.qa.testcases.AssignmentsPageAdminTest"/>
