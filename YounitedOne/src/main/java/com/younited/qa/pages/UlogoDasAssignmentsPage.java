@@ -7,7 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 import com.younited.qa.base.TestBase;
 
 public class UlogoDasAssignmentsPage extends TestBase{
-	
 	//Page factory OR Object Repository
 	@FindBy(xpath="//input[@placeholder='Type om te zoeken op Opdrachtnaam']")
 	WebElement searchByAssignment;
