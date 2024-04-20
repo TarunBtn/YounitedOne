@@ -60,6 +60,4 @@ public class UlogoDasPlatformPage extends TestBase{
 		searchByName.clear();
 	}
 	
-	
-	
 }
