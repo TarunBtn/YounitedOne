@@ -60,7 +60,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(id="bedrijf")
 			WebElement company;
 					
-			@FindBy(id="type")
+			@FindBy(xpath="//select[@class='form-control custom-select']")
 			WebElement type;
 					
 			@FindBy(xpath="//*[@id=\"type\"]/option[2]")
@@ -126,7 +126,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(id="studierichting")
 			WebElement fieldOfStudy;
 			
-			@FindBy(id="opleidingsniveau")
+			@FindBy(xpath="//select[@id='opleidingsniveau']")
 			WebElement educationLevel;
 			
 			@FindBy(xpath="//*[@id=\"opleidingsniveau\"]/option[5]")
@@ -180,7 +180,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"remove\"]/div/div/div[3]/button[1]")
 			WebElement confirmDeleteCourse;
 			
-			@FindBy(xpath="//a[@title='Instellingen']")
+			@FindBy(xpath="//a[@class='router-link-active router-link-exact-active nav-link inverted-radius active']")
 			WebElement institutions;
 					
 			//Initialization

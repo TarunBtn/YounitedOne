@@ -38,9 +38,9 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//homePageFree.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageFree.clickUserLogo();		
-		testUtil.testWaitFour();	
+		testUtil.testWaitEight();	
 		homePageFree.clickManageProfileTab();
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		//testUtil.testWaitEight();
 		//homePageFree.mouseHoverToLogoImage();
 		//testUtil.testWaitEight();
@@ -178,8 +178,8 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickAddWorkExperience();
 		testUtil.testWaitFour();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.enterFunction("DBA");
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterCompany("TCS");
@@ -269,13 +269,13 @@ public class ManageProfilePageFreeTest extends TestBase{
 		uLogoMyprofilePage.clickEducationsTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickAddEducations();
 		testUtil.testWaitFour();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
-		uLogoMyprofilePage.enterFieldOfStudy("Computer Science");
+		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		uLogoMyprofilePage.enterFieldOfStudy("Computer Science");
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickEducationLevel();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.selectEducationLevel();
@@ -310,13 +310,13 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();*/
 		//Courses
 		uLogoMyprofilePage.clickCoursesTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickAddCourse();
 		testUtil.testWaitFour();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.enterCourse("Data Security");
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterDescriptionCourse("This is test data");
@@ -366,7 +366,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
