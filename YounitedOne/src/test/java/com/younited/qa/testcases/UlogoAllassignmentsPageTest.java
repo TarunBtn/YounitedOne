@@ -47,15 +47,11 @@ public class UlogoAllassignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
-		uLogoAllassignmentsPage.clickExactSearch();
-		testUtil.testWaitFour();
-		uLogoAllassignmentsPage.clickExactSearch();
-		testUtil.testWaitFour();
+		//uLogoAllassignmentsPage.clickExactSearch();
+		//testUtil.testWaitFour();
+		//uLogoAllassignmentsPage.clickExactSearch();
+		//testUtil.testWaitFour();
 		uLogoAllassignmentsPage.clickResetCompany();
-		testUtil.testWaitFour();
-		uLogoAllassignmentsPage.clickFilterDropDown();
-		testUtil.testWaitTwo();
-		uLogoAllassignmentsPage.selectFilterDropDown();
 		testUtil.testWaitEight();
 		uLogoAllassignmentsPage.clickStatusDropDown();
 		testUtil.testWaitFour();
@@ -65,7 +61,16 @@ public class UlogoAllassignmentsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
-			
+		uLogoAllassignmentsPage.clickStatusDropDown();
+		testUtil.testWaitFour();
+		uLogoAllassignmentsPage.clickResetStatusDropDown();
+		testUtil.testWaitEight();
+		uLogoAllassignmentsPage.clickFilterDropDown();
+		testUtil.testWaitTwo();
+		uLogoAllassignmentsPage.selectFilterDropDown();
+		testUtil.testWaitEight();
+		//uLogoAllassignmentsPage.clickFilterDropDown();
+				
 	}
 	
 	@AfterMethod

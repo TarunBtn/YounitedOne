@@ -17,18 +17,20 @@ public class UlogoAllassignmentsPage extends TestBase{
 	@FindBy(xpath="//label[@class='ml-5 pl-3 mt-2']")
 	WebElement exactSearch;
 	
-	@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[2]/div/div[1]/div[3]/div/select")
-	WebElement clickSelectFilterDropDown;
-	
-	@FindBy(xpath="//option[@value='Open']")
-	WebElement selectFilterDropDown;
-	
-	@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[2]/div/div[1]/div[4]/div/select")
+	@FindBy(xpath="//div[3]//div[1]//select[1]")
 	WebElement clickStatusDropDown;
 	
-	@FindBy(xpath="//option[@value='0']")
+	@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[2]")
 	WebElement selectStatus;
 	
+	@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[1]")
+	WebElement resetStatusDropDown;
+	
+	@FindBy(xpath="//div[@class='multiselect__select']")
+	WebElement clickSelectFilterDropDown;
+	
+	@FindBy(xpath="//span[contains(text(),'Sector')]")
+	WebElement selectFilterDropDown;
 	
 	//Initialization
 	public UlogoAllassignmentsPage() {
@@ -48,6 +50,18 @@ public class UlogoAllassignmentsPage extends TestBase{
 		exactSearch.click();
 	}
 	
+	public void clickStatusDropDown() {
+		clickStatusDropDown.click();
+	}
+	
+	public void selectStatusDropDown() {
+		selectStatus.click();
+	}
+	
+	public void clickResetStatusDropDown() {
+		resetStatusDropDown.click();
+	}
+	
 	public void clickFilterDropDown() {
 		clickSelectFilterDropDown.click();
 	}
@@ -56,12 +70,4 @@ public class UlogoAllassignmentsPage extends TestBase{
 		selectFilterDropDown.click();
 	}
 	
-	public void clickStatusDropDown() {
-		clickStatusDropDown.click();
-	}
-	
-	public void selectStatusDropDown() {
-		selectStatus.click();
-	}
-
 }
