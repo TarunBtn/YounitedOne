@@ -6,8 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.younited.qa.base.TestBase;
 
-public class UlogoDasGroupsPage extends TestBase{
-	
+public class UlogoDasGroupsPage extends TestBase{	
 	//Pagefactory OR Object Repository
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div[1]/div[1]/a")
 	WebElement addNewDasGroup;
@@ -27,7 +26,7 @@ public class UlogoDasGroupsPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/form/div[4]/div/button")
 	WebElement saveBtnDasGroup;
 	
-	@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/form/div[4]/div/a")
+	@FindBy(xpath="//a[@class='btn btn-primary-outline']")
 	WebElement cancelDasGroup;
 	
 	@FindBy(xpath="//*[@id=\"filter-input\"]")
@@ -77,8 +76,6 @@ public class UlogoDasGroupsPage extends TestBase{
 	public void clickResetDasGroup() {
 		resetSearch.click();
 	}
-	
-	
 	
 
 }

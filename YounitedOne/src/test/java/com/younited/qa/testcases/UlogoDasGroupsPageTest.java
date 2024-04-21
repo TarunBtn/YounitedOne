@@ -49,7 +49,7 @@ public class UlogoDasGroupsPageTest extends TestBase{
 		uLogoDasGroupPage.enterNameDasGroupPage("Green Group");
 		testUtil.testWaitTwo();
 		uLogoDasGroupPage.enterOrderDasGroupPage("15");
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		uLogoDasGroupPage.clickCancelBtnDasGroupPage();
