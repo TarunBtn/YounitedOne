@@ -24,13 +24,13 @@ public class UlogoDasCompaniesPage extends TestBase{
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/section/div/div/form/div[1]/div[2]/div/div[2]/a[3]/div[2]/span/span")
 	WebElement companyNameToolTip;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[7]/div[2]/div/div/div[1]")
+	@FindBy(xpath="//div[@class='multiselect__select']")
 	WebElement sectorDropDown;
 	
-	@FindBy(xpath="//*[@id=\"sector-2\"]/span/span")
+	@FindBy(xpath="//span[contains(text(),'Agrarisch / Visserij')]")
 	WebElement selectSectorDropDown;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/a")
+	@FindBy(xpath="//a[@title='Annuleren']")
 	WebElement clickCancel;
 	
 	

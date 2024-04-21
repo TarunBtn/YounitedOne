@@ -64,6 +64,8 @@ public class UlogoDasCompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
 		uLogoDasCompaniesPage.clickCancelBtn();
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
