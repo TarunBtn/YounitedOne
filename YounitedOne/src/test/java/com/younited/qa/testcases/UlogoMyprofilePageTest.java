@@ -31,7 +31,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 		homePageAdmin.clickMyProfileTab();
 		testUtil.testWaitEight();
 		//homePageAdmin.moveHoverTologoImage();

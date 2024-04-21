@@ -28,7 +28,7 @@ public class StorePageFreeTest extends TestBase{
 		testUtil=new TestUtil();
 		storePageFree=new StorePageFree();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		//homePageFree.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageFree.clickNetworkTab();

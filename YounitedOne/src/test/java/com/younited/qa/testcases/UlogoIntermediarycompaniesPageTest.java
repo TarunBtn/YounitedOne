@@ -34,7 +34,7 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		homePageAdmin.clickAcceptAllCookies();
 		testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//homePageAdmin.clickUserLogoPhoto();
 		//testUtil.testWaitFour();
 		//testUtil.scrollDown();

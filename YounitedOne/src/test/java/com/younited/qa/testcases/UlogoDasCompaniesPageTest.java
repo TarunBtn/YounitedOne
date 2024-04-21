@@ -32,7 +32,7 @@ public class UlogoDasCompaniesPageTest extends TestBase{
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		homePageAdmin.clickDasCompaniesTab();
 		testUtil.testWaitFour();
 			
