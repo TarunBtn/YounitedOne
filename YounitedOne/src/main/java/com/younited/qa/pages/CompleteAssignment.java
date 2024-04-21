@@ -22,10 +22,10 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
 		WebElement sectorSelect;
 		
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[7]/div[2]/div/div/div[1]")
+		@FindBy(xpath="//div[@data-vv-as='Vakgebied']//div[@class='multiselect__select']")
 		WebElement disciplineDropDown;
 		
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[7]/div[2]/div/div/div[3]/ul/li[7]/span/span")
+		@FindBy(xpath="//span[contains(text(),'Engineering')]")
 		WebElement selectDescipline;
 		
 		@FindBy(id="werklocatie")
@@ -43,7 +43,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="/html/body/div[8]/div[1]/div/div/div/div[2]/div[3]/div/div[2]/div")
 		WebElement useThisTextOne;
 		
-		@FindBy(xpath="//*[@id=\"opdracht.startdatumopdracht\"]/div/div/input")
+		@FindBy(xpath="//div[@id='opdracht.startdatumopdracht']//div//div[@class='dp__input_wrap']//div//*[name()='svg']")
 		WebElement clickStartDateDropDown;
 		
 		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[1]/button[4]/i")
