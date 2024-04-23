@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.younited.qa.util.TestUtil;
 
@@ -36,10 +37,12 @@ public class TestBase {
 		if(browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
 			Driver=new ChromeDriver();
+			
 		}else if(browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
 			Driver=new FirefoxDriver();
 		}
+		
 		
 		/*ChromeOptions options = new ChromeOptions();
          //options.setHeadless(true);
