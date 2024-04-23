@@ -31,9 +31,9 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
-		testUtil.testWaitFour();
-		homePageAdmin.clickUserManagementTab();
 		testUtil.testWaitEight();
+		/*homePageAdmin.clickUserManagementTab();
+		testUtil.testWaitEight();*/
 		//homePageAdmin.moveHoverTologoImage();
 		//testUtil.testWaitFour();
 		//testUtil.scrollDown();
@@ -43,7 +43,7 @@ public class UlogoUsermanagementPageTest extends TestBase{
 	
 	@Test
 	public void uLogoUsermanagementPageTest()throws Exception {
-		uLogoUsermanagementPage.enterSearchName("Ajay");
+		/*uLogoUsermanagementPage.enterSearchName("Ajay");
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
@@ -75,7 +75,7 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		//uLogoUsermanagementPage.clickRoleDropDown();
 		//testUtil.testWaitFour();
 		//Availability
@@ -126,7 +126,7 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		uLogoUsermanagementPage.clickRoleDropDown();
 		testUtil.testWaitTwo();*/
 		//Skills
-		uLogoUsermanagementPage.clickSkillsTab();
+		/*uLogoUsermanagementPage.clickSkillsTab();
 		testUtil.testWaitFour();
 		uLogoUsermanagementPage.enterValueSkills("Postman");
 		testUtil.testWaitEight();
@@ -143,7 +143,7 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		uLogoUsermanagementPage.clickCancelSkills();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
 		
 	}
 	

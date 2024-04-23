@@ -32,7 +32,7 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		homePageAdmin.clickNativeAssignmentsTab();
 		testUtil.testWaitEight();
 		
