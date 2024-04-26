@@ -2,23 +2,46 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-23T18:53:02 IST" name="Default suite" finished-at="2024-04-23T18:53:43 IST" duration-ms="41532">
+  <suite started-at="2024-04-26T14:22:09 IST" name="Default suite" finished-at="2024-04-26T14:22:33 IST" duration-ms="23920">
     <groups>
     </groups>
-    <test started-at="2024-04-23T18:53:02 IST" name="Default test" finished-at="2024-04-23T18:53:43 IST" duration-ms="41532">
-      <class name="com.younited.qa.testcases.UlogoProfilestatisticsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoProfilestatisticsPageTest@73e9cf30]" started-at="2024-04-23T18:53:02 IST" name="setUp" finished-at="2024-04-23T18:53:43 IST" duration-ms="41479" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+    <test started-at="2024-04-26T14:22:09 IST" name="Default test" finished-at="2024-04-26T14:22:33 IST" duration-ms="23920">
+      <class name="com.younited.qa.testcases.MycompanyPageFreeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MycompanyPageFreeTest@273e7444]" started-at="2024-04-26T14:22:09 IST" name="setUp" finished-at="2024-04-26T14:22:33 IST" duration-ms="23877" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 19.054
+  (Session info: chrome=124.0.6367.62)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14550ddf1636bb2a5b058831b10164fc, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55387/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14550ddf1636bb2a5b058831b10164fc]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-at com.younited.qa.testcases.UlogoProfilestatisticsPageTest.setUp(UlogoProfilestatisticsPageTest.java:46)
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.054
+  (Session info: chrome=124.0.6367.62)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14550ddf1636bb2a5b058831b10164fc, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55387/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14550ddf1636bb2a5b058831b10164fc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+at com.younited.qa.base.TestBase.initialization(TestBase.java:62)
+at com.younited.qa.testcases.MycompanyPageFreeTest.setUp(MycompanyPageFreeTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -53,22 +76,45 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UlogoProfilestatisticsPage()[pri:0, instance:com.younited.qa.testcases.UlogoProfilestatisticsPageTest@73e9cf30]" started-at="2024-04-23T18:53:43 IST" name="UlogoProfilestatisticsPage" finished-at="2024-04-23T18:53:43 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="myCompanyPageFreeTest()[pri:0, instance:com.younited.qa.testcases.MycompanyPageFreeTest@273e7444]" started-at="2024-04-26T14:22:33 IST" name="myCompanyPageFreeTest" finished-at="2024-04-26T14:22:33 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 19.054
+  (Session info: chrome=124.0.6367.62)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14550ddf1636bb2a5b058831b10164fc, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55387/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14550ddf1636bb2a5b058831b10164fc]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-at com.younited.qa.testcases.UlogoProfilestatisticsPageTest.setUp(UlogoProfilestatisticsPageTest.java:46)
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.054
+  (Session info: chrome=124.0.6367.62)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14550ddf1636bb2a5b058831b10164fc, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55387/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14550ddf1636bb2a5b058831b10164fc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+at com.younited.qa.base.TestBase.initialization(TestBase.java:62)
+at com.younited.qa.testcases.MycompanyPageFreeTest.setUp(MycompanyPageFreeTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,15 +149,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UlogoProfilestatisticsPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoProfilestatisticsPageTest@73e9cf30]" started-at="2024-04-23T18:53:43 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1713878623976" status="SKIP">
+        </test-method> <!-- myCompanyPageFreeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MycompanyPageFreeTest@273e7444]" started-at="2024-04-26T14:22:33 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1714121553153" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.UlogoProfilestatisticsPageTest -->
+      </class> <!-- com.younited.qa.testcases.MycompanyPageFreeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

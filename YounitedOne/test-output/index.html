@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\tbutani\AppData\Local\Temp\testng-eclipse-1153745359\testng-customsuite.xml</span>
+                    <span>C:\Users\tbutani\AppData\Local\Temp\testng-eclipse--1219294549\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content skipped suite-Default_suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.younited.qa.testcases.UlogoProfilestatisticsPageTest" class="method navigator-link" hash-for-method="UlogoProfilestatisticsPage">UlogoProfilestatisticsPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.younited.qa.testcases.MycompanyPageFreeTest" class="method navigator-link" hash-for-method="myCompanyPageFreeTest">myCompanyPageFreeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Default_suite -->
@@ -122,23 +122,36 @@
           <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.younited.qa.testcases.UlogoProfilestatisticsPageTest</span>
+              <span class="class-name">com.younited.qa.testcases.MycompanyPageFreeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="UlogoProfilestatisticsPage">
-                  </a> <!-- UlogoProfilestatisticsPage -->
-                  <span class="method-name">UlogoProfilestatisticsPage</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	at com.younited.qa.testcases.UlogoProfilestatisticsPageTest.setUp(UlogoProfilestatisticsPageTest.java:46)
+                  <a name="myCompanyPageFreeTest">
+                  </a> <!-- myCompanyPageFreeTest -->
+                  <span class="method-name">myCompanyPageFreeTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.054
+  (Session info: chrome=124.0.6367.62)
+Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14550ddf1636bb2a5b058831b10164fc, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55387/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14550ddf1636bb2a5b058831b10164fc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at com.younited.qa.base.TestBase.initialization(TestBase.java:62)
+	at com.younited.qa.testcases.MycompanyPageFreeTest.setUp(MycompanyPageFreeTest.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -180,7 +193,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\tbutani\AppData\Local\Temp\testng-eclipse-1153745359\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\tbutani\AppData\Local\Temp\testng-eclipse--1219294549\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -189,7 +202,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.younited.qa.testcases.UlogoProfilestatisticsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.younited.qa.testcases.MycompanyPageFreeTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -231,8 +244,8 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'UlogoProfilestatisticsPage')
-data.setCell(0, 2, 'com.younited.qa.testcases.UlogoProfilestatisticsPageTest')
+data.setCell(0, 1, 'myCompanyPageFreeTest')
+data.setCell(0, 2, 'com.younited.qa.testcases.MycompanyPageFreeTest')
 data.setCell(0, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
@@ -264,7 +277,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.younited.qa.testcases.UlogoProfilestatisticsPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.younited.qa.testcases.MycompanyPageFreeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
@@ -272,12 +285,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">UlogoProfilestatisticsPage</span>
-                <span class="method-start">41492 ms</span>
+                <span class="method-name">myCompanyPageFreeTest</span>
+                <span class="method-start">23893 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41500 ms</span>
+                <span class="method-start">23900 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
