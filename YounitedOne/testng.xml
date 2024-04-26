@@ -18,6 +18,7 @@
       <class name="com.younited.qa.testcases.AssignmentsPageAdminTest"/>
       <class name="com.younited.qa.testcases.CommunityPageAdminTest"/>
       <class name="com.younited.qa.testcases.ManageProfilePageFreeTest"/>
+      <class name="com.younited.qa.testcases.MycompanyPageFreeTest"/>
       <class name="com.younited.qa.testcases.MatchPageAdminTest"/>
       <class name="com.younited.qa.testcases.UlogoMydashboardPageTest"/>
       <class name="com.younited.qa.testcases.UlogoChatPageTest"/>
