@@ -48,6 +48,9 @@ public class HomePageFree extends TestBase{
 		@FindBy(xpath="//*[@id=\"lead-reaction-modal___BV_modal_body_\"]/div[2]/button")
 		WebElement suitableAssignments;
 		
+		@FindBy(xpath="//a[normalize-space()='Mijn bedrijf/bedrijven']")
+		WebElement myCompany;
+		
 			
 		//Initialization
 		public HomePageFree() {
@@ -111,6 +114,10 @@ public class HomePageFree extends TestBase{
 		public void mouseHoverToLogoImage() {
 			Actions builder=new Actions(Driver);
 			builder.moveToElement(logoImage).build().perform();
+		}
+		
+		public void clickMyCompanyTab() {
+			myCompany.click();
 		}
 
 }
