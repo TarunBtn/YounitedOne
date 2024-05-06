@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-26T14:22:09 IST" name="Default suite" finished-at="2024-04-26T14:22:33 IST" duration-ms="23920">
+  <suite started-at="2024-04-26T14:50:49 IST" name="Default suite" finished-at="2024-04-26T14:51:13 IST" duration-ms="23517">
     <groups>
     </groups>
-    <test started-at="2024-04-26T14:22:09 IST" name="Default test" finished-at="2024-04-26T14:22:33 IST" duration-ms="23920">
+    <test started-at="2024-04-26T14:50:49 IST" name="Default test" finished-at="2024-04-26T14:51:13 IST" duration-ms="23517">
       <class name="com.younited.qa.testcases.MycompanyPageFreeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MycompanyPageFreeTest@273e7444]" started-at="2024-04-26T14:22:09 IST" name="setUp" finished-at="2024-04-26T14:22:33 IST" duration-ms="23877" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MycompanyPageFreeTest@273e7444]" started-at="2024-04-26T14:50:49 IST" name="setUp" finished-at="2024-04-26T14:51:13 IST" duration-ms="23478" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 19.054
+              <![CDATA[timeout: Timed out receiving message from renderer: 19.192
   (Session info: chrome=124.0.6367.62)
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14550ddf1636bb2a5b058831b10164fc, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55387/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14550ddf1636bb2a5b058831b10164fc]]>
+Command: [a72fe24a1f4cdd576a9e04fa34a893e3, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56590}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56590/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a72fe24a1f4cdd576a9e04fa34a893e3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.054
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.192
   (Session info: chrome=124.0.6367.62)
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14550ddf1636bb2a5b058831b10164fc, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55387/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14550ddf1636bb2a5b058831b10164fc
+Command: [a72fe24a1f4cdd576a9e04fa34a893e3, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56590}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56590/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a72fe24a1f4cdd576a9e04fa34a893e3
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -80,27 +80,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myCompanyPageFreeTest()[pri:0, instance:com.younited.qa.testcases.MycompanyPageFreeTest@273e7444]" started-at="2024-04-26T14:22:33 IST" name="myCompanyPageFreeTest" finished-at="2024-04-26T14:22:33 IST" duration-ms="0" status="SKIP">
+        <test-method signature="myCompanyPageFreeTest()[pri:0, instance:com.younited.qa.testcases.MycompanyPageFreeTest@273e7444]" started-at="2024-04-26T14:51:13 IST" name="myCompanyPageFreeTest" finished-at="2024-04-26T14:51:13 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 19.054
+              <![CDATA[timeout: Timed out receiving message from renderer: 19.192
   (Session info: chrome=124.0.6367.62)
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14550ddf1636bb2a5b058831b10164fc, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55387/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14550ddf1636bb2a5b058831b10164fc]]>
+Command: [a72fe24a1f4cdd576a9e04fa34a893e3, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56590}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56590/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a72fe24a1f4cdd576a9e04fa34a893e3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.054
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.192
   (Session info: chrome=124.0.6367.62)
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14550ddf1636bb2a5b058831b10164fc, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55387/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14550ddf1636bb2a5b058831b10164fc
+Command: [a72fe24a1f4cdd576a9e04fa34a893e3, get {url=https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.62, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56590}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56590/devtoo..., se:cdpVersion: 124.0.6367.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a72fe24a1f4cdd576a9e04fa34a893e3
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -153,7 +153,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myCompanyPageFreeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MycompanyPageFreeTest@273e7444]" started-at="2024-04-26T14:22:33 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1714121553153" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MycompanyPageFreeTest@273e7444]" started-at="2024-04-26T14:51:13 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1714123273366" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
