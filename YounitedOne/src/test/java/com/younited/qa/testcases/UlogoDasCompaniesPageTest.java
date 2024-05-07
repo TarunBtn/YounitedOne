@@ -56,11 +56,11 @@ public class UlogoDasCompaniesPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		uLogoDasCompaniesPage.clickSectorDropDown();
 		testUtil.testWaitTwo();
 		uLogoDasCompaniesPage.selectSectorDropDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
