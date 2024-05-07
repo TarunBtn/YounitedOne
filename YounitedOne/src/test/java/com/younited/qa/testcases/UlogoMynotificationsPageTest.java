@@ -30,16 +30,16 @@ public class UlogoMynotificationsPageTest extends TestBase{
 		testUtil.testWaitFourteen();
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
-		homePageAdmin.clickUserLogo();
-		testUtil.testWaitFour();
+		//homePageAdmin.clickUserLogo();
+		//testUtil.testWaitFour();
 		//homePageAdmin.moveHoverTologoImage();
 		//testUtil.testWaitTwo();
 		//homePageAdmin.clickMynotificationsTab();
 		//testUtil.testWaitFour();
-		homePageAdmin.clickMydashboardTab();
-		testUtil.testWaitFour();
+		//homePageAdmin.clickMydashboardTab();
+		//testUtil.testWaitEight();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		
 	}
 	
