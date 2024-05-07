@@ -68,6 +68,10 @@ public class UlogoNativeAssignmentsPage extends TestBase{
 	}
 	
 	//Actions
+	public void clickSearchAssignment() {
+		searchNativeAssignment.click();
+	}
+	
 	public void enterSearchAssignment(String value) {
 		searchNativeAssignment.sendKeys(value);
 	}

@@ -35,13 +35,18 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 		testUtil.testWaitEight();
 		homePageAdmin.clickNativeAssignmentsTab();
 		testUtil.testWaitEight();
-		
+		//homePageAdmin.clickUserLogo();
+		//testUtil.testWaitEight();
 	}
 	
 	@Test
 	public void UlogoNativeAssignmentsPage()throws Exception {
-		uLogoNativeAssignmentsPage.enterSearchAssignment("QA Engineer");
+		uLogoNativeAssignmentsPage.clickSearchAssignment();
+		testUtil.testWaitFour();
+		uLogoNativeAssignmentsPage.enterSearchAssignment("Project");
 		testUtil.testWaitEleven();
+		//testUtil.scrollDown();
+		//testUtil.testWaitFour();
 		uLogoNativeAssignmentsPage.clickResetSearchAssignment();
 		testUtil.testWaitEight();
 		//Hourly Rate
