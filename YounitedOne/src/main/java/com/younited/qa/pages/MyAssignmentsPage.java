@@ -22,7 +22,7 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//*[@id=\"initial-sort-select\"]")
 		WebElement chooseCompanyDropDown;
 			
-		@FindBy(xpath="//Option[text()='ACC Computers']")
+		@FindBy(xpath="//Option[text()='The Green Clean Company']")
 		WebElement selectCompanyFromDropDown;
 		
 		@FindBy(xpath="//a[@href='/mijn-opdrachten/reacties/e1d8e64f-23c5-4719-ac61-eb72e9193f9d']")
@@ -78,6 +78,10 @@ public class MyAssignmentsPage extends TestBase{
 		}
 			
 		//Actions
+		public void clickFilter() {
+			filter.click();
+		}
+		
 		public void enterValueInFilter(String value) {
 			filter.sendKeys(value);
 		}
@@ -138,7 +142,7 @@ public class MyAssignmentsPage extends TestBase{
 			selectOwnerFromDropDown.click();
 		}
 			
-		public void StatusDropDown() {
+		public void clickStatusDropDown() {
 			statusDropDown.click();	
 		}
 			

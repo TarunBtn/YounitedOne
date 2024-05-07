@@ -39,24 +39,22 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		homePageAdmin.clickMyAssignmentsTab();
 		testUtil.testWaitEight();
-		//homePageAdmin.moveHoverTologoImage();
-		//testUtil.testWaitFour();
-		//testUtil.scrollDown();
-		//testUtil.testWaitFour();
 			
 	}
 	
 	@Test
 	public void UlogoMyassignmentsPage()throws Exception {
-		myAssignmentsPage.clickChooseCompanyDropDown();
-		testUtil.testWaitTwo();
-		myAssignmentsPage.selectCompanyFromDropDown();
+		myAssignmentsPage.clickFilter();
 		testUtil.testWaitFour();
 		myAssignmentsPage.clickChooseCompanyDropDown();
 		testUtil.testWaitTwo();
+		myAssignmentsPage.selectCompanyFromDropDown();
+		testUtil.testWaitEight();
+		myAssignmentsPage.clickChooseCompanyDropDown();
+		testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
-		myAssignmentsPage.clickCommentsLink();
+		/*myAssignmentsPage.clickCommentsLink();
 		testUtil.testWaitTwo();
 		//testUtil.scrollRight();
 		//testUtil.testWaitTwo();
@@ -89,13 +87,19 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		myAssignmentsPage.clickNewTab();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
+		myAssignmentsPage.clickStatusDropDown();
+		testUtil.testWaitFour();
+		myAssignmentsPage.selectStatusFromDropDownClosed();
+		testUtil.testWaitEight();
+		myAssignmentsPage.selectStatusFromDropDownOpen();
+		testUtil.testWaitEight();
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }

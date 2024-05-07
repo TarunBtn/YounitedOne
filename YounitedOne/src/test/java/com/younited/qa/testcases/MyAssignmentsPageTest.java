@@ -61,7 +61,7 @@ public class MyAssignmentsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
-		myAssignmentsPage.StatusDropDown();
+		myAssignmentsPage.clickStatusDropDown();
 		testUtil.testWaitFour();
 		myAssignmentsPage.selectStatusFromDropDownOpen();
 		testUtil.testWaitFour();
@@ -69,17 +69,17 @@ public class MyAssignmentsPageTest extends TestBase{
 		//testUtil.testWaitFour();
 		//myAssignmentsPage.selectStatusFromDropDownClosed();
 		//testUtil.testWaitFour();
-		myAssignmentsPage.StatusDropDown();
+		myAssignmentsPage.clickStatusDropDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
-		myAssignmentsPage.StatusDropDown();
+		myAssignmentsPage.clickStatusDropDown();
 		testUtil.testWaitFour();
 		myAssignmentsPage.clearStatusFromDropDown();
 		testUtil.testWaitFour();
-		myAssignmentsPage.StatusDropDown();
+		myAssignmentsPage.clickStatusDropDown();
 		testUtil.testWaitTwo();
 	}
 	
