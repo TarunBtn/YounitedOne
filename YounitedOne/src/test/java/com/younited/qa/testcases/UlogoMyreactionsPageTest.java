@@ -40,12 +40,18 @@ public class UlogoMyreactionsPageTest extends TestBase{
 	
 	@Test
 	public void uLogoMyreactionsPageTest()throws Exception {
-		uLogoMyreactionsPage.clickSuggestedResponses();
-		testUtil.testWaitEight();
-		uLogoMyreactionsPage.clickViewAssignment();
-		testUtil.testWaitFourteen();
+		//uLogoMyreactionsPage.clickSuggestedResponses();
+		//testUtil.testWaitEight();
+		//uLogoMyreactionsPage.clickViewAssignment();
+		//testUtil.testWaitFourteen();
 		//uLogoMyreactionsPage.clickResponseHistory();
 		//testUtil.testWaitEight();
+		uLogoMyreactionsPage.clickCheckBox();
+		testUtil.testWaitFour();
+		uLogoMyreactionsPage.clickStatusDropDown();
+		testUtil.testWaitFour();
+		uLogoMyreactionsPage.selectStatusDropDown();
+		testUtil.testWaitFour();
 	}
 	
 	@AfterMethod
