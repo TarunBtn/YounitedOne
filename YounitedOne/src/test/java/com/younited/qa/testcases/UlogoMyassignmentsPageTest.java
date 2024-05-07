@@ -92,14 +92,17 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		myAssignmentsPage.selectStatusFromDropDownClosed();
 		testUtil.testWaitEight();
+		//myAssignmentsPage.clickStatusDropDown();
 		myAssignmentsPage.selectStatusFromDropDownOpen();
 		testUtil.testWaitEight();
+		myAssignmentsPage.clickStatusDropDown();
+		testUtil.testWaitFour();
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }

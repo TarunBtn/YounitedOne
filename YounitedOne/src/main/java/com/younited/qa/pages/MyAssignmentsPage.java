@@ -64,7 +64,7 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//option[@value='Open']")
 		WebElement selectStatusFromDropDownOpen;
 		
-		@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[4]")
+		@FindBy(xpath="//option[@value='Gesloten']")
 		WebElement selectStatusFromDropDownClosed;
 		
 		@FindBy(xpath="//option[text()='Selecteer status']")
