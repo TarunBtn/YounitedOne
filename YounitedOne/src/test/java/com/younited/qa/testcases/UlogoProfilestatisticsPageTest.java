@@ -48,28 +48,29 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 	
 	@Test
 	public void UlogoProfilestatisticsPage()throws Exception {
+		uLogoProfilestatisticsPage.clickSearchField();
+		testUtil.testWaitFour();
+		uLogoProfilestatisticsPage.enterValueSearchField("Arjan");
+		testUtil.testWaitEight();
+		uLogoProfilestatisticsPage.clickResetBtn();
+		testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.clickRoleDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.selectRole();
 		testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.clickRoleDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.clickRoleDropDown();
 		testUtil.testWaitTwo();
 		uLogoProfilestatisticsPage.resetRoleDropDown();
 		testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.clickRoleDropDown();
 		testUtil.testWaitTwo();
-		uLogoProfilestatisticsPage.clickSearchField();
-		testUtil.testWaitTwo();
-		uLogoProfilestatisticsPage.enterValueSearchField("Arjan");
-		testUtil.testWaitEight();
-		uLogoProfilestatisticsPage.clickResetBtn();
-		testUtil.testWaitFour();
+		
 				
 	}
 	

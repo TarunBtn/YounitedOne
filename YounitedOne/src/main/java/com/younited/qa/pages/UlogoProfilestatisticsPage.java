@@ -10,6 +10,12 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoProfilestatisticsPage extends TestBase{
 	//Page factory OR Object Repository
+	@FindBy(id="filter-input")
+	WebElement searchField;
+	
+	@FindBy(xpath="//button[text()='Reset']")
+	WebElement resetBtn;
+	
 	@FindBy(id="initial-sort-select")
 	WebElement roleDropDown;
 	
@@ -19,30 +25,12 @@ public class UlogoProfilestatisticsPage extends TestBase{
 	@FindBy(xpath="//option[text()='Selecteer rol']")
 	WebElement resetRoleDropDown;
 	
-	@FindBy(id="filter-input")
-	WebElement searchField;
-	
-	@FindBy(xpath="//button[text()='Reset']")
-	WebElement resetBtn;
-	
 	//Initialization
 	public UlogoProfilestatisticsPage() {
 		PageFactory.initElements(Driver, this);
 	}
 	
 	//Actions
-	public void clickRoleDropDown() {
-		roleDropDown.click();
-	}
-	
-	public void selectRole() {
-		selectRole.click();
-	}
-	
-	public void resetRoleDropDown() {
-		resetRoleDropDown.click();
-	}
-	
 	public void clickSearchField() {
 		searchField.click();
 	}
@@ -55,7 +43,16 @@ public class UlogoProfilestatisticsPage extends TestBase{
 		resetBtn.click();
 	}
 	
+	public void clickRoleDropDown() {
+		roleDropDown.click();
+	}
 	
+	public void selectRole() {
+		selectRole.click();
+	}
 	
-
+	public void resetRoleDropDown() {
+		resetRoleDropDown.click();
+	}
+	
 }
