@@ -43,6 +43,8 @@ public class UlogoUsermanagementPageTest extends TestBase{
 	
 	@Test
 	public void uLogoUsermanagementPageTest()throws Exception {
+		uLogoUsermanagementPage.clickSearchName();
+		testUtil.testWaitFour();
 		uLogoUsermanagementPage.enterSearchName("Ajay");
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
@@ -52,19 +54,19 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		uLogoUsermanagementPage.clickResetSearchName();
 		testUtil.testWaitFour();
 		uLogoUsermanagementPage.enterEmailAddress("tb+acc-freelancer@test.nowonline.nl");
-		testUtil.testWaitEight();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		uLogoUsermanagementPage.clickExactSearch();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		uLogoUsermanagementPage.clickExactSearch();
 		testUtil.testWaitFour();
+		//uLogoUsermanagementPage.clickExactSearch();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//uLogoUsermanagementPage.clickExactSearch();
+		//testUtil.testWaitFour();
 		uLogoUsermanagementPage.clickResetEmailAddress();
 		testUtil.testWaitFour();
 		//Roles

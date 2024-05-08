@@ -18,7 +18,7 @@ public class UlogoUsermanagementPage extends TestBase{
 	@FindBy(xpath="(//input[@id='filter-input'])[2]")
 	WebElement emailAddress;
 	
-	@FindBy(xpath="//input[@placeholder='Type om te zoeken emailadres']/following-sibling::*/button")
+	@FindBy(xpath="//button[@class='btn btn-secondary btn-primary common-reset-button']")
 	WebElement resetEmailAddress;
 	
 	@FindBy(xpath="//*[@id=\"my-companies\"]/div/div/div/div/div/div[1]/div[3]/div/label")
@@ -27,7 +27,7 @@ public class UlogoUsermanagementPage extends TestBase{
 	@FindBy(id="initial-sort-select")
 	WebElement clickRoleDropDown;
 	
-	@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[2]")
+	@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[3]")
 	WebElement selectRole;
 	
 	@FindBy(xpath="//*[@id=\"initial-sort-select\"]/option[1]")
@@ -76,6 +76,10 @@ public class UlogoUsermanagementPage extends TestBase{
 	}
 	
 	//Actions
+	public void clickSearchName() {
+		searchName.click();
+	}
+	
 	public void enterSearchName(String value) {
 		searchName.sendKeys(value);
 	}
