@@ -1,5 +1,6 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +17,9 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"opdracht.selected_company-3\"]/span/span")
 		WebElement selectCompany;
 		
+		@FindBy(xpath="//input[@id='opdracht.naamopdracht']")
+		WebElement assignmentName;
+		
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[10]/div[2]/div/div[1]")
 		WebElement sectorDropDown;
 		
@@ -28,11 +32,23 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//span[contains(text(),'Engineering')]")
 		WebElement selectDescipline;
 		
-		@FindBy(id="werklocatie")
+		@FindBy(xpath="//input[@id='opdracht.plaatsvanopdracht']")
 		WebElement workLocation;
 		
-		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[12]/div[2]/div[2]")
+		@FindBy(xpath="//*[@id=\"assignment-add\"]/span[2]/div/span/div[2]/form")
 		WebElement workLocationTooltip;
+		
+		@FindBy(xpath="//div[@aria-owns='listbox-opdracht.opleidingsniveau']//div[@class='multiselect__select']")
+		WebElement workingThinkingLevel;
+		
+		@FindBy(xpath="//*[@id=\"opdracht.opleidingsniveau-3\"]/span")
+		WebElement selectWorkingThinkingLevel;
+		
+		@FindBy(xpath="//input[@id='suggestionsForJobTitle']")
+		WebElement profile;
+		
+		@FindBy(xpath="//span[@data-text='Database administrator (m/v/x)']//strong//font//font[contains(text(),'Database')]")
+		WebElement profileTooltip;
 		
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[6]/div[2]/div[1]/div/button[2]")
 		WebElement generateDescription;
@@ -49,7 +65,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[1]/button[4]/i")
 		WebElement selectStartYear;
 		
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[1]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[4]/div[7]/div")
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[1]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[4]/div[6]/div")
 		WebElement selectStartDate;
 		
 		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[2]/div[2]/div/div[1]/div/div/div/input")
@@ -58,7 +74,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[1]/button[3]/i")
 		WebElement selectEndYear;
 		
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[2]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[1]/div")
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[2]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[2]/div")
 		WebElement selectEndDate;
 		
 		@FindBy(xpath="//*[@id=\"aantaluurperweek\"]/div/div[2]/div[2]/div[1]")
@@ -66,12 +82,6 @@ public class CompleteAssignment extends TestBase{
 		
 		@FindBy(xpath="//*[@id=\"uurtarief\"]/div/div[4]/div[1]")
 		WebElement hourlyRateFromTo;
-		
-		@FindBy(xpath="//*[@id=\"opleidingsniveau\"]")
-		WebElement workingThinkingLevel;
-		
-		@FindBy(xpath="//*[@id=\"opleidingsniveau\"]/option[5]")
-		WebElement selectWorkingThinkingLevel;
 		
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/div[24]/div/button[2]")
 		WebElement clickSaveButton;
@@ -97,6 +107,12 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/span[3]/div[2]/div/form/div/div/div[2]/div[2]/label")
 		WebElement unSelectSkillsTwo;
 		
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[4]/div[2]/div/span[2]/div/div/div/input")
+		WebElement clickVisibleDateTo;
+		
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[4]/div[2]/div/span[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[2]/div")
+		WebElement selectVisibleDateTo;
+		
 		//Initialization
 		public CompleteAssignment(){
 			PageFactory.initElements(Driver, this);
@@ -109,6 +125,10 @@ public class CompleteAssignment extends TestBase{
 		
 		public void selectCompany() {
 			selectCompany.click();
+		}
+		
+		public void assignmentName(String value) {
+			assignmentName.sendKeys(value);		
 		}
 		
 		public void clickSectorDropDown() {
@@ -127,15 +147,33 @@ public class CompleteAssignment extends TestBase{
 			selectDescipline.click();
 		}
 		
-		public void selectWorkLocation() {
-			workLocation.sendKeys("Punthorst, Netherlands");		
+		public void clickWorkLocation() {
+			workLocation.click();
+		}
+		
+		public void selectWorkLocation(String value) {
+			workLocation.sendKeys(value);		
 		}
 		
 		public void clickWorkLocationTooltip() {
-			//workLocationTooltip.click();
-		    Actions builder=new Actions(Driver);
-		    builder.moveToElement(workLocationTooltip).build().perform();
+			workLocationTooltip.click();
+		    //Actions builder=new Actions(Driver);
+		    //builder.moveToElement(workLocationTooltip).build().perform();
+			//workLocation.sendKeys(Keys.TAB);
 			
+		}
+		
+		public void clickProfileField() {
+			profile.click();
+		}
+		
+		public void enterProfile(String value) {
+			profile.sendKeys(value);
+		}
+		
+		public void clickProfileTooltip() {
+			//profileTooltip.click();
+			profile.sendKeys(Keys.TAB);
 		}
 		
 		public void clickGenerateDescription() {
@@ -182,9 +220,12 @@ public class CompleteAssignment extends TestBase{
 			hourlyRateFromTo.click();
 		}
 		
+		public void clickWorkingThinkingLevel() {
+			workingThinkingLevel.click();
+		}
+		
 		public void selectWorkingThinkingLevel() {
-			Select oSelect=new Select(workingThinkingLevel);
-			oSelect.selectByIndex(4);
+			selectWorkingThinkingLevel.click();
 		}
 		
 		public void clickSaveButton() {
@@ -221,6 +262,14 @@ public class CompleteAssignment extends TestBase{
 		
 		public void unSelectSkillsTwo() {
 			unSelectSkillsTwo.click();
+		}
+		
+		public void clickVisibleDateTo() {
+			clickVisibleDateTo.click();
+		}
+		
+		public void selectVisibleDateTo() {
+			selectVisibleDateTo.click();
 		}
 		
 }

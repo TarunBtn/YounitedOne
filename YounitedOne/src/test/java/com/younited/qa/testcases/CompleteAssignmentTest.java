@@ -65,26 +65,46 @@ public class CompleteAssignmentTest extends TestBase{
 	
 	@Test
 	public void completeAssignmentTest()throws Exception {
-		completeAssignment.clickCompanyDropDown();
+		/*completeAssignment.clickCompanyDropDown();
 		testUtil.testWaitTwo();
 		completeAssignment.selectCompany();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		completeAssignment.assignmentName("QA EngineerEight");
+		testUtil.testWaitFour();*/
 		//completeAssignment.clickSectorDropDown();
 		//testUtil.testWaitTwo();
 		//completeAssignment.selectSectorFromDropDown();
-		//testUtil.testWaitTwo();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
 		completeAssignment.clickDesciplineDropDown();
 		testUtil.testWaitTwo();
 		completeAssignment.selectDescipline();
 		testUtil.testWaitFour();
-		completeAssignment.clickNextButton();
-		testUtil.testWaitFourteen();
-		completeAssignment.clickNextButton();
-		testUtil.testWaitFourteen();
-		testUtil.scrollUp();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		/*completeAssignment.clickWorkLocation();
 		testUtil.testWaitTwo();
+		completeAssignment.selectWorkLocation("Punthorst, Netherlands");
+		testUtil.testWaitFour();
+		completeAssignment.clickWorkLocationTooltip();
+		testUtil.testWaitFour();
+		completeAssignment.clickWorkLocation();
+		testUtil.testWaitTwo();
+		completeAssignment.clickWorkLocationTooltip();
+		testUtil.testWaitFour();
+		completeAssignment.clickWorkingThinkingLevel();
+		testUtil.testWaitFour();
+		completeAssignment.selectWorkingThinkingLevel();
+		testUtil.testWaitFour();*/
+		completeAssignment.clickNextButton();
+		testUtil.testWaitEight();
+		//completeAssignment.clickNextButton();
+		//testUtil.testWaitFourteen();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
 		
 		//completeAssignment.selectWorkLocation();
 		//testUtil.testWaitFour();
@@ -96,11 +116,17 @@ public class CompleteAssignmentTest extends TestBase{
 		//}catch(ElementNotInteractableException e) {
 			//e.printStackTrace();
 		//}	
-		
-		/*testUtil.testWaitTwo();
-		testUtil.scrollUp();
+		completeAssignment.clickProfileField();
 		testUtil.testWaitTwo();
+		completeAssignment.enterProfile("Database administrator");
+		testUtil.testWaitFour();
+		completeAssignment.clickProfileTooltip();
+		testUtil.testWaitFour();
+		completeAssignment.clickNextButton();
+		testUtil.testWaitEight();
 		testUtil.scrollUp();
+		testUtil.testWaitFour();
+		/*testUtil.scrollUp();
 	    testUtil.testWaitFour();
 		//Generate description
 	    try {
@@ -133,11 +159,11 @@ public class CompleteAssignmentTest extends TestBase{
 	    testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();*/        
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();*/
 		//Select start date
 		completeAssignment.clickStartDateDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//completeAssignment.selectStartYear();
 		//testUtil.testWaitTwo();
 		completeAssignment.selectStartDate();
@@ -202,6 +228,10 @@ public class CompleteAssignmentTest extends TestBase{
 		completeAssignment.clickNextButton();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		completeAssignment.clickVisibleDateTo();
+		testUtil.testWaitFour();
+		completeAssignment.selectVisibleDateTo();
 		testUtil.testWaitFour();
 		//completeAssignment.clickSaveButton();
 			
