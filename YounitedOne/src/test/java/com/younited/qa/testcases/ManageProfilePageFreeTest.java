@@ -366,7 +366,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }

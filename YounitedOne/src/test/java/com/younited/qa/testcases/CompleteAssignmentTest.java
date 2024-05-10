@@ -131,11 +131,6 @@ public class CompleteAssignmentTest extends TestBase{
 		//Generate description
 	    try {
 		    completeAssignment.clickGenerateDescription();
-		    testUtil.testWaitEleven();
-		    testUtil.testWaitEleven();
-		    testUtil.testWaitEight();
-		    testUtil.testWaitEleven();
-		    testUtil.testWaitEight();
 		    //testUtil.testWaitEleven();
 	   }catch(NoSuchElementException e) {
 	   	  e.printStackTrace();
