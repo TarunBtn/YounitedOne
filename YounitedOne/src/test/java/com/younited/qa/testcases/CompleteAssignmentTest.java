@@ -51,7 +51,7 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitTwo();
 		addCommandPage.clickChooseFile();		
 		testUtil.testWaitFour();
-		testUtil.uploadFile("D:\\CV Jort Zwolsman.doc");
+		testUtil.uploadFile("D:\\Assignment.docx");
 		testUtil.testWaitEight();
 		addCommandPage.clickUploadFile();
 		testUtil.testWaitEight();
@@ -150,19 +150,14 @@ public class CompleteAssignmentTest extends TestBase{
 		    }catch(ElementClickInterceptedException e) {
 		    	e.printStackTrace();
 		    }
-		testUtil.testWaitEight();	   
-	    testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();*/
+		testUtil.testWaitEight();*/
 		//Select start date
-		completeAssignment.clickStartDateDropDown();
+	    completeAssignment.clickStartDateDropDown();
 		testUtil.testWaitFour();
 		//completeAssignment.selectStartYear();
 		//testUtil.testWaitTwo();
 		completeAssignment.selectStartDate();
-		testUtil.testWaitFour();		
+		testUtil.testWaitFour();	
 		//Select end date
 		completeAssignment.clickEndDateDropDown();
 		testUtil.testWaitFour();
