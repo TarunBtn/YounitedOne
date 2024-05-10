@@ -64,7 +64,7 @@ public class MyAssignmentsPageTest extends TestBase{
 		myAssignmentsPage.clickStatusDropDown();
 		testUtil.testWaitFour();
 		myAssignmentsPage.selectStatusFromDropDownOpen();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//myAssignmentsPage.StatusDropDown();
 		//testUtil.testWaitFour();
 		//myAssignmentsPage.selectStatusFromDropDownClosed();
