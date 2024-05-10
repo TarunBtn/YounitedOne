@@ -102,13 +102,13 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"remove\"]/div/div/div[3]/button[1]")
 			WebElement clickDeleteWorkExperience;
 					
-			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div[2]/div[2]/div/a[2]")
+			@FindBy(xpath="//a[@class='btn btn-primary']")
 			WebElement uploadCV;
 			
-			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div/div/div/div[1]/div/div/div[3]/div/div/div/label/span")
+			@FindBy(xpath="//span[@class='input-group-text']")
 			WebElement chooseFile;
 			
-			@FindBy(xpath="//*[@id=\"app\"]/main/div/div[2]/div/div/div/div[1]/div/div/div[4]/div/button")
+			@FindBy(xpath="//button[@class='btn btn-primary mr-sm-2 mb-2 mb-sm-0 d-inline-flex justify-content-center align-items-center']")
 			WebElement uploadFile;
 			
 			@FindBy(xpath="//*[@id=\"uploadCvConfirmation___BV_modal_body_\"]/div[2]/button[1]")
