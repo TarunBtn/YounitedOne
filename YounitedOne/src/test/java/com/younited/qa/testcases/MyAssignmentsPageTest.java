@@ -52,7 +52,7 @@ public class MyAssignmentsPageTest extends TestBase{
 		myAssignmentsPage.clickResetFilter();
 		testUtil.testWaitEleven();
 		myAssignmentsPage.clickChooseCompanyDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myAssignmentsPage.selectCompanyFromDropDown();
 		testUtil.testWaitFour();
 		myAssignmentsPage.clickChooseCompanyDropDown();
