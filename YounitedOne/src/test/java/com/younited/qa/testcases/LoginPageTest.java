@@ -27,15 +27,17 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	@Test(priority=1)
-	public void loginPageTitleTest() {
+	public void loginPageTitleTest()throws Exception {
 		String title=loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, "Log in | Younited® platform");
+		testUtil.testWaitFour();
 	}
 	
 	@Test(priority=2)
-	public void imageLogoTest() {
+	public void imageLogoTest()throws Exception {
 		boolean flag=loginPage.validateImageLogo();
 		Assert.assertTrue(flag);
+		testUtil.testWaitFour();
 	}
 	
 	@Test(priority=3)
