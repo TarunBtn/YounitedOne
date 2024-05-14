@@ -70,14 +70,14 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
-		/*testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
 		//testUtil.scrollDown();
 		//testUtil.testWaitFour();
 		//uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
@@ -100,24 +100,24 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.clickFillInCompanyCancel();
 		//testUtil.testWaitFour();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitFour();
-		testUtil.scrollUp();
-		testUtil.testWaitFour();*/
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
 		//Availability Tab
 		uLogoMyprofilePage.clickAvailabilityTab();
 		testUtil.testWaitEight();
@@ -141,18 +141,18 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		//Enter skill value
-		/*uLogoMyprofilePage.enterSkillsValue("Account");
-		testUtil.testWaitEight();
-		try {
-		    uLogoMyprofilePage.selectSkillsValue();
-		    testUtil.testWaitEight();
-		}catch(ElementClickInterceptedException e) {
-			e.printStackTrace();
-			testUtil.testWaitEleven();
-		}
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitTwo();*/
+		//uLogoMyprofilePage.enterSkillsValue("Account");
+		//testUtil.testWaitEight();
+		//try {
+		  //  uLogoMyprofilePage.selectSkillsValue();
+		   // testUtil.testWaitEight();
+		//}catch(ElementClickInterceptedException e) {
+			//e.printStackTrace();
+			//testUtil.testWaitEleven();
+		//}
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitTwo();
 		//Save additional skills
 		//uLogoMyprofilePage.clickSaveAdditionalSkills();
 		//testUtil.testWaitFour();
@@ -230,26 +230,26 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitTwo();
 		//testUtil.scrollUp();
 		//testUtil.testWaitTwo();
-		/*uLogoMyprofilePage.clickEditWorkExperience();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		uLogoMyprofilePage.deleteWorkExperience();
-		testUtil.testWaitFour();
-		uLogoMyprofilePage.clickDeleteWorkExperience();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollUp();
-		testUtil.testWaitFour();*/
+		//uLogoMyprofilePage.clickEditWorkExperience();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//uLogoMyprofilePage.deleteWorkExperience();
+		//testUtil.testWaitFour();
+		//uLogoMyprofilePage.clickDeleteWorkExperience();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollUp();
+		//testUtil.testWaitFour();
 		//Upload CV
 		uLogoMyprofilePage.clickUploadCV();
 		testUtil.testWaitFour();
@@ -331,6 +331,8 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickSaveCourse();
+		testUtil.testWaitEight();
+		testUtil.scrollUp();
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
@@ -354,6 +356,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitTwo();
 		//testUtil.scrollUp();
 		//testUtil.testWaitTwo();
+		//Institutions Tab
 		uLogoMyprofilePage.clickInstitutionsTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
