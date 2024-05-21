@@ -46,6 +46,10 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 	public void UlogoMyassignmentsPage()throws Exception {
 		myAssignmentsPage.clickFilter();
 		testUtil.testWaitFour();
+		myAssignmentsPage.enterValueInFilter("Test");
+		testUtil.testWaitEight();
+		myAssignmentsPage.clickResetFilter();
+		testUtil.testWaitFour();
 		myAssignmentsPage.clickChooseCompanyDropDown();
 		testUtil.testWaitTwo();
 		myAssignmentsPage.selectCompanyFromDropDown();
