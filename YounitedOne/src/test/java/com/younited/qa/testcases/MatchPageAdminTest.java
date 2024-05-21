@@ -145,9 +145,9 @@ public class MatchPageAdminTest extends TestBase{
 		matchPage.clickResetFilterSkill();
 		testUtil.testWaitEight();
 		matchPage.clickSkillTab();
-		testUtil.testWaitTwo();
-		matchPage.clickSkillTab();
 		testUtil.testWaitFour();
+		//matchPage.clickSkillTab();
+		//testUtil.testWaitFour();
 		matchPage.clickCancelSkill();
 		testUtil.testWaitFour();
 		//Stored
@@ -179,7 +179,7 @@ public class MatchPageAdminTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
