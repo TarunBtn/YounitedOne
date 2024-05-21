@@ -105,7 +105,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="//a[normalize-space()='Extra Filters wissen']")
 	WebElement resetFilterSkill;
 			
-	@FindBy(xpath="//a[normalize-space()='Annuleren']")
+	@FindBy(xpath="//a[@class='link']")
 	WebElement cancelSkill;
 			
 	@FindBy(xpath="//div[@id='toggle-saved']")
@@ -195,6 +195,10 @@ public class MatchPage extends TestBase{
 			
 	public void clickLocationDropDown() {
 		location.click();
+	}
+	
+	public void enterLocationClear() {
+		enterLocation.clear();
 	}
 			
 	public void enterLocationValue(String value) {

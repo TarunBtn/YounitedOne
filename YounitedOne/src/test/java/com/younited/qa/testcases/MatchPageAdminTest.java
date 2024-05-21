@@ -70,8 +70,10 @@ public class MatchPageAdminTest extends TestBase{
 		//Location
 		matchPage.clickLocationDropDown();
 		testUtil.testWaitTwo();
+		matchPage.enterLocationClear();
+		testUtil.testWaitFour();
 		matchPage.enterLocationValue("Noordwijk, Netherlands");
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.clickApplyFilterLocation();
 		testUtil.testWaitEight();
 		matchPage.clickLocationDropDown();
@@ -138,16 +140,16 @@ public class MatchPageAdminTest extends TestBase{
 		}catch(ElementClickInterceptedException e) {
 			e.printStackTrace();
 		}
-		//matchPage.clickSkillTab();
+		matchPage.clickSkillTab();
 	    testUtil.testWaitFour();
 		matchPage.clickResetFilterSkill();
 		testUtil.testWaitEight();
 		matchPage.clickSkillTab();
 		testUtil.testWaitTwo();
 		matchPage.clickSkillTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.clickCancelSkill();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Stored
 		matchPage.clickStored();
 		testUtil.testWaitEight();
@@ -177,7 +179,7 @@ public class MatchPageAdminTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
