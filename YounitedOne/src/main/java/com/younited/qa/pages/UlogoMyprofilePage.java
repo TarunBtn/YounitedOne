@@ -9,6 +9,9 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoMyprofilePage extends TestBase{
 	//Pagefactory OR Object Repository
+	        @FindBy(xpath="//li[@class='breadcrumb-item active']") 
+	        WebElement myProfileLogo;
+	
 	        @FindBy(xpath="//button[@class='btn btn-gold ml-4']")
 	        WebElement editYourProfile;
 	
@@ -189,6 +192,10 @@ public class UlogoMyprofilePage extends TestBase{
 			}
 					
 			//Actions
+			public void clickMyProfileLogo() {
+				myProfileLogo.click();
+			}
+			
 			public void clickEditYourProfile() {
 				editYourProfile.click();
 			}

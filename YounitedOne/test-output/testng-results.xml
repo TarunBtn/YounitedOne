@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-21T14:35:26 IST" name="Default suite" finished-at="2024-05-21T14:41:03 IST" duration-ms="337132">
+  <suite started-at="2024-05-22T14:59:18 IST" name="Default suite" finished-at="2024-05-22T15:01:15 IST" duration-ms="116979">
     <groups>
     </groups>
-    <test started-at="2024-05-21T14:35:26 IST" name="Default test" finished-at="2024-05-21T14:41:03 IST" duration-ms="337132">
-      <class name="com.younited.qa.testcases.MatchPageAdminTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MatchPageAdminTest@3f6f6701]" started-at="2024-05-21T14:35:26 IST" name="setUp" finished-at="2024-05-21T14:36:03 IST" duration-ms="36955" status="PASS">
+    <test started-at="2024-05-22T14:59:18 IST" name="Default test" finished-at="2024-05-22T15:01:15 IST" duration-ms="116979">
+      <class name="com.younited.qa.testcases.ManageProfilePageFreeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.ManageProfilePageFreeTest@273e7444]" started-at="2024-05-22T14:59:18 IST" name="setUp" finished-at="2024-05-22T15:00:09 IST" duration-ms="51207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="match()[pri:0, instance:com.younited.qa.testcases.MatchPageAdminTest@3f6f6701]" started-at="2024-05-21T14:36:03 IST" name="match" finished-at="2024-05-21T14:41:03 IST" duration-ms="300150" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.ManageProfilePageFreeTest@273e7444]" started-at="2024-05-22T15:00:09 IST" name="test" finished-at="2024-05-22T15:01:15 IST" duration-ms="65739" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- match -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MatchPageAdminTest@3f6f6701]" started-at="2024-05-21T14:41:03 IST" name="tearDown" finished-at="2024-05-21T14:41:03 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.ManageProfilePageFreeTest@273e7444]" started-at="2024-05-22T15:01:15 IST" name="tearDown" finished-at="2024-05-22T15:01:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.MatchPageAdminTest -->
+      </class> <!-- com.younited.qa.testcases.ManageProfilePageFreeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

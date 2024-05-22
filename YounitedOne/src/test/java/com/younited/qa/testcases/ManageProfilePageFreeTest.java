@@ -41,7 +41,6 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitEight();	
 		homePageFree.clickManageProfileTab();
 		testUtil.testWaitFourteen();
-		//testUtil.testWaitEight();
 		//homePageFree.mouseHoverToLogoImage();
 		//testUtil.testWaitEight();
 				
@@ -60,6 +59,8 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitTwo();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
+		uLogoMyprofilePage.clickMyProfileLogo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickChangeMyGeneralInformation();
 		testUtil.testWaitEleven();
 		testUtil.scrollDown();
@@ -257,7 +258,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.uploadFile("D:\\CV Jort Zwolsman.doc");
 		//testUtil.uploadFile("D:\\Voorbeeld CV PDF (1).pdf");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		uLogoMyprofilePage.clickUploadFile();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickUpdateMyProfile();
