@@ -76,7 +76,7 @@ public class CompleteAssignmentTest extends TestBase{
 		//completeAssignment.clickSectorDropDown();
 		//testUtil.testWaitTwo();
 		//completeAssignment.selectSectorFromDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		completeAssignment.clickDesciplineDropDown();
