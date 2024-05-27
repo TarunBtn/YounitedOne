@@ -111,7 +111,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//span[@class='input-group-text']")
 			WebElement chooseFile;
 			
-			@FindBy(xpath="//button[@class='btn btn-primary mr-sm-2 mb-2 mb-sm-0 d-inline-flex justify-content-center align-items-center']")
+			@FindBy(xpath="//button[normalize-space()='Toon werkervaring']")
 			WebElement uploadFile;
 			
 			@FindBy(xpath="//*[@id=\"uploadCvConfirmation___BV_modal_body_\"]/div[2]/button[1]")
