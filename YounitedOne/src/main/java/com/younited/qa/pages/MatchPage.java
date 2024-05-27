@@ -30,7 +30,7 @@ public class MatchPage extends TestBase{
 	WebElement clickCommandDropDown;
 	
 	//For MatchPageAdminTest side
-	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[3]/ul/li[3]/span/span")
+	@FindBy(xpath="//span[contains(text(),'nixz test Ontwikkelaar')]")
 	WebElement selectCommandValue;
 			
 	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/span")
@@ -90,7 +90,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="//label[@for='Engineering']")
 	WebElement selectDescipline;
 			
-	@FindBy(xpath="//button[@id='dropdown-skills-btn']")
+	@FindBy(xpath="//div[@id='dropdown-skills']//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//button[@class='btn btn-primary']")
 	WebElement skill;
 			
 	@FindBy(xpath="//input[@class='simple-typeahead-input']")
@@ -99,7 +99,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="/html/body")
 	WebElement selectTooltipSkill;
 			
-	@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//button[@type='button'][normalize-space()='Filters toepassen']")
+	@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//button[@class='btn btn-primary']")
 	WebElement applyFilterSkill;
 			
 	@FindBy(xpath="//a[normalize-space()='Extra Filters wissen']")
