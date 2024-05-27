@@ -9,7 +9,7 @@ import com.younited.qa.base.TestBase;
 public class UlogoMynotificationsPage extends TestBase{
 	//PageFactory or Object Repository
 	
-	@FindBy(xpath="//p[text()='Mijn meldingen ']")
+	@FindBy(xpath="//p[normalize-space()='Mijn meldingen']")
 	WebElement myNotificationsLink;
 	
 	@FindBy(xpath="//*[@id=\"message0\"]/div")
