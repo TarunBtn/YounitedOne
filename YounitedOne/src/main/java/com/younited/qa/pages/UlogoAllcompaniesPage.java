@@ -9,7 +9,7 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoAllcompaniesPage extends TestBase{
 	//Pagefactory OR Object Repository	
-	@FindBy(xpath="//select[@class='custom-select common-filter-height']")
+	@FindBy(xpath="//select[@id='__BVID__136']")
 	WebElement verifiedCompanyDropDown;
 	
 	@FindBy(xpath="//option[text()='Alle']")
