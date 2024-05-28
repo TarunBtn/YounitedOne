@@ -41,6 +41,8 @@ public class UlogoMyprofilePageTest extends TestBase{
 	
 	@Test
 	public void UlogoMyProfilePage()throws Exception {
+		uLogoMyprofilePage.clickMyProfileLogo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickEditYourProfile();
 		testUtil.testWaitFourteen();
 		//testUtil.scrollDown();
@@ -213,6 +215,8 @@ public class UlogoMyprofilePageTest extends TestBase{
 		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterFieldOfStudy("Computer Science");
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickEducationLevel();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.selectEducationLevel();
@@ -247,21 +251,23 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitTwo();*/
 		//Courses
 		uLogoMyprofilePage.clickCoursesTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickAddCourse();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterCourse("Data Security");
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterDescriptionCourse("This is test data");
 		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickCompletedOnDateCourse();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.selectCompletedOnDateCourse();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickSaveCourse();
 		testUtil.testWaitEight();
 		//testUtil.scrollDown();
@@ -270,7 +276,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		//uLogoMyprofilePage.clickConfirmDeleteCourse();
 		//testUtil.testWaitFour();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickInstitutionsTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();

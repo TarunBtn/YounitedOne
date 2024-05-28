@@ -156,7 +156,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//a[@title='Cursussen']")
 			WebElement coursesTab;
 			
-			@FindBy(xpath="//div[@class='row mb-3']/following-sibling::*/a")
+			@FindBy(xpath="//body/div[@id='app']/div/span/div[@id='app']/main/span/div[@class='componentTemplate']/div[@class='container']/div[2]/a[1]")
 			WebElement addCourse;
 			
 			@FindBy(id="cursus")
@@ -183,7 +183,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"remove\"]/div/div/div[3]/button[1]")
 			WebElement confirmDeleteCourse;
 			
-			@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[1]/div[3]/div[2]/div/nav/a[7]")
+			@FindBy(xpath="//a[@title='Instellingen']")
 			WebElement institutions;
 					
 			//Initialization
