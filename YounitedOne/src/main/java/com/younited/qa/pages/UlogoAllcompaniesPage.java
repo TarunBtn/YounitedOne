@@ -51,7 +51,7 @@ public class UlogoAllcompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"51-100\"]")
 	WebElement selectEmployees;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[11]/div[2]/div/div/div[1]")
+	@FindBy(xpath="//div[@class='multiselect__select']")
 	WebElement clickSectorDropDown;
 	
 	@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")

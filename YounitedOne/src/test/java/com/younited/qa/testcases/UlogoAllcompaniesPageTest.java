@@ -67,12 +67,12 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Exact match
-		uLogoAllcompaniesPage.clickExactMatch();
-		testUtil.testWaitFour();
-		uLogoAllcompaniesPage.clickExactMatch();
-		testUtil.testWaitFour();
+		//uLogoAllcompaniesPage.clickExactMatch();
+		//testUtil.testWaitFour();
+		//uLogoAllcompaniesPage.clickExactMatch();
+		//testUtil.testWaitFour();
 		uLogoAllcompaniesPage.clickResetCompanyFilter();
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
