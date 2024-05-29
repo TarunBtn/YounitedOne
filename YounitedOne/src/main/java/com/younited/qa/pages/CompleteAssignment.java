@@ -65,7 +65,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[1]/button[4]/i")
 		WebElement selectStartYear;
 		
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[1]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[4]/div[6]/div")
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[1]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[3]/div")
 		WebElement selectStartDate;
 		
 		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[2]/div[2]/div/div[1]/div/div/div/input")
@@ -74,7 +74,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[1]/button[3]/i")
 		WebElement selectEndYear;
 		
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[2]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[2]/div")
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/form/div[2]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[4]/div")
 		WebElement selectEndDate;
 		
 		@FindBy(xpath="//*[@id=\"aantaluurperweek\"]/div/div[2]/div[2]/div[1]")
@@ -110,7 +110,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[4]/div[2]/div/span[2]/div/div/div/input")
 		WebElement clickVisibleDateTo;
 		
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[4]/div[2]/div/span[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[2]/div")
+		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[4]/div[2]/div/span[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[4]/div")
 		WebElement selectVisibleDateTo;
 		
 		//Initialization
