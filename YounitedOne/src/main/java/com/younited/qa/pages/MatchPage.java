@@ -99,7 +99,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="/html/body")
 	WebElement selectTooltipSkill;
 			
-	@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//button[@class='btn btn-primary']")
+	@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//button[@type='button'][normalize-space()='Filters toepassen']")
 	WebElement applyFilterSkill;
 			
 	@FindBy(xpath="//a[normalize-space()='Extra Filters wissen']")

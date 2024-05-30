@@ -16,7 +16,7 @@ public class HomePageAdmin extends TestBase{
 	@FindBy(xpath="//a[normalize-space()='Community']")
 	WebElement communityTab;
 				
-	@FindBy(xpath="//a[@href='/ondernemer']")
+	@FindBy(xpath="//a[normalize-space()='Matchen']")
 	WebElement matchTab;
 				
 	@FindBy(xpath="/html/body/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[1]/button/span")

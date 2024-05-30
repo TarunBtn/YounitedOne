@@ -133,7 +133,7 @@ public class MatchPageAdminTest extends TestBase{
 		matchPage.enterValueSkillTab();
 		testUtil.testWaitFour();
 		matchPage.clickSkillTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		try {
 		    matchPage.clickApplyFilterSkill();
 		    testUtil.testWaitEight();
