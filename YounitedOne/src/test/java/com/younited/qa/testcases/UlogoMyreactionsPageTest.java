@@ -31,7 +31,7 @@ public class UlogoMyreactionsPageTest extends TestBase{
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
-		testUtil.testWaitFourteen();
+		testUtil.testWaitEight();
 		homePageAdmin.clickMyReactionsTab();
 		testUtil.testWaitFour();
 		
