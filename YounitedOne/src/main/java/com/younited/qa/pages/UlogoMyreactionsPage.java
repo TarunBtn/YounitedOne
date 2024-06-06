@@ -8,6 +8,9 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoMyreactionsPage extends TestBase{
 	//Page factory OR Object Repository
+	@FindBy(xpath="//li[@class='breadcrumb-item active']")
+	WebElement myReactionsLogo;
+	
 	@FindBy(xpath="//span[@class='fs-16']")
 	WebElement suggestedResponses;
 	
@@ -35,6 +38,10 @@ public class UlogoMyreactionsPage extends TestBase{
 	}
 	
 	//Actions
+	public void clickMyReactionsLogo() {
+		myReactionsLogo.click();
+	}
+	
 	public void clickSuggestedResponses() {
 		suggestedResponses.click();
 	}

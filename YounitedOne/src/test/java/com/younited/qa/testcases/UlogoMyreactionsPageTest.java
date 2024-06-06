@@ -27,13 +27,13 @@ public class UlogoMyreactionsPageTest extends TestBase{
 		uLogoMyreactionsPage=new UlogoMyreactionsPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitFourteen();
+		testUtil.testWaitEight();
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 		homePageAdmin.clickMyReactionsTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitFour();
 		
 		
 	}
@@ -46,10 +46,12 @@ public class UlogoMyreactionsPageTest extends TestBase{
 		//testUtil.testWaitFourteen();
 		//uLogoMyreactionsPage.clickResponseHistory();
 		//testUtil.testWaitEight();
+		uLogoMyreactionsPage.clickMyReactionsLogo();
+		testUtil.testWaitTwo();
 		uLogoMyreactionsPage.clickCheckBox();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		uLogoMyreactionsPage.clickStatusDropDown();
-		testUtil.testWaitFour();
+		testUtil.testWaitTwo();
 		uLogoMyreactionsPage.selectStatusDropDown();
 		testUtil.testWaitFour();
 	}
