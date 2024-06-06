@@ -10,7 +10,7 @@ import com.younited.qa.base.TestBase;
 
 public class MyAssignmentsPage extends TestBase{
 	//Page factory or Object Repository
-		@FindBy(xpath="//*[@id=\"page-header\"]/div[2]/div/div/div/div/a")
+		@FindBy(xpath="//a[@class='btn btn-gold mt-4 btn-position']")
 		WebElement addNewCommand;
 			
 		@FindBy(id="filter-input")
