@@ -27,11 +27,11 @@ public class UlogoMyreactionsPageTest extends TestBase{
 		uLogoMyreactionsPage=new UlogoMyreactionsPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		homePageAdmin.clickMyReactionsTab();
 		testUtil.testWaitFour();
 		

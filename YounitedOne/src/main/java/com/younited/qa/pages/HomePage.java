@@ -17,7 +17,7 @@ public class HomePage extends TestBase{
 			@FindBy(xpath="//div[@class='multiselect__select']")
 			WebElement reactiesDropDown;
 				
-			@FindBy(xpath="//a[@class='nav-link'][normalize-space()='Mijn opdrachten']")
+			@FindBy(xpath="//a[@class='nav-link active']")
 			WebElement myAssignmentsLink;
 				
 			@FindBy(xpath="//a[@class='nav-link active']")
