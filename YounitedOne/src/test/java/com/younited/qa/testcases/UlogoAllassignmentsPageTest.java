@@ -75,7 +75,7 @@ public class UlogoAllassignmentsPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
