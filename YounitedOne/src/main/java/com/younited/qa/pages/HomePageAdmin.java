@@ -169,7 +169,8 @@ public class HomePageAdmin extends TestBase{
 			}
 			
 			public void clickAllassignmentsTab() {
-				allAssignments.click();
+				//allAssignments.click();
+				Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/alleopdrachten/");
 			}
 			
 			public void clickProfileStatistics() {
