@@ -29,7 +29,7 @@ public class UlogoAllassignmentsPage extends TestBase{
 	@FindBy(xpath="//div[@class='multiselect__select']")
 	WebElement clickSelectFilterDropDown;
 	
-	@FindBy(xpath="//span[contains(text(),'Sector')]")
+	@FindBy(xpath="//span[contains(text(),'Werk- en denkniveau')]")
 	WebElement selectFilterDropDown;
 	
 	//Initialization
