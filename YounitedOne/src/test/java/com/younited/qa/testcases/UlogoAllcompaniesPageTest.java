@@ -108,22 +108,22 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
-		//uLogoAllcompaniesPage.clickSaveBtn();
-		uLogoAllcompaniesPage.clickCancelBtn();
-		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
-		uLogoMycompanyPage.clickDeleteCompanySign();
+		uLogoAllcompaniesPage.clickSaveBtn();
+		//uLogoAllcompaniesPage.clickCancelBtn();
+		testUtil.testWaitEight();
+		testUtil.scrollUp();
 		testUtil.testWaitFour();
+		//uLogoMycompanyPage.clickDeleteCompanySign();
+		//testUtil.testWaitFour();
 		//System.out.println(uLogoAllcompaniesPage.companyLink());
 		//testUtil.testWaitFour();
 		//if(uLogoAllcompaniesPage.companyLink().equals("Cybage Software B.V.")) {
 			//testUtil.testWaitTwo();
 		//uLogoMycompanyPage.clickDeleteCompany();
-		uLogoMycompanyPage.clickCancelDelete();
-		testUtil.testWaitFour();
+		//uLogoMycompanyPage.clickCancelDelete();
+		//testUtil.testWaitFour();
 			//testUtil.testWaitEight();
 		//}else {
 			//System.out.println("Company name not exist");

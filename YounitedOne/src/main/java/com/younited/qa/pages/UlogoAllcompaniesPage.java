@@ -9,7 +9,7 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoAllcompaniesPage extends TestBase{
 	//Pagefactory OR Object Repository	
-	@FindBy(xpath="//select[@id='__BVID__136']")
+	@FindBy(xpath="//select[@class='custom-select common-filter-height form-control']")
 	WebElement verifiedCompanyDropDown;
 	
 	@FindBy(xpath="//option[text()='Alle']")
@@ -60,7 +60,7 @@ public class UlogoAllcompaniesPage extends TestBase{
 	@FindBy(id="organisatie.websitelink")
 	WebElement enterWebsite;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[18]/div/button")
+	@FindBy(xpath="//button[normalize-space()='Bedrijf opslaan']")
 	WebElement clickSaveBtn;
 	
 	@FindBy(xpath="//a[@title='Annuleren']")

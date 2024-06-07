@@ -159,7 +159,8 @@ public class HomePageAdmin extends TestBase{
 			}
 			
 			public void clickAllCompaniesTab() {
-				allCompanies.click();			
+				//allCompanies.click();	
+				Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/alle-bedrijven");
 			}
 			
 			public void clickNativeCompanyTab() {
