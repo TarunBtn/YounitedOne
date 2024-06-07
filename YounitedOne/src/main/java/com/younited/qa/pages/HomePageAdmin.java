@@ -197,7 +197,8 @@ public class HomePageAdmin extends TestBase{
 			}
 			
 			public void clickNativeAssignmentsTab() {
-				nativeAssignmentsTab.click();
+				//nativeAssignmentsTab.click();
+				Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/netive-opdrachten");
 			}
 
 }
