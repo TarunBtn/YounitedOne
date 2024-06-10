@@ -13,7 +13,7 @@ public class HomePageAdmin extends TestBase{
 			@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[2]/ul[1]/li[2]/a/span")
 			WebElement assignmentsTab;
 						
-			@FindBy(xpath="//a[normalize-space()='Community']")
+			@FindBy(xpath="//a[@class='nav-link'][normalize-space()='Community']")
 			WebElement communityTab;
 						
 			@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[2]/ul[1]/li[4]/a")
