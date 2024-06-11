@@ -9,7 +9,7 @@ import com.younited.qa.base.TestBase;
 
 public class UlogoIntermediarycompaniesPage extends TestBase{
 	//Pagefactory OR Object Repository
-	@FindBy(id="//input[@id='filter-input']")
+	@FindBy(xpath="//input[@id='filter-input']")
 	WebElement searchCompany;
 	
 	@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/div[1]/div[2]/div/div/input")
@@ -27,7 +27,7 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[6]/div[2]")
 	WebElement aboutYourCompany;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[7]/div[2]/div/div/div[1]")
+	@FindBy(xpath="//div[@class='multiselect__select']")
 	WebElement sectorDropDown;
 	
 	@FindBy(xpath="//*[@id=\"sector-1\"]/span/span")
@@ -36,10 +36,10 @@ public class UlogoIntermediarycompaniesPage extends TestBase{
 	@FindBy(id="organisatie.websitelink")
 	WebElement enterWebsite;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/button")
+	@FindBy(xpath="//button[normalize-space()='Bedrijf opslaan']")
 	WebElement clickSaveBtn;
 	
-	@FindBy(xpath="//*[@id=\"general-company-edit\"]/form/div[20]/div/a")
+	@FindBy(xpath="//a[@title='Annuleren']")
 	WebElement clickCancelBtn;
 	
 	@FindBy(xpath="//*[@id=\"data-body\"]/tr[1]/td[4]/span/a[1]/span")
