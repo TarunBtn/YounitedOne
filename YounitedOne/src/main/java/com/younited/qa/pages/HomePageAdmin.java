@@ -155,7 +155,8 @@ public class HomePageAdmin extends TestBase{
 			}
 			
 			public void clickUserManagementTab() {
-				userManagementTab.click();
+				//userManagementTab.click();
+				Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/gebruikers");
 			}
 			
 			public void clickAllCompaniesTab() {
