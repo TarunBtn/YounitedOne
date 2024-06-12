@@ -25,6 +25,9 @@ public class MyAssignmentsPage extends TestBase{
 		@FindBy(xpath="//Option[text()='Soft-Solutions B.V.']")
 		WebElement selectCompanyFromDropDown;
 		
+		@FindBy(xpath="//option[@value='6662ae1ace0cc96a9ccc6cb2']")
+		WebElement selectCompanyFromDropDownAdmin;
+		
 		@FindBy(xpath="//a[@href='/mijn-opdrachten/reacties/e1d8e64f-23c5-4719-ac61-eb72e9193f9d']")
 		WebElement clickComments;
 		
@@ -96,6 +99,10 @@ public class MyAssignmentsPage extends TestBase{
 			
 		public void selectCompanyFromDropDown() {
 			selectCompanyFromDropDown.click();
+		}
+		
+		public void selectCompanyFromDropDownAdmin() {
+			selectCompanyFromDropDownAdmin.click();
 		}
 		
 		public void clickCommentsLink() {

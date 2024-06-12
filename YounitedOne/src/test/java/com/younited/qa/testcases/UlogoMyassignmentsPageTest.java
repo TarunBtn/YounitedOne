@@ -52,7 +52,7 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		myAssignmentsPage.clickChooseCompanyDropDown();
 		testUtil.testWaitTwo();
-		myAssignmentsPage.selectCompanyFromDropDown();
+		myAssignmentsPage.selectCompanyFromDropDownAdmin();
 		testUtil.testWaitEight();
 		myAssignmentsPage.clickChooseCompanyDropDown();
 		testUtil.testWaitFour();
