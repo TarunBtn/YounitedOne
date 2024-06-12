@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-11T17:30:40 IST" name="Default suite" finished-at="2024-06-11T17:32:11 IST" duration-ms="90563">
+  <suite started-at="2024-06-12T12:23:32 IST" name="Default suite" finished-at="2024-06-12T12:25:40 IST" duration-ms="127605">
     <groups>
     </groups>
-    <test started-at="2024-06-11T17:30:40 IST" name="Default test" finished-at="2024-06-11T17:32:11 IST" duration-ms="90563">
-      <class name="com.younited.qa.testcases.AddCommandPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@273e7444]" started-at="2024-06-11T17:30:40 IST" name="setUp" finished-at="2024-06-11T17:31:50 IST" duration-ms="69988" status="PASS">
+    <test started-at="2024-06-12T12:23:32 IST" name="Default test" finished-at="2024-06-12T12:25:40 IST" duration-ms="127605">
+      <class name="com.younited.qa.testcases.MyAssignmentsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MyAssignmentsPageTest@273e7444]" started-at="2024-06-12T12:23:32 IST" name="setUp" finished-at="2024-06-12T12:24:34 IST" duration-ms="61979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadFileTest()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@273e7444]" started-at="2024-06-11T17:31:50 IST" name="uploadFileTest" finished-at="2024-06-11T17:32:10 IST" duration-ms="20288" status="PASS">
+        <test-method signature="myAssignmentsPageTest()[pri:0, instance:com.younited.qa.testcases.MyAssignmentsPageTest@273e7444]" started-at="2024-06-12T12:24:34 IST" name="myAssignmentsPageTest" finished-at="2024-06-12T12:25:39 IST" duration-ms="65210" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadFileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.AddCommandPageTest@273e7444]" started-at="2024-06-11T17:32:10 IST" name="tearDown" finished-at="2024-06-11T17:32:11 IST" duration-ms="257" status="PASS">
+        </test-method> <!-- myAssignmentsPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MyAssignmentsPageTest@273e7444]" started-at="2024-06-12T12:25:39 IST" name="tearDown" finished-at="2024-06-12T12:25:40 IST" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.AddCommandPageTest -->
+      </class> <!-- com.younited.qa.testcases.MyAssignmentsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
