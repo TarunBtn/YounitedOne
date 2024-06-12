@@ -30,7 +30,7 @@ public class MatchPage extends TestBase{
 	WebElement clickCommandDropDown;
 	
 	//For MatchPageAdminTest side
-	@FindBy(xpath="//span[contains(text(),'nixz test Ontwikkelaar')]")
+	@FindBy(xpath="//span[contains(text(),'Managementassistente')]")
 	WebElement selectCommandValue;
 			
 	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/span")
@@ -93,7 +93,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="//button[@id='dropdown-skills-btn']")
 	WebElement skill;
 			
-	@FindBy(xpath="//input[@class='simple-typeahead-input']")
+	@FindBy(xpath="//input[@id='simple_typeahead_915']")
 	WebElement enterValueSkill;
 			
 	@FindBy(xpath="/html/body")

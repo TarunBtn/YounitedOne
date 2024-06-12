@@ -123,9 +123,9 @@ public class MatchPageAdminTest extends TestBase{
 		testUtil.testWaitTwo();
 		//Skills
 		matchPage.clickSkillTab();
-		testUtil.testWaitTwo();		
+		testUtil.testWaitFour();		
 		matchPage.clickEnterValueSkill();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.enterValueSkill("Accountbeheer");
 		testUtil.testWaitFour();
 		//matchPage.selectTooltipSkill();
@@ -179,7 +179,7 @@ public class MatchPageAdminTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
