@@ -93,7 +93,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="//button[@id='dropdown-skills-btn']")
 	WebElement skill;
 			
-	@FindBy(xpath="//*[@id=\"simple_typeahead_83\"]")
+	@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//input[@class='simple-typeahead-input']")
 	WebElement enterValueSkill;
 			
 	@FindBy(xpath="/html/body")
@@ -105,7 +105,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="//a[normalize-space()='Extra Filters wissen']")
 	WebElement resetFilterSkill;
 			
-	@FindBy(xpath="//a[@class='link']")
+	@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//a[@class='link'][normalize-space()='Annuleren']")
 	WebElement cancelSkill;
 			
 	@FindBy(xpath="//div[@id='toggle-saved']")
