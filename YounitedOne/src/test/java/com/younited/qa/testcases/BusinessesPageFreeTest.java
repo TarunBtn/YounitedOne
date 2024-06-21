@@ -27,13 +27,13 @@ public class BusinessesPageFreeTest extends TestBase{
 		businessesPageFree=new BusinessesPageFree();
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		//testUtil.testWaitFourteen();
+		testUtil.testWaitFourteen();
 		//homePageFree.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		//homePageFree.suitableAssignments();
 		//testUtil.testWaitFour();
 		homePageFree.clickBusinessesTab();
-		//testUtil.testWaitEleven();
+		testUtil.testWaitEleven();
 				
 	}
 	
@@ -41,11 +41,11 @@ public class BusinessesPageFreeTest extends TestBase{
 	public void businessesPageFree()throws Exception {
 		//Filter value
 		businessesPageFree.filterValue("Apex");
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		businessesPageFree.filterValueTooltip();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		businessesPageFree.removeFilter();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		//Sector-field removed
 		//businessesPageFree.clickSector();
 		//testUtil.testWaitTwo();
@@ -60,17 +60,17 @@ public class BusinessesPageFreeTest extends TestBase{
 		//businessesPageFree.clickSector();
 		//testUtil.testWaitTwo();
 		businessesPageFree.clickSortingDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		businessesPageFree.sortingZtoA();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		businessesPageFree.sortingLocationAtoZ();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		businessesPageFree.sortingLocationZtoA();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		businessesPageFree.sortingAtoZ();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		businessesPageFree.clickSortingDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		
 	}
 	
