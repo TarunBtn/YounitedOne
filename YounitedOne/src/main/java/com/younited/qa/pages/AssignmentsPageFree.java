@@ -71,7 +71,7 @@ public class AssignmentsPageFree extends TestBase{
 			
 		@FindBy(id="dropdown-uren-reset")
 		WebElement resetHoursFilter;
-		//
+		
 		@FindBy(id="dropdown-uren-cancel")
 		WebElement cancelHours;
 		
@@ -86,7 +86,7 @@ public class AssignmentsPageFree extends TestBase{
 			
 		@FindBy(id="dropdown-uurtarief-reset")
 		WebElement resetHourlyRateFilter;	
-		//
+		
 		@FindBy(id="dropdown-uurtarief-cancel")
 		WebElement cancelHourlyRate;
 		
@@ -104,7 +104,7 @@ public class AssignmentsPageFree extends TestBase{
 			
 		@FindBy(xpath="//button[@id='dropdown-location-and-distance-reset']")
 		WebElement resetLocation;
-		//
+		
 		@FindBy(id="dropdown-location-and-distance-cancel")
 		WebElement cancelLocation;
 		
@@ -145,8 +145,8 @@ public class AssignmentsPageFree extends TestBase{
 		}
 		
 		public void selectAssignmentsValue() {
-			//selectValue.click();
-			enterValue.sendKeys(Keys.TAB);
+			//enterValue.sendKeys(Keys.TAB);
+	
 		}
 		
 		public void clearAssignmentsFilter() {
@@ -184,7 +184,7 @@ public class AssignmentsPageFree extends TestBase{
 			
 		public void selectSkillToolTip() {
 			//selectSkillToolTip.click();
-			enterSkill.sendKeys(Keys.TAB);
+			//enterSkill.sendKeys(Keys.TAB);
 		}
 			
 		public void applySkillFilter() {
