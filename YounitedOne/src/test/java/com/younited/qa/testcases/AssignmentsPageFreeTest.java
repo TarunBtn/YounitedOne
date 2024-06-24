@@ -29,23 +29,13 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree=new AssignmentsPageFree();
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitEleven();
-		//try {
+		testUtil.testWaitEleven();	
 		//homePageFree.clickAcceptAllCookies();
-		//}catch(NoSuchElementException e) {
-			//e.printStackTrace();
-		//}
 		//testUtil.testWaitEleven();
 		homePageFree.clickAssignmentsLink();
 		testUtil.testWaitEight();
 			
 	}
-	
-	//public void assignmentsPageTitleTest()throws Exception {
-		//String title=assignmentsPageFree.assignmentsPageTitle();
-		//Assert.assertEquals(title, "Opdrachten - Younited®");
-		//testUtil.testWaitTwo();
-	//}
 	
 	@Test
 	public void clickFiltersTest()throws Exception {
