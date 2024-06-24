@@ -93,7 +93,7 @@ public class MatchPage extends TestBase{
 	@FindBy(xpath="//button[@id='dropdown-skills-btn']")
 	WebElement skill;
 			
-	@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//input[@class='simple-typeahead-input']")
+	@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/nav/div[2]/div/div[1]/div[2]/div[6]/div/form/div[1]/div/div/input")
 	WebElement enterValueSkill;
 			
 	@FindBy(xpath="/html/body")
