@@ -145,7 +145,7 @@ public class AssignmentsPageFree extends TestBase{
 		}
 		
 		public void selectAssignmentsValue() {
-			//enterValue.sendKeys(Keys.TAB);
+			enterValue.sendKeys(Keys.TAB);
 	
 		}
 		
@@ -184,7 +184,7 @@ public class AssignmentsPageFree extends TestBase{
 			
 		public void selectSkillToolTip() {
 			//selectSkillToolTip.click();
-			//enterSkill.sendKeys(Keys.TAB);
+			enterSkill.sendKeys(Keys.TAB);
 		}
 			
 		public void applySkillFilter() {
