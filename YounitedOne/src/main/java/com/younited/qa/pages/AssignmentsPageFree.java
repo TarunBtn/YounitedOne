@@ -42,7 +42,7 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-lg-right dropdown-menu-xl-left show']//button[@type='button'][normalize-space()='Filters toepassen']")
 		WebElement applySkillFilter;
 			
-		@FindBy(linkText="Filters wissen")
+		@FindBy(xpath="//a[normalize-space()='Filters wissen']")
 		WebElement resetSkillFilter;
 			
 		@FindBy(linkText="Annuleren")
