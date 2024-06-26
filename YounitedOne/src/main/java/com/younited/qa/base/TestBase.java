@@ -36,7 +36,13 @@ public class TestBase {
 		String browserName=prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-			Driver=new ChromeDriver();	
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless");
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--disable-gpu");
+			options.addArguments("--window-size=1920,1080");
+			Driver=new ChromeDriver(options);	
 			
 		}else if(browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
@@ -44,16 +50,16 @@ public class TestBase {
 			
 		}
 		
-		ChromeOptions options = new ChromeOptions();
+		//ChromeOptions options = new ChromeOptions();
          //options.setHeadless(true);
-         options.addArguments("--headless");
-         options.addArguments("--no-sandbox");
-         options.addArguments("--disable-dev-shm-usage");
+         //options.addArguments("--headless");
+         //options.addArguments("--no-sandbox");
+         //options.addArguments("--disable-dev-shm-usage");
             //System.setProperty("webdriver.chrome.driver", "./YounitedAa/src/main/java/chromedriver");
-         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-         Driver = new ChromeDriver(options);
+         //System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+         //Driver = new ChromeDriver(options);
 		
-		//Driver=new ChromeDriver();
+		//Driver=new ChromeDriver(options);
 		Driver.manage().window().maximize();
 		Driver.manage().deleteAllCookies();
 		Driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
