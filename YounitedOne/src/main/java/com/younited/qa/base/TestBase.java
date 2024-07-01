@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.younited.qa.util.TestUtil;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 	
@@ -37,9 +37,8 @@ public class TestBase {
 	public void initialization()throws Exception {
 		String browserName=prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
-			//System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-			
-			WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+			//WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless");
 			options.addArguments("--no-sandbox");

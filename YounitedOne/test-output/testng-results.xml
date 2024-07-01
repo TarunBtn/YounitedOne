@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-01T14:50:05 IST" name="Default suite" finished-at="2024-07-01T14:50:08 IST" duration-ms="2171">
+  <suite started-at="2024-07-01T14:55:19 IST" name="Default suite" finished-at="2024-07-01T14:55:21 IST" duration-ms="2113">
     <groups>
     </groups>
-    <test started-at="2024-07-01T14:50:05 IST" name="Default test" finished-at="2024-07-01T14:50:08 IST" duration-ms="2171">
+    <test started-at="2024-07-01T14:55:19 IST" name="Default test" finished-at="2024-07-01T14:55:21 IST" duration-ms="2113">
       <class name="com.younited.qa.testcases.UlogoDasGroupsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@65c7a252]" started-at="2024-07-01T14:50:05 IST" name="setUp" finished-at="2024-07-01T14:50:08 IST" duration-ms="2145" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@65c7a252]" started-at="2024-07-01T14:55:19 IST" name="setUp" finished-at="2024-07-01T14:55:21 IST" duration-ms="2089" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
@@ -79,7 +79,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UlogoDasGroupPage()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@65c7a252]" started-at="2024-07-01T14:50:08 IST" name="UlogoDasGroupPage" finished-at="2024-07-01T14:50:08 IST" duration-ms="0" status="SKIP">
+        <test-method signature="UlogoDasGroupPage()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@65c7a252]" started-at="2024-07-01T14:55:21 IST" name="UlogoDasGroupPage" finished-at="2024-07-01T14:55:21 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
@@ -151,7 +151,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UlogoDasGroupPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@65c7a252]" started-at="2024-07-01T14:50:08 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1719825608065" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@65c7a252]" started-at="2024-07-01T14:55:21 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1719825921425" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
