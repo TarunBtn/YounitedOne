@@ -28,6 +28,12 @@ public class HomePage extends TestBase{
 				
 			@FindBy(xpath="/html/body/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[1]/button/span")
 			WebElement acceptAllCookies;
+			
+			@FindBy(xpath="//button[@class='dropdown-toggle dropdown-button profile-img']")
+			WebElement userLogo;
+			
+			@FindBy(xpath="//a[@class='manage-profile-button flex-grow-1']")
+			WebElement manageProfileLink;
 				
 			//Initialization
 			public HomePage() {
@@ -59,6 +65,14 @@ public class HomePage extends TestBase{
 				
 			public void clickAcceptAllCookies() {
 				acceptAllCookies.click();
+			}
+			
+			public void clickUserLogo() {
+				userLogo.click();
+			}
+			
+			public void clickManageProfileLink() {
+				manageProfileLink.click();
 			}
 
 }
