@@ -45,7 +45,7 @@ public class TestBase {
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--disable-gpu");
 			options.addArguments("--window-size=1920,1080");
-			Driver=new ChromeDriver(options);	
+			Driver=new ChromeDriver(options);
 			
 		}else if(browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
