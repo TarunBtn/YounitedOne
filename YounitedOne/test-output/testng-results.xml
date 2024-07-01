@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-01T15:10:49 IST" name="Default suite" finished-at="2024-07-01T15:12:04 IST" duration-ms="74845">
+  <suite started-at="2024-07-01T15:43:10 IST" name="Default suite" finished-at="2024-07-01T15:44:33 IST" duration-ms="83387">
     <groups>
     </groups>
-    <test started-at="2024-07-01T15:10:49 IST" name="Default test" finished-at="2024-07-01T15:12:04 IST" duration-ms="74845">
+    <test started-at="2024-07-01T15:43:10 IST" name="Default test" finished-at="2024-07-01T15:44:33 IST" duration-ms="83387">
       <class name="com.younited.qa.testcases.UlogoDasGroupsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@273e7444]" started-at="2024-07-01T15:10:49 IST" name="setUp" finished-at="2024-07-01T15:11:39 IST" duration-ms="50251" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@273e7444]" started-at="2024-07-01T15:43:10 IST" name="setUp" finished-at="2024-07-01T15:44:07 IST" duration-ms="57505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UlogoDasGroupPage()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@273e7444]" started-at="2024-07-01T15:11:39 IST" name="UlogoDasGroupPage" finished-at="2024-07-01T15:12:04 IST" duration-ms="24445" status="PASS">
+        <test-method signature="UlogoDasGroupPage()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@273e7444]" started-at="2024-07-01T15:44:07 IST" name="UlogoDasGroupPage" finished-at="2024-07-01T15:44:33 IST" duration-ms="25661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UlogoDasGroupPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@273e7444]" started-at="2024-07-01T15:12:04 IST" name="tearDown" finished-at="2024-07-01T15:12:04 IST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoDasGroupsPageTest@273e7444]" started-at="2024-07-01T15:44:33 IST" name="tearDown" finished-at="2024-07-01T15:44:33 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
