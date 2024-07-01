@@ -50,15 +50,6 @@ public class TestBase {
 			
 		}
 		
-		//ChromeOptions options = new ChromeOptions();
-         //options.setHeadless(true);
-         //options.addArguments("--headless");
-         //options.addArguments("--no-sandbox");
-         //options.addArguments("--disable-dev-shm-usage");
-            //System.setProperty("webdriver.chrome.driver", "./YounitedAa/src/main/java/chromedriver");
-         //System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-         //Driver = new ChromeDriver(options);
-		
 		//Driver=new ChromeDriver(options);
 		Driver.manage().window().maximize();
 		Driver.manage().deleteAllCookies();
