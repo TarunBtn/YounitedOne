@@ -34,12 +34,37 @@ public class ManageProfilePageTest extends TestBase{
 		homePage.clickManageProfileLink();
 		testUtil.testWaitEight();
 		
-		
 	}
 	
 	@Test
-	public void test() {
+	public void test()throws Exception {
+		manageProfilePage.clickMyProfilePageLogo();
+		testUtil.testWaitTwo();
 		manageProfilePage.clickEditYourProfileLink();
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		manageProfilePage.clickInstitutionsTab();
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollUp();
+		testUtil.testWaitTwo();
+		manageProfilePage.clickGeneralTab();
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitTwo();
+		manageProfilePage.clickCancelBtn();
+		testUtil.testWaitFour();
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
+		testUtil.testWaitFour();
+		
 	}
 	
 	@AfterMethod

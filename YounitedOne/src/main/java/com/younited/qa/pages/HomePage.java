@@ -34,6 +34,12 @@ public class HomePage extends TestBase{
 			
 			@FindBy(xpath="//a[@class='manage-profile-button flex-grow-1']")
 			WebElement manageProfileLink;
+			
+			@FindBy(xpath="//a[@class='user-infoNav-item-link logout']//span[@class='material-icons'][normalize-space()='logout']")
+			WebElement signOutLink;
+			
+			@FindBy(xpath="//button[@class='btn btn-primary btn btn-primary']")
+			WebElement signOutBtn;
 				
 			//Initialization
 			public HomePage() {
@@ -73,6 +79,14 @@ public class HomePage extends TestBase{
 			
 			public void clickManageProfileLink() {
 				manageProfileLink.click();
+			}
+			
+			public void clickSignOutLink() {
+				signOutLink.click();
+			}
+			
+			public void clickSignOutBtn() {
+				signOutBtn.click();
 			}
 
 }
