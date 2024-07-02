@@ -52,6 +52,10 @@ public class UlogoDasPlatformPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoDasPlatformPage.clickResetSearchByName();
 		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 		
 	}
 	

@@ -74,6 +74,10 @@ public class UlogoMycompanyPageTest extends TestBase{
 		uLogoMycompanyPage.clickSaveBtn();
 		//uLogoMycompanyPage.clickCancelBtn();
 		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 		
 	}
 	

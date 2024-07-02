@@ -146,6 +146,10 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 		
 	}
 	

@@ -70,6 +70,10 @@ public class UlogoAllassignmentsPageTest extends TestBase{
 		uLogoAllassignmentsPage.selectFilterDropDown();
 		testUtil.testWaitEight();
 		//uLogoAllassignmentsPage.clickFilterDropDown();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 				
 	}
 	

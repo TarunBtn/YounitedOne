@@ -128,6 +128,10 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		//}else {
 			//System.out.println("Company name not exist");
 		//}
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 					
 	}
 	

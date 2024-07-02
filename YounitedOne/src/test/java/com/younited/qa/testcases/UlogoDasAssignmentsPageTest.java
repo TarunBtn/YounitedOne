@@ -110,6 +110,10 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickSorting();
 		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 		
 	}
 	

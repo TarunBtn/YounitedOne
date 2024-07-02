@@ -69,8 +69,11 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		uLogoProfilestatisticsPage.resetRoleDropDown();
 		testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.clickRoleDropDown();
-		testUtil.testWaitTwo();
-		
+		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 				
 	}
 	

@@ -101,6 +101,10 @@ public class UlogoMyassignmentsPageTest extends TestBase{
 		testUtil.testWaitEight();
 		myAssignmentsPage.clickStatusDropDown();
 		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 		
 	}
 	

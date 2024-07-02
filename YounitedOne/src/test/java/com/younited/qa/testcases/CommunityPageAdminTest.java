@@ -107,6 +107,10 @@ public class CommunityPageAdminTest extends TestBase{
 		testUtil.testWaitTwo();
 		myNetworkPageFree.clickAreaOfInterest();
 		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 		
 				
 	}

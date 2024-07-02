@@ -129,6 +129,10 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		  //testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 		
 	}
 	

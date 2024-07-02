@@ -281,6 +281,10 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 		
 	}
 	

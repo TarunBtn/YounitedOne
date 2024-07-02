@@ -194,7 +194,11 @@ public class AssignmentsPageAdminTest extends TestBase{
 	  	assignmentsPageFree.selectPublicationDateNewFirst();
 	  	testUtil.testWaitEight();
 	  	assignmentsPageFree.clickSortingDropDown();
-	  	testUtil.testWaitTwo();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 	}
 	
 	@AfterMethod

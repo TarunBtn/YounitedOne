@@ -112,6 +112,10 @@ public class UlogoNativeAssignmentsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoNativeAssignmentsPage.selectClosingDateNewestFirst();
 		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 		
 						
 	}

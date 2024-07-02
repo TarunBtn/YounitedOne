@@ -54,6 +54,10 @@ public class UlogoMyreactionsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoMyreactionsPage.selectStatusDropDown();
 		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 	}
 	
 	@AfterMethod

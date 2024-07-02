@@ -43,8 +43,12 @@ public class UlogoChatPageTest extends TestBase{
 	}
 	
 	@Test
-	public void chatPage() {
+	public void chatPage()throws Exception {
 		System.out.println("Test is passed");
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 	}
 	
 	@AfterMethod

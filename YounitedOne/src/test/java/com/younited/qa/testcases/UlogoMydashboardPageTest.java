@@ -37,8 +37,13 @@ public class UlogoMydashboardPageTest extends TestBase{
 	}
 	
 	@Test
-	public void myDashboard() {
+	public void myDashboard()throws Exception {
 		System.out.println("Test is passed");
+		testUtil.testWaitTwo();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 	}
 	
 	@AfterMethod

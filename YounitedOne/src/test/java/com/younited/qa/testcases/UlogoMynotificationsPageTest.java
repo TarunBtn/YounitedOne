@@ -49,6 +49,10 @@ public class UlogoMynotificationsPageTest extends TestBase{
 		testUtil.testWaitEight();
 		//uLogoMynotificationsPage.ClickToOpenMail();
 		//testUtil.testWaitEight();
+		homePageAdmin.clickSignOutLink();
+	  	testUtil.testWaitFour();
+	  	homePageAdmin.clickSignOutBtn();
+	  	testUtil.testWaitFour();
 	}
 	
 	@AfterMethod
