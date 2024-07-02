@@ -45,6 +45,7 @@ public class UlogoChatPageTest extends TestBase{
 	@Test
 	public void chatPage()throws Exception {
 		System.out.println("Test is passed");
+		testUtil.testWaitFour();
 		homePageAdmin.clickSignOutLink();
 	  	testUtil.testWaitFour();
 	  	homePageAdmin.clickSignOutBtn();
