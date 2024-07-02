@@ -55,6 +55,10 @@ public class AddCommandPageTest extends TestBase{
 		testUtil.testWaitEight();
 		checkCommandPage=addCommandPage.clickUploadFile();
 		testUtil.testWaitEight();
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
+		testUtil.testWaitFour();
 		
 	}
 	

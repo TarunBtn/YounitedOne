@@ -68,6 +68,10 @@ public class CheckCommandPageTest extends TestBase{
 		//checkCommandPage.clickFillInComplete();
 		//testUtil.testWaitEight();
 		System.out.println("Test is passed");
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
+		testUtil.testWaitFour();
 	}
 	
 	@AfterMethod

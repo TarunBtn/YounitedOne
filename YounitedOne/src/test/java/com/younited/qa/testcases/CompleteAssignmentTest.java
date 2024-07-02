@@ -224,6 +224,10 @@ public class CompleteAssignmentTest extends TestBase{
 		completeAssignment.selectVisibleDateTo();
 		testUtil.testWaitFour();
 		//completeAssignment.clickSaveButton();
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
+		testUtil.testWaitFour();
 			
 	}
 	

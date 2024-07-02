@@ -43,6 +43,10 @@ public class HomePageTest extends TestBase{
 		testUtil.testWaitFour();
 		Assert.assertEquals(title, "Younited®");
 		testUtil.testWaitFour();
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
+		testUtil.testWaitFour();
 	}
 	
 	@Test(priority=2)
@@ -50,6 +54,10 @@ public class HomePageTest extends TestBase{
 		Boolean logo=homePage.verifyImageLogo();
 		testUtil.testWaitFour();
 		Assert.assertTrue(logo);
+		testUtil.testWaitFour();
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
 		testUtil.testWaitFour();
 	}
 	
@@ -59,6 +67,10 @@ public class HomePageTest extends TestBase{
 		homePage.clickMyAssignmentsLink();
 		testUtil.testWaitFourteen();
 		//testUtil.testWaitEight();
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
+		testUtil.testWaitFour();
 	}
 	
 	

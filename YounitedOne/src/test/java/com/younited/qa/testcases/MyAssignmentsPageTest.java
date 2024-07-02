@@ -81,6 +81,10 @@ public class MyAssignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		myAssignmentsPage.clickStatusDropDown();
 		testUtil.testWaitTwo();
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
+		testUtil.testWaitFour();
 	}
 	
 	@AfterMethod
