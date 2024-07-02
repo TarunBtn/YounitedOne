@@ -368,7 +368,10 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
-		
+		homePageFree.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageFree.clickSignOutBtn();
+		testUtil.testWaitFour();
 	}
 	
 	@AfterMethod

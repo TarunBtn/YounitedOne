@@ -94,6 +94,10 @@ public class CommunityPageFreeTest extends TestBase{
 		communityPageFree.clickFouriteMessage();
 		testUtil.testWaitFour();*/
 		//communityPageFree.clickMyNetworkBtn();
+		homePageFree.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageFree.clickSignOutBtn();
+		testUtil.testWaitFour();
 				
 		
 	}

@@ -191,12 +191,16 @@ public class AssignmentsPageFreeTest extends TestBase{
 		testUtil.testWaitEight();
 		assignmentsPageFree.clickSortingDropDown();
 		testUtil.testWaitTwo();
+		homePageFree.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageFree.clickSignOutBtn();
+		testUtil.testWaitFour();
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 		
 	}
 

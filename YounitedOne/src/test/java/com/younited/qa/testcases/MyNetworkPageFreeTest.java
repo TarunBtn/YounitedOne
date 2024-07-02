@@ -118,6 +118,10 @@ public class MyNetworkPageFreeTest extends TestBase{
 		testUtil.testWaitTwo();
 		myNetworkPageFree.clickAreaOfInterest();
 		testUtil.testWaitFour();
+		homePageFree.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageFree.clickSignOutBtn();
+		testUtil.testWaitFour();
 	}
 	
 	@AfterMethod

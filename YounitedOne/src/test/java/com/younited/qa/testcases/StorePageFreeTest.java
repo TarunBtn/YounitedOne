@@ -169,6 +169,10 @@ public class StorePageFreeTest extends TestBase{
 		//testUtil.testWaitFour();
 		//testUtil.scrollUp();
 		//testUtil.testWaitFour();
+		homePageFree.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageFree.clickSignOutBtn();
+		testUtil.testWaitFour();
 			
 	}
 	

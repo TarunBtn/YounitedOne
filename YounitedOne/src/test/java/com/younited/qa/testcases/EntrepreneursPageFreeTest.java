@@ -95,6 +95,10 @@ public class EntrepreneursPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		entrepreneursPageFree.clickSortingDropDown();
 		testUtil.testWaitFour();
+		homePageFree.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageFree.clickSignOutBtn();
+		testUtil.testWaitFour();
 		
 	}
 	

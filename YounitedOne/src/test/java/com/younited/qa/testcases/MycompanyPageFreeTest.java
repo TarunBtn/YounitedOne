@@ -37,8 +37,12 @@ public class MycompanyPageFreeTest extends TestBase{
 	}
 	
 	@Test
-	public void myCompanyPageFreeTest() {
+	public void myCompanyPageFreeTest()throws Exception {
 		System.out.println("Test is passed");
+		homePageFree.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageFree.clickSignOutBtn();
+		testUtil.testWaitFour();
 	}
 	
 	@AfterMethod
