@@ -7,7 +7,7 @@ import com.younited.qa.base.TestBase;
 
 public class MyReactionsPage extends TestBase{
 	//Page factory OR Object Repository
-	@FindBy(xpath="//li[@class='breadcrumb-item active']")
+	@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[2]/div[1]/div[1]/nav/ol/li[3]")
 	WebElement myReactionsPageLogo;
 	
 	@FindBy(xpath="//div[@class='multiselect--active multiselect inverted-width-select-menu fixed-width resolve-jump-issue custom-width-selectMenu visable-selected-option']//div[@class='multiselect__select']")
