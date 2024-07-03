@@ -35,6 +35,9 @@ public class HomePage extends TestBase{
 			@FindBy(xpath="//a[@class='manage-profile-button flex-grow-1']")
 			WebElement manageProfileLink;
 			
+			@FindBy(xpath="//a[normalize-space()='Reacties']")
+			WebElement myReactionsLink;
+			
 			@FindBy(xpath="//a[@class='user-infoNav-item-link logout']//span[@class='material-icons'][normalize-space()='logout']")
 			WebElement signOutLink;
 			
@@ -79,6 +82,10 @@ public class HomePage extends TestBase{
 			
 			public void clickManageProfileLink() {
 				manageProfileLink.click();
+			}
+			
+			public void clickMyReactionsLink() {
+				myReactionsLink.click();
 			}
 			
 			public void clickSignOutLink() {
