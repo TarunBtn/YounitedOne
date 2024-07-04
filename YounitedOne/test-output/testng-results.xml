@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-04T14:53:17 IST" name="Default suite" finished-at="2024-07-04T14:54:25 IST" duration-ms="67928">
+  <suite started-at="2024-07-04T15:56:51 IST" name="Default suite" finished-at="2024-07-04T15:58:19 IST" duration-ms="87837">
     <groups>
     </groups>
-    <test started-at="2024-07-04T14:53:17 IST" name="Default test" finished-at="2024-07-04T14:54:25 IST" duration-ms="67928">
-      <class name="com.younited.qa.testcases.MycompanyPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MycompanyPageTest@273e7444]" started-at="2024-07-04T14:53:17 IST" name="setUp" finished-at="2024-07-04T14:54:12 IST" duration-ms="55354" status="PASS">
+    <test started-at="2024-07-04T15:56:51 IST" name="Default test" finished-at="2024-07-04T15:58:19 IST" duration-ms="87837">
+      <class name="com.younited.qa.testcases.MycompanyLocatiesPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MycompanyLocatiesPageTest@273e7444]" started-at="2024-07-04T15:56:51 IST" name="setUp" finished-at="2024-07-04T15:57:54 IST" duration-ms="63099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.MycompanyPageTest@273e7444]" started-at="2024-07-04T14:54:12 IST" name="test" finished-at="2024-07-04T14:54:25 IST" duration-ms="12287" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.MycompanyLocatiesPageTest@273e7444]" started-at="2024-07-04T15:57:54 IST" name="test" finished-at="2024-07-04T15:58:19 IST" duration-ms="24449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MycompanyPageTest@273e7444]" started-at="2024-07-04T14:54:25 IST" name="tearDown" finished-at="2024-07-04T14:54:25 IST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MycompanyLocatiesPageTest@273e7444]" started-at="2024-07-04T15:58:19 IST" name="tearDown" finished-at="2024-07-04T15:58:19 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.MycompanyPageTest -->
+      </class> <!-- com.younited.qa.testcases.MycompanyLocatiesPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
