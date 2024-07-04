@@ -38,6 +38,9 @@ public class HomePage extends TestBase{
 			@FindBy(xpath="//a[normalize-space()='Reacties']")
 			WebElement myReactionsLink;
 			
+			@FindBy(xpath="//a[normalize-space()='Mijn bedrijf / bedrijven']")
+			WebElement myCompanyLink;
+			
 			@FindBy(xpath="//a[@class='user-infoNav-item-link logout']//span[@class='material-icons'][normalize-space()='logout']")
 			WebElement signOutLink;
 			
@@ -84,8 +87,12 @@ public class HomePage extends TestBase{
 				manageProfileLink.click();
 			}
 			
-			public void clickMyReactionsLink() {
+			public void clickMyReactionsTab() {
 				myReactionsLink.click();
+			}
+			
+			public void clickMycompanyTab() {
+				myCompanyLink.click();
 			}
 			
 			public void clickSignOutLink() {
