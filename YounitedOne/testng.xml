@@ -10,6 +10,13 @@
       <class name="com.younited.qa.testcases.CheckCommandPageTest"/>
       <class name="com.younited.qa.testcases.CompleteAssignmentTest"/>
       <class name="com.younited.qa.testcases.MatchPageTest"/>
+      <class name="com.younited.qa.testcases.ManageProfilePageTest"/>
+      <class name="com.younited.qa.testcases.MyReactionsPageTest"/>
+      <class name="com.younited.qa.testcases.MycompanyPageTest"/>
+      <class name="com.younited.qa.testcases.MycompanyLocatiesPageTest"/>
+      <class name="com.younited.qa.testcases.DashboardPageFreeTest"/>
+      <class name="com.younited.qa.testcases.MyReactionsPageFreeTest"/>
+      <class name="com.younited.qa.testcases.MyReactionsPageTest"/>
       <class name="com.younited.qa.testcases.AssignmentsPageFreeTest"/>
       <class name="com.younited.qa.testcases.MyNetworkPageFreeTest"/> 
       <class name="com.younited.qa.testcases.StorePageFreeTest"/>
