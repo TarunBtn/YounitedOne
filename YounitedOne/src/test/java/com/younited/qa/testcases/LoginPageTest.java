@@ -31,10 +31,7 @@ public class LoginPageTest extends TestBase{
 		String title=loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, "Log in | Younited® platform");
 		testUtil.testWaitFour();
-		homePage.clickSignOutLink();
-		testUtil.testWaitFour();
-		homePage.clickSignOutBtn();
-		testUtil.testWaitFour();
+		
 	}
 	
 	@Test(priority=2)
@@ -42,10 +39,7 @@ public class LoginPageTest extends TestBase{
 		boolean flag=loginPage.validateImageLogo();
 		Assert.assertTrue(flag);
 		testUtil.testWaitFour();
-		homePage.clickSignOutLink();
-		testUtil.testWaitFour();
-		homePage.clickSignOutBtn();
-		testUtil.testWaitFour();
+		
 	}
 	
 	@Test(priority=3)
@@ -55,7 +49,7 @@ public class LoginPageTest extends TestBase{
 		homePage.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePage.clickSignOutBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 	}
 	
 	@AfterMethod
