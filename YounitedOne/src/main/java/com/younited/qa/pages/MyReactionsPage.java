@@ -7,10 +7,10 @@ import com.younited.qa.base.TestBase;
 
 public class MyReactionsPage extends TestBase{
 	//Page factory OR Object Repository
-	@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[2]/div[1]/div[1]/nav/ol/li[3]")
+	@FindBy(xpath="//*[@id=\"page-header\"]/div[2]/button[1]/span")
 	WebElement myReactionsPageLogo;
 	
-	@FindBy(xpath="//div[@class='multiselect--active multiselect inverted-width-select-menu fixed-width resolve-jump-issue custom-width-selectMenu visable-selected-option']//div[@class='multiselect__select']")
+	@FindBy(xpath="//*[@id=\"page-header\"]/div[2]/div[1]/div/div[2]/div/div[1]/div/div[1]")
 	WebElement companyDropDown;
 	
 	@FindBy(xpath="//span[contains(text(),'Soft Design B.V.')]")
