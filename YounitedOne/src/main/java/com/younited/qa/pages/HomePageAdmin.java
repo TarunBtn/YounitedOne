@@ -79,6 +79,9 @@ public class HomePageAdmin extends TestBase{
 			@FindBy(xpath="//a[normalize-space()='Netive Opdrachten overzicht']")
 			WebElement nativeAssignmentsTab;
 			
+			@FindBy(xpath="//a[normalize-space()='Store: leveranciers']")
+			WebElement storeSuppliers;
+			
 			@FindBy(xpath="//a[@class='user-infoNav-item-link logout']//span[@class='material-icons'][normalize-space()='logout']")
 			WebElement signOutLink;
 			
@@ -207,6 +210,10 @@ public class HomePageAdmin extends TestBase{
 			public void clickNativeAssignmentsTab() {
 				//nativeAssignmentsTab.click();
 				Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/netive-opdrachten");
+			}
+			
+			public void clickStoreSuppliersTab() {
+				storeSuppliers.click();
 			}
 			
 			public void clickSignOutLink() {
