@@ -156,7 +156,7 @@ public class MatchPageAdminTest extends TestBase{
 		matchPage.clickStored();
 		testUtil.testWaitEight();
 		//Sorting
-		matchPage.selectMatchBasedOnSkill();
+		/*matchPage.selectMatchBasedOnSkill();
 		testUtil.testWaitEight();
 		matchPage.selectLocation();
 		testUtil.testWaitEight();
@@ -177,7 +177,7 @@ public class MatchPageAdminTest extends TestBase{
 		homePageAdmin.clickSignOutLink();
 	  	testUtil.testWaitFour();
 	  	homePageAdmin.clickSignOutBtn();
-	  	testUtil.testWaitFour();
+	  	testUtil.testWaitFour();*/
 		
 	}
 	

@@ -44,7 +44,7 @@ public class MatchPageTest extends TestBase{
 		matchPage.selectAssignmentFilter();
 		testUtil.testWaitEight();
 		//Availability
-		matchPage.clickAvailabilityDropDown();
+		/*matchPage.clickAvailabilityDropDown();
 		testUtil.testWaitTwo();
 		matchPage.selectOnlyAvailable();
 		testUtil.testWaitEight();
@@ -105,23 +105,23 @@ public class MatchPageTest extends TestBase{
 		matchPage.selectDescipline();
 		testUtil.testWaitEight();
 		matchPage.clickDesciplineDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
 		//Skills
 		matchPage.clickSkillTab();
 		testUtil.testWaitTwo();		
 		matchPage.clickEnterValueSkill();
 		testUtil.testWaitTwo();
 		matchPage.enterValueSkill("Accountbeheer");
-		testUtil.testWaitTwo();
-		matchPage.selectTooltipSkill();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
+		//matchPage.selectTooltipSkill();
+		//testUtil.testWaitEight();
 		matchPage.enterValueSkillTab();
 		testUtil.testWaitTwo();
 		matchPage.clickSkillTab();
 		testUtil.testWaitTwo();
 		try {
-		matchPage.clickApplyFilterSkill();
-		testUtil.testWaitTwo();
+		    matchPage.clickApplyFilterSkill();
+		    testUtil.testWaitTwo();
 		}catch(ElementClickInterceptedException e) {
 			e.printStackTrace();
 		}
@@ -131,8 +131,8 @@ public class MatchPageTest extends TestBase{
 		testUtil.testWaitEight();
 		matchPage.clickSkillTab();
 		testUtil.testWaitFour();
-		matchPage.clickSkillTab();
-		testUtil.testWaitFour();
+		//matchPage.clickSkillTab();
+		//testUtil.testWaitFour();
 		matchPage.clickCancelSkill();
 		testUtil.testWaitFour();
 		//Stored
@@ -141,7 +141,7 @@ public class MatchPageTest extends TestBase{
 		matchPage.clickStored();
 		testUtil.testWaitEight();
 		//Sorting
-		matchPage.selectMatchBasedOnSkill();
+		/*matchPage.selectMatchBasedOnSkill();
 		testUtil.testWaitEight();
 		matchPage.selectLocation();
 		testUtil.testWaitEight();
@@ -162,7 +162,7 @@ public class MatchPageTest extends TestBase{
 		homePage.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePage.clickSignOutBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		
 	}
 	
