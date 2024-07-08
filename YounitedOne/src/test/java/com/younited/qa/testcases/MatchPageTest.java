@@ -44,7 +44,7 @@ public class MatchPageTest extends TestBase{
 		matchPage.selectAssignmentFilter();
 		testUtil.testWaitEight();
 		//Availability
-		/*matchPage.clickAvailabilityDropDown();
+		matchPage.clickAvailabilityDropDown();
 		testUtil.testWaitTwo();
 		matchPage.selectOnlyAvailable();
 		testUtil.testWaitEight();
@@ -105,7 +105,7 @@ public class MatchPageTest extends TestBase{
 		matchPage.selectDescipline();
 		testUtil.testWaitEight();
 		matchPage.clickDesciplineDropDown();
-		testUtil.testWaitTwo();*/
+		testUtil.testWaitTwo();
 		//Skills
 		matchPage.clickSkillTab();
 		testUtil.testWaitTwo();		
