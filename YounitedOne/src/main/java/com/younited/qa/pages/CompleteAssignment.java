@@ -156,10 +156,10 @@ public class CompleteAssignment extends TestBase{
 		}
 		
 		public void clickWorkLocationTooltip() {
-			workLocationTooltip.click();
+			//workLocationTooltip.click();
 		    //Actions builder=new Actions(Driver);
 		    //builder.moveToElement(workLocationTooltip).build().perform();
-			//workLocation.sendKeys(Keys.TAB);
+			workLocation.sendKeys(Keys.TAB);
 			
 		}
 		

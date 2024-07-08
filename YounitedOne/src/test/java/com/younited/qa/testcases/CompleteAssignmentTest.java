@@ -65,18 +65,18 @@ public class CompleteAssignmentTest extends TestBase{
 	
 	@Test
 	public void completeAssignmentTest()throws Exception {
-		/*completeAssignment.clickCompanyDropDown();
+		completeAssignment.clickCompanyDropDown();
 		testUtil.testWaitTwo();
 		completeAssignment.selectCompany();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		completeAssignment.assignmentName("QA EngineerEight");
-		testUtil.testWaitFour();*/
+		testUtil.testWaitFour();
 		//completeAssignment.clickSectorDropDown();
 		//testUtil.testWaitTwo();
 		//completeAssignment.selectSectorFromDropDown();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		completeAssignment.clickDesciplineDropDown();
@@ -85,7 +85,7 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
-		/*completeAssignment.clickWorkLocation();
+		completeAssignment.clickWorkLocation();
 		testUtil.testWaitTwo();
 		completeAssignment.selectWorkLocation("Punthorst, Netherlands");
 		testUtil.testWaitFour();
@@ -98,7 +98,7 @@ public class CompleteAssignmentTest extends TestBase{
 		completeAssignment.clickWorkingThinkingLevel();
 		testUtil.testWaitFour();
 		completeAssignment.selectWorkingThinkingLevel();
-		testUtil.testWaitFour();*/
+		testUtil.testWaitFour();
 		completeAssignment.clickNextButton();
 		testUtil.testWaitEight();
 		//completeAssignment.clickNextButton();
@@ -233,7 +233,7 @@ public class CompleteAssignmentTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 		
 	}
 
