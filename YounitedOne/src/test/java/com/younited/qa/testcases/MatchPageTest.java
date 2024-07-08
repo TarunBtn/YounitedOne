@@ -163,6 +163,10 @@ public class MatchPageTest extends TestBase{
 		testUtil.testWaitFour();
 		homePage.clickSignOutBtn();
 		testUtil.testWaitFour();*/
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
+		testUtil.testWaitFour();
 		
 	}
 	
