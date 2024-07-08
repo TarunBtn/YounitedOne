@@ -7,7 +7,7 @@ import com.younited.qa.base.TestBase;
 
 public class MyReactionsPage extends TestBase{
 	//Page factory OR Object Repository
-	@FindBy(xpath="//li[@class='breadcrumb-item active']")
+	@FindBy(xpath="//span[normalize-space()='chevron_left']")
 	WebElement myReactionsPageLogo;
 	
 	@FindBy(xpath="//*[@id=\"page-header\"]/div[2]/div[1]/div/div[2]/div/div[1]/div/div[1]")
