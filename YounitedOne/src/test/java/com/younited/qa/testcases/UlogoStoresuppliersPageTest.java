@@ -56,6 +56,10 @@ public class UlogoStoresuppliersPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoStoresuppliersPage.clickResetBtn();
 		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutBtn();
+		testUtil.testWaitFour();
 		
 	}
 	
