@@ -33,7 +33,7 @@ public class MyReactionsPageFreeTest extends TestBase{
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
 		testUtil.testWaitFourteen();
 		homePageFree.clickUserLogo();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		homePageFree.clickMyReactionsTab();
 		testUtil.testWaitEight();
 			
@@ -42,7 +42,7 @@ public class MyReactionsPageFreeTest extends TestBase{
 	@Test
 	public void test()throws Exception {
 		myReactionsPageFree.clickMyReactionsPageLogo();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myReactionsPageFree.clickStatusDropDown();
 		testUtil.testWaitTwo();
 		myReactionsPageFree.selectInTreatment();
@@ -54,7 +54,7 @@ public class MyReactionsPageFreeTest extends TestBase{
 		myReactionsPageFree.clickStatusDropDown();
 		testUtil.testWaitTwo();
 		myReactionsPageFree.selectRegisterAgreement();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		myReactionsPageFree.clickStatusDropDown();
 		testUtil.testWaitTwo();
 		myReactionsPageFree.selectWithdrawnRejected();
@@ -62,6 +62,10 @@ public class MyReactionsPageFreeTest extends TestBase{
 		myReactionsPageFree.clickStatusDropDown();
 		testUtil.testWaitTwo();
 		myReactionsPageFree.selectAllStatus();
+		testUtil.testWaitFour();
+		homePageFree.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageFree.clickSignOutBtn();
 		testUtil.testWaitFour();
 	}
 	

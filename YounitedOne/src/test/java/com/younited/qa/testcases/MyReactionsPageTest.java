@@ -31,7 +31,7 @@ public class MyReactionsPageTest extends TestBase{
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil.testWaitFourteen();
 		homePage.clickUserLogo();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		homePage.clickMyReactionsTab();
 		testUtil.testWaitEight();
 		
@@ -59,7 +59,7 @@ public class MyReactionsPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
