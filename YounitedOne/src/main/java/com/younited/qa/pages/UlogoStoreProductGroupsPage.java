@@ -12,6 +12,9 @@ public class UlogoStoreProductGroupsPage extends TestBase{
 	@FindBy(xpath="//li[@class='breadcrumb-item active']")
 	WebElement storeProductsPageLogo;
 	
+	@FindBy(xpath="//a[@class='btn btn-primary-outline mb-3 mb-md-0']")
+	WebElement addNewProduct;
+	
 	@FindBy(xpath="//input[@id='filter-input']")
 	WebElement searchProductGroup;
 	
@@ -24,6 +27,10 @@ public class UlogoStoreProductGroupsPage extends TestBase{
 	}
 	
 	//Actions
+	public void clickAddNewProduct() {
+		addNewProduct.click();
+	}
+	
 	public void clickStoreProductsPageLogo() {
 		storeProductsPageLogo.click();
 	}
