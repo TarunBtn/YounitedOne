@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-08T19:19:22 IST" name="Default suite" finished-at="2024-07-08T19:22:10 IST" duration-ms="167719">
+  <suite started-at="2024-07-09T12:09:59 IST" name="Default suite" finished-at="2024-07-09T12:12:53 IST" duration-ms="173425">
     <groups>
     </groups>
-    <test started-at="2024-07-08T19:19:22 IST" name="Default test" finished-at="2024-07-08T19:22:10 IST" duration-ms="167719">
+    <test started-at="2024-07-09T12:09:59 IST" name="Default test" finished-at="2024-07-09T12:12:53 IST" duration-ms="173425">
       <class name="com.younited.qa.testcases.CompleteAssignmentTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.CompleteAssignmentTest@273e7444]" started-at="2024-07-08T19:19:22 IST" name="setUp" finished-at="2024-07-08T19:20:51 IST" duration-ms="88739" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.CompleteAssignmentTest@273e7444]" started-at="2024-07-09T12:09:59 IST" name="setUp" finished-at="2024-07-09T12:11:34 IST" duration-ms="94059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="completeAssignmentTest()[pri:0, instance:com.younited.qa.testcases.CompleteAssignmentTest@273e7444]" started-at="2024-07-08T19:20:51 IST" name="completeAssignmentTest" finished-at="2024-07-08T19:22:10 IST" duration-ms="78963" status="FAIL">
+        <test-method signature="completeAssignmentTest()[pri:0, instance:com.younited.qa.testcases.CompleteAssignmentTest@273e7444]" started-at="2024-07-09T12:11:34 IST" name="completeAssignmentTest" finished-at="2024-07-09T12:12:53 IST" duration-ms="79303" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='suggestionsForJobTitle']"}
@@ -20,9 +20,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ae095f824d20f2d1b6734a76f340a54b, findElement {using=xpath, value=//input[@id='suggestionsForJobTitle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52907/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ae095f824d20f2d1b6734a76f340a54b]]>
+Command: [f0ca0dce27ce545b7da59fb3ef462ab5, findElement {using=xpath, value=//input[@id='suggestionsForJobTitle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50469}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50469/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0ca0dce27ce545b7da59fb3ef462ab5]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='suggestionsForJobTitle']"}
@@ -31,9 +31,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ae095f824d20f2d1b6734a76f340a54b, findElement {using=xpath, value=//input[@id='suggestionsForJobTitle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52907/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ae095f824d20f2d1b6734a76f340a54b
+Command: [f0ca0dce27ce545b7da59fb3ef462ab5, findElement {using=xpath, value=//input[@id='suggestionsForJobTitle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50469}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50469/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0ca0dce27ce545b7da59fb3ef462ab5
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -88,7 +88,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeAssignmentTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.CompleteAssignmentTest@273e7444]" started-at="2024-07-08T19:22:10 IST" name="tearDown" finished-at="2024-07-08T19:22:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.CompleteAssignmentTest@273e7444]" started-at="2024-07-09T12:12:53 IST" name="tearDown" finished-at="2024-07-09T12:12:53 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
