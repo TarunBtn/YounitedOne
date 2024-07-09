@@ -44,6 +44,8 @@
       <class name="com.younited.qa.testcases.UlogoDasCompaniesPageTest"/>
       <class name="com.younited.qa.testcases.UlogoNativeAssignmentsPageTest"/>
       <class name="com.younited.qa.testcases.UlogoStoresuppliersPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoStoreProductAddPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoStoreProductGroupsPageTest"/>
       
     </classes>
   </test> <!-- Test -->
