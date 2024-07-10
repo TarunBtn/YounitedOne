@@ -9,6 +9,9 @@ import com.younited.qa.base.TestBase;
 public class UlogoEventsPage extends TestBase{
 	
 	//Pagefactory OR Object Repository
+	@FindBy(xpath="//li[@class='breadcrumb-item active']")
+	WebElement eventPageLogo;
+	
 	@FindBy(xpath="//a[@class='mb-3 mb-md-0 btn btn-primary-outline']")
 	WebElement addNewEvent;
 	
@@ -21,7 +24,7 @@ public class UlogoEventsPage extends TestBase{
 	@FindBy(xpath="//input[@id='titel']")
 	WebElement title;
 	
-	@FindBy(xpath="//*[name()='path' and contains(@d,'M4 14.667h')]")
+	@FindBy(xpath="//div[@class='dp__input_wrap']//div//*[name()='svg']")
 	WebElement dateField;
 	
 	@FindBy(xpath="//div[@class='dp__cell_inner dp__pointer dp__date_hover'][normalize-space()='28']")
@@ -39,6 +42,10 @@ public class UlogoEventsPage extends TestBase{
 	}
 	
 	//Actions
+	public void clickEventPageLogo() {
+		eventPageLogo.click();
+	}
+	
 	public void enterSearchEvent(String event) {
 		searchEvent.sendKeys(event);
 	}

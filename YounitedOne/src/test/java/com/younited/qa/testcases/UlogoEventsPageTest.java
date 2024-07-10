@@ -27,7 +27,7 @@ public class UlogoEventsPageTest extends TestBase{
 		loginPage=new LoginPage();
 		uLogoEventsPage=new UlogoEventsPage();
 		testUtil=new TestUtil();
-		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("username"), prop.getProperty("password"));
+		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitFour();
@@ -38,6 +38,8 @@ public class UlogoEventsPageTest extends TestBase{
 	
 	@Test
 	public void test()throws Exception {
+		uLogoEventsPage.clickEventPageLogo();
+		testUtil.testWaitFour();
 		uLogoEventsPage.enterSearchEvent("TestFour");
 		testUtil.testWaitFour();
 		uLogoEventsPage.clickResetBtn();
@@ -51,9 +53,13 @@ public class UlogoEventsPageTest extends TestBase{
 		uLogoEventsPage.selectDate();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoEventsPage.clickSaveBtn();
 		testUtil.testWaitEight();
+		homePageAdmin.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutBtn();
+		testUtil.testWaitFour();
 	}
 	
 	@AfterMethod
