@@ -85,6 +85,9 @@ public class HomePageAdmin extends TestBase{
 			@FindBy(xpath="//a[normalize-space()='Store: producten']")
 			WebElement storeProducts;
 			
+			@FindBy(xpath="//a[normalize-space()='Evenementen']")
+			WebElement eventsTab;
+			
 			@FindBy(xpath="//a[@class='user-infoNav-item-link logout']//span[@class='material-icons'][normalize-space()='logout']")
 			WebElement signOutLink;
 			
@@ -221,6 +224,10 @@ public class HomePageAdmin extends TestBase{
 			
 			public void clickStoreProductsTab() {
 				storeProducts.click();
+			}
+			
+			public void clickEventsTab() {
+				eventsTab.click();
 			}
 			
 			public void clickSignOutLink() {
