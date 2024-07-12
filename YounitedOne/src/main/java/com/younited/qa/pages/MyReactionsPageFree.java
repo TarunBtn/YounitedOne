@@ -12,6 +12,9 @@ public class MyReactionsPageFree extends TestBase{
 	@FindBy(xpath="//li[@class='breadcrumb-item active']")
 	WebElement myReactionsPageLogo;
 	
+	@FindBy(xpath="//span[normalize-space()='Test 2']")
+	WebElement assignmentLink;
+	
 	@FindBy(xpath="//div[@class='multiselect__select']")
 	WebElement statusDropdown;
 	
@@ -38,6 +41,10 @@ public class MyReactionsPageFree extends TestBase{
 	//Actions
 	public void clickMyReactionsPageLogo() {
 		myReactionsPageLogo.click();
+	}
+	
+	public void clickAssignmentLink() {
+		assignmentLink.click();
 	}
 	
 	public void clickStatusDropDown() {
