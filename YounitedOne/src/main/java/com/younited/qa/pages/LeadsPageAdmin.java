@@ -1,0 +1,100 @@
+package com.younited.qa.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.younited.qa.base.TestBase;
+
+public class LeadsPageAdmin extends TestBase{
+	
+	//Pagefactory OR Object Repository
+	@FindBy(xpath="//div[@class='multiselect--active multiselect common-multiselect']//div[@class='multiselect__select']")
+	WebElement role;
+	
+	@FindBy(xpath="//span[@class='multiselect__option--highlight multiselect__option']//span[contains(text(),'Freelancer')]")
+	WebElement selectRole;
+	
+	@FindBy(xpath="//div[@class='multiselect--active multiselect resolve-jump-issue']//div[@class='multiselect__select']")
+	WebElement owner;
+	
+	@FindBy(xpath="//span[contains(text(),'Younited®')]")
+	WebElement selectOwner;
+	
+	@FindBy(xpath="//input[@id='filter-input']")
+	WebElement searchLead;
+	
+	@FindBy(xpath="//button[normalize-space()='Reset']")
+	WebElement resetBtn;
+	
+	@FindBy(xpath="//a[@title='Voeg een nieuwe lead toe']")
+	WebElement newLead;
+	
+	@FindBy(xpath="//select[@id='profiel.lead.rol']")
+	WebElement roleAddLead;
+	
+	@FindBy(xpath="//option[@id='Freelancer']")
+	WebElement selectRoleAddLead;
+	
+	@FindBy(xpath="//input[@id='profiel.lead.voornaam']")
+	WebElement firstName;
+	
+	@FindBy(xpath="//input[@id='tussenvoegsel']")
+	WebElement lastName;
+	
+	@FindBy(xpath="//input[@id='profiel.lead.achternaam']")
+	WebElement surname;
+	
+	@FindBy(xpath="//input[@id='profiel.lead.emailadres']")
+	WebElement emailAddress;
+	
+	@FindBy(xpath="//select[@id='profiel.lead.herkomst']")
+	WebElement origin;
+	
+	@FindBy(xpath="//option[@id='Event']")
+	WebElement selectOrigin;
+	
+	@FindBy(xpath="//button[normalize-space()='Gegevens opslaan']")
+	WebElement saveBtn;
+	
+	
+	//Initialization
+	public LeadsPageAdmin() {
+		PageFactory.initElements(Driver, this);
+	}
+	
+	//Actions
+	public void clickRoleDropDown() {
+		role.click();
+	}
+	
+	public void selectRole() {
+		selectRole.click();
+	}
+	
+	public void enterLead(String value) {
+		searchLead.sendKeys(value);
+	}
+	
+	public void clickResetBtn() {
+		resetBtn.click();
+	}
+	
+	public void clickNewLeadAdd() {
+		newLead.click();
+	}
+	
+	public void clickRoleDropDownAddLead() {
+		roleAddLead.click();
+	}
+	
+	public void selectRoleDropDownAddLead() {
+		selectRoleAddLead.click();
+	}
+	
+	public void enterFirstName(String value) {
+		firstName.sendKeys(value);
+	}
+	
+
+}
