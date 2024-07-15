@@ -91,6 +91,9 @@ public class HomePageAdmin extends TestBase{
 			@FindBy(xpath="//p[normalize-space()='Verwijderverzoeken']")
 			WebElement deleteRequestsBox;
 			
+			@FindBy(xpath="//div[normalize-space()='79']")
+			WebElement leadTab;
+			
 			@FindBy(xpath="//a[@class='user-infoNav-item-link logout']//span[@class='material-icons'][normalize-space()='logout']")
 			WebElement signOutLink;
 			
@@ -235,6 +238,10 @@ public class HomePageAdmin extends TestBase{
 			
 			public void clickDeleteRequestsTab() {
 				deleteRequestsBox.click();
+			}
+			
+			public void clickLeadTab() {
+				leadTab.click();
 			}
 			
 			public void clickSignOutLink() {

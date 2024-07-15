@@ -9,10 +9,10 @@ import com.younited.qa.base.TestBase;
 public class LeadsPageAdmin extends TestBase{
 	
 	//Pagefactory OR Object Repository
-	@FindBy(xpath="//div[@class='multiselect--active multiselect common-multiselect']//div[@class='multiselect__select']")
+	@FindBy(xpath="//span[@class='multiselect__single']")
 	WebElement role;
 	
-	@FindBy(xpath="//span[@class='multiselect__option--highlight multiselect__option']//span[contains(text(),'Freelancer')]")
+	@FindBy(xpath="//*[@id=\"selectedRol-2\"]/span/span")
 	WebElement selectRole;
 	
 	@FindBy(xpath="//div[@class='multiselect--active multiselect resolve-jump-issue']//div[@class='multiselect__select']")
@@ -40,10 +40,10 @@ public class LeadsPageAdmin extends TestBase{
 	WebElement firstName;
 	
 	@FindBy(xpath="//input[@id='tussenvoegsel']")
-	WebElement lastName;
+	WebElement middleName;
 	
 	@FindBy(xpath="//input[@id='profiel.lead.achternaam']")
-	WebElement surname;
+	WebElement lastName;
 	
 	@FindBy(xpath="//input[@id='profiel.lead.emailadres']")
 	WebElement emailAddress;
@@ -94,6 +94,30 @@ public class LeadsPageAdmin extends TestBase{
 	
 	public void enterFirstName(String value) {
 		firstName.sendKeys(value);
+	}
+	
+	public void enterMiddleName(String value) {
+		middleName.sendKeys(value);
+	}
+	
+	public void enterLastName(String value) {
+		lastName.sendKeys(value);
+	}
+	
+	public void emailAddress(String value) {
+		emailAddress.sendKeys(value);
+	}
+	
+	public void clickOriginDropDown() {
+		origin.click();
+	}
+	
+	public void selectOrigin() {
+		selectOrigin.click();
+	}
+	
+	public void clickSaveBtn() {
+		saveBtn.click();
 	}
 	
 
