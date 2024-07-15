@@ -32,7 +32,6 @@ public class LeadsPageAdminTest extends TestBase{
 		homePageAdmin.clickLeadTab();
 		testUtil.testWaitEight();
 		
-		
 	}
 	
 	@Test
@@ -69,7 +68,6 @@ public class LeadsPageAdminTest extends TestBase{
 		testUtil.testWaitFour();
 		leadsPageAdmin.clickSaveBtn();
 		testUtil.testWaitEight();
-		
 			
 	}
 	
