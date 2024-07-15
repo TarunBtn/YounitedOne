@@ -68,6 +68,10 @@ public class LeadsPageAdminTest extends TestBase{
 		testUtil.testWaitFour();
 		leadsPageAdmin.clickSaveBtn();
 		testUtil.testWaitEight();
+		homePageAdmin.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutBtn();
+		testUtil.testWaitEight();
 			
 	}
 	
