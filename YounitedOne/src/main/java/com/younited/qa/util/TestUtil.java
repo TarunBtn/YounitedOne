@@ -67,7 +67,9 @@ public class TestUtil extends TestBase{
 		String window01=(String)AllWindowHandles.toArray()[0];
 		String window02=(String)AllWindowHandles.toArray()[1];
 		
+		Driver.switchTo().window(window01);
 		Driver.switchTo().window(window02);
+		
 	}
 	
 	//Upload file
