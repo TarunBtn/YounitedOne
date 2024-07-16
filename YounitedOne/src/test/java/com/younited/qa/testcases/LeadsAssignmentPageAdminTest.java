@@ -29,13 +29,14 @@ public class LeadsAssignmentPageAdminTest extends TestBase{
 		initialization();
 		loginPage=new LoginPage();
 		assignmentsPageFree=new AssignmentsPageFree();
+		leadsAssignmentPageAdmin=new LeadsAssignmentPageAdmin();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
 		homePageAdmin.clickAssignmentsTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		assignmentsPageFree.clickAssignmentBox();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 			
 	}
 	
@@ -58,15 +59,15 @@ public class LeadsAssignmentPageAdminTest extends TestBase{
 		leadsAssignmentPageAdmin.selectOrigin();
 		testUtil.testWaitFour();
 		leadsAssignmentPageAdmin.clickSaveBtn();
-		testUtil.testWaitEight();
-		leadsAssignmentPageAdmin.clickCloseSign();
 		testUtil.testWaitFourteen();
+		leadsAssignmentPageAdmin.clickCloseSign();
+		testUtil.testWaitEight();
 		//leadsAssignmentPageAdmin.clickCancelBtn();
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 	
 

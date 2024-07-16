@@ -8,10 +8,10 @@ import com.younited.qa.base.TestBase;
 
 public class LeadsAssignmentPageAdmin extends TestBase{
 	//PageFactory Or Object Repository
-	@FindBy(xpath="//button[normalize-space()='Lead toevoegen']")
+	@FindBy(xpath="//button[@class='btn btn-primary d-block btn-gold']")
 	WebElement addLead;
 	
-	@FindBy(xpath="//button[normalize-space()='Lead toevoegen']")
+	@FindBy(xpath="//input[@id='lead_toggle']")
 	WebElement addNewLead;
 	
 	@FindBy(xpath="//button[normalize-space()='Lead toevoegen']")
