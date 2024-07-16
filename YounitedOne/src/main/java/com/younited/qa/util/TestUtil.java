@@ -5,6 +5,8 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.util.Set;
+
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 
 import com.younited.qa.base.TestBase;
@@ -62,13 +64,36 @@ public class TestUtil extends TestBase{
 		jsxfive.executeScript("window.scrollBy(-450,0)");
 	}
 	
-	public void switchToWindow() {
+	public void switchToWindow01() {
 		Set<String> AllWindowHandles=Driver.getWindowHandles();
 		String window01=(String)AllWindowHandles.toArray()[0];
 		String window02=(String)AllWindowHandles.toArray()[1];
 		
 		Driver.switchTo().window(window01);
+		
+	}
+	
+	public void switchToWindow02() {
+		Set<String> AllWindowHandles=Driver.getWindowHandles();
+		String window01=(String)AllWindowHandles.toArray()[0];
+		String window02=(String)AllWindowHandles.toArray()[1];
+		
 		Driver.switchTo().window(window02);
+		
+	}
+	
+	public void switchToWindow03() {
+		Set<String> AllWindowHandles=Driver.getWindowHandles();
+		String window01=(String)AllWindowHandles.toArray()[0];
+		String window02=(String)AllWindowHandles.toArray()[1];
+		String window03=(String)AllWindowHandles.toArray()[2];
+		
+		Driver.switchTo().window(window03);
+		
+	}
+	
+	public void switchToAlert() {
+		Alert alert=Driver.switchTo().alert();
 		
 	}
 	

@@ -11,7 +11,7 @@ public class LeadsAssignmentPageAdmin extends TestBase{
 	@FindBy(xpath="//button[@class='btn btn-primary d-block btn-gold']")
 	WebElement addLead;
 	
-	@FindBy(xpath="//input[@id='lead_toggle']")
+	@FindBy(xpath="//input[@class='cb-toggle changing-label']")
 	WebElement addNewLead;
 	
 	@FindBy(xpath="//button[normalize-space()='Lead toevoegen']")

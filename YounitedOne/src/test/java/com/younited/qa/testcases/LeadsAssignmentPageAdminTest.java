@@ -37,13 +37,17 @@ public class LeadsAssignmentPageAdminTest extends TestBase{
 		testUtil.testWaitFourteen();
 		assignmentsPageFree.clickAssignmentBox();
 		testUtil.testWaitFourteen();
+		testUtil.switchToWindow02();
+		testUtil.testWaitEight();
 			
 	}
 	
 	@Test
 	public void test()throws Exception {
 		leadsAssignmentPageAdmin.clickAddLead();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
+		testUtil.switchToWindow03();
+		testUtil.testWaitFourteen();
 		leadsAssignmentPageAdmin.clickAddNewLead();
 		testUtil.testWaitEight();
 		leadsAssignmentPageAdmin.enterFirstName("Ajay");
