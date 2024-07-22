@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\tbutani\AppData\Local\Temp\testng-eclipse-1908358113\testng-customsuite.xml</span>
+                    <span>C:\Users\tbutani\AppData\Local\Temp\testng-eclipse--939593238\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content skipped suite-Default_suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.younited.qa.testcases.LeadsPageAdminTest" class="method navigator-link" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.younited.qa.testcases.MatchPageAdminTest" class="method navigator-link" hash-for-method="match">match</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Default_suite -->
@@ -122,23 +122,23 @@
           <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.younited.qa.testcases.LeadsPageAdminTest</span>
+              <span class="class-name">com.younited.qa.testcases.MatchPageAdminTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div&quot;}
+                  <a name="match">
+                  </a> <!-- match -->
+                  <span class="method-name">match</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
   (Session info: chrome=126.0.6478.182)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92178749171007dc81f572ad816cfbbc, findElement {using=xpath, value=/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50163/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92178749171007dc81f572ad816cfbbc
+Command: [bf986a60f27ea533ccc8fdcb951a732e, findElement {using=xpath, value=//*[@id=&quot;main-nav&quot;]/nav/div/div/div[2]/ul[1]/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53589/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf986a60f27ea533ccc8fdcb951a732e
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -157,8 +157,8 @@ Session ID: 92178749171007dc81f572ad816cfbbc
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at com.younited.qa.pages.HomePageAdmin.clickLeadTab(HomePageAdmin.java:244)
-	at com.younited.qa.testcases.LeadsPageAdminTest.setUp(LeadsPageAdminTest.java:32)
+	at com.younited.qa.pages.HomePageAdmin.clickMatchTab(HomePageAdmin.java:121)
+	at com.younited.qa.testcases.MatchPageAdminTest.setUp(MatchPageAdminTest.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -200,7 +200,7 @@ Session ID: 92178749171007dc81f572ad816cfbbc
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\tbutani\AppData\Local\Temp\testng-eclipse-1908358113\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\tbutani\AppData\Local\Temp\testng-eclipse--939593238\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -209,7 +209,7 @@ Session ID: 92178749171007dc81f572ad816cfbbc
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.younited.qa.testcases.LeadsPageAdminTest&quot;/&gt;
+      &lt;class name=&quot;com.younited.qa.testcases.MatchPageAdminTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -251,8 +251,8 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'com.younited.qa.testcases.LeadsPageAdminTest')
+data.setCell(0, 1, 'match')
+data.setCell(0, 2, 'com.younited.qa.testcases.MatchPageAdminTest')
 data.setCell(0, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
@@ -284,7 +284,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.younited.qa.testcases.LeadsPageAdminTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.younited.qa.testcases.MatchPageAdminTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
@@ -292,12 +292,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test</span>
-                <span class="method-start">47118 ms</span>
+                <span class="method-name">match</span>
+                <span class="method-start">25798 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47121 ms</span>
+                <span class="method-start">25803 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

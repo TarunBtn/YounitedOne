@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-22T18:50:39 IST" name="Default suite" finished-at="2024-07-22T18:51:26 IST" duration-ms="47142">
+  <suite started-at="2024-07-22T20:00:29 IST" name="Default suite" finished-at="2024-07-22T20:00:55 IST" duration-ms="25825">
     <groups>
     </groups>
-    <test started-at="2024-07-22T18:50:39 IST" name="Default test" finished-at="2024-07-22T18:51:26 IST" duration-ms="47142">
-      <class name="com.younited.qa.testcases.LeadsPageAdminTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-07-22T18:50:39 IST" name="setUp" finished-at="2024-07-22T18:51:26 IST" duration-ms="47113" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test started-at="2024-07-22T20:00:29 IST" name="Default test" finished-at="2024-07-22T20:00:55 IST" duration-ms="25825">
+      <class name="com.younited.qa.testcases.MatchPageAdminTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MatchPageAdminTest@273e7444]" started-at="2024-07-22T20:00:29 IST" name="setUp" finished-at="2024-07-22T20:00:55 IST" duration-ms="25777" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div"}
+              <![CDATA[disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
   (Session info: chrome=126.0.6478.182)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92178749171007dc81f572ad816cfbbc, findElement {using=xpath, value=/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50163/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92178749171007dc81f572ad816cfbbc]]>
+Command: [bf986a60f27ea533ccc8fdcb951a732e, findElement {using=xpath, value=//*[@id="main-nav"]/nav/div/div/div[2]/ul[1]/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53589/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf986a60f27ea533ccc8fdcb951a732e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div"}
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
   (Session info: chrome=126.0.6478.182)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92178749171007dc81f572ad816cfbbc, findElement {using=xpath, value=/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50163/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92178749171007dc81f572ad816cfbbc
+Command: [bf986a60f27ea533ccc8fdcb951a732e, findElement {using=xpath, value=//*[@id="main-nav"]/nav/div/div/div[2]/ul[1]/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53589/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf986a60f27ea533ccc8fdcb951a732e
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -48,8 +48,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.younited.qa.pages.HomePageAdmin.clickLeadTab(HomePageAdmin.java:244)
-at com.younited.qa.testcases.LeadsPageAdminTest.setUp(LeadsPageAdminTest.java:32)
+at com.younited.qa.pages.HomePageAdmin.clickMatchTab(HomePageAdmin.java:121)
+at com.younited.qa.testcases.MatchPageAdminTest.setUp(MatchPageAdminTest.java:38)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,33 +84,33 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-07-22T18:51:26 IST" name="test" finished-at="2024-07-22T18:51:26 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="match()[pri:0, instance:com.younited.qa.testcases.MatchPageAdminTest@273e7444]" started-at="2024-07-22T20:00:55 IST" name="match" finished-at="2024-07-22T20:00:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div"}
+              <![CDATA[disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
   (Session info: chrome=126.0.6478.182)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92178749171007dc81f572ad816cfbbc, findElement {using=xpath, value=/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50163/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92178749171007dc81f572ad816cfbbc]]>
+Command: [bf986a60f27ea533ccc8fdcb951a732e, findElement {using=xpath, value=//*[@id="main-nav"]/nav/div/div/div[2]/ul[1]/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53589/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf986a60f27ea533ccc8fdcb951a732e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div"}
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
   (Session info: chrome=126.0.6478.182)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92178749171007dc81f572ad816cfbbc, findElement {using=xpath, value=/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50163/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92178749171007dc81f572ad816cfbbc
+Command: [bf986a60f27ea533ccc8fdcb951a732e, findElement {using=xpath, value=//*[@id="main-nav"]/nav/div/div/div[2]/ul[1]/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53589/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf986a60f27ea533ccc8fdcb951a732e
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -129,8 +129,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.younited.qa.pages.HomePageAdmin.clickLeadTab(HomePageAdmin.java:244)
-at com.younited.qa.testcases.LeadsPageAdminTest.setUp(LeadsPageAdminTest.java:32)
+at com.younited.qa.pages.HomePageAdmin.clickMatchTab(HomePageAdmin.java:121)
+at com.younited.qa.testcases.MatchPageAdminTest.setUp(MatchPageAdminTest.java:38)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -165,15 +165,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-07-22T18:51:26 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1721654486605" status="SKIP">
+        </test-method> <!-- match -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MatchPageAdminTest@273e7444]" started-at="2024-07-22T20:00:55 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1721658655082" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.LeadsPageAdminTest -->
+      </class> <!-- com.younited.qa.testcases.MatchPageAdminTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
