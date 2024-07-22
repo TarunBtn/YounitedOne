@@ -15,6 +15,7 @@
       <class name="com.younited.qa.testcases.MycompanyPageTest"/>
       <class name="com.younited.qa.testcases.MycompanyLocatiesPageTest"/>
       <class name="com.younited.qa.testcases.DashboardPageFreeTest"/>
+      <class name="com.younited.qa.testcases.MycompanyPageFreeTest"/>
       <class name="com.younited.qa.testcases.MyReactionsPageFreeTest"/>
       <class name="com.younited.qa.testcases.MyReactionsPageTest"/>
       <class name="com.younited.qa.testcases.AssignmentsPageFreeTest"/>
@@ -27,6 +28,8 @@
       <class name="com.younited.qa.testcases.ManageProfilePageFreeTest"/>
       <class name="com.younited.qa.testcases.MycompanyPageFreeTest"/>
       <class name="com.younited.qa.testcases.MatchPageAdminTest"/>
+      <class name="com.younited.qa.testcases.LeadsAssignmentPageAdminTest"/>
+      <class name="com.younited.qa.testcases.LeadsPageAdminTest"/>
       <class name="com.younited.qa.testcases.UlogoMydashboardPageTest"/>
       <class name="com.younited.qa.testcases.UlogoChatPageTest"/>
       <class name="com.younited.qa.testcases.UlogoMynotificationsPageTest"/>
@@ -46,6 +49,8 @@
       <class name="com.younited.qa.testcases.UlogoStoresuppliersPageTest"/>
       <class name="com.younited.qa.testcases.UlogoStoreProductAddPageTest"/>
       <class name="com.younited.qa.testcases.UlogoStoreProductGroupsPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoEventsPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoDeleteRequestsPageTest"/>
       
     </classes>
   </test> <!-- Test -->
