@@ -92,8 +92,9 @@ public class TestUtil extends TestBase{
 		
 	}
 	
-	public void switchToAlert() {
+	public void switchToAlert(String value) {
 		Alert alert=Driver.switchTo().alert();
+		alert.sendKeys(value);
 		
 	}
 	

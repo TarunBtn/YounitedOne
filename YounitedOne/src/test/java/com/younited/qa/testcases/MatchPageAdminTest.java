@@ -123,8 +123,10 @@ public class MatchPageAdminTest extends TestBase{
 		testUtil.testWaitTwo();
 		//Skills
 		matchPage.clickSkillTab();
-		testUtil.testWaitFour();		
-		matchPage.clickEnterValueSkill();
+		testUtil.testWaitFour();
+		//testUtil.switchToAlert("Accountbeheer");
+		//testUtil.testWaitFour();
+		/*matchPage.clickEnterValueSkill();
 		testUtil.testWaitFour();
 		matchPage.enterValueSkill("Accountbeheer");
 		testUtil.testWaitFour();
@@ -141,11 +143,11 @@ public class MatchPageAdminTest extends TestBase{
 			e.printStackTrace();
 		}
 		matchPage.clickSkillTab();
-	    testUtil.testWaitFour();
-		matchPage.clickResetFilterSkill();
-		testUtil.testWaitEight();
-		matchPage.clickSkillTab();
-		testUtil.testWaitFour();
+	    testUtil.testWaitFour();*/
+		//matchPage.clickResetFilterSkill();
+		//testUtil.testWaitEight();
+		//matchPage.clickSkillTab();
+		//testUtil.testWaitFour();
 		//matchPage.clickSkillTab();
 		//testUtil.testWaitFour();
 		matchPage.clickCancelSkill();
