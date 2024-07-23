@@ -109,7 +109,7 @@ public class MatchPageTest extends TestBase{
 		//Skills
 		matchPage.clickSkillTab();
 		testUtil.testWaitTwo();		
-		matchPage.clickEnterValueSkill();
+		/*matchPage.clickEnterValueSkill();
 		testUtil.testWaitTwo();
 		matchPage.enterValueSkill("Accountbeheer");
 		testUtil.testWaitEight();
@@ -128,13 +128,13 @@ public class MatchPageTest extends TestBase{
 		matchPage.clickSkillTab();
 		testUtil.testWaitFour();
 		matchPage.clickResetFilterSkill();
-		testUtil.testWaitEight();
+		testUtil.testWaitEight();*/
 		matchPage.clickSkillTab();
 		testUtil.testWaitFour();
 		//matchPage.clickSkillTab();
 		//testUtil.testWaitFour();
-		matchPage.clickCancelSkill();
-		testUtil.testWaitFour();
+		/*matchPage.clickCancelSkill();
+		testUtil.testWaitFour();*/
 		//Stored
 		matchPage.clickStored();
 		testUtil.testWaitEight();

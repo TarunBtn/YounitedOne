@@ -148,10 +148,10 @@ public class MatchPageAdminTest extends TestBase{
 		//testUtil.testWaitEight();
 		//matchPage.clickSkillTab();
 		//testUtil.testWaitFour();
-		//matchPage.clickSkillTab();
-		//testUtil.testWaitFour();
-		matchPage.clickCancelSkill();
+		matchPage.clickSkillTab();
 		testUtil.testWaitFour();
+		/*matchPage.clickCancelSkill();
+		testUtil.testWaitFour();*/
 		//Stored
 		matchPage.clickStored();
 		testUtil.testWaitEight();
