@@ -39,7 +39,7 @@ public class LoginPageTest extends TestBase{
 		System.out.println("Test is passed");
 		//boolean flag=loginPage.validateImageLogo();
 		//Assert.assertTrue(flag);
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		
 	}
 	
