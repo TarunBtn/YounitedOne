@@ -16,7 +16,6 @@ public class StorePageFreeTest extends TestBase{
 	StorePageFree storePageFree;
 	TestUtil testUtil;
 	
-	
 	public StorePageFreeTest() {
 		super();
 	}
