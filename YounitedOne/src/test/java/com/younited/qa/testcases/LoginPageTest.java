@@ -46,11 +46,11 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=3)
 	public void loginTest()throws Exception {
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		testUtil.testWaitFour();
+		testUtil.testWaitFourteen();
 		homePage.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePage.clickSignOutBtn();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 	}
 	
 	@AfterMethod
