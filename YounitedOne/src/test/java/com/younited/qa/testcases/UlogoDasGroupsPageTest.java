@@ -61,7 +61,7 @@ public class UlogoDasGroupsPageTest extends TestBase{
 		homePageAdmin.clickSignOutLink();
 	  	testUtil.testWaitFour();
 	  	homePageAdmin.clickSignOutBtn();
-	  	testUtil.testWaitFour();
+	  	testUtil.testWaitEight();
 		
 	}
 	

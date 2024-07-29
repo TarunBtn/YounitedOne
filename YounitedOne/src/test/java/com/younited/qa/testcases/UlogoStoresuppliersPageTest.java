@@ -32,7 +32,7 @@ public class UlogoStoresuppliersPageTest extends TestBase{
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitFour();
 		homePageAdmin.clickStoreSuppliersTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 			
 	}
 	
@@ -59,7 +59,7 @@ public class UlogoStoresuppliersPageTest extends TestBase{
 		homePageAdmin.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePageAdmin.clickSignOutBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		
 	}
 	

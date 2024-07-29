@@ -50,7 +50,7 @@ public class LoginPageTest extends TestBase{
 		homePage.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePage.clickSignOutBtn();
-		testUtil.testWaitFourteen();
+		testUtil.testWaitEight();
 	}
 	
 	@AfterMethod
