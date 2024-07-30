@@ -48,19 +48,19 @@ public class CommunityPageAdminTest extends TestBase{
 		myNetworkPageFree.enterSearchValue("Hr");
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickCancelSearch();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//Type of Message
 		myNetworkPageFree.clickTypeMessageDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myNetworkPageFree.selectTypeMessage();
 		testUtil.testWaitFour();
 		myNetworkPageFree.selectTypeMessage();
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickTypeMessageDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Area of Interest
 		myNetworkPageFree.clickAreaOfInterestDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myNetworkPageFree.selectAreaOfInterest();
 		testUtil.testWaitFour();
 		myNetworkPageFree.selectAreaOfInterest();
@@ -106,11 +106,11 @@ public class CommunityPageAdminTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		myNetworkPageFree.clickAreaOfInterest();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		homePageAdmin.clickSignOutLink();
 	  	testUtil.testWaitFour();
 	  	homePageAdmin.clickSignOutBtn();
-	  	testUtil.testWaitFour();
+	  	testUtil.testWaitEight();
 		
 				
 	}
