@@ -51,14 +51,14 @@ public class MatchPageAdminTest extends TestBase{
 		testUtil.testWaitEight();
 		//Command Filter
 		matchPage.clickCommandDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.selectCommandValue();
 		testUtil.testWaitEight();
 		//matchPage.cancelCommandValue();
 		//testUtil.testWaitEight();
 		//Availability
 		matchPage.clickAvailabilityDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.selectOnlyAvailable();
 		testUtil.testWaitEight();
 		matchPage.selectNotAvailable();
@@ -66,10 +66,10 @@ public class MatchPageAdminTest extends TestBase{
 		matchPage.selectEverything();
 		testUtil.testWaitEight();
 		matchPage.clickAvailabilityDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Location
 		matchPage.clickLocationDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.enterLocationClear();
 		testUtil.testWaitFour();
 		matchPage.enterLocationValue("Noordwijk, Netherlands");
@@ -77,50 +77,50 @@ public class MatchPageAdminTest extends TestBase{
 		matchPage.clickApplyFilterLocation();
 		testUtil.testWaitEight();
 		matchPage.clickLocationDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.resetFilterLocation();
 		testUtil.testWaitEight();
 		matchPage.clickLocationDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.clickCancelLocation();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Work/Thinking level
 		matchPage.clickWorkThinkingLevelDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.selectWorkThinking();
 		testUtil.testWaitEight();
 		matchPage.clickWorkThinkingLevelDropDown();
 		testUtil.testWaitFour();
 		matchPage.clickWorkThinkingLevelDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.selectWorkThinking();
 		testUtil.testWaitEight();
 		matchPage.clickWorkThinkingLevelDropDown();
-		testUtil.testWaitTwo();		
+		testUtil.testWaitFour();		
 		//Hours
 		matchPage.clickHoursDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.selectHours();
 		testUtil.testWaitEight();
 		matchPage.clickApplyFilterHours();
 		testUtil.testWaitEight();
 		matchPage.clickHoursDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.clickResetFilterHours();
 		testUtil.testWaitEight();
 		matchPage.clickHoursDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.clickCancelHours();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Descipline
 		matchPage.clickDesciplineDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.selectDescipline();
 		testUtil.testWaitEight();
 		matchPage.selectDescipline();
 		testUtil.testWaitEight();
 		matchPage.clickDesciplineDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Skills
 		matchPage.clickSkillTab();
 		testUtil.testWaitFour();
