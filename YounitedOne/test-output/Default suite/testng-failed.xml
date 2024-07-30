@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.younited.qa.testcases.CommunityPageAdminTest">
+      <class name="com.younited.qa.testcases.UlogoMyprofilePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="community"/>
           <include name="tearDown"/>
+          <include name="UlogoMyProfilePage"/>
         </methods>
-      </class> <!-- com.younited.qa.testcases.CommunityPageAdminTest -->
+      </class> <!-- com.younited.qa.testcases.UlogoMyprofilePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
