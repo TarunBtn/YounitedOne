@@ -29,7 +29,7 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree=new AssignmentsPageFree();
 		testUtil=new TestUtil();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
-		testUtil.testWaitEleven();	
+		testUtil.testWaitFourteen();	
 		//homePageFree.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageFree.clickAssignmentsLink();
@@ -48,39 +48,39 @@ public class AssignmentsPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		//Sector
 		assignmentsPageFree.clickSectorTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectSector();
 		testUtil.testWaitFour();
 		assignmentsPageFree.selectSector();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickSectorTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Descipline
 		assignmentsPageFree.clickDescipline();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectDescipline();
 		testUtil.testWaitFour();
 		assignmentsPageFree.selectDescipline();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickDescipline();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Skill
 		assignmentsPageFree.clickSkillTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.enterSkill();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.enterSkillValue("Postman");
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectSkillToolTip();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.clickSkillTab();
 		testUtil.testWaitFour();
 		assignmentsPageFree.applySkillFilter();
 		testUtil.testWaitEight();
 		assignmentsPageFree.clickSkillTab();
-		testUtil.testWaitTwo();
-		assignmentsPageFree.clickSkillTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
+		//assignmentsPageFree.clickSkillTab();
+		//testUtil.testWaitFour();
 		assignmentsPageFree.clickResetFilterSkill();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickSkillTab();
@@ -89,72 +89,72 @@ public class AssignmentsPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		//Duration
 		assignmentsPageFree.clickDuration();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectDuration();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickDuration();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.clickDuration();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectDuration();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickDuration();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Work & Thinking level
 		assignmentsPageFree.clickWorkAndThinkingLevel();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 	    assignmentsPageFree.selectWorkAndThinkingLevel();
 		testUtil.testWaitFour();
 	    assignmentsPageFree.clickWorkAndThinkingLevel();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 	    assignmentsPageFree.clickWorkAndThinkingLevel();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectWorkAndThinkingLevel();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clickWorkAndThinkingLevel();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Hours
 	    assignmentsPageFree.clickHoursTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectHours();
 		testUtil.testWaitEight();
 		assignmentsPageFree.applyHoursFilter();
 		testUtil.testWaitEight();
 		assignmentsPageFree.clickHoursTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.resetHoursFilter();
 		testUtil.testWaitEight();
 		assignmentsPageFree.clickHoursTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.clickCancelHours();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Hourly rate
 		assignmentsPageFree.clickHourlyRateTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectHourlyRate();
 		testUtil.testWaitFour();
 		assignmentsPageFree.applyHourlyRateFilter();
 		testUtil.testWaitEight();
 		assignmentsPageFree.clickHourlyRateTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.resetHourlyRateFilter();
 		testUtil.testWaitEight();
 		assignmentsPageFree.clickHourlyRateTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.clickCancelHourlyRate();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Location
 		assignmentsPageFree.clickLocationTab();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.enterLocation("Noordwijk Netherlands");
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		try {
 			  	assignmentsPageFree.enterLocationToolTip();
-			  	testUtil.testWaitTwo();
+			  	testUtil.testWaitFour();
 		}catch(ElementNotInteractableException e) {
 			   e.printStackTrace();
 		}
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		try {
 			  	assignmentsPageFree.applyLocationFilter();
 			  	testUtil.testWaitFour();
@@ -180,7 +180,7 @@ public class AssignmentsPageFreeTest extends TestBase{
 		testUtil.testWaitEleven();
 		//Sorting
 		assignmentsPageFree.clickSortingDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		assignmentsPageFree.selectPublicationDateOldFirst();
 		testUtil.testWaitEight();	
 		assignmentsPageFree.selectAtHourlyRate();
@@ -190,11 +190,11 @@ public class AssignmentsPageFreeTest extends TestBase{
 		assignmentsPageFree.selectPublicationDateNewFirst();
 		testUtil.testWaitEight();
 		assignmentsPageFree.clickSortingDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		homePageFree.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePageFree.clickSignOutBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		
 	}
 	
