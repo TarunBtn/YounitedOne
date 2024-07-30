@@ -27,7 +27,7 @@ public class UlogoEventsPage extends TestBase{
 	@FindBy(xpath="//div[@class='dp__input_wrap']//div//*[name()='svg']")
 	WebElement dateField;
 	
-	@FindBy(xpath="//div[@class='dp__cell_inner dp__pointer dp__date_hover'][normalize-space()='28']")
+	@FindBy(xpath="//div[@class='dp__cell_inner dp__pointer dp__today dp__date_hover']")
 	WebElement selectDate;
 	
 	@FindBy(xpath="//button[normalize-space()='Gegevens opslaan']")

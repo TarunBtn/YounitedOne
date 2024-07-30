@@ -47,9 +47,9 @@ public class UlogoEventsPageTest extends TestBase{
 		uLogoEventsPage.clickAddNewEvent();
 		testUtil.testWaitFour();
 		uLogoEventsPage.enterTitle("TestFour");
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoEventsPage.clickDateField();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoEventsPage.selectDate();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
