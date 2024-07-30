@@ -42,7 +42,7 @@ public class CompleteAssignmentTest extends TestBase{
 		//homePage.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();		
 		homePage.clickMyAssignmentsLink();
-		testUtil.testWaitFourteen();
+		testUtil.testWaitEleven();
 		//testUtil.testWaitEight();
 		//addCommandPage=myAssignmentsPage.clickAddNewCommand();
 		myAssignmentsPage.clickAddNewCommand();
@@ -56,7 +56,7 @@ public class CompleteAssignmentTest extends TestBase{
 		addCommandPage.clickUploadFile();
 		testUtil.testWaitEight();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//checkCommandPage.clickFillInComplete();
 		//testUtil.testWaitEight();
 		//testUtil.scrollDown();
@@ -66,7 +66,7 @@ public class CompleteAssignmentTest extends TestBase{
 	@Test
 	public void completeAssignmentTest()throws Exception {
 		completeAssignment.clickCompanyDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		completeAssignment.selectCompany();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
@@ -227,13 +227,13 @@ public class CompleteAssignmentTest extends TestBase{
 		homePage.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePage.clickSignOutBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 			
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 		
 	}
 
