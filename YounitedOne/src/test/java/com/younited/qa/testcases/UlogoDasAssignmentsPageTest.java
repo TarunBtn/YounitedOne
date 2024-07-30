@@ -43,7 +43,7 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 	@Test
 	public void UlogoDasAssignmentsPage()throws Exception{
 		uLogoDasAssignmentsPage.enterValueSearchByAssignment("QA");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
@@ -51,7 +51,7 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		uLogoDasAssignmentsPage.clickResetSearchByAssignment();
 		testUtil.testWaitEight();
 		uLogoDasAssignmentsPage.enterValueSearchByLocation("nl");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
@@ -62,7 +62,7 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		//testUtil.testWaitTwo();
 		//HourlyRate
 		uLogoDasAssignmentsPage.clickHourlyRateDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.selectHourlyRate();
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickApplyFilterHourlyRate();
@@ -76,14 +76,14 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		uLogoDasAssignmentsPage.clickResetHourlyRate();
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickCancelHourlyRate();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Number of entrepreneurs
 		uLogoDasAssignmentsPage.clickNumberOfEntrePreneurs();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.selectNumberOfEntrepreneurs();
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickNumberOfEntrePreneurs();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//uLogoDasAssignmentsPage.clickNumberOfEntrePreneurs();
 		//testUtil.testWaitTwo();
 		uLogoDasAssignmentsPage.resetNumberOfEntrepreneurs();
@@ -92,7 +92,7 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		uLogoDasAssignmentsPage.clickArchive();
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickArchive();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//Sorting
 		uLogoDasAssignmentsPage.clickSorting();
 		testUtil.testWaitFour();
