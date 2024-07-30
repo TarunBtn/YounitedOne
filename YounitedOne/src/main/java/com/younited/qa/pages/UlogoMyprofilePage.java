@@ -168,7 +168,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"afgeronddatum\"]/div/div/input")
 			WebElement clickCompletedOnDate;
 
-			@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[2]/form/div[4]/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div")
+			@FindBy(xpath="//div[@class='dp__cell_inner dp__pointer dp__today dp__date_hover']")
 			WebElement selectCompletedOnDate;
 			
 			@FindBy(xpath="//button[@class='btn btn-primary mb-2 mb-sm-0 mr-sm-2 d-inline-flex justify-content-center align-items-center']")
