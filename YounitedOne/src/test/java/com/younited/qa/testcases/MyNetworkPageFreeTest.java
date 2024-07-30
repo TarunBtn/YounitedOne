@@ -59,28 +59,28 @@ public class MyNetworkPageFreeTest extends TestBase{
 		myNetworkPageFree.enterSearchValue("Test");
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickCancelSearch();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//Type of Message
 		myNetworkPageFree.clickTypeMessageDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myNetworkPageFree.selectTypeMessage();
 		testUtil.testWaitFour();
 		myNetworkPageFree.selectTypeMessage();
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickTypeMessageDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Area of Interest
 		myNetworkPageFree.clickAreaOfInterestDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myNetworkPageFree.selectAreaOfInterest();
 		testUtil.testWaitFour();
 		myNetworkPageFree.selectAreaOfInterest();
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickAreaOfInterestDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Sector
 		myNetworkPageFree.clickSectorDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myNetworkPageFree.selectSector();
 		testUtil.testWaitFour();
 		myNetworkPageFree.selectSector();
