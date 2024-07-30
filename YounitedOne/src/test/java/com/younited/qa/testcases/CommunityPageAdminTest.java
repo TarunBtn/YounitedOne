@@ -66,18 +66,18 @@ public class CommunityPageAdminTest extends TestBase{
 		myNetworkPageFree.selectAreaOfInterest();
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickAreaOfInterestDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Sector
 		myNetworkPageFree.clickSectorDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myNetworkPageFree.selectSector();
 		testUtil.testWaitFour();
 		myNetworkPageFree.selectSector();
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickSectorDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myNetworkPageFree.clickEveryOneDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myNetworkPageFree.selectEveryOneMyOwnNetwork();
 		testUtil.testWaitFour();
 		myNetworkPageFree.selectEveryOneEveryOne();
