@@ -45,13 +45,15 @@ public class MatchPageAdminTest extends TestBase{
 		//Assignment Filter
 		matchPageAdmin.clickValueFilter();
 		testUtil.testWaitTwo();
+		//testUtil.testWait(2000);
+		//testUtil.testWait(4000);
 		matchPageAdmin.enterValueFilter("Ajay");
 		testUtil.testWaitEleven();
 		matchPageAdmin.clickCancelValueFilter();
 		testUtil.testWaitFourteen();
 		//Assignment Dropdown
 		matchPageAdmin.clickAssignmentDropDown();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		matchPageAdmin.selectAssignmentValue();
 		testUtil.testWaitEight();
 		//matchPage.cancelCommandValue();
@@ -68,7 +70,7 @@ public class MatchPageAdminTest extends TestBase{
 		matchPage.clickAvailabilityDropDown();
 		testUtil.testWaitFour();
 		//Location
-		/*matchPage.clickLocationDropDown();
+		matchPage.clickLocationDropDown();
 		testUtil.testWaitFour();
 		matchPage.enterLocationClear();
 		testUtil.testWaitFour();
@@ -183,13 +185,13 @@ public class MatchPageAdminTest extends TestBase{
 		homePageAdmin.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePageAdmin.clickSignOutBtn();
-		testUtil.testWaitEight();*/
+		testUtil.testWaitEight();
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }

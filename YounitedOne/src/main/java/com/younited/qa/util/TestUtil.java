@@ -23,6 +23,10 @@ public class TestUtil extends TestBase{
 	public void switchToFrameTwo() {
 		Driver.switchTo().frame("");
 	}
+	
+	public void testWait(long millies)throws Exception {
+		Thread.sleep(millies);
+	}
 
 	public void testWaitTwo()throws Exception {
 		Thread.sleep(2000);
