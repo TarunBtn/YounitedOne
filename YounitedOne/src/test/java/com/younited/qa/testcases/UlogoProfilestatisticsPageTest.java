@@ -34,13 +34,13 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		uLogoProfilestatisticsPage=new UlogoProfilestatisticsPage();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		testUtil.testWaitFourteen();
+		//testUtil.testWaitFourteen();
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
-		testUtil.testWaitEight();
+		//testUtil.testWaitEight();
 		homePageAdmin.clickProfileStatistics();
-		testUtil.testWaitEight();
+		//testUtil.testWaitEight();
 		//homePageAdmin.moveHoverTologoImage();
 		//testUtil.testWaitTwo();
 				
@@ -49,31 +49,31 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 	@Test
 	public void UlogoProfilestatisticsPage()throws Exception {
 		uLogoProfilestatisticsPage.clickSearchField();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.enterValueSearchField("Arjan");
-		testUtil.testWaitEight();
+		//testUtil.testWaitEight();
 		uLogoProfilestatisticsPage.clickResetBtn();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.clickRoleDropDown();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.selectRole();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.clickRoleDropDown();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.clickRoleDropDown();
-		testUtil.testWaitTwo();
+		//testUtil.testWaitTwo();
 		uLogoProfilestatisticsPage.resetRoleDropDown();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		uLogoProfilestatisticsPage.clickRoleDropDown();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		homePageAdmin.clickSignOutLink();
-	  	testUtil.testWaitFour();
+	  	//testUtil.testWaitFour();
 	  	homePageAdmin.clickSignOutBtn();
-	  	testUtil.testWaitEight();
+	  	//testUtil.testWaitEight();
 				
 	}
 	

@@ -58,8 +58,8 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		testUtil.testWaitTwo();
 		uLogoDasAssignmentsPage.clickResetSearchByLocation();
 		testUtil.testWaitEight();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
+		  //testUtil.scrollDown();
+		  //testUtil.testWaitTwo();
 		//HourlyRate
 		uLogoDasAssignmentsPage.clickHourlyRateDropDown();
 		testUtil.testWaitFour();
@@ -84,8 +84,8 @@ public class UlogoDasAssignmentsPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoDasAssignmentsPage.clickNumberOfEntrePreneurs();
 		testUtil.testWaitFour();
-		//uLogoDasAssignmentsPage.clickNumberOfEntrePreneurs();
-		//testUtil.testWaitTwo();
+		  //uLogoDasAssignmentsPage.clickNumberOfEntrePreneurs();
+		  //testUtil.testWaitTwo();
 		uLogoDasAssignmentsPage.resetNumberOfEntrepreneurs();
 		testUtil.testWaitFour();
 		//Archive
