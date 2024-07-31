@@ -24,8 +24,8 @@ public class TestUtil extends TestBase{
 		Driver.switchTo().frame("");
 	}
 	
-	public void testWait(long millies)throws Exception {
-		Thread.sleep(millies);
+	public void testWait(long millis)throws Exception {
+		Thread.sleep(millis);
 	}
 
 	public void testWaitTwo()throws Exception {
