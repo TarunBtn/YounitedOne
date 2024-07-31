@@ -22,11 +22,11 @@ public class MatchPage extends TestBase{
 	WebElement assignmentFilter;
 	
 	//For MatchPageAdminTest side
-	@FindBy(xpath="//*[@id=\"filter\"]/div[1]/div/span")
+	@FindBy(xpath="//span[@class='material-icons clear-icon']")
 	WebElement clickCancelAssignmentFilterOne;
 	
 	//For MatchPageAdminTest side
-	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[1]")
+	@FindBy(xpath="//div[@class='multiselect__select']")
 	WebElement clickCommandDropDown;
 	
 	//For MatchPageAdminTest side
@@ -162,7 +162,7 @@ public class MatchPage extends TestBase{
 	}
 	//For MatchPageAdminTest side
 	public void clickCancelAssignmentFilter() {
-		clickCancelAssignmentFilter.click();
+		clickCancelAssignmentFilterOne.click();
 	}
 	//For MatchPageAdminTest side		
 	public void clickCommandDropDown() {

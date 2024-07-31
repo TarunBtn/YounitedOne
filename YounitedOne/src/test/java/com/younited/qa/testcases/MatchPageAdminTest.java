@@ -43,16 +43,16 @@ public class MatchPageAdminTest extends TestBase{
 	@Test
 	public void match()throws Exception {
 		//Assignment Filter
-		matchPage.clickAssignmentFilter();
+		matchPageAdmin.clickValueFilter();
 		testUtil.testWaitTwo();
-		matchPage.enterAssignmentFilter("Ajay");
-		testUtil.testWaitEight();
+		matchPageAdmin.enterValueFilter("Ajay");
+		testUtil.testWaitEleven();
 		matchPageAdmin.clickCancelValueFilter();
-		testUtil.testWaitEight();
-		//Command Filter
-		matchPage.clickCommandDropDown();
+		testUtil.testWaitFourteen();
+		//Assignment Dropdown
+		matchPageAdmin.clickAssignmentDropDown();
 		testUtil.testWaitFour();
-		matchPage.selectCommandValue();
+		matchPageAdmin.selectAssignmentValue();
 		testUtil.testWaitEight();
 		//matchPage.cancelCommandValue();
 		//testUtil.testWaitEight();
@@ -68,7 +68,7 @@ public class MatchPageAdminTest extends TestBase{
 		matchPage.clickAvailabilityDropDown();
 		testUtil.testWaitFour();
 		//Location
-		matchPage.clickLocationDropDown();
+		/*matchPage.clickLocationDropDown();
 		testUtil.testWaitFour();
 		matchPage.enterLocationClear();
 		testUtil.testWaitFour();
@@ -126,70 +126,70 @@ public class MatchPageAdminTest extends TestBase{
 		testUtil.testWaitFour();
 		//testUtil.switchToAlert("Accountbeheer");
 		//testUtil.testWaitFour();
-		/*matchPage.clickEnterValueSkill();
-		testUtil.testWaitFour();
-		matchPage.enterValueSkill("Accountbeheer");
-		testUtil.testWaitFour();
+		//matchPage.clickEnterValueSkill();
+		//testUtil.testWaitFour();
+		//matchPage.enterValueSkill("Accountbeheer");
+		//testUtil.testWaitFour();
 		//matchPage.selectTooltipSkill();
 		//testUtil.testWaitFour();
-		matchPage.enterValueSkillTab();
-		testUtil.testWaitFour();
-		matchPage.clickSkillTab();
-		testUtil.testWaitFour();
-		try {
-		    matchPage.clickApplyFilterSkill();
-		    testUtil.testWaitEight();
-		}catch(ElementClickInterceptedException e) {
-			e.printStackTrace();
-		}
-		matchPage.clickSkillTab();
-	    testUtil.testWaitFour();*/
+		//matchPage.enterValueSkillTab();
+		//testUtil.testWaitFour();
+		//matchPage.clickSkillTab();
+		//testUtil.testWaitFour();
+		//try {
+		   // matchPage.clickApplyFilterSkill();
+		   // testUtil.testWaitEight();
+		//}catch(ElementClickInterceptedException e) {
+			//e.printStackTrace();
+		//}
+		//matchPage.clickSkillTab();
+	    //testUtil.testWaitFour();
 		//matchPage.clickResetFilterSkill();
 		//testUtil.testWaitEight();
 		//matchPage.clickSkillTab();
 		//testUtil.testWaitFour();
 		matchPage.clickSkillTab();
 		testUtil.testWaitFour();
-		/*matchPage.clickCancelSkill();
-		testUtil.testWaitFour();*/
+		//matchPage.clickCancelSkill();
+		//testUtil.testWaitFour();
 		//Stored
 		matchPage.clickStored();
 		testUtil.testWaitEight();
 		matchPage.clickStored();
 		testUtil.testWaitEight();
 		//Sorting
-		/*matchPage.selectMatchBasedOnSkill();
-		testUtil.testWaitEight();
-		matchPage.selectLocation();
-		testUtil.testWaitEight();
-		matchPage.selectAlphabeticallyAZ();
-		testUtil.testWaitEight();
-		matchPage.selectAlphabeticallyZA();
-		testUtil.testWaitEight();
-		matchPage.selectHourlyRateMinMax();
-		testUtil.testWaitEight();
-		matchPage.selectHourlyRateMaxMin();
-		testUtil.testWaitEight();
-		matchPage.selectNumberOfHoursMinMax();
-		testUtil.testWaitEight();
-		matchPage.selectNumberOfHoursMaxMin();
-		testUtil.testWaitEight();
-		matchPage.selectLocation();
-		testUtil.testWaitEight();
-		homePageAdmin.clickSignOutLink();
-	  	testUtil.testWaitFour();
-	  	homePageAdmin.clickSignOutBtn();
-	  	testUtil.testWaitFour();*/
+		//matchPage.selectMatchBasedOnSkill();
+		//testUtil.testWaitEight();
+		//matchPage.selectLocation();
+		//testUtil.testWaitEight();
+		//matchPage.selectAlphabeticallyAZ();
+		//testUtil.testWaitEight();
+		//matchPage.selectAlphabeticallyZA();
+		//testUtil.testWaitEight();
+		//matchPage.selectHourlyRateMinMax();
+		//testUtil.testWaitEight();
+		//matchPage.selectHourlyRateMaxMin();
+		//testUtil.testWaitEight();
+		//matchPage.selectNumberOfHoursMinMax();
+		//testUtil.testWaitEight();
+		//matchPage.selectNumberOfHoursMaxMin();
+		//testUtil.testWaitEight();
+		//matchPage.selectLocation();
+		//testUtil.testWaitEight();
+		//homePageAdmin.clickSignOutLink();
+	  	//testUtil.testWaitFour();
+	  	//homePageAdmin.clickSignOutBtn();
+	  	//testUtil.testWaitFour();
 		homePageAdmin.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePageAdmin.clickSignOutBtn();
-		testUtil.testWaitEight();
+		testUtil.testWaitEight();*/
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }

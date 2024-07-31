@@ -18,7 +18,7 @@ public class MatchPageAdmin extends TestBase{
 	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[1]")
 	WebElement clickAssignmentDropDown;
 				
-	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[3]/ul/li[7]/span/span")
+	@FindBy(xpath="//span[contains(text(),'Managementassistente')]")
 	WebElement selectAssignmentValue;
 			
 	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/span")
