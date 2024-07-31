@@ -45,8 +45,6 @@ public class MatchPageAdminTest extends TestBase{
 		//Assignment Filter
 		matchPageAdmin.clickValueFilter();
 		testUtil.testWaitTwo();
-		//testUtil.testWait(2000);
-		//testUtil.testWait(4000);
 		matchPageAdmin.enterValueFilter("Ajay");
 		testUtil.testWaitEleven();
 		matchPageAdmin.clickCancelValueFilter();

@@ -16,25 +16,6 @@ public class MatchPage extends TestBase{
 	
 	@FindBy(xpath="//span[@class='material-icons reset_assignment md-18']")
 	WebElement clickCancelAssignmentFilter;
-	
-	//For MatchPageAdminTest side
-	@FindBy(id="filter-search-input")
-	WebElement assignmentFilter;
-	
-	//For MatchPageAdminTest side
-	@FindBy(xpath="//span[@class='material-icons clear-icon']")
-	WebElement clickCancelAssignmentFilterOne;
-	
-	//For MatchPageAdminTest side
-	@FindBy(xpath="//div[@class='multiselect__select']")
-	WebElement clickCommandDropDown;
-	
-	//For MatchPageAdminTest side
-	@FindBy(xpath="//span[contains(text(),'Managementassistente')]")
-	WebElement selectCommandValue;
-			
-	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/span")
-	WebElement cancelCommand;
 			
 	@FindBy(xpath="//*[@id=\"dropdown-beschikbaar\"]/button")
 	WebElement availabilityDropDown;
@@ -150,31 +131,6 @@ public class MatchPage extends TestBase{
 			
 	public void selectAssignmentFilter() {
 		selectAssignmentFilter.click();
-	}
-	
-	//For MatchPageAdminTest side
-	public void clickAssignmentFilter() {
-		assignmentFilter.click();
-	}
-	//For MatchPageAdminTest side		
-	public void enterAssignmentFilter(String value) {
-		assignmentFilter.sendKeys(value);
-	}
-	//For MatchPageAdminTest side
-	public void clickCancelAssignmentFilter() {
-		clickCancelAssignmentFilterOne.click();
-	}
-	//For MatchPageAdminTest side		
-	public void clickCommandDropDown() {
-		clickCommandDropDown.click();
-	}
-	//For MatchPageAdminTest side		
-	public void selectCommandValue() {
-		selectCommandValue.click();
-	}
-	//For MatchPageAdminTest side		
-	public void cancelCommandValue() {
-		cancelCommand.click();
 	}
 			
 	public void clickAvailabilityDropDown() {
