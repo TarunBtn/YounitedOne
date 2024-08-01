@@ -14,6 +14,12 @@ public class MatchPageAdmin extends TestBase{
 				
 	@FindBy(xpath="//*[@id=\"filter\"]/div[1]/div/span")
 	WebElement clickCancelValueFilter;
+	
+	@FindBy(xpath="//button[@class='btn btn-default-outline dropdown-toggle filter-not-applied filter-applied-not']")
+	WebElement sector;
+	
+	@FindBy(xpath="//label[@for='Agrarisch / Visserij']")
+	WebElement selectSector;
 				
 	@FindBy(xpath="//*[@id=\"dropdown-assignment\"]/div/div[1]")
 	WebElement clickAssignmentDropDown;
@@ -146,7 +152,15 @@ public class MatchPageAdmin extends TestBase{
 	public void clickCancelValueFilter() {
 		clickCancelValueFilter.click();
 	}
-			
+		
+	public void clickSectorDropDown() {
+		sector.click();
+	}
+	
+	public void selectSector() {
+		selectSector.click();
+	}
+	
 	public void clickAssignmentDropDown() {
 		clickAssignmentDropDown.click();
 	}
