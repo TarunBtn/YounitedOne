@@ -21,7 +21,7 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(xpath="//span[@class='material-icons clear-icon']")
 		WebElement clearFilter;
 		
-		@FindBy(id="dropdown-sector")
+		@FindBy(xpath="//button[@class='btn btn-default-outline dropdown-toggle filter-not-applied filter-applied-not']")
 		WebElement sector;
 			
 		@FindBy(xpath="//label[@for='Agrarisch / Visserij']")
