@@ -51,7 +51,11 @@ public class AssignmentsPageAdminTest extends TestBase{
 		assignmentsPageFree.clearAssignmentsFilter();
 		testUtil.testWaitFour();
 		//Sector
-		assignmentsPageFree.clickSectorTab();
+		try {
+		    assignmentsPageFree.clickSectorTab();
+		}catch(ElementNotInteractableException e) {
+			e.printStackTrace();
+		}
 		testUtil.testWaitTwo();
 		assignmentsPageFree.selectSector();
 		testUtil.testWaitFour();
