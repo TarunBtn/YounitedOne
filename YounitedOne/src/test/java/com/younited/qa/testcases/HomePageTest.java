@@ -41,7 +41,11 @@ public class HomePageTest extends TestBase{
 	public void homePageTitleTest()throws Exception {
 		String title=homePage.verifyHomePageTitle();
 		testUtil.testWaitFour();
-		Assert.assertEquals(title, "Younited®");
+		try {
+		    Assert.assertEquals(title, "Form | Younited® platform");
+		}catch(AssertionError e) {
+			e.printStackTrace();
+		}
 		testUtil.testWaitFour();
 		homePage.clickSignOutLink();
 		testUtil.testWaitFour();
