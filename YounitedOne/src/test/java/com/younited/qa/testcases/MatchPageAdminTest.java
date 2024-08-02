@@ -187,9 +187,9 @@ public class MatchPageAdminTest extends TestBase{
 	  	//homePageAdmin.clickSignOutBtn();
 	  	//testUtil.testWaitFour();
 		homePageAdmin.clickSignOutLink();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		homePageAdmin.clickSignOutBtn();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		
 	}
 	
