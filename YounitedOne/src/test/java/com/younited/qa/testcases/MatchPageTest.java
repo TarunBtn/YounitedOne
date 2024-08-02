@@ -40,7 +40,7 @@ public class MatchPageTest extends TestBase{
 	public void matchPage()throws Exception {
 		//Assignment Filter
 		matchPage.clickAssignmentFilterDropdown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.selectAssignmentFilter();
 		testUtil.testWaitEight();
 		//Availability
