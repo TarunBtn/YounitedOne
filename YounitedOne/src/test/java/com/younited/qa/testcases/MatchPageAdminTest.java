@@ -74,7 +74,7 @@ public class MatchPageAdminTest extends TestBase{
 		matchPage.clickAvailabilityDropDown();
 		testUtil.testWaitFour();
 		//Location
-		/*matchPage.clickLocationDropDown();
+		matchPage.clickLocationDropDown();
 		testUtil.testWaitFour();
 		matchPage.enterLocationClear();
 		testUtil.testWaitFour();
@@ -189,7 +189,7 @@ public class MatchPageAdminTest extends TestBase{
 		homePageAdmin.clickSignOutLink();
 		//testUtil.testWaitFour();
 		homePageAdmin.clickSignOutBtn();
-		//testUtil.testWaitEight();*/
+		//testUtil.testWaitEight();
 		
 	}
 	
