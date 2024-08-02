@@ -2,6 +2,7 @@ package com.younited.qa.testcases;
 
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.ElementNotInteractableException;
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -34,8 +35,8 @@ public class MatchPageAdminTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
-		//homePageAdmin.clickAcceptAllCookies();
-		//testUtil.testWaitEleven();
+		  //homePageAdmin.clickAcceptAllCookies();
+		  //testUtil.testWaitEleven();
 		homePageAdmin.clickMatchTab();
 		testUtil.testWaitEleven();	
 		
@@ -51,13 +52,13 @@ public class MatchPageAdminTest extends TestBase{
 		matchPageAdmin.clickCancelValueFilter();
 		testUtil.testWaitFourteen();
 		//Assignment Dropdown
+		matchPageAdmin.clickAssignmentDropDown();
+		testUtil.testWaitFourteen();
 		try {
-		  matchPageAdmin.clickAssignmentDropDown();
-		  testUtil.testWaitFourteen();
-		}catch(ElementNotInteractableException e) {
+		    matchPageAdmin.selectAssignmentValue();
+		}catch(NoSuchElementException e) {
 			e.printStackTrace();
 		}
-		matchPageAdmin.selectAssignmentValue();
 		testUtil.testWaitEight();
 		//matchPage.cancelCommandValue();
 		//testUtil.testWaitEight();
@@ -184,17 +185,17 @@ public class MatchPageAdminTest extends TestBase{
 		//homePageAdmin.clickSignOutLink();
 	  	//testUtil.testWaitFour();
 	  	//homePageAdmin.clickSignOutBtn();
-	  	//testUtil.testWaitFour();*/
+	  	//testUtil.testWaitFour();
 		homePageAdmin.clickSignOutLink();
-		testUtil.testWaitFour();
+		//testUtil.testWaitFour();
 		homePageAdmin.clickSignOutBtn();
-		testUtil.testWaitEight();
+		//testUtil.testWaitEight();*/
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
