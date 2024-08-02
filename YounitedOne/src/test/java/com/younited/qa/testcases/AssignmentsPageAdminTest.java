@@ -49,7 +49,7 @@ public class AssignmentsPageAdminTest extends TestBase{
 		assignmentsPageFree.selectAssignmentsValue();
 		testUtil.testWaitFour();
 		assignmentsPageFree.clearAssignmentsFilter();
-		testUtil.testWaitFour();
+		testUtil.testWaitEleven();
 		//Sector
 		try {
 		    assignmentsPageFree.clickSectorTab();
