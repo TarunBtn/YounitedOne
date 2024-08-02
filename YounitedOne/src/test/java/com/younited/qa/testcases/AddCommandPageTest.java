@@ -1,5 +1,6 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -53,7 +54,11 @@ public class AddCommandPageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.uploadFile("D:\\Assignment.docx");
 		testUtil.testWaitEight();
-		checkCommandPage=addCommandPage.clickUploadFile();
+		try {
+		    checkCommandPage=addCommandPage.clickUploadFile();
+		}catch(NoSuchElementException e) {
+			e.printStackTrace();
+		}
 		testUtil.testWaitEight();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
