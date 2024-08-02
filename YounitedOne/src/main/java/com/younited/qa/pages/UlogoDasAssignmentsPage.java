@@ -47,7 +47,7 @@ public class UlogoDasAssignmentsPage extends TestBase{
 	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[1]/div[3]/label")
 	WebElement Archive;
 	
-	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[2]/div/select")
+	@FindBy(xpath="//select[@class='custom-select dropdown mobile-full-width']")
 	WebElement sorting;
 	
 	@FindBy(xpath="//*[@id=\"my-das-assignment\"]/div/div/div[2]/div/div/div[4]/div[2]/div/select/option[1]")
