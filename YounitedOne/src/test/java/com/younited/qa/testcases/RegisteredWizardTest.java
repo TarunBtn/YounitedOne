@@ -37,17 +37,21 @@ public class RegisteredWizardTest extends TestBase{
 		
 		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		//testUtil.testWaitEight();
-		Thread.sleep(8000);
+		Thread.sleep(11000);
 		Driver.findElement(By.linkText("Sign up")).click();
 		Thread.sleep(8000);
-		Driver.findElement(By.id("email")).sendKeys("tarun.butani+aa@nowonlinetech.com");
+		Driver.findElement(By.id("email")).sendKeys("tarun.butani+an@nowonlinetech.com");
 		Thread.sleep(4000);
-		Driver.findElement(By.id("password")).sendKeys("Pass@123");
+		Driver.findElement(By.id("password")).sendKeys("Tester01!");
 		Thread.sleep(4000);
 		Driver.findElement(By.name("action")).click();
 		//Driver.findElement(By.xpath("/html/body/div/main/section/div/div[2]/div/form/div[3]/button")).click();
 		Thread.sleep(14000);
-		//Accept allCookies
+		Driver.findElement(By.name("privacy_policies_approval_checkbox")).click();
+		Thread.sleep(4000);
+		Driver.findElement(By.xpath("//button[@class='af-button af-nextButton']")).click();
+		Thread.sleep(8000);
+		//Accept Btn
 		Driver.findElement(By.xpath("//button[text()='Accept']")).click();
 		Thread.sleep(14000);
 		//Click New wizard
@@ -59,10 +63,10 @@ public class RegisteredWizardTest extends TestBase{
 		
 		JavascriptExecutor jsx=(JavascriptExecutor)Driver;
 		jsx.executeScript("window.scrollBy(0,450)");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		//Select checkbox
-		Driver.findElement(By.xpath("//label[@class='form-check-label accepting-checkbox-style']")).click();
-		Thread.sleep(2000);
+		Driver.findElement(By.xpath("//*[@id=\"wizard-v2\"]/div[1]/div/div/span/div[2]/div/div/label")).click();
+		Thread.sleep(4000);
 		//Next
 		Driver.findElement(By.xpath("//button[@class='btn btn-secondary btn-sm btn btn-primary next-btn']")).click();
 		Thread.sleep(8000);
@@ -166,7 +170,7 @@ public class RegisteredWizardTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 	
 	
