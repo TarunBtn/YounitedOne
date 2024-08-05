@@ -2,20 +2,35 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-05T17:11:36 IST" name="Default suite" finished-at="2024-08-05T17:13:29 IST" duration-ms="112817">
+  <suite started-at="2024-08-05T20:44:08 IST" name="Default suite" finished-at="2024-08-05T20:47:20 IST" duration-ms="192279">
     <groups>
     </groups>
-    <test started-at="2024-08-05T17:11:36 IST" name="Default test" finished-at="2024-08-05T17:13:29 IST" duration-ms="112817">
-      <class name="com.younited.qa.testcases.CompleteAssignmentTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.CompleteAssignmentTest@273e7444]" started-at="2024-08-05T17:11:36 IST" name="setUp" finished-at="2024-08-05T17:12:50 IST" duration-ms="74130" status="PASS">
+    <test started-at="2024-08-05T20:44:08 IST" name="Default test" finished-at="2024-08-05T20:47:20 IST" duration-ms="192279">
+      <class name="com.younited.qa.testcases.RegisteredWizardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.RegisteredWizardTest@2d52216b]" started-at="2024-08-05T20:44:08 IST" name="setUp" finished-at="2024-08-05T20:44:16 IST" duration-ms="7985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="completeAssignmentTest()[pri:0, instance:com.younited.qa.testcases.CompleteAssignmentTest@273e7444]" started-at="2024-08-05T17:12:50 IST" name="completeAssignmentTest" finished-at="2024-08-05T17:13:29 IST" duration-ms="38653" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.RegisteredWizardTest@2d52216b]" started-at="2024-08-05T20:44:16 IST" name="test" finished-at="2024-08-05T20:47:20 IST" duration-ms="184265" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //span[@class='input-group-text btn btn-white justify-content-center w-auto']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.younited.qa.testcases.CompleteAssignmentTest.completeAssignmentTest(CompleteAssignmentTest.java:100)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //span[@class='input-group-text btn btn-white justify-content-center w-auto']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at com.younited.qa.testcases.RegisteredWizardTest.test(RegisteredWizardTest.java:107)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -46,15 +61,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- completeAssignmentTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.CompleteAssignmentTest@273e7444]" started-at="2024-08-05T17:13:29 IST" name="tearDown" finished-at="2024-08-05T17:13:29 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.RegisteredWizardTest@2d52216b]" started-at="2024-08-05T20:47:20 IST" name="tearDown" finished-at="2024-08-05T20:47:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.CompleteAssignmentTest -->
+      </class> <!-- com.younited.qa.testcases.RegisteredWizardTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
