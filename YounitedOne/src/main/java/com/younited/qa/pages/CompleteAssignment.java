@@ -1,11 +1,14 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.younited.qa.base.TestBase;
 
@@ -35,7 +38,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//input[@id='opdracht.plaatsvanopdracht']")
 		WebElement workLocation;
 		
-		@FindBy(xpath="//*[@id=\"assignment-add\"]/span[2]/div/span/div[2]/form")
+		@FindBy(xpath="//*[@id=\"assignment-add\"]/span[2]/div/span/div[2]/form/div[9]/div[2]/div/div[1]/span")
 		WebElement workLocationTooltip;
 		
 		@FindBy(xpath="//div[@aria-owns='listbox-opdracht.opleidingsniveau']//div[@class='multiselect__select']")
@@ -160,7 +163,6 @@ public class CompleteAssignment extends TestBase{
 		    //Actions builder=new Actions(Driver);
 		    //builder.moveToElement(workLocationTooltip).build().perform();
 			workLocation.sendKeys(Keys.TAB);
-			
 		}
 		
 		public void clickProfileField() {

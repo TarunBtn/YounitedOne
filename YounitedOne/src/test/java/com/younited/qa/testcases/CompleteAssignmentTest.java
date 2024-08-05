@@ -1,7 +1,11 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -88,13 +92,20 @@ public class CompleteAssignmentTest extends TestBase{
 		completeAssignment.clickWorkLocation();
 		testUtil.testWaitTwo();
 		completeAssignment.selectWorkLocation("Punthorst, Netherlands");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		completeAssignment.clickWorkLocationTooltip();
-		testUtil.testWaitFour();
-		completeAssignment.clickWorkLocation();
-		testUtil.testWaitTwo();
-		completeAssignment.clickWorkLocationTooltip();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
+		
+		/*WebDriverWait wait = null;
+        WebElement suggestionList = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul[@class='suggestion-list']")));
+		
+		WebElement desiredSuggestion = suggestionList.findElement(By.xpath("//li[contains(text(), 'Punthorst Netherlands')]"));
+        desiredSuggestion.click();*/
+		
+		//completeAssignment.clickWorkLocation();
+		//testUtil.testWaitTwo();
+		//completeAssignment.clickWorkLocationTooltip();
+		//testUtil.testWaitFour();
 		completeAssignment.clickWorkingThinkingLevel();
 		testUtil.testWaitFour();
 		completeAssignment.selectWorkingThinkingLevel();
