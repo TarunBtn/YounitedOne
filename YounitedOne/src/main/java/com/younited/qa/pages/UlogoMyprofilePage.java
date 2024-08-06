@@ -78,13 +78,13 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="/html/body/div[1]/div/div[1]/main/div/div[2]/form/div[7]/div[2]/div/div[2]/div/div[2]/div/div/div/div[1]/button[1]/span/svg")
 			WebElement selectYear;
 					
-			@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[2]/form/div[7]/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[1]/div[1]/div")
+			@FindBy(xpath="/html/body/div[2]/div/span/div/main/span/div/div[2]/form/div[7]/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[1]/div[4]/div")
 			WebElement selectStartDate;
 					
 			@FindBy(xpath="//*[@id=\"einddatum\"]/div/div/input")
 			WebElement endDateCalender;
 					
-			@FindBy(xpath="/html/body/div[1]/div/span/div/main/span/div/div[2]/form/div[8]/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[1]/div[2]/div")
+			@FindBy(xpath="/html/body/div[2]/div/span/div/main/span/div/div[2]/form/div[8]/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[2]/div[2]/div")
 			WebElement selectEndDate;
 					
 			@FindBy(xpath="//*[@id=\"professiondescription\"]")
