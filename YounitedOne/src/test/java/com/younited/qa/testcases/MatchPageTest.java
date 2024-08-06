@@ -29,8 +29,8 @@ public class MatchPageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil.testWaitFourteen();
-		//homePage.clickAcceptAllCookies();
-		//testUtil.testWaitEleven();
+		  //homePage.clickAcceptAllCookies();
+		  //testUtil.testWaitEleven();
 		homePage.clickMatchLink();
 		testUtil.testWaitFour();
 				

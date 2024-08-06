@@ -32,7 +32,7 @@ public class MatchPage extends TestBase{
 	@FindBy(id="dropdown-location")
 	WebElement location;
 			
-	@FindBy(id="map")
+	@FindBy(xpath="//input[@id='map']")
 	WebElement enterLocation;
 			
 	@FindBy(id="dropdown-location-and-distance-apply")
