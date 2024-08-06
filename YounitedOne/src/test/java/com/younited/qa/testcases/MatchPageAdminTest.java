@@ -34,11 +34,11 @@ public class MatchPageAdminTest extends TestBase{
 		matchPageAdmin=new MatchPageAdmin();
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
-		//testUtil.testWaitFourteen();
+		testUtil.testWaitFourteen();
 		  //homePageAdmin.clickAcceptAllCookies();
 		  //testUtil.testWaitEleven();
 		homePageAdmin.clickMatchTab();
-		//testUtil.testWaitEleven();	
+		testUtil.testWaitEleven();	
 		
 	}
 	
@@ -46,14 +46,14 @@ public class MatchPageAdminTest extends TestBase{
 	public void match()throws Exception {
 		//Assignment Filter
 		matchPageAdmin.clickValueFilter();
-		//testUtil.testWaitTwo();
+		testUtil.testWaitTwo();
 		matchPageAdmin.enterValueFilter("Ajay");
-		//testUtil.testWaitEleven();
+		testUtil.testWaitEleven();
 		matchPageAdmin.clickCancelValueFilter();
-		//testUtil.testWaitFourteen();
+		testUtil.testWaitFourteen();
 		//Assignment Dropdown
 		matchPageAdmin.clickAssignmentDropDown();
-		//testUtil.testWaitFourteen();
+		testUtil.testWaitFourteen();
 		try {
 		    matchPageAdmin.selectAssignmentValue();
 		}catch(NoSuchElementException e) {
@@ -64,72 +64,72 @@ public class MatchPageAdminTest extends TestBase{
 		  //testUtil.testWaitEight();
 		  //Availability
 		matchPage.clickAvailabilityDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.selectOnlyAvailable();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.selectNotAvailable();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.selectEverything();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickAvailabilityDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		//Location
 		matchPage.clickLocationDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.enterLocationClear();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.enterLocationValue("Noordwijk, Netherlands");
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.clickApplyFilterLocation();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickLocationDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.resetFilterLocation();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickLocationDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.clickCancelLocation();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		//Work/Thinking level
 		matchPage.clickWorkThinkingLevelDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.selectWorkThinking();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickWorkThinkingLevelDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.clickWorkThinkingLevelDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.selectWorkThinking();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickWorkThinkingLevelDropDown();
-		//testUtil.testWaitFour();		
+		testUtil.testWaitFour();		
 		//Hours
 		matchPage.clickHoursDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.selectHours();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickApplyFilterHours();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickHoursDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.clickResetFilterHours();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickHoursDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.clickCancelHours();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		//Descipline
 		matchPage.clickDesciplineDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		matchPage.selectDescipline();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.selectDescipline();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickDesciplineDropDown();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		//Skills
 		matchPage.clickSkillTab();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		  //testUtil.switchToAlert("Accountbeheer");
 		  //testUtil.testWaitFour();
 		  //matchPage.clickEnterValueSkill();
@@ -155,14 +155,14 @@ public class MatchPageAdminTest extends TestBase{
 		  //matchPage.clickSkillTab();
 		  //testUtil.testWaitFour();
 		matchPage.clickSkillTab();
-		//testUtil.testWaitFour();
-		//matchPage.clickCancelSkill();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
+		  //matchPage.clickCancelSkill();
+		  //testUtil.testWaitFour();
 		//Stored
 		matchPage.clickStored();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		matchPage.clickStored();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		//Sorting
 		//matchPage.selectMatchBasedOnSkill();
 		//testUtil.testWaitEight();
@@ -187,9 +187,9 @@ public class MatchPageAdminTest extends TestBase{
 	  	//homePageAdmin.clickSignOutBtn();
 	  	//testUtil.testWaitFour();
 		homePageAdmin.clickSignOutLink();
-		//testUtil.testWaitFour();
+		testUtil.testWaitFour();
 		homePageAdmin.clickSignOutBtn();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
 		
 	}
 	
