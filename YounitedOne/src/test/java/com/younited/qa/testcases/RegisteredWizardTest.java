@@ -40,7 +40,7 @@ public class RegisteredWizardTest extends TestBase{
 		Thread.sleep(11000);
 		Driver.findElement(By.linkText("Sign up")).click();
 		Thread.sleep(8000);
-		Driver.findElement(By.id("email")).sendKeys("tarun.butani+an@nowonlinetech.com");
+		Driver.findElement(By.id("email")).sendKeys("tarun.butani+bi@nowonlinetech.com");
 		Thread.sleep(4000);
 		Driver.findElement(By.id("password")).sendKeys("Tester01!");
 		Thread.sleep(4000);
@@ -65,7 +65,7 @@ public class RegisteredWizardTest extends TestBase{
 		jsx.executeScript("window.scrollBy(0,450)");
 		Thread.sleep(4000);
 		//Select checkbox
-		Driver.findElement(By.xpath("//*[@id=\"wizard-v2\"]/div[1]/div/div/span/div[2]/div/div/label")).click();
+		Driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]/span[1]/div[2]/div[1]/div[1]/label[1]")).click();
 		Thread.sleep(4000);
 		//Next
 		Driver.findElement(By.xpath("//button[@class='btn btn-secondary btn-sm btn btn-primary next-btn']")).click();
@@ -81,7 +81,7 @@ public class RegisteredWizardTest extends TestBase{
 		jsxone.executeScript("window.scrollBy(0,450)");
 		Thread.sleep(2000);
 		//Enter company
-		Driver.findElement(By.xpath("//input[@id='profiel.lead.bedrijfsnaam']")).sendKeys("A.A.P. Intercollectief");
+		Driver.findElement(By.xpath("//input[@id='profiel.lead.bedrijfsnaam']")).sendKeys("B&B Hairdesign B.V.");
 		Thread.sleep(11000);
 		Driver.findElement(By.xpath("//input[@id='profiel.lead.bedrijfsnaam']")).sendKeys(Keys.TAB);
 		Thread.sleep(11000);

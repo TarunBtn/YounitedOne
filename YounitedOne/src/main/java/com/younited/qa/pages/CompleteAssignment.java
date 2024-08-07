@@ -38,7 +38,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//input[@id='opdracht.plaatsvanopdracht']")
 		WebElement workLocation;
 		
-		@FindBy(xpath="//*[@id=\"assignment-add\"]/span[2]/div/span/div[2]/form/div[9]/div[2]/div/div[1]/span")
+		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/div[2]/form/div[9]/div[2]/div/div[1]/span")
 		WebElement workLocationTooltip;
 		
 		@FindBy(xpath="//div[@aria-owns='listbox-opdracht.opleidingsniveau']//div[@class='multiselect__select']")
