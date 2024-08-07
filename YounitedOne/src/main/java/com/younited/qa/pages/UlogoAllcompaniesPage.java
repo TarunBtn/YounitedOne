@@ -45,7 +45,7 @@ public class UlogoAllcompaniesPage extends TestBase{
 	@FindBy(xpath="/html/body")
 	WebElement selectCompanyTooltip;
 	
-	@FindBy(xpath="//*[@id=\"totaal_aantal_medewerkers\"]")
+	@FindBy(xpath="//select[@id='totaal_aantal_medewerkers']")
 	WebElement employees;
 	
 	@FindBy(xpath="//*[@id=\"51-100\"]")

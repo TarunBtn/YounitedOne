@@ -31,16 +31,16 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
-		//homePageAdmin.clickAcceptAllCookies();
-		//testUtil.testWaitEleven();
+		  //homePageAdmin.clickAcceptAllCookies();
+		  //testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitFour();
 		homePageAdmin.clickAllCompaniesTab();
 		testUtil.testWaitFourteen();
-		//homePageAdmin.moveHoverTologoImage();
-		//testUtil.testWaitFour();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
+		  //homePageAdmin.moveHoverTologoImage();
+		  //testUtil.testWaitFour();
+		  //testUtil.scrollDown();
+		  //testUtil.testWaitTwo();
 								
 	}
 	
@@ -69,10 +69,10 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
 		//Exact match
-		//uLogoAllcompaniesPage.clickExactMatch();
-		//testUtil.testWaitFour();
-		//uLogoAllcompaniesPage.clickExactMatch();
-		//testUtil.testWaitFour();
+		  //uLogoAllcompaniesPage.clickExactMatch();
+		  //testUtil.testWaitFour();
+		  //uLogoAllcompaniesPage.clickExactMatch();
+		  //testUtil.testWaitFour();
 		uLogoAllcompaniesPage.clickResetCompanyFilter();
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
@@ -94,8 +94,8 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoAllcompaniesPage.clickEmployeeDropDown();
 		testUtil.testWaitFour();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
+		  //testUtil.scrollDown();
+		  //testUtil.testWaitTwo();
 		uLogoAllcompaniesPage.clickSectorDropDown();
 		testUtil.testWaitFour();
 		uLogoAllcompaniesPage.selectSectorCompany();
@@ -111,23 +111,23 @@ public class UlogoAllcompaniesPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		uLogoAllcompaniesPage.clickSaveBtn();
-		//uLogoAllcompaniesPage.clickCancelBtn();
+		  //uLogoAllcompaniesPage.clickCancelBtn();
 		testUtil.testWaitEight();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
-		//uLogoMycompanyPage.clickDeleteCompanySign();
-		//testUtil.testWaitFour();
-		//System.out.println(uLogoAllcompaniesPage.companyLink());
-		//testUtil.testWaitFour();
-		//if(uLogoAllcompaniesPage.companyLink().equals("Cybage Software B.V.")) {
+		  //uLogoMycompanyPage.clickDeleteCompanySign();
+		  //testUtil.testWaitFour();
+		  //System.out.println(uLogoAllcompaniesPage.companyLink());
+		  //testUtil.testWaitFour();
+		  //if(uLogoAllcompaniesPage.companyLink().equals("Cybage Software B.V.")) {
 			//testUtil.testWaitTwo();
-		//uLogoMycompanyPage.clickDeleteCompany();
-		//uLogoMycompanyPage.clickCancelDelete();
-		//testUtil.testWaitFour();
+		  //uLogoMycompanyPage.clickDeleteCompany();
+		  //uLogoMycompanyPage.clickCancelDelete();
+		  //testUtil.testWaitFour();
 			//testUtil.testWaitEight();
-		//}else {
+		  //}else {
 			//System.out.println("Company name not exist");
-		//}
+		  //}
 		homePageAdmin.clickSignOutLink();
 	  	testUtil.testWaitFour();
 	  	homePageAdmin.clickSignOutBtn();
