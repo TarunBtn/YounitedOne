@@ -60,7 +60,7 @@ public class CompleteAssignmentTest extends TestBase{
 		addCommandPage.clickUploadFile();
 		testUtil.testWaitEight();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//checkCommandPage.clickFillInComplete();
 		//testUtil.testWaitEight();
 		//testUtil.scrollDown();
