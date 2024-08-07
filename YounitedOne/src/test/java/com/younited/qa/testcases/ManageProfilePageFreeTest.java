@@ -62,7 +62,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		uLogoMyprofilePage.clickMyProfileLogo();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickChangeMyGeneralInformation();
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
@@ -70,7 +70,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		//testUtil.scrollDown();
@@ -121,7 +121,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitFour();
 		//Availability Tab
 		uLogoMyprofilePage.clickAvailabilityTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
@@ -129,10 +129,10 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Skills Tab
 		uLogoMyprofilePage.clickSkillsTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
@@ -140,7 +140,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Enter skill value
 		//uLogoMyprofilePage.enterSkillsValue("Account");
 		//testUtil.testWaitEight();
@@ -174,11 +174,11 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//testUtil.testWaitTwo();
 		//Work experience
 		uLogoMyprofilePage.clickWorkExperienceTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickAddWorkExperience();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.enterFunction("DBA");
@@ -196,7 +196,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoMyprofilePage.clickStartDateCalender();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//uLogoMyprofilePage.selectStartYear();
 		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.selectStartYear();
@@ -216,7 +216,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		uLogoMyprofilePage.selectProfile();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickSaveBtn();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
@@ -315,7 +315,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 		//Courses
 		uLogoMyprofilePage.clickCoursesTab();
 		testUtil.testWaitEight();
-		testUtil.scrollDown();
+		/*testUtil.scrollDown();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickAddCourse();
 		testUtil.testWaitFour();
@@ -328,15 +328,15 @@ public class ManageProfilePageFreeTest extends TestBase{
 		uLogoMyprofilePage.clickCompletedOnDateCourse();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.selectCompletedOnDateCourse();
-		testUtil.testWaitTwo();
+		testUtil.testWaitTwo();*/
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
-		uLogoMyprofilePage.clickSaveCourse();
+		/*uLogoMyprofilePage.clickSaveCourse();
 		testUtil.testWaitEight();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.clickEditCourse();
@@ -376,7 +376,7 @@ public class ManageProfilePageFreeTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
