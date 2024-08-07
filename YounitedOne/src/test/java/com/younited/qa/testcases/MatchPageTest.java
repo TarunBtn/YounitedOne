@@ -57,8 +57,10 @@ public class MatchPageTest extends TestBase{
 		//Location
 		matchPage.clickLocationDropDown();
 		testUtil.testWaitTwo();
+		matchPage.enterLocationClear();
+		testUtil.testWaitFour();
 		matchPage.enterLocationValue("Noordwijk, Netherlands");
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		matchPage.clickApplyFilterLocation();
 		testUtil.testWaitEight();
 		matchPage.clickLocationDropDown();
