@@ -25,7 +25,7 @@ public class DashboardPageFreeTest extends TestBase{
 		loginPage=new LoginPage();
 		testUtil=new TestUtil();
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-			
+		testUtil.testWaitFourteen();	
 	}
 	
 	@Test
@@ -35,7 +35,7 @@ public class DashboardPageFreeTest extends TestBase{
 		homePage.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePage.clickSignOutBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		
 	}
 	
