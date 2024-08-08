@@ -33,36 +33,36 @@ public class MyReactionsPageFreeTest extends TestBase{
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
 		testUtil.testWaitFourteen();
 		homePageFree.clickUserLogo();
-		testUtil.testWaitFour();
-		homePageFree.clickMyReactionsTab();
 		testUtil.testWaitEight();
+		homePageFree.clickMyReactionsTab();
+		testUtil.testWaitFourteen();
 			
 	}
 	
 	@Test
 	public void test()throws Exception {
-		myReactionsPageFree.clickMyReactionsPageLogo();
-		testUtil.testWaitFour();
+		//myReactionsPageFree.clickMyReactionsPageLogo();
+		//testUtil.testWaitFour();
 		myReactionsPageFree.clickStatusDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myReactionsPageFree.selectInTreatment();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		myReactionsPageFree.clickStatusDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myReactionsPageFree.selectOnInterview();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		myReactionsPageFree.clickStatusDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myReactionsPageFree.selectRegisterAgreement();
 		testUtil.testWaitEight();
 		myReactionsPageFree.clickStatusDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myReactionsPageFree.selectWithdrawnRejected();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		myReactionsPageFree.clickStatusDropDown();
-		testUtil.testWaitTwo();
-		myReactionsPageFree.selectAllStatus();
 		testUtil.testWaitFour();
+		myReactionsPageFree.selectAllStatus();
+		testUtil.testWaitEight();
 		/*myReactionsPageFree.clickAssignmentLink();
 		testUtil.testWaitFour();
 		myReactionsPageFree.clickMyReactionsPageLogo();
