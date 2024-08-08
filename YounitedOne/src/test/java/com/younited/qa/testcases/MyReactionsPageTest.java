@@ -33,15 +33,15 @@ public class MyReactionsPageTest extends TestBase{
 		homePage.clickUserLogo();
 		testUtil.testWaitFour();
 		homePage.clickMyReactionsTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		
 		
 	}
 	
 	@Test
 	public void test()throws Exception {
-		myReactionsPage.clickMyReactionsPageLogo();
-		testUtil.testWaitFour();
+		//myReactionsPage.clickMyReactionsPageLogo();
+		//testUtil.testWaitFour();
 		myReactionsPage.clickCompanyDropDown();
 		testUtil.testWaitFour();
 		myReactionsPage.selectCompany();

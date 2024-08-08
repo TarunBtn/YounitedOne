@@ -2,6 +2,7 @@ package com.younited.qa.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.younited.qa.base.TestBase;
 
@@ -10,19 +11,24 @@ public class MyReactionsPage extends TestBase{
 	@FindBy(xpath="//span[normalize-space()='chevron_left']")
 	WebElement myReactionsPageLogo;
 	
-	@FindBy(xpath="//*[@id=\"page-header\"]/div[2]/div[1]/div/div[2]/div/div[1]/div/div[1]")
+	@FindBy(xpath="//div[@aria-owns='listbox-initial-sort-select']//div[@class='multiselect__select']")
 	WebElement companyDropDown;
 	
 	@FindBy(xpath="//span[contains(text(),'Soft Design B.V.')]")
 	WebElement selectCompany;
 	
-	@FindBy(xpath="//div[@class='multiselect--active multiselect inverted-width-select-menu fixed-width resolve-jump-issue custom-width-selectMenu visable-selected-option']//div[@class='multiselect__select']")
+	@FindBy(xpath="//div[@aria-owns='listbox-initial-sort-select2']//div[@class='multiselect__select']")
 	WebElement roleDropDown;
 	
-	@FindBy(xpath="//span[@class='multiselect__option--highlight multiselect__option--selected multiselect__option']//span[contains(text(),'Software Design BV Test 01')]")
+	@FindBy(xpath="//*[@id=\"initial-sort-select2-2\"]/span/span")
 	WebElement selectRole;
 	
 	//Initialization
+	public MyReactionsPage () {
+		PageFactory.initElements(Driver, this);
+	}
+	
+	//Actions
 	public void clickMyReactionsPageLogo() {
 		myReactionsPageLogo.click();
 	}
