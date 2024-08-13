@@ -130,9 +130,9 @@ public class CompleteAssignmentTest extends TestBase{
 		completeAssignment.clickProfileField();
 		testUtil.testWaitTwo();
 		completeAssignment.enterProfile("Database administrator");
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		completeAssignment.clickProfileTooltip();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		completeAssignment.clickNextButton();
 		testUtil.testWaitEight();
 		testUtil.scrollUp();
@@ -220,6 +220,14 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitTwo();*/
 		completeAssignment.clickNextButton();
 		testUtil.testWaitEight();
+		//Short Description
+		completeAssignment.shortDescription("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		//Generate description
+		completeAssignment.generateDescriptiona("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
+		testUtil.testWaitFour();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		completeAssignment.clickNextButton();
@@ -234,17 +242,19 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitFour();
 		completeAssignment.selectVisibleDateTo();
 		testUtil.testWaitFour();
-		//completeAssignment.clickSaveButton();
-		homePage.clickSignOutLink();
-		testUtil.testWaitFour();
-		homePage.clickSignOutBtn();
+		completeAssignment.clickSkipAndContinue();
 		testUtil.testWaitEight();
+		//completeAssignment.clickSaveButton();
+		//homePage.clickSignOutLink();
+		//testUtil.testWaitFour();
+		//homePage.clickSignOutBtn();
+		//testUtil.testWaitEight();
 			
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 		
 	}
 

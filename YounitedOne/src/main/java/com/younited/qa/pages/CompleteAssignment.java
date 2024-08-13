@@ -68,7 +68,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[1]/button[4]/i")
 		WebElement selectStartYear;
 		
-		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/form/div[1]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[2]/div[7]/div")
+		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/form/div[1]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[1]/div")
 		WebElement selectStartDate;
 		
 		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/form/div[2]/div[2]/div/div[1]/div/div/div/input")
@@ -77,7 +77,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"assignment\"]/div[7]/div/div/div/div[1]/button[3]/i")
 		WebElement selectEndYear;
 		
-		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/form/div[2]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[3]/div")
+		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/form/div[2]/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[4]/div")
 		WebElement selectEndDate;
 		
 		@FindBy(xpath="//*[@id=\"aantaluurperweek\"]/div/div[2]/div[2]/div[1]")
@@ -98,6 +98,12 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"vakgebied-6\"]/span/span")
 		WebElement selectFieldOfExpertise;
 		
+		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/div[2]/div[1]/div/div/div/div/div[2]/div/p")
+		WebElement shortDescription;
+		
+		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/div[2]/div[2]/div/div/div[2]/div/div[2]/div")
+		WebElement generateDescriptiona;
+		
 		@FindBy(xpath="/html/body/div[1]/main/div/div[2]/div/form/span[3]/div[2]/div/div[2]/div[1]/input")
 		WebElement skillsField;
 		
@@ -110,11 +116,14 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//*[@id=\"general-company-edit\"]/div/form/span[3]/div[2]/div/form/div/div/div[2]/div[2]/label")
 		WebElement unSelectSkillsTwo;
 		
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[4]/div[2]/div/span[2]/div/div/div/input")
+		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/div[2]/form/div[4]/div[2]/div/span[2]/div/div/div/input")
 		WebElement clickVisibleDateTo;
 		
-		@FindBy(xpath="/html/body/div[1]/div/div[1]/span[2]/div/span/div[2]/form/div[4]/div[2]/div/span[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[4]/div")
+		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/div[2]/form/div[4]/div[2]/div/span[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[5]/div[4]/div")
 		WebElement selectVisibleDateTo;
+		
+		@FindBy(xpath="//button[@class='btn btn-secondary btn-sm btn btn-primary next-btn']")
+		WebElement skipAndContinue;
 		
 		//Initialization
 		public CompleteAssignment(){
@@ -246,6 +255,14 @@ public class CompleteAssignment extends TestBase{
 			selectFieldOfExpertise.click();	
 		}
 		
+		public void shortDescription(String value) {
+			shortDescription.sendKeys(value);
+		}
+		
+		public void generateDescriptiona(String value) {
+			generateDescriptiona.sendKeys(value);
+		}
+		
 		public void clickSkillsField() {
 			skillsField.click();
 		}
@@ -272,6 +289,10 @@ public class CompleteAssignment extends TestBase{
 		
 		public void selectVisibleDateTo() {
 			selectVisibleDateTo.click();
+		}
+		
+		public void clickSkipAndContinue() {
+			skipAndContinue.click();
 		}
 		
 }
