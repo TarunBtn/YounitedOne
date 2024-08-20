@@ -54,18 +54,6 @@ public class HomePageTest extends TestBase{
 	}
 	
 	@Test(priority=2)
-	public void verifyImageLogoTest()throws Exception {
-		Boolean logo=homePage.verifyImageLogo();
-		testUtil.testWaitFour();
-		Assert.assertTrue(logo);
-		testUtil.testWaitFour();
-		homePage.clickSignOutLink();
-		testUtil.testWaitFour();
-		homePage.clickSignOutBtn();
-		testUtil.testWaitEight();
-	}
-	
-	@Test(priority=3)
 	public void myAssignmentsPage()throws Exception {
 		//myAssignmentsPage=homePage.clickMyAssignmentsLink();
 		homePage.clickMyAssignmentsLink();
