@@ -58,7 +58,7 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.uploadFile("D:\\Assignment.docx");
 		testUtil.testWaitEight();
 		addCommandPage.clickUploadFile();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		testUtil.scrollUp();
 		testUtil.testWaitEight();
 		//checkCommandPage.clickFillInComplete();
@@ -243,7 +243,7 @@ public class CompleteAssignmentTest extends TestBase{
 		completeAssignment.selectVisibleDateTo();
 		testUtil.testWaitFour();
 		completeAssignment.clickSkipAndContinue();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		//completeAssignment.clickSaveButton();
 		//homePage.clickSignOutLink();
 		//testUtil.testWaitFour();
