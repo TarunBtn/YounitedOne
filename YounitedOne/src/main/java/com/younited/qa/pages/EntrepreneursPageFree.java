@@ -33,7 +33,7 @@ public class EntrepreneursPageFree extends TestBase{
 		@FindBy(xpath="//label[@for='interessegebied_Sales']")
 		WebElement selectAreaOfInterest;
 		
-		@FindBy(xpath="//*[@id=\"dropdown-skills-btn\"]")
+		@FindBy(xpath="//button[@id='dropdown-skills-btn']")
 		WebElement skills;
 		
 		@FindBy(xpath="//input[@placeholder='Zoek een vaardigheid']")
