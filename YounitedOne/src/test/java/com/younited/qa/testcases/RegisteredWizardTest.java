@@ -108,7 +108,7 @@ public class RegisteredWizardTest extends TestBase{
 		Thread.sleep(8000);
 		registeredWizard.uploadFile("D:\\CV Jort Zwolsman.doc");
 		//uploadFile("D:\\Mohsin Adahchour CV.pdf");
-		Thread.sleep(11000);
+		Thread.sleep(14000);
 		//Next
 		Driver.findElement(By.xpath("//button[@class='btn btn-secondary btn-sm btn btn-primary next-btn']")).click();
 		Thread.sleep(14000);

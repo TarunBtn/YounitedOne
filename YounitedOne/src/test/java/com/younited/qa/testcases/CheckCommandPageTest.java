@@ -57,7 +57,7 @@ public class CheckCommandPageTest extends TestBase{
 		testUtil.uploadFile("D:\\CV Jort Zwolsman.doc");
 		testUtil.testWaitEight();
 		addCommandPage.clickUploadFile();
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 							
