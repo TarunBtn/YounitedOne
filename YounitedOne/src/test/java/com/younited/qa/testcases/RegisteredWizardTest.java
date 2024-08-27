@@ -40,7 +40,7 @@ public class RegisteredWizardTest extends TestBase{
 		Thread.sleep(11000);
 		Driver.findElement(By.linkText("Sign up")).click();
 		Thread.sleep(8000);
-		Driver.findElement(By.id("email")).sendKeys("tarun.butani+bq@nowonlinetech.com");
+		Driver.findElement(By.id("email")).sendKeys("tarun.butani+bt@nowonlinetech.com");
 		Thread.sleep(4000);
 		Driver.findElement(By.id("password")).sendKeys("Tester01!");
 		Thread.sleep(4000);
@@ -49,7 +49,7 @@ public class RegisteredWizardTest extends TestBase{
 		Thread.sleep(14000);
 		Driver.findElement(By.name("privacy_policies_approval_checkbox")).click();
 		Thread.sleep(4000);
-		Driver.findElement(By.xpath("//button[@class='af-button af-nextButton']")).click();
+		Driver.findElement(By.xpath("//button[@type='button']")).click();
 		Thread.sleep(8000);
 		//Accept Btn
 		Driver.findElement(By.xpath("//button[text()='Accept']")).click();
@@ -65,8 +65,8 @@ public class RegisteredWizardTest extends TestBase{
 		jsx.executeScript("window.scrollBy(0,450)");
 		Thread.sleep(4000);
 		//Select checkbox
-		Driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]/span[1]/div[2]/div[1]/div[1]/label[1]")).click();
-		Thread.sleep(4000);
+		//Driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[1]/div[1]/span[1]/div[2]/div[1]/div[1]/label[1]")).click();
+		//Thread.sleep(4000);
 		//Next
 		Driver.findElement(By.xpath("//button[@class='btn btn-secondary btn-sm btn btn-primary next-btn']")).click();
 		Thread.sleep(8000);
