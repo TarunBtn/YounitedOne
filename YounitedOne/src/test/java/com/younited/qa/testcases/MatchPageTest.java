@@ -53,7 +53,7 @@ public class MatchPageTest extends TestBase{
 		matchPage.selectEverything();
 		testUtil.testWaitEight();
 		matchPage.clickAvailabilityDropDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//Location
 		matchPage.clickLocationDropDown();
 		testUtil.testWaitTwo();
