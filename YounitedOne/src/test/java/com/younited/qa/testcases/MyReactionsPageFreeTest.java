@@ -63,10 +63,10 @@ public class MyReactionsPageFreeTest extends TestBase{
 		testUtil.testWaitFour();
 		myReactionsPageFree.selectAllStatus();
 		testUtil.testWaitEight();
-		/*myReactionsPageFree.clickAssignmentLink();
-		testUtil.testWaitFour();
-		myReactionsPageFree.clickMyReactionsPageLogo();
-		testUtil.testWaitFour();*/
+		//myReactionsPageFree.clickAssignmentLink();
+		//testUtil.testWaitFour();
+		//myReactionsPageFree.clickMyReactionsPageLogo();
+		//testUtil.testWaitFour();
 		homePageFree.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePageFree.clickSignOutBtn();
