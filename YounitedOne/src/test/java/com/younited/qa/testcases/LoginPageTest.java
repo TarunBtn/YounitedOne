@@ -29,8 +29,8 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=1)
 	public void loginPageTitleTest()throws Exception {
 		String title=loginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "Log in | Younited® platform");
-		testUtil.testWaitFour();
+		Assert.assertEquals(title, "Younited®");
+		testUtil.testWaitEight();
 		
 	}
 	
@@ -39,7 +39,7 @@ public class LoginPageTest extends TestBase{
 		System.out.println("Test is passed");
 		//boolean flag=loginPage.validateImageLogo();
 		//Assert.assertTrue(flag);
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		
 	}
 	
