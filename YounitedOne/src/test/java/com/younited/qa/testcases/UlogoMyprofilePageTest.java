@@ -62,7 +62,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//testUtil.scrollUp();
 		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.clickChangeMyGeneralInformationCancel();
@@ -88,11 +88,11 @@ public class UlogoMyprofilePageTest extends TestBase{
 		uLogoMyprofilePage.clickSkillsTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		//testUtil.scrollUp();
 		//testUtil.testWaitTwo();
 		//Enter skill value
