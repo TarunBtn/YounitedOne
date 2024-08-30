@@ -12,7 +12,7 @@ public class AssignmentsPageFree extends TestBase{
 		@FindBy(id="assignment-search")
 		WebElement enterValue;
 			
-		@FindBy(xpath="//h5[normalize-space()='Medewerker Assignment Permission Test Done']")
+		@FindBy(xpath="//h5[normalize-space()='Sr Projectleider Rijksportaal RWS']")
 		WebElement assignmentBox;
 		
 		@FindBy(xpath="//span[@class='d-flex']//span[contains(text(),'QA EngineerEight')]")

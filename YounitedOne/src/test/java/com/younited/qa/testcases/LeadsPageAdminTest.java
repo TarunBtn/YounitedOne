@@ -30,7 +30,7 @@ public class LeadsPageAdminTest extends TestBase{
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
 		homePageAdmin.clickLeadTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		
 	}
 	
