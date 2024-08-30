@@ -40,7 +40,7 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitEight();
 		homePageAdmin.clickProfileStatistics();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 		//homePageAdmin.moveHoverTologoImage();
 		//testUtil.testWaitTwo();
 				
