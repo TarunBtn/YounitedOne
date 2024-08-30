@@ -46,7 +46,7 @@ public class MyReactionsPageFreeTest extends TestBase{
 		myReactionsPageFree.clickStatusDropDown();
 		testUtil.testWaitFour();
 		myReactionsPageFree.selectInTreatment();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		myReactionsPageFree.clickStatusDropDown();
 		testUtil.testWaitFour();
 		myReactionsPageFree.selectOnInterview();
