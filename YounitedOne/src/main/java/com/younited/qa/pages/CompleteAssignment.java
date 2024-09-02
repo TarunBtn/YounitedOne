@@ -38,7 +38,7 @@ public class CompleteAssignment extends TestBase{
 		@FindBy(xpath="//input[@id='opdracht.plaatsvanopdracht']")
 		WebElement workLocation;
 		
-		@FindBy(xpath="/html/body/div[2]/div/div/span[2]/div/span/div[2]/form/div[9]/div[2]/div/div[1]/span")
+		@FindBy(xpath="Bedrijf *Bloemisterij FloraACC ComputersBlauwe Monsters B.V.Bloemisterij FloraFlora BotanicaHappy De")
 		WebElement workLocationTooltip;
 		
 		@FindBy(xpath="//div[@aria-owns='listbox-opdracht.opleidingsniveau']//div[@class='multiselect__select']")
@@ -168,10 +168,10 @@ public class CompleteAssignment extends TestBase{
 		}
 		
 		public void clickWorkLocationTooltip() {
-			//workLocationTooltip.click();
+			workLocationTooltip.click();
 		    //Actions builder=new Actions(Driver);
 		    //builder.moveToElement(workLocationTooltip).build().perform();
-			workLocation.sendKeys(Keys.TAB);
+			//workLocation.sendKeys(Keys.TAB);
 		}
 		
 		public void clickProfileField() {
