@@ -91,8 +91,8 @@ public class CommunityPageAdminTest extends TestBase{
 		//MyNetwork
 		myNetworkPageFree.clickMyNetworkBtn();
 		testUtil.testWaitEight();
-		myNetworkPageFree.clickMyNetworkTab();
-		testUtil.testWaitFour();
+		//myNetworkPageFree.clickMyNetworkTab();
+		//testUtil.testWaitFour();
 		myNetworkPageFree.clickMyRequestsTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
