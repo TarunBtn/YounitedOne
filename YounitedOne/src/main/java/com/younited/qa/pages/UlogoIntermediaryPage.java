@@ -21,5 +21,16 @@ public class UlogoIntermediaryPage extends TestBase{
 	
 	//Initialization
 	
+	
+	//Actions
+	public void clickCompanySearch() {
+		companySearch.click();
+	}
+	
+	public void enterValueCompany(String value) {
+		companySearch.sendKeys(value);
+	}
+	
+	
 
 }
