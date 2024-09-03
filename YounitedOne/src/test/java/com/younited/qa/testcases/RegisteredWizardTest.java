@@ -36,18 +36,18 @@ public class RegisteredWizardTest extends TestBase{
 	public void test()throws Exception {
 		
 		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
-		//testUtil.testWaitEight();
+		//Driver.get("https://prepublish-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(11000);
-		Driver.findElement(By.linkText("Sign up")).click();
-		Thread.sleep(8000);
-		Driver.findElement(By.id("email")).sendKeys("tarun.butani+bt@nowonlinetech.com");
+		//Driver.findElement(By.linkText("Sign up")).click();
+		//Thread.sleep(8000);
+		Driver.findElement(By.xpath("//input[@id='username']")).sendKeys("roshani.patel+acc_og@nowonlinetech.com");
 		Thread.sleep(4000);
-		Driver.findElement(By.id("password")).sendKeys("Tester01!");
+		Driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Tester01!");
 		Thread.sleep(4000);
 		Driver.findElement(By.name("action")).click();
 		//Driver.findElement(By.xpath("/html/body/div/main/section/div/div[2]/div/form/div[3]/button")).click();
 		Thread.sleep(14000);
-		Driver.findElement(By.name("privacy_policies_approval_checkbox")).click();
+		/*Driver.findElement(By.name("privacy_policies_approval_checkbox")).click();
 		Thread.sleep(4000);
 		Driver.findElement(By.xpath("//button[@type='button']")).click();
 		Thread.sleep(8000);
@@ -81,7 +81,7 @@ public class RegisteredWizardTest extends TestBase{
 		jsxone.executeScript("window.scrollBy(0,450)");
 		Thread.sleep(2000);
 		//Enter company
-		Driver.findElement(By.xpath("//input[@id='profiel.lead.bedrijfsnaam']")).sendKeys("B.T");
+		Driver.findElement(By.xpath("//input[@id='profiel.lead.bedrijfsnaam']")).sendKeys("B.T HOOF");
 		Thread.sleep(11000);
 		Driver.findElement(By.xpath("//input[@id='profiel.lead.bedrijfsnaam']")).sendKeys(Keys.TAB);
 		Thread.sleep(11000);
@@ -164,7 +164,12 @@ public class RegisteredWizardTest extends TestBase{
 		Thread.sleep(4000);
 		//Next
 		Driver.findElement(By.xpath("//button[@class='btn btn-secondary btn-sm btn btn-primary next-btn']")).click();
-		Thread.sleep(8000);
+		Thread.sleep(8000);*/
+		Driver.findElement(By.xpath("//a[@class='user-infoNav-item-link logout']//span[@class='material-icons'][normalize-space()='logout']")).click();
+		Thread.sleep(11000);
+		Driver.findElement(By.xpath("//button[@class='btn btn-primary btn btn-primary']")).click();
+		Thread.sleep(14000);
+		
 		
 	}
 	
