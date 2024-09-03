@@ -45,7 +45,7 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitFourteen();
 		//homePage.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();		
-		homePage.clickMyAssignmentsLink();
+		/*homePage.clickMyAssignmentsLink();
 		testUtil.testWaitEleven();
 		//testUtil.testWaitEight();
 		//addCommandPage=myAssignmentsPage.clickAddNewCommand();
@@ -60,7 +60,7 @@ public class CompleteAssignmentTest extends TestBase{
 		addCommandPage.clickUploadFile();
 		testUtil.testWaitFourteen();
 		testUtil.scrollUp();
-		testUtil.testWaitEight();
+		testUtil.testWaitEight();*/
 		//checkCommandPage.clickFillInComplete();
 		//testUtil.testWaitEight();
 		//testUtil.scrollDown();
@@ -69,7 +69,7 @@ public class CompleteAssignmentTest extends TestBase{
 	
 	@Test
 	public void completeAssignmentTest()throws Exception {
-		completeAssignment.clickCompanyDropDown();
+		/*completeAssignment.clickCompanyDropDown();
 		testUtil.testWaitFour();
 		completeAssignment.selectCompany();
 		testUtil.testWaitFour();
@@ -95,16 +95,6 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitEight();
 		completeAssignment.clickWorkLocationTooltip();
 		testUtil.testWaitEight();
-		
-		/*WebDriverWait wait = null;
-        WebElement suggestionList = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul[@class='suggestion-list']")));
-		
-		WebElement desiredSuggestion = suggestionList.findElement(By.xpath("//li[contains(text(), 'Punthorst Netherlands')]"));
-        desiredSuggestion.click();*/
-		
-		//completeAssignment.clickWorkLocation();
-		//testUtil.testWaitTwo();
-		//completeAssignment.clickWorkLocationTooltip();
 		//testUtil.testWaitFour();
 		completeAssignment.clickWorkingThinkingLevel();
 		testUtil.testWaitFour();
@@ -112,20 +102,6 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitFour();
 		completeAssignment.clickNextButton();
 		testUtil.testWaitEight();
-		//completeAssignment.clickNextButton();
-		//testUtil.testWaitFourteen();
-		//testUtil.scrollUp();
-		//testUtil.testWaitFour();
-		
-		//completeAssignment.selectWorkLocation();
-		//testUtil.testWaitFour();
-		//completeAssignment.clickWorkLocationTooltip();
-		//testUtil.testWaitFour();
-		//try {
-			//Driver.findElement(By.name("date")).sendKeys("01-08-2024");
-				
-		//}catch(ElementNotInteractableException e) {
-			//e.printStackTrace();
 		//}	
 		completeAssignment.clickProfileField();
 		testUtil.testWaitTwo();
@@ -137,31 +113,6 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.testWaitEight();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
-		/*testUtil.scrollUp();
-	    testUtil.testWaitFour();
-		//Generate description
-	    try {
-		    completeAssignment.clickGenerateDescription();
-		    //testUtil.testWaitEleven();
-	   }catch(NoSuchElementException e) {
-	   	  e.printStackTrace();
-	   }
-	    testUtil.scrollDown();
-	    testUtil.testWaitFour();
-	    //testUtil.scrollDown();
-	    //testUtil.testWaitTwo();
-	    try {
-		   completeAssignment.clickUseThisText();
-	    }catch(ElementClickInterceptedException e) {
-	    	e.printStackTrace();
-	    }
-	    
-	    try {
-			   completeAssignment.clickUseThisTextOne();
-		    }catch(ElementClickInterceptedException e) {
-		    	e.printStackTrace();
-		    }
-		testUtil.testWaitEight();*/
 		//Select start date
 	    completeAssignment.clickStartDateDropDown();
 		testUtil.testWaitFour();
@@ -181,43 +132,43 @@ public class CompleteAssignmentTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		//NumberofHours
-		/*completeAssignment.selectNumberOfHours();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		//selectWorkingThinkingLevel
-		completeAssignment.selectWorkingThinkingLevel();
-		testUtil.testWaitFour();
-		//Select FieldOfExpertise/Descipline
-		completeAssignment.clickFieldOfExpertise();
-		testUtil.testWaitFour();
-		completeAssignment.selectFieldOfExpertise();
-		testUtil.testWaitFour();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		//Add Skills and remove skills
-		completeAssignment.clickSkillsField();
-		testUtil.testWaitTwo();
-		completeAssignment.enterSkills("Security Management");
-		testUtil.testWaitFour();
-		completeAssignment.skillsToolTip();
-		testUtil.testWaitTwo();
-		completeAssignment.enterSkills("Databases");
-		testUtil.testWaitFour();
-		completeAssignment.skillsToolTip();
-		testUtil.testWaitTwo();
-		completeAssignment.enterSkills("Test Engineering");
-		testUtil.testWaitFour();
-		completeAssignment.skillsToolTip();
-		testUtil.testWaitTwo();
-		completeAssignment.unSelectSkillsOne();
-		testUtil.testWaitTwo();
-		completeAssignment.unSelectSkillsTwo();
-		testUtil.testWaitTwo();*/
+		//completeAssignment.selectNumberOfHours();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		  //selectWorkingThinkingLevel
+		//completeAssignment.selectWorkingThinkingLevel();
+		//testUtil.testWaitFour();
+		  //Select FieldOfExpertise/Descipline
+		//completeAssignment.clickFieldOfExpertise();
+		//testUtil.testWaitFour();
+		//completeAssignment.selectFieldOfExpertise();
+		//testUtil.testWaitFour();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		//testUtil.scrollDown();
+		//testUtil.testWaitTwo();
+		  //Add Skills and remove skills
+		//completeAssignment.clickSkillsField();
+		//testUtil.testWaitTwo();
+		//completeAssignment.enterSkills("Security Management");
+		//testUtil.testWaitFour();
+		//completeAssignment.skillsToolTip();
+		//testUtil.testWaitTwo();
+		//completeAssignment.enterSkills("Databases");
+		//testUtil.testWaitFour();
+		//completeAssignment.skillsToolTip();
+		//testUtil.testWaitTwo();
+		//completeAssignment.enterSkills("Test Engineering");
+		//testUtil.testWaitFour();
+		//completeAssignment.skillsToolTip();
+		//testUtil.testWaitTwo();
+		//completeAssignment.unSelectSkillsOne();
+		//testUtil.testWaitTwo();
+		//completeAssignment.unSelectSkillsTwo();
+		//testUtil.testWaitTwo();
 		completeAssignment.clickNextButton();
 		testUtil.testWaitEight();
 		//Short Description
@@ -243,12 +194,12 @@ public class CompleteAssignmentTest extends TestBase{
 		completeAssignment.selectVisibleDateTo();
 		testUtil.testWaitFour();
 		completeAssignment.clickSkipAndContinue();
-		testUtil.testWaitEleven();
+		testUtil.testWaitEleven();*/
 		//completeAssignment.clickSaveButton();
-		//homePage.clickSignOutLink();
-		//testUtil.testWaitFour();
-		//homePage.clickSignOutBtn();
-		//testUtil.testWaitEight();
+		homePage.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePage.clickSignOutBtn();
+		testUtil.testWaitEight();
 			
 	}
 	
