@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-03T15:10:26 IST" name="Default suite" finished-at="2024-09-03T15:11:35 IST" duration-ms="69362">
+  <suite started-at="2024-09-03T19:22:45 IST" name="Default suite" finished-at="2024-09-03T19:23:37 IST" duration-ms="52449">
     <groups>
     </groups>
-    <test started-at="2024-09-03T15:10:26 IST" name="Default test" finished-at="2024-09-03T15:11:35 IST" duration-ms="69362">
-      <class name="com.younited.qa.testcases.RegisteredWizardTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.RegisteredWizardTest@273e7444]" started-at="2024-09-03T15:10:26 IST" name="setUp" finished-at="2024-09-03T15:10:32 IST" duration-ms="5904" status="PASS">
+    <test started-at="2024-09-03T19:22:45 IST" name="Default test" finished-at="2024-09-03T19:23:37 IST" duration-ms="52449">
+      <class name="com.younited.qa.testcases.LeadsAssignmentPageAdminTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.LeadsAssignmentPageAdminTest@273e7444]" started-at="2024-09-03T19:22:45 IST" name="setUp" finished-at="2024-09-03T19:23:25 IST" duration-ms="40042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.RegisteredWizardTest@273e7444]" started-at="2024-09-03T15:10:32 IST" name="test" finished-at="2024-09-03T15:11:35 IST" duration-ms="63169" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.LeadsAssignmentPageAdminTest@273e7444]" started-at="2024-09-03T19:23:25 IST" name="test" finished-at="2024-09-03T19:23:37 IST" duration-ms="12161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.RegisteredWizardTest@273e7444]" started-at="2024-09-03T15:11:35 IST" name="tearDown" finished-at="2024-09-03T15:11:35 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.LeadsAssignmentPageAdminTest@273e7444]" started-at="2024-09-03T19:23:37 IST" name="tearDown" finished-at="2024-09-03T19:23:37 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.RegisteredWizardTest -->
+      </class> <!-- com.younited.qa.testcases.LeadsAssignmentPageAdminTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
