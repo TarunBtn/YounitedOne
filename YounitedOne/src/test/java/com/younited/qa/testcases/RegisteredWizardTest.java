@@ -36,7 +36,6 @@ public class RegisteredWizardTest extends TestBase{
 	public void test()throws Exception {
 		
 		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
-		//Driver.get("https://prepublish-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(11000);
 		//Driver.findElement(By.linkText("Sign up")).click();
 		//Thread.sleep(8000);
