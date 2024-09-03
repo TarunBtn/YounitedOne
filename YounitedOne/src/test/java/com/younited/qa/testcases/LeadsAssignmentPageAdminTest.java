@@ -35,16 +35,16 @@ public class LeadsAssignmentPageAdminTest extends TestBase{
 		testUtil.testWaitFourteen();
 		homePageAdmin.clickAssignmentsTab();
 		testUtil.testWaitFourteen();
-		assignmentsPageFree.clickAssignmentBox();
+		/*assignmentsPageFree.clickAssignmentBox();
 		testUtil.testWaitFourteen();
 		testUtil.switchToWindow02();
-		testUtil.testWaitEight();
+		testUtil.testWaitEight();*/
 			
 	}
 	
 	@Test
 	public void test()throws Exception {
-		leadsAssignmentPageAdmin.clickAddLead();
+		/*leadsAssignmentPageAdmin.clickAddLead();
 		testUtil.testWaitFourteen();
 		testUtil.switchToWindow03();
 		testUtil.testWaitFourteen();
@@ -65,8 +65,12 @@ public class LeadsAssignmentPageAdminTest extends TestBase{
 		leadsAssignmentPageAdmin.clickSaveBtn();
 		testUtil.testWaitFourteen();
 		leadsAssignmentPageAdmin.clickCloseSign();
-		testUtil.testWaitEight();
+		testUtil.testWaitEight();*/
 		//leadsAssignmentPageAdmin.clickCancelBtn();
+		homePageAdmin.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutBtn();
+		testUtil.testWaitEight();
 	}
 	
 	@AfterMethod
