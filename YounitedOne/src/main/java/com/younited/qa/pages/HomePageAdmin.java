@@ -94,6 +94,9 @@ public class HomePageAdmin extends TestBase{
 			@FindBy(xpath="/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[4]/div[3]/div[1]/div/div/div/div[1]/div[2]/ul/li[1]/div")
 			WebElement leadTab;
 			
+			@FindBy(xpath="//a[normalize-space()='Intermediair']")
+			WebElement intermediaryTab;
+			
 			@FindBy(xpath="//a[@class='user-infoNav-item-link logout']//span[@class='material-icons'][normalize-space()='logout']")
 			WebElement signOutLink;
 			
@@ -242,6 +245,10 @@ public class HomePageAdmin extends TestBase{
 			
 			public void clickLeadTab() {
 				leadTab.click();
+			}
+			
+			public void clickIntermediaryTab() {
+				intermediaryTab.click();
 			}
 			
 			public void clickSignOutLink() {
