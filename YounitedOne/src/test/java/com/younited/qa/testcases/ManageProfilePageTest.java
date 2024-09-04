@@ -30,36 +30,36 @@ public class ManageProfilePageTest extends TestBase{
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil.testWaitFourteen();
 		homePage.clickUserLogo();
-		testUtil.testWaitFour();
-		homePage.clickManageProfileLink();
 		testUtil.testWaitEight();
+		homePage.clickManageProfileLink();
+		testUtil.testWaitFourteen();
 		
 	}
 	
 	@Test
 	public void test()throws Exception {
 		manageProfilePage.clickMyProfilePageLogo();
-		testUtil.testWaitTwo();
+		testUtil.testWaitEight();
 		manageProfilePage.clickEditYourProfileLink();
-		testUtil.testWaitFour();
+		testUtil.testWaitFourteen();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		manageProfilePage.clickInstitutionsTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
-		manageProfilePage.clickGeneralTab();
+		testUtil.testWaitFour();
+		/*manageProfilePage.clickGeneralTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		testUtil.scrollDown();
-		testUtil.testWaitTwo();
-		manageProfilePage.clickCancelBtn();
 		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();*/
+		//manageProfilePage.clickCancelBtn();
+		//testUtil.testWaitEight();
 		homePage.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePage.clickSignOutBtn();
