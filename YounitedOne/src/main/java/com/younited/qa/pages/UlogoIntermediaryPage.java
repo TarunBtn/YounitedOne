@@ -2,6 +2,7 @@ package com.younited.qa.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.younited.qa.base.TestBase;
 
@@ -9,6 +10,9 @@ public class UlogoIntermediaryPage extends TestBase{
 	//Page factory Or Object Repository
 	@FindBy(xpath="//input[@id='filter-input']")
 	WebElement companySearch;
+	
+	@FindBy(xpath="/html/body/div[2]/div/span/div/main/span/div/div[2]/div/div[1]/div[2]/div/div/input")
+	WebElement companySearchCancel;
 	
 	@FindBy(xpath="//a[@title='Voeg intermediair toe']")
 	WebElement addIntermediary;
@@ -20,7 +24,9 @@ public class UlogoIntermediaryPage extends TestBase{
 	WebElement userSymbol;
 	
 	//Initialization
-	
+	public UlogoIntermediaryPage() {
+		PageFactory.initElements(Driver, this);
+	}
 	
 	//Actions
 	public void clickCompanySearch() {
@@ -29,6 +35,10 @@ public class UlogoIntermediaryPage extends TestBase{
 	
 	public void enterValueCompany(String value) {
 		companySearch.sendKeys(value);
+	}
+	
+	public void companySearchCancel() {
+		companySearchCancel.click();
 	}
 	
 	
