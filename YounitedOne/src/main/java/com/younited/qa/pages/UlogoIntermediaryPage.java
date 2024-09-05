@@ -41,6 +41,17 @@ public class UlogoIntermediaryPage extends TestBase{
 		companySearchCancel.click();
 	}
 	
+	public void clickAddIntermediary() {
+		addIntermediary.click();
+	}
+	
+	public void clickSubCompanySymbol() {
+		subCompanySymbol.click();
+	}
+	
+	public void clickUserSymbol() {
+		userSymbol.click();
+	}
 	
 
 }
