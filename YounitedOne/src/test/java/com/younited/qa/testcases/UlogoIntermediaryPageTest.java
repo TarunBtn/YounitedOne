@@ -50,12 +50,14 @@ public class UlogoIntermediaryPageTest extends TestBase{
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
+		testUtil.scrollUp();
+		testUtil.testWaitFour();
 		
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
