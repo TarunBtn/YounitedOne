@@ -30,7 +30,7 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 		uLogoIntermediaryPage=new UlogoIntermediaryPage();
 		uLogoAddIntermediaryPage=new UlogoAddIntermediaryPage();
 		testUtil=new TestUtil();
-		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), "passwordtwo");
+		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitEight();
@@ -49,15 +49,29 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 		testUtil.testWaitEight();
 		uLogoAddIntermediaryPage.selectCompanyNameTooltip();
 		testUtil.testWaitEight();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
 		uLogoAddIntermediaryPage.clickBrandLabelDropDown();
 		testUtil.testWaitFour();
 		uLogoAddIntermediaryPage.selectBrandLabel();
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		uLogoAddIntermediaryPage.clickSectorDropDown();
 		testUtil.testWaitFour();
 		uLogoAddIntermediaryPage.selectSector();
 		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
 		uLogoAddIntermediaryPage.clickSaveBtn();
+		testUtil.testWaitEight();
+		homePageAdmin.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutBtn();
 		testUtil.testWaitEight();
 		
 	}

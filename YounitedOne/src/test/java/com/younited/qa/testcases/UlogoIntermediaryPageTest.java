@@ -52,6 +52,10 @@ public class UlogoIntermediaryPageTest extends TestBase{
 		testUtil.testWaitFour();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutBtn();
+		testUtil.testWaitEight();
 		
 	}
 	
