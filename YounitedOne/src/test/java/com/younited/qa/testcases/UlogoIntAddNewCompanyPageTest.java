@@ -13,7 +13,6 @@ import com.younited.qa.pages.UlogoIntermediaryPage;
 import com.younited.qa.util.TestUtil;
 
 public class UlogoIntAddNewCompanyPageTest extends TestBase{
-	
 	LoginPage loginPage;
 	HomePageAdmin homePageAdmin;
 	UlogoIntermediaryPage uLogoIntermediaryPage;
