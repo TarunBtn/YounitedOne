@@ -17,11 +17,15 @@ public class UlogoIntermediaryPage extends TestBase{
 	@FindBy(xpath="//a[@title='Voeg intermediair toe']")
 	WebElement addIntermediary;
 	
-	@FindBy(xpath="//tbody/tr[1]/td[5]/div[1]/a[1]/span[1]")
+	@FindBy(xpath="//tbody/tr[2]/td[5]/div[1]/a[1]/span[1]")
 	WebElement subCompanySymbol;
 	
 	@FindBy(xpath="//tbody/tr[1]/td[5]/div[1]/a[2]/span[1]")
 	WebElement userSymbol;
+	
+	@FindBy(xpath="//body/div[@id='app']/div/span/div[@id='app']/main/span/div[@class='componentTemplate']/div[@id='my-companies']/div[@class='container']/div[1]/a[1]")
+	WebElement addNewCompany;
+	
 	
 	//Initialization
 	public UlogoIntermediaryPage() {
@@ -51,6 +55,10 @@ public class UlogoIntermediaryPage extends TestBase{
 	
 	public void clickUserSymbol() {
 		userSymbol.click();
+	}
+	
+	public void clickAddNewCompany() {
+		addNewCompany.click();
 	}
 	
 

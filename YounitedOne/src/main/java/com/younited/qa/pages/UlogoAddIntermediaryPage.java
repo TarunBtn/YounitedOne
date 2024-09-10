@@ -20,6 +20,12 @@ public class UlogoAddIntermediaryPage extends TestBase{
 	@FindBy(xpath="//span[contains(text(),'ASC | ASA Campus Powered by Younited®')]")
 	WebElement selectBrandLabel;
 	
+	@FindBy(xpath="//select[@id='totaal_aantal_medewerkers']")
+	WebElement employeeDropdown;
+	
+	@FindBy(xpath="//option[@id='51-100']")
+	WebElement selectEmployee;
+	
 	@FindBy(xpath="//div[@class='col-md-7 col-lg-4 col-xl-3']//div[@class='multiselect__select']")
 	WebElement sectorDropDown;
 	
@@ -53,6 +59,14 @@ public class UlogoAddIntermediaryPage extends TestBase{
 	
 	public void selectBrandLabel() {
 		selectBrandLabel.click();
+	}
+	
+	public void clickEmployeeDropdown() {
+		employeeDropdown.click();
+	}
+	
+	public void selectEmployee() {
+		selectEmployee.click();
 	}
 	
 	public void clickSectorDropDown() {
