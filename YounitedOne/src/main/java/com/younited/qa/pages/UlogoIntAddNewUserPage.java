@@ -11,6 +11,9 @@ public class UlogoIntAddNewUserPage extends TestBase{
 	@FindBy(xpath="//input[@id='filter-input']")
 	WebElement searchUser;
 	
+	@FindBy(xpath="//input[@id='filter-input']")
+	WebElement cancelSearchUser;
+	
 	@FindBy(xpath="//a[@class='btn btn-primary-outline mr-auto']")
 	WebElement addUser;
 	
@@ -41,6 +44,10 @@ public class UlogoIntAddNewUserPage extends TestBase{
 	
 	public void enterSearchUser(String value) {
 		searchUser.sendKeys(value);
+	}
+	
+	public void cancelSearchUser() {
+		cancelSearchUser.click();
 	}
 	
 	public void clickAddUser() {

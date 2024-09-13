@@ -26,6 +26,12 @@ public class UlogoIntermediaryPage extends TestBase{
 	@FindBy(xpath="//body/div[@id='app']/div/span/div[@id='app']/main/span/div[@class='componentTemplate']/div[@id='my-companies']/div[@class='container']/div[1]/a[1]")
 	WebElement addNewCompany;
 	
+	//@FindBy(xpath="//a[@class='btn btn-primary-outline mr-auto']")
+	//WebElement AddUserBtn;
+	
+	//@FindBy(xpath="//input[@id='filter-input']")
+	//WebElement userSearch;
+	
 	
 	//Initialization
 	public UlogoIntermediaryPage() {
@@ -61,5 +67,16 @@ public class UlogoIntermediaryPage extends TestBase{
 		addNewCompany.click();
 	}
 	
+	/*public void clickUserSearch() {
+		userSearch.click();
+	}
+	
+	public void enterValueUserSearch(String value) {
+		userSearch.sendKeys(value);
+	}
+	
+	public void clickAddUser() {
+		AddUserBtn.click();
+	}*/
 
 }

@@ -71,10 +71,9 @@ public class TestUtil extends TestBase{
 	public void switchToWindow01() {
 		Set<String> AllWindowHandles=Driver.getWindowHandles();
 		String window01=(String)AllWindowHandles.toArray()[0];
-		String window02=(String)AllWindowHandles.toArray()[1];
+		//String window02=(String)AllWindowHandles.toArray()[1];
 		
-		Driver.switchTo().window(window01);
-		
+		Driver.switchTo().window(window01);	
 	}
 	
 	public void switchToWindow02() {
@@ -82,8 +81,7 @@ public class TestUtil extends TestBase{
 		String window01=(String)AllWindowHandles.toArray()[0];
 		String window02=(String)AllWindowHandles.toArray()[1];
 		
-		Driver.switchTo().window(window02);
-		
+		Driver.switchTo().window(window02);	
 	}
 	
 	public void switchToWindow03() {
@@ -92,14 +90,12 @@ public class TestUtil extends TestBase{
 		String window02=(String)AllWindowHandles.toArray()[1];
 		String window03=(String)AllWindowHandles.toArray()[2];
 		
-		Driver.switchTo().window(window03);
-		
+		Driver.switchTo().window(window03);	
 	}
 	
 	public void switchToAlert(String value) {
 		Alert alert=Driver.switchTo().alert();
-		alert.sendKeys(value);
-		
+		alert.sendKeys(value);	
 	}
 	
 	//Upload file
