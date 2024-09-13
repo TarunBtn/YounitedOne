@@ -59,7 +59,13 @@ public class UlogoIntAddNewUserPage extends TestBase{
 		firstName.sendKeys(value);
 	}
 	
+	public void enterLastName(String value) {
+		lastName.sendKeys(value);
+	}
 	
+	public void addUser() {
+		addUserBtn.click();
+	}
 	
 
 }
