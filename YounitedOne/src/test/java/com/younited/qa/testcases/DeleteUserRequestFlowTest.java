@@ -2,6 +2,7 @@ package com.younited.qa.testcases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -43,6 +44,15 @@ public class DeleteUserRequestFlowTest extends TestBase{
 		Thread.sleep(8000);
 		Driver.findElement(By.xpath("//button[@name='action']")).click();
 		Thread.sleep(14000);
+		try {
+			Driver.findElement(By.xpath("//a[@class='btn btn-default action-button']")).click();
+			
+		}catch(NoSuchElementException e) {
+			e.printStackTrace();
+		}
+		
+		
+		
 		//Userlogo
 		Driver.findElement(By.xpath("//img[@class='profile-img']")).click();
 		Thread.sleep(14000);
@@ -121,7 +131,7 @@ public class DeleteUserRequestFlowTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }

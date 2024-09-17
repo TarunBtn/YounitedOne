@@ -56,7 +56,7 @@ public class UlogoIntAddNewUserPageTest extends TestBase{
 		//testUtil.testWaitFourteen();
 		uLogoIntAddNewUserPage.clickEmailAddress();
 		testUtil.testWaitFour();
-		uLogoIntAddNewUserPage.enterEmailAddress("tarun.butani+bt@nowonlinetech.com");
+		uLogoIntAddNewUserPage.enterEmailAddress("tarun.butani+ha@nowonlinetech.com");
 		testUtil.testWaitEight();
 		uLogoIntAddNewUserPage.selectEmailTooltip();
 		testUtil.testWaitEight();
