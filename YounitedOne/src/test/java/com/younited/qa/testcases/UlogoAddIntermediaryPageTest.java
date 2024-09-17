@@ -45,7 +45,7 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 	public void test()throws Exception {
 		uLogoAddIntermediaryPage.clickCompanyName();
 		testUtil.testWaitTwo();
-		uLogoAddIntermediaryPage.enterCompanyName("B&B Melderslo B.V.");
+		uLogoAddIntermediaryPage.enterCompanyName("B&");
 		testUtil.testWaitEight();
 		uLogoAddIntermediaryPage.selectCompanyNameTooltip();
 		testUtil.testWaitEight();
@@ -78,7 +78,7 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }

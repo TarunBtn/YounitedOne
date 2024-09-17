@@ -49,7 +49,7 @@ public class UlogoIntAddNewCompanyPageTest extends TestBase{
 	
 	@Test
 	public void test()throws Exception {
-		uLogoAddIntermediaryPage.enterCompanyName("B&B Melderslo B.V.");
+		uLogoAddIntermediaryPage.enterCompanyName("B&");
 		testUtil.testWaitEleven();
 		uLogoAddIntermediaryPage.selectCompanyNameTooltip();
 		testUtil.testWaitEight();

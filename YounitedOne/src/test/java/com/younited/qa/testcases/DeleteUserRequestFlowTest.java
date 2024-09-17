@@ -50,9 +50,9 @@ public class DeleteUserRequestFlowTest extends TestBase{
 		}catch(NoSuchElementException e) {
 			e.printStackTrace();
 		}
-		
-		
-		
+		testUtil.testWaitFourteen();
+		testUtil.switchToWindow01();
+		testUtil.testWaitFourteen();
 		//Userlogo
 		Driver.findElement(By.xpath("//img[@class='profile-img']")).click();
 		Thread.sleep(14000);
@@ -131,7 +131,7 @@ public class DeleteUserRequestFlowTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }
