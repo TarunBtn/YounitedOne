@@ -40,7 +40,7 @@ public class UlogoIntermediaryPageTest extends TestBase{
 	public void test()throws Exception {
 		uLogoIntermediaryPage.clickCompanySearch();
 		testUtil.testWaitTwo();
-		uLogoIntermediaryPage.enterValueCompany("B&B Melderslo B.V.");
+		uLogoIntermediaryPage.enterValueCompany("B&");
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
