@@ -48,6 +48,10 @@ public class TestUtil extends TestBase{
 		Thread.sleep(14000);
 	}
 	
+	public void testWaitEighteen()throws Exception {
+		Thread.sleep(18000);
+	}
+	
 	public void scrollDown() {
 		JavascriptExecutor jsxone=(JavascriptExecutor)Driver;
 		jsxone.executeScript("window.scrollBy(0,450)");

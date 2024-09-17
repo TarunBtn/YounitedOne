@@ -1,5 +1,6 @@
 package com.younited.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -17,19 +18,19 @@ public class UlogoIntAddNewUserPage extends TestBase{
 	@FindBy(xpath="//a[@class='btn btn-primary-outline mr-auto']")
 	WebElement addUser;
 	
-	@FindBy(xpath="//a[@class='btn btn-primary-outline mr-auto']")
+	@FindBy(xpath="//input[@class='simple-typeahead-input']")
 	WebElement emailAddress;
 	
-	@FindBy(xpath="//a[@class='btn btn-primary-outline mr-auto']")
+	@FindBy(xpath="//input[@id='voornaam']")
 	WebElement firstName;
 	
-	@FindBy(xpath="//a[@class='btn btn-primary-outline mr-auto']")
+	@FindBy(xpath="//input[@id='achternaam']")
 	WebElement lastName;
 	
-	@FindBy(xpath="//a[@class='btn btn-primary-outline mr-auto']")
+	@FindBy(xpath="//button[@class='btn btn-primary btn-sm']")
 	WebElement addUserBtn;
 	
-	@FindBy(xpath="//a[@class='btn btn-primary-outline mr-auto']")
+	@FindBy(xpath="//button[@class='btn btn-primary-outline btn-sm']")
 	WebElement cancelBtn;
 	
 	//Initialization
@@ -62,6 +63,10 @@ public class UlogoIntAddNewUserPage extends TestBase{
 		emailAddress.sendKeys(value);
 	}
 	
+	public void selectEmailTooltip() {
+		emailAddress.sendKeys(Keys.TAB);
+	}
+	
 	public void enterFirstName(String value) {
 		firstName.sendKeys(value);
 	}
@@ -72,6 +77,10 @@ public class UlogoIntAddNewUserPage extends TestBase{
 	
 	public void addUser() {
 		addUserBtn.click();
+	}
+	
+	public void clickCancelBtn() {
+		cancelBtn.click();
 	}
 	
 

@@ -39,6 +39,9 @@
       <class name="com.younited.qa.testcases.UlogoUsermanagementPageTest"/>
       <class name="com.younited.qa.testcases.UlogoAllcompaniesPageTest"/>
       <class name="com.younited.qa.testcases.UlogoIntermediarycompaniesPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoIntermediaryPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoIntAddNewCompanyPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoIntAddNewUserPageTest"/>
       <class name="com.younited.qa.testcases.UlogoAllassignmentsPageTest"/>
       <class name="com.younited.qa.testcases.UlogoProfilestatisticsPageTest"/>
       <class name="com.younited.qa.testcases.UlogoDasAssignmentsPageTest"/>

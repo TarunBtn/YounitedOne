@@ -52,23 +52,31 @@ public class UlogoIntAddNewUserPageTest extends TestBase{
 		testUtil.testWaitEight();
 		uLogoIntAddNewUserPage.clickAddUser();
 		testUtil.testWaitFourteen();
-		testUtil.switchToAlert(null);
-		testUtil.testWaitFourteen();
+		//testUtil.switchToWindow02();
+		//testUtil.testWaitFourteen();
 		uLogoIntAddNewUserPage.clickEmailAddress();
 		testUtil.testWaitFour();
 		uLogoIntAddNewUserPage.enterEmailAddress("tarun.butani+bt@nowonlinetech.com");
-		testUtil.testWaitTwo();
-		uLogoIntAddNewUserPage.enterFirstName("Ajay");
-		testUtil.testWaitTwo();
-		uLogoIntAddNewUserPage.enterLastName("Patel");
-		testUtil.testWaitTwo();
-		uLogoIntAddNewUserPage.clickAddUser();
+		testUtil.testWaitEight();
+		uLogoIntAddNewUserPage.selectEmailTooltip();
+		testUtil.testWaitEight();
+		//uLogoIntAddNewUserPage.enterFirstName("Ajay");
+		//testUtil.testWaitFour();
+		//uLogoIntAddNewUserPage.enterLastName("Patel");
+		//testUtil.testWaitFour();
+		uLogoIntAddNewUserPage.addUser();
 		testUtil.testWaitFourteen();
+		uLogoIntAddNewUserPage.clickCancelBtn();
+		testUtil.testWaitFourteen();
+		homePageAdmin.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutBtn();
+		testUtil.testWaitEight();
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		//Driver.quit();
+		Driver.quit();
 	}
 
 }

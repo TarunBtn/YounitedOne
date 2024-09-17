@@ -74,6 +74,12 @@ public class UlogoIntAddNewCompanyPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		uLogoAddIntermediaryPage.clickSaveBtn();
+		testUtil.testWaitFourteen();
+		homePageAdmin.clickSignOutLink();
+		testUtil.testWaitFour();
+		homePageAdmin.clickSignOutBtn();
+		testUtil.testWaitEight();
+		
 				
 	}
 	
