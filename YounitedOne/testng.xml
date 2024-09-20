@@ -40,6 +40,7 @@
       <class name="com.younited.qa.testcases.UlogoAllcompaniesPageTest"/>
       <class name="com.younited.qa.testcases.UlogoIntermediarycompaniesPageTest"/>
       <class name="com.younited.qa.testcases.UlogoIntermediaryPageTest"/>
+      <class name="com.younited.qa.testcases.UlogoAddIntermediaryPageTest"/>
       <class name="com.younited.qa.testcases.UlogoIntAddNewCompanyPageTest"/>
       <class name="com.younited.qa.testcases.UlogoIntAddNewUserPageTest"/>
       <class name="com.younited.qa.testcases.UlogoAllassignmentsPageTest"/>
