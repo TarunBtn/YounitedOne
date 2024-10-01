@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-26T12:08:00 IST" name="Default suite" finished-at="2024-09-26T12:12:33 IST" duration-ms="273036">
+  <suite started-at="2024-09-30T20:27:06 IST" name="Default suite" finished-at="2024-09-30T20:31:32 IST" duration-ms="266098">
     <groups>
     </groups>
-    <test started-at="2024-09-26T12:08:00 IST" name="Default test" finished-at="2024-09-26T12:12:33 IST" duration-ms="273036">
+    <test started-at="2024-09-30T20:27:06 IST" name="Default test" finished-at="2024-09-30T20:31:32 IST" duration-ms="266098">
       <class name="com.younited.qa.testcases.DeleteUserRequestFlowTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.DeleteUserRequestFlowTest@2d52216b]" started-at="2024-09-26T12:08:00 IST" name="setUp" finished-at="2024-09-26T12:08:06 IST" duration-ms="5839" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.DeleteUserRequestFlowTest@2d52216b]" started-at="2024-09-30T20:27:06 IST" name="setUp" finished-at="2024-09-30T20:27:11 IST" duration-ms="4948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.DeleteUserRequestFlowTest@2d52216b]" started-at="2024-09-26T12:08:06 IST" name="test" finished-at="2024-09-26T12:12:33 IST" duration-ms="266702" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.DeleteUserRequestFlowTest@2d52216b]" started-at="2024-09-30T20:27:11 IST" name="test" finished-at="2024-09-30T20:31:32 IST" duration-ms="260809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.DeleteUserRequestFlowTest@2d52216b]" started-at="2024-09-26T12:12:33 IST" name="tearDown" finished-at="2024-09-26T12:12:33 IST" duration-ms="447" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.DeleteUserRequestFlowTest@2d52216b]" started-at="2024-09-30T20:31:32 IST" name="tearDown" finished-at="2024-09-30T20:31:32 IST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
