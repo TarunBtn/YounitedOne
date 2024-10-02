@@ -35,6 +35,15 @@ public class RegisteredWizardTest extends TestBase{
 	@Test
 	public void test()throws Exception {
 		
+		/*Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
+		Thread.sleep(11000);
+		Driver.findElement(By.id("username")).sendKeys("roshani.patel+acc_og@nowonlinetech.com");
+		Thread.sleep(4000);
+		Driver.findElement(By.id("password")).sendKeys("Tester01!");
+		Thread.sleep(4000);
+		Driver.findElement(By.name("action")).click();
+		Thread.sleep(14000);*/
+		
 		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(11000);
 		Driver.findElement(By.linkText("Sign up")).click();
