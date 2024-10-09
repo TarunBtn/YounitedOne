@@ -34,16 +34,16 @@ public class DeleteUserRequestFlowTest extends TestBase{
 	@Test
 	public void test()throws Exception {
 		
-		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
+		/*Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(11000);
 		Driver.findElement(By.id("username")).sendKeys("roshani.patel+acc_og@nowonlinetech.com");
 		Thread.sleep(4000);
 	    Driver.findElement(By.id("password")).sendKeys("Tester01!");
 	    Thread.sleep(4000);
 	    Driver.findElement(By.name("action")).click();
-	    Thread.sleep(14000);
+	    Thread.sleep(14000);*/
 		
-		/*Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
+		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(8000);
 		Driver.findElement(By.id("username")).sendKeys("tarun.butani+bt@nowonlinetech.com");
 		Thread.sleep(4000);
@@ -113,7 +113,7 @@ public class DeleteUserRequestFlowTest extends TestBase{
 		Thread.sleep(8000);
 		//Delete user
 		Driver.findElement(By.xpath("//button[@class='btn btn-primary btn btn-danger flex-fill']")).click();
-		Thread.sleep(11000);*/
+		Thread.sleep(11000);
 		
 		//Redirect to All company Page
 		/*Driver.navigate().to("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/alle-bedrijven");

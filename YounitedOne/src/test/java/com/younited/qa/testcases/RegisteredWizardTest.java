@@ -35,16 +35,16 @@ public class RegisteredWizardTest extends TestBase{
 	@Test
 	public void test()throws Exception {
 		
-		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
+		/*Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(11000);
 		Driver.findElement(By.id("username")).sendKeys("roshani.patel+acc_og@nowonlinetech.com");
 		Thread.sleep(4000);
 		Driver.findElement(By.id("password")).sendKeys("Tester01!");
 		Thread.sleep(4000);
 		Driver.findElement(By.name("action")).click();
-		Thread.sleep(14000);
+		Thread.sleep(14000);*/
 		
-		/*Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
+		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(11000);
 		Driver.findElement(By.linkText("Sign up")).click();
 		Thread.sleep(8000);
@@ -173,7 +173,7 @@ public class RegisteredWizardTest extends TestBase{
 		Thread.sleep(4000);
 		//Next
 		Driver.findElement(By.xpath("//button[@class='btn btn-secondary btn-sm btn btn-primary next-btn']")).click();
-		Thread.sleep(8000);*/
+		Thread.sleep(8000);
 		//Logout
 		Driver.findElement(By.xpath("//a[@class='user-infoNav-item-link logout']//span[@class='material-icons'][normalize-space()='logout']")).click();
 		Thread.sleep(11000);
