@@ -52,8 +52,8 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitEight();
 		uLogoAddIntermediaryPage.clickBrandLabelDropDown();
-		testUtil.testWaitEight();
-		//uLogoAddIntermediaryPage.explicitWait();
+		//testUtil.testWaitEight();
+		uLogoAddIntermediaryPage.explicitWait();
 		uLogoAddIntermediaryPage.selectBrandLabel();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
