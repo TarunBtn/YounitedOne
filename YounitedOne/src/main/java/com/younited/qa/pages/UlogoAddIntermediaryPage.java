@@ -19,7 +19,7 @@ public class UlogoAddIntermediaryPage extends TestBase{
 	@FindBy(xpath="//span[@data-text='B&B Melderslo B.V.']")
 	WebElement companyNameTooltip;
 	
-	@FindBy(xpath="//div[@class='multiselect--active multiselect--above multiselect resolve-jump-issue inverted-selectMenu']//div[@class='multiselect__select']")
+	@FindBy(xpath="//div[@class='col-md-7 col-lg-4']//div[@class='multiselect__select']")
 	WebElement brandLabelDropDown;
 	
 	@FindBy(xpath="//span[contains(text(),'ASC | ASA Campus Powered by Younited®')]")
