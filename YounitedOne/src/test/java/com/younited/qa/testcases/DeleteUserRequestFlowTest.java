@@ -52,7 +52,7 @@ public class DeleteUserRequestFlowTest extends TestBase{
 		Driver.findElement(By.xpath("//button[@name='action']")).click();
 		Thread.sleep(14000);
 		try {
-			Driver.findElement(By.xpath("//a[@class='btn btn-default action-button']")).click();
+			Driver.findElement(By.xpath("//li[@id='splide01-slide01']//strong[contains(text(),'Doorgaan')]")).click();
 			
 		}catch(NoSuchElementException e) {
 			e.printStackTrace();
