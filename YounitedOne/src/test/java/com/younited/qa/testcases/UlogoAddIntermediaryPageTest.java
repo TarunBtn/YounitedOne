@@ -44,7 +44,7 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 	@Test
 	public void test()throws Exception {
 		uLogoAddIntermediaryPage.clickCompanyName();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoAddIntermediaryPage.enterCompanyName("B&");
 		testUtil.testWaitEight();
 		uLogoAddIntermediaryPage.selectCompanyNameTooltip();
@@ -52,8 +52,8 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitEight();
 		uLogoAddIntermediaryPage.clickBrandLabelDropDown();
-		//testUtil.testWaitEight();
-		uLogoAddIntermediaryPage.explicitWait();
+		testUtil.testWaitEight();
+		//uLogoAddIntermediaryPage.explicitWait();
 		uLogoAddIntermediaryPage.selectBrandLabel();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
@@ -79,7 +79,7 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		Driver.quit();
+		//Driver.quit();
 	}
 
 }
