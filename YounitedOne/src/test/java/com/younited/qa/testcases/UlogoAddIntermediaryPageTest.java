@@ -11,7 +11,7 @@ import com.younited.qa.pages.UlogoAddIntermediaryPage;
 import com.younited.qa.pages.UlogoIntermediaryPage;
 import com.younited.qa.util.TestUtil;
 
-public class UlogoAddIntermediaryPageTest extends TestBase{
+public class UlogoAddIntermediaryPageTest extends TestBase{	
 	
 	LoginPage loginPage;
 	HomePageAdmin homePageAdmin;
