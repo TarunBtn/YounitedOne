@@ -37,7 +37,7 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 		homePageAdmin.clickIntermediaryTab();
 		testUtil.testWaitFourteen();
 		uLogoIntermediaryPage.clickAddIntermediary();
-		testUtil.testWaitEight();
+		testUtil.testWaitEleven();
 			
 	}
 	

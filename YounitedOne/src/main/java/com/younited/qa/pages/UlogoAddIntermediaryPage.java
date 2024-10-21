@@ -22,7 +22,7 @@ public class UlogoAddIntermediaryPage extends TestBase{
 	@FindBy(xpath="//div[@class='col-md-7 col-lg-4']//div[@class='multiselect__select']")
 	WebElement brandLabelDropDown;
 	
-	@FindBy(xpath="//span[contains(text(),'ASC | ASA Campus Powered by Younited®')]")
+	@FindBy(xpath="//span[contains(text(),'SMI | Medi Interim Powered by Younited®')]")
 	WebElement selectBrandLabel;
 	
 	@FindBy(xpath="//select[@id='totaal_aantal_medewerkers']")
