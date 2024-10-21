@@ -1,5 +1,6 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -54,7 +55,12 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 		uLogoAddIntermediaryPage.clickBrandLabelDropDown();
 		testUtil.testWaitEight();
 		//uLogoAddIntermediaryPage.explicitWait();
-		uLogoAddIntermediaryPage.selectBrandLabel();
+		try {
+		    uLogoAddIntermediaryPage.selectBrandLabel();
+		    testUtil.testWaitEight();
+		}catch(NoSuchElementException e) {
+			e.printStackTrace();
+		}
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
