@@ -92,7 +92,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//testUtil.scrollUp();
 		//testUtil.testWaitTwo();
 		//Enter skill value
@@ -206,9 +206,9 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitFour();*/
 		//Educations
 		uLogoMyprofilePage.clickEducationsTab();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickAddEducations();
 		testUtil.testWaitFour();
 		//testUtil.scrollDown();
@@ -236,7 +236,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.scrollUp();
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		/*uLogoMyprofilePage.clickEditEducations();
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
@@ -280,11 +280,11 @@ public class UlogoMyprofilePageTest extends TestBase{
 		uLogoMyprofilePage.clickInstitutionsTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		homePageAdmin.clickSignOutLink();
 	  	testUtil.testWaitFour();
 	  	homePageAdmin.clickSignOutBtn();
-	  	testUtil.testWaitEight();
+	  	testUtil.testWaitFour();
 		
 	}
 	
