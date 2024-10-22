@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-21T19:14:37 IST" name="Default suite" finished-at="2024-10-21T19:17:18 IST" duration-ms="160882">
+  <suite started-at="2024-10-21T19:41:10 IST" name="Default suite" finished-at="2024-10-21T19:43:51 IST" duration-ms="160573">
     <groups>
     </groups>
-    <test started-at="2024-10-21T19:14:37 IST" name="Default test" finished-at="2024-10-21T19:17:18 IST" duration-ms="160882">
+    <test started-at="2024-10-21T19:41:10 IST" name="Default test" finished-at="2024-10-21T19:43:51 IST" duration-ms="160573">
       <class name="com.younited.qa.testcases.UlogoAddIntermediaryPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoAddIntermediaryPageTest@2d52216b]" started-at="2024-10-21T19:14:37 IST" name="setUp" finished-at="2024-10-21T19:15:34 IST" duration-ms="57670" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoAddIntermediaryPageTest@2d52216b]" started-at="2024-10-21T19:41:10 IST" name="setUp" finished-at="2024-10-21T19:42:07 IST" duration-ms="57388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.UlogoAddIntermediaryPageTest@2d52216b]" started-at="2024-10-21T19:15:34 IST" name="test" finished-at="2024-10-21T19:17:17 IST" duration-ms="102929" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.UlogoAddIntermediaryPageTest@2d52216b]" started-at="2024-10-21T19:42:07 IST" name="test" finished-at="2024-10-21T19:43:50 IST" duration-ms="102909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoAddIntermediaryPageTest@2d52216b]" started-at="2024-10-21T19:17:17 IST" name="tearDown" finished-at="2024-10-21T19:17:18 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoAddIntermediaryPageTest@2d52216b]" started-at="2024-10-21T19:43:50 IST" name="tearDown" finished-at="2024-10-21T19:43:51 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
