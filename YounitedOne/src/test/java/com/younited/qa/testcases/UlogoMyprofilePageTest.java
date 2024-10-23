@@ -210,7 +210,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickAddEducations();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterFieldOfStudy("Computer Science");
