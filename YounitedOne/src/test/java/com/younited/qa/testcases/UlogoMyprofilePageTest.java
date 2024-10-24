@@ -208,7 +208,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		uLogoMyprofilePage.clickEducationsTab();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		uLogoMyprofilePage.clickAddEducations();
 		testUtil.testWaitEight();
 		//testUtil.scrollDown();
@@ -255,7 +255,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		uLogoMyprofilePage.clickAddCourse();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		uLogoMyprofilePage.enterCourse("Data Security");
