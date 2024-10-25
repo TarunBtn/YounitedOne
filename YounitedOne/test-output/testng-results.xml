@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-24T12:53:24 IST" name="Default suite" finished-at="2024-10-24T12:54:26 IST" duration-ms="62559">
+  <suite started-at="2024-10-25T15:06:17 IST" name="Default suite" finished-at="2024-10-25T15:08:25 IST" duration-ms="127256">
     <groups>
     </groups>
-    <test started-at="2024-10-24T12:53:24 IST" name="Default test" finished-at="2024-10-24T12:54:26 IST" duration-ms="62559">
-      <class name="com.younited.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.LoginPageTest@783a467b]" started-at="2024-10-24T12:53:24 IST" name="setUp" finished-at="2024-10-24T12:53:29 IST" duration-ms="4769" status="PASS">
+    <test started-at="2024-10-25T15:06:17 IST" name="Default test" finished-at="2024-10-25T15:08:25 IST" duration-ms="127256">
+      <class name="com.younited.qa.testcases.LeadsPageAdminTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-10-25T15:06:17 IST" name="setUp" finished-at="2024-10-25T15:07:03 IST" duration-ms="45489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.younited.qa.testcases.LoginPageTest@783a467b]" started-at="2024-10-24T12:53:29 IST" name="loginPageTitleTest" finished-at="2024-10-24T12:53:37 IST" duration-ms="8008" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-10-25T15:07:03 IST" name="test" finished-at="2024-10-25T15:08:24 IST" duration-ms="81460" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.LoginPageTest@783a467b]" started-at="2024-10-24T12:53:37 IST" name="tearDown" finished-at="2024-10-24T12:53:37 IST" duration-ms="220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.LoginPageTest@783a467b]" started-at="2024-10-24T12:53:37 IST" name="setUp" finished-at="2024-10-24T12:53:41 IST" duration-ms="4363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="imageLogoTest()[pri:2, instance:com.younited.qa.testcases.LoginPageTest@783a467b]" started-at="2024-10-24T12:53:41 IST" name="imageLogoTest" finished-at="2024-10-24T12:53:49 IST" duration-ms="8000" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- imageLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.LoginPageTest@783a467b]" started-at="2024-10-24T12:53:49 IST" name="tearDown" finished-at="2024-10-24T12:53:49 IST" duration-ms="232" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-10-25T15:08:24 IST" name="tearDown" finished-at="2024-10-25T15:08:25 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.LoginPageTest@783a467b]" started-at="2024-10-24T12:53:49 IST" name="setUp" finished-at="2024-10-24T12:53:53 IST" duration-ms="4001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:com.younited.qa.testcases.LoginPageTest@783a467b]" started-at="2024-10-24T12:53:53 IST" name="loginTest" finished-at="2024-10-24T12:54:26 IST" duration-ms="32699" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.LoginPageTest@783a467b]" started-at="2024-10-24T12:54:26 IST" name="tearDown" finished-at="2024-10-24T12:54:26 IST" duration-ms="237" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.LoginPageTest -->
+      </class> <!-- com.younited.qa.testcases.LeadsPageAdminTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
