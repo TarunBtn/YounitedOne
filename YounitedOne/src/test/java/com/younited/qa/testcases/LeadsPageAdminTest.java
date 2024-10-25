@@ -29,6 +29,8 @@ public class LeadsPageAdminTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
+		testUtil.scrollDown();
+		testUtil.testWaitEight();
 		homePageAdmin.clickLeadTab();
 		testUtil.testWaitEleven();
 		
@@ -39,7 +41,7 @@ public class LeadsPageAdminTest extends TestBase{
 		leadsPageAdmin.clickRoleDropDown();
 		testUtil.testWaitFour();
 		leadsPageAdmin.selectRole();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		leadsPageAdmin.enterLead("Test");
 		testUtil.testWaitFour();
 		leadsPageAdmin.clickResetBtn();
