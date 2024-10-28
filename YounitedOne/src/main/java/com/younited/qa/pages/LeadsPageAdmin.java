@@ -12,7 +12,7 @@ public class LeadsPageAdmin extends TestBase{
 	@FindBy(xpath="//span[@class='multiselect__single']")
 	WebElement role;
 	
-	@FindBy(xpath="/html/body/div[2]/div/span/div/main/span/div/div[2]/div/div[1]/div[2]/div/div[1]/div/div[3]/ul/li[2]/span/span")
+	@FindBy(xpath="//span[contains(text(),'Opdrachtgever')]")
 	WebElement selectRole;
 	
 	@FindBy(xpath="//div[@class='multiselect--active multiselect resolve-jump-issue']//div[@class='multiselect__select']")
