@@ -91,7 +91,7 @@ public class HomePageAdmin extends TestBase{
 			@FindBy(xpath="//p[normalize-space()='Verwijderverzoeken']")
 			WebElement deleteRequestsBox;
 			
-			@FindBy(xpath="/html/body/div[2]/div/span/div/main/span/div/div/section/div/div[2]/div[2]/div[6]/div/div/div[1]/div[2]/ul/li[1]/div")
+			@FindBy(xpath="//div[normalize-space()='53']")
 			WebElement leadTab;
 			
 			@FindBy(xpath="//a[normalize-space()='Intermediair']")
