@@ -44,7 +44,7 @@ public class CommunityPageAdminTest extends TestBase{
 	@Test
 	public void community() throws Exception{
 		myNetworkPageFree.clickSeachValue();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		myNetworkPageFree.enterSearchValue("Hr");
 		testUtil.testWaitFour();
 		myNetworkPageFree.clickCancelSearch();
