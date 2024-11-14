@@ -37,7 +37,7 @@ public class UlogoIntAddNewCompanyPageTest extends TestBase{
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitEight();
 		homePageAdmin.clickIntermediaryTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		uLogoIntermediaryPage.clickSubCompanySymbol();
@@ -50,7 +50,7 @@ public class UlogoIntAddNewCompanyPageTest extends TestBase{
 	@Test
 	public void test()throws Exception {
 		uLogoAddIntermediaryPage.enterCompanyName("B&");
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		uLogoAddIntermediaryPage.selectCompanyNameTooltip();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
