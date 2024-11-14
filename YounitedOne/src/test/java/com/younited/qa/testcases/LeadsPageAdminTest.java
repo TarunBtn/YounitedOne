@@ -32,7 +32,7 @@ public class LeadsPageAdminTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitEight();
 		homePageAdmin.clickLeadTab();
-		testUtil.testWaitEleven();
+		testUtil.testWaitFourteen();
 		
 	}
 	
