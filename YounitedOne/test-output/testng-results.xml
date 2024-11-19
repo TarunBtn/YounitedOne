@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-14T14:30:50 IST" name="Default suite" finished-at="2024-11-14T14:33:03 IST" duration-ms="132914">
+  <suite started-at="2024-11-15T12:03:08 IST" name="Default suite" finished-at="2024-11-15T12:05:18 IST" duration-ms="130198">
     <groups>
     </groups>
-    <test started-at="2024-11-14T14:30:50 IST" name="Default test" finished-at="2024-11-14T14:33:03 IST" duration-ms="132914">
+    <test started-at="2024-11-15T12:03:08 IST" name="Default test" finished-at="2024-11-15T12:05:18 IST" duration-ms="130198">
       <class name="com.younited.qa.testcases.LeadsPageAdminTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-11-14T14:30:50 IST" name="setUp" finished-at="2024-11-14T14:31:36 IST" duration-ms="45722" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-11-15T12:03:08 IST" name="setUp" finished-at="2024-11-15T12:03:56 IST" duration-ms="47651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-11-14T14:31:36 IST" name="test" finished-at="2024-11-14T14:33:03 IST" duration-ms="86920" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-11-15T12:03:56 IST" name="test" finished-at="2024-11-15T12:05:18 IST" duration-ms="81955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-11-14T14:33:03 IST" name="tearDown" finished-at="2024-11-14T14:33:03 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.LeadsPageAdminTest@273e7444]" started-at="2024-11-15T12:05:18 IST" name="tearDown" finished-at="2024-11-15T12:05:18 IST" duration-ms="561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
