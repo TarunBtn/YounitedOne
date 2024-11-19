@@ -232,7 +232,8 @@ public class HomePageAdmin extends TestBase{
 			}
 			
 			public void clickStoreProductsTab() {
-				storeProducts.click();
+				//storeProducts.click();
+				Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/product-groepen");
 			}
 			
 			public void clickEventsTab() {

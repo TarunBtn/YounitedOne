@@ -49,7 +49,7 @@ public class UlogoStoreProductAddPageTest extends TestBase{
 		testUtil.scrollDown();
 		testUtil.testWaitTwo();
 		uLogoStoreProductAddPage.clickSaveBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		homePageAdmin.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePageAdmin.clickSignOutBtn();
