@@ -85,6 +85,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		//testUtil.testWaitTwo();
 		//uLogoMyprofilePage.clickFillInCompanyCancel();
 		//testUtil.testWaitFour();
+		//Skill
 		uLogoMyprofilePage.clickSkillsTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
@@ -204,7 +205,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		testUtil.testWaitTwo();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();*/
-		//Educations
+		//Educations or Training courses
 		uLogoMyprofilePage.clickEducationsTab();
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
@@ -277,6 +278,7 @@ public class UlogoMyprofilePageTest extends TestBase{
 		//testUtil.testWaitFour();
 		testUtil.scrollUp();
 		testUtil.testWaitFour();
+		//Institutions
 		uLogoMyprofilePage.clickInstitutionsTab();
 		testUtil.testWaitFour();
 		testUtil.scrollDown();
