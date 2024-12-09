@@ -33,7 +33,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//a[@href='/mijn-profiel/beschikbaarheid']")
 			WebElement availabilityTab;
 					
-			@FindBy(xpath="//a[@title='Vaardigheden']")
+			@FindBy(xpath="//div[@class='profile-navigation-wrapper']//a[@title='Vaardigheden']")
 			WebElement skillsTab;
 					
 			@FindBy(id="suggestionsForJobTitle")
@@ -120,7 +120,7 @@ public class UlogoMyprofilePage extends TestBase{
 			@FindBy(xpath="//*[@id=\"uploadCvConfirmation___BV_modal_body_\"]/div[2]/button[2]")
 			WebElement clickCancelUploadCV;
 			
-			@FindBy(xpath="//a[@title='Opleidingen']")
+			@FindBy(xpath="//div[@class='profile-navigation-wrapper']//a[@title='Opleidingen']")
 			WebElement educationsTab;
 			
 			@FindBy(xpath="//a[@class='btn btn-primary-outline margin-left-add-button']")

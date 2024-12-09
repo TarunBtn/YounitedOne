@@ -87,13 +87,13 @@ public class UlogoMyprofilePageTest extends TestBase{
 		//testUtil.testWaitFour();
 		//Skill
 		uLogoMyprofilePage.clickSkillsTab();
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
 		//testUtil.scrollDown();
 		//testUtil.testWaitTwo();
 		testUtil.scrollUp();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//testUtil.scrollUp();
 		//testUtil.testWaitTwo();
 		//Enter skill value
