@@ -77,8 +77,8 @@ public class UlogoIntermediarycompaniesPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoIntermediarycompanyPage.selectSector();
 		testUtil.testWaitFour();
-		//testUtil.scrollDown();
-		//testUtil.testWaitTwo();
+		testUtil.scrollDown();
+		testUtil.testWaitFour();
 		//Enter website
 		uLogoIntermediarycompanyPage.clearWebsiteValue();
 		testUtil.testWaitFour();
