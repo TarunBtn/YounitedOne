@@ -48,7 +48,7 @@ public class RegisteredWizardTest extends TestBase{
 		Thread.sleep(11000);
 		Driver.findElement(By.linkText("Sign up")).click();
 		Thread.sleep(8000);
-		Driver.findElement(By.id("email")).sendKeys("tarun.butani+bt@nowonlinetech.com");
+		Driver.findElement(By.id("email")).sendKeys("tarun.butani+btb@nowonlinetech.com");
 		//Driver.findElement(By.xpath("//input[@id='username']")).sendKeys("roshani.patel+acc_og@nowonlinetech.com");
 		Thread.sleep(4000);
 		Driver.findElement(By.id("password")).sendKeys("Tester01!");
