@@ -45,7 +45,7 @@ public class DeleteUserRequestFlowTest extends TestBase{
 		
 		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(8000);
-		Driver.findElement(By.id("username")).sendKeys("tarun.butani+btb@nowonlinetech.com");
+		Driver.findElement(By.id("username")).sendKeys("tarun.butani+bt@nowonlinetech.com");
 		Thread.sleep(4000);
 		Driver.findElement(By.id("password")).sendKeys("Tester01!");
 		Thread.sleep(8000);
