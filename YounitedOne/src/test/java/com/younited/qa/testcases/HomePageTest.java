@@ -1,5 +1,6 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -32,6 +33,12 @@ public class HomePageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));		
 		testUtil.testWaitFourteen();
+		try {
+			homePage.clickAcceptAllCookies();
+		}catch(NoSuchElementException e) {
+				e.printStackTrace();
+		}
+		testUtil.testWaitFour();
 		//homePage.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 				
