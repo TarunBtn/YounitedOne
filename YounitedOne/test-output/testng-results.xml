@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-13T14:14:04 IST" name="Default suite" finished-at="2024-12-13T14:20:37 IST" duration-ms="392526">
+  <suite started-at="2024-12-13T14:30:00 IST" name="Default suite" finished-at="2024-12-13T14:31:42 IST" duration-ms="101652">
     <groups>
     </groups>
-    <test started-at="2024-12-13T14:14:04 IST" name="Default test" finished-at="2024-12-13T14:20:37 IST" duration-ms="392526">
-      <class name="com.younited.qa.testcases.AssignmentsPageFreeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.AssignmentsPageFreeTest@942a29c]" started-at="2024-12-13T14:14:04 IST" name="setUp" finished-at="2024-12-13T14:14:41 IST" duration-ms="37140" status="PASS">
+    <test started-at="2024-12-13T14:30:00 IST" name="Default test" finished-at="2024-12-13T14:31:42 IST" duration-ms="101652">
+      <class name="com.younited.qa.testcases.BusinessesPageFreeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.BusinessesPageFreeTest@2d52216b]" started-at="2024-12-13T14:30:01 IST" name="setUp" finished-at="2024-12-13T14:30:41 IST" duration-ms="40451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickFiltersTest()[pri:0, instance:com.younited.qa.testcases.AssignmentsPageFreeTest@942a29c]" started-at="2024-12-13T14:14:41 IST" name="clickFiltersTest" finished-at="2024-12-13T14:20:36 IST" duration-ms="355038" status="PASS">
+        <test-method signature="businessesPageFree()[pri:0, instance:com.younited.qa.testcases.BusinessesPageFreeTest@2d52216b]" started-at="2024-12-13T14:30:41 IST" name="businessesPageFree" finished-at="2024-12-13T14:31:42 IST" duration-ms="60928" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickFiltersTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.AssignmentsPageFreeTest@942a29c]" started-at="2024-12-13T14:20:36 IST" name="tearDown" finished-at="2024-12-13T14:20:37 IST" duration-ms="315" status="PASS">
+        </test-method> <!-- businessesPageFree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.BusinessesPageFreeTest@2d52216b]" started-at="2024-12-13T14:31:42 IST" name="tearDown" finished-at="2024-12-13T14:31:42 IST" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.AssignmentsPageFreeTest -->
+      </class> <!-- com.younited.qa.testcases.BusinessesPageFreeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
