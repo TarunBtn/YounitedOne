@@ -33,12 +33,12 @@ public class MyNetworkPageFreeTest extends TestBase{
 		myNetworkPageFree=new MyNetworkPageFree();
 		homePageFree=loginPage.loginHomePageFree(prop.getProperty("usernameone"), prop.getProperty("passwordone"));
 		testUtil.testWaitFourteen();
-		//try {
-			//homePageFree.clickAcceptAllCookies();
-		//}catch(NoSuchElementException e) {
-				//e.printStackTrace();
-		//}
-		//testUtil.testWaitFour();
+		try {
+			homePageFree.clickAcceptAllCookies();
+		}catch(NoSuchElementException e) {
+				e.printStackTrace();
+		}
+		testUtil.testWaitFour();
 		//try {
 		    //homePageFree.suitableAssignments();
 		//}catch(NoSuchElementException e) {
