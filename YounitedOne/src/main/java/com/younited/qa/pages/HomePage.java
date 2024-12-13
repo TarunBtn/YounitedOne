@@ -25,7 +25,7 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//a[normalize-space()='Matchen']")
 	WebElement matchLink;
 		
-	@FindBy(xpath="/html/body/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[1]/button/span")
+	@FindBy(xpath="//button[@data-cookiefirst-button='primary']")
 	WebElement acceptAllCookies;
 	
 	@FindBy(xpath="//button[@class='dropdown-toggle dropdown-button profile-img']")
