@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-13T20:21:51 IST" name="Default suite" finished-at="2024-12-13T20:22:17 IST" duration-ms="26027">
+  <suite started-at="2024-12-16T12:20:22 IST" name="Default suite" finished-at="2024-12-16T12:20:46 IST" duration-ms="24887">
     <groups>
     </groups>
-    <test started-at="2024-12-13T20:21:51 IST" name="Default test" finished-at="2024-12-13T20:22:17 IST" duration-ms="26027">
-      <class name="com.younited.qa.testcases.UlogoAddIntermediaryPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoAddIntermediaryPageTest@2d52216b]" started-at="2024-12-13T20:21:51 IST" name="setUp" finished-at="2024-12-13T20:22:17 IST" duration-ms="25980" status="FAIL">
+    <test started-at="2024-12-16T12:20:22 IST" name="Default test" finished-at="2024-12-16T12:20:46 IST" duration-ms="24887">
+      <class name="com.younited.qa.testcases.UlogoChatPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoChatPageTest@273e7444]" started-at="2024-12-16T12:20:22 IST" name="setUp" finished-at="2024-12-16T12:20:46 IST" duration-ms="24863" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <img data-v-76a61de8="" src="/static/images/placeholders/1x1-1920x1920-user.jpg" onerror="this.src='/static/images/placeholders/1x1-1920x1920-user.jpg'" class="profile-img" alt="profile img"> is not clickable at point (1400, 34). Other element would receive the click: <div class="cf26vr cf19Bv"></div>
+              <![CDATA[element click intercepted: Element <img data-v-87177856="" src="/static/images/placeholders/1x1-1920x1920-user.jpg" onerror="this.src='/static/images/placeholders/1x1-1920x1920-user.jpg'" class="profile-img" alt="profile img"> is not clickable at point (1400, 34). Other element would receive the click: <div class="cf26vr cf19Bv"></div>
   (Session info: chrome=131.0.6778.140)
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cbf667378e3e739deb5676cd61d53889, clickElement {id=f.397EC0F905F53147E9BE002C76AAF9F7.d.BCCA7CA55D144C726F477B90E2150E8F.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59306/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (cbf667378e3e739deb5676cd61d53889)] -> xpath: //img[@class='profile-img']]
-Session ID: cbf667378e3e739deb5676cd61d53889]]>
+Command: [593bb07cd636d891f4919e08a5c94128, clickElement {id=f.8E93D89F91EF6C4827E7FF1A382D8BEB.d.2D920D5B73C533D0946735A0C8069DEE.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53631/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (593bb07cd636d891f4919e08a5c94128)] -> xpath: //img[@class='profile-img']]
+Session ID: 593bb07cd636d891f4919e08a5c94128]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img data-v-76a61de8="" src="/static/images/placeholders/1x1-1920x1920-user.jpg" onerror="this.src='/static/images/placeholders/1x1-1920x1920-user.jpg'" class="profile-img" alt="profile img"> is not clickable at point (1400, 34). Other element would receive the click: <div class="cf26vr cf19Bv"></div>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img data-v-87177856="" src="/static/images/placeholders/1x1-1920x1920-user.jpg" onerror="this.src='/static/images/placeholders/1x1-1920x1920-user.jpg'" class="profile-img" alt="profile img"> is not clickable at point (1400, 34). Other element would receive the click: <div class="cf26vr cf19Bv"></div>
   (Session info: chrome=131.0.6778.140)
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cbf667378e3e739deb5676cd61d53889, clickElement {id=f.397EC0F905F53147E9BE002C76AAF9F7.d.BCCA7CA55D144C726F477B90E2150E8F.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59306/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (cbf667378e3e739deb5676cd61d53889)] -> xpath: //img[@class='profile-img']]
-Session ID: cbf667378e3e739deb5676cd61d53889
+Command: [593bb07cd636d891f4919e08a5c94128, clickElement {id=f.8E93D89F91EF6C4827E7FF1A382D8BEB.d.2D920D5B73C533D0946735A0C8069DEE.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53631/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (593bb07cd636d891f4919e08a5c94128)] -> xpath: //img[@class='profile-img']]
+Session ID: 593bb07cd636d891f4919e08a5c94128
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -50,7 +50,7 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 at com.sun.proxy.$Proxy16.click(Unknown Source)
 at com.younited.qa.pages.HomePageAdmin.clickUserLogo(HomePageAdmin.java:133)
-at com.younited.qa.testcases.UlogoAddIntermediaryPageTest.setUp(UlogoAddIntermediaryPageTest.java:36)
+at com.younited.qa.testcases.UlogoChatPageTest.setUp(UlogoChatPageTest.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,29 +89,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.UlogoAddIntermediaryPageTest@2d52216b]" started-at="2024-12-13T20:22:17 IST" name="test" finished-at="2024-12-13T20:22:17 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoChatPageTest@273e7444]" started-at="2024-12-16T12:20:46 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1734331846899" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="chatPage()[pri:0, instance:com.younited.qa.testcases.UlogoChatPageTest@273e7444]" started-at="2024-12-16T12:20:46 IST" name="chatPage" finished-at="2024-12-16T12:20:46 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <img data-v-76a61de8="" src="/static/images/placeholders/1x1-1920x1920-user.jpg" onerror="this.src='/static/images/placeholders/1x1-1920x1920-user.jpg'" class="profile-img" alt="profile img"> is not clickable at point (1400, 34). Other element would receive the click: <div class="cf26vr cf19Bv"></div>
+              <![CDATA[element click intercepted: Element <img data-v-87177856="" src="/static/images/placeholders/1x1-1920x1920-user.jpg" onerror="this.src='/static/images/placeholders/1x1-1920x1920-user.jpg'" class="profile-img" alt="profile img"> is not clickable at point (1400, 34). Other element would receive the click: <div class="cf26vr cf19Bv"></div>
   (Session info: chrome=131.0.6778.140)
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cbf667378e3e739deb5676cd61d53889, clickElement {id=f.397EC0F905F53147E9BE002C76AAF9F7.d.BCCA7CA55D144C726F477B90E2150E8F.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59306/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (cbf667378e3e739deb5676cd61d53889)] -> xpath: //img[@class='profile-img']]
-Session ID: cbf667378e3e739deb5676cd61d53889]]>
+Command: [593bb07cd636d891f4919e08a5c94128, clickElement {id=f.8E93D89F91EF6C4827E7FF1A382D8BEB.d.2D920D5B73C533D0946735A0C8069DEE.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53631/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (593bb07cd636d891f4919e08a5c94128)] -> xpath: //img[@class='profile-img']]
+Session ID: 593bb07cd636d891f4919e08a5c94128]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img data-v-76a61de8="" src="/static/images/placeholders/1x1-1920x1920-user.jpg" onerror="this.src='/static/images/placeholders/1x1-1920x1920-user.jpg'" class="profile-img" alt="profile img"> is not clickable at point (1400, 34). Other element would receive the click: <div class="cf26vr cf19Bv"></div>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img data-v-87177856="" src="/static/images/placeholders/1x1-1920x1920-user.jpg" onerror="this.src='/static/images/placeholders/1x1-1920x1920-user.jpg'" class="profile-img" alt="profile img"> is not clickable at point (1400, 34). Other element would receive the click: <div class="cf26vr cf19Bv"></div>
   (Session info: chrome=131.0.6778.140)
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cbf667378e3e739deb5676cd61d53889, clickElement {id=f.397EC0F905F53147E9BE002C76AAF9F7.d.BCCA7CA55D144C726F477B90E2150E8F.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59306/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (cbf667378e3e739deb5676cd61d53889)] -> xpath: //img[@class='profile-img']]
-Session ID: cbf667378e3e739deb5676cd61d53889
+Command: [593bb07cd636d891f4919e08a5c94128, clickElement {id=f.8E93D89F91EF6C4827E7FF1A382D8BEB.d.2D920D5B73C533D0946735A0C8069DEE.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53631/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (593bb07cd636d891f4919e08a5c94128)] -> xpath: //img[@class='profile-img']]
+Session ID: 593bb07cd636d891f4919e08a5c94128
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -132,7 +136,7 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 at com.sun.proxy.$Proxy16.click(Unknown Source)
 at com.younited.qa.pages.HomePageAdmin.clickUserLogo(HomePageAdmin.java:133)
-at com.younited.qa.testcases.UlogoAddIntermediaryPageTest.setUp(UlogoAddIntermediaryPageTest.java:36)
+at com.younited.qa.testcases.UlogoChatPageTest.setUp(UlogoChatPageTest.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,12 +174,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoAddIntermediaryPageTest@2d52216b]" started-at="2024-12-13T20:22:17 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1734101537153" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.UlogoAddIntermediaryPageTest -->
+        </test-method> <!-- chatPage -->
+      </class> <!-- com.younited.qa.testcases.UlogoChatPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
