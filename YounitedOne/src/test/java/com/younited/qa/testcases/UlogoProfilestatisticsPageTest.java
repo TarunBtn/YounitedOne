@@ -3,6 +3,7 @@ package com.younited.qa.testcases;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -35,6 +36,12 @@ public class UlogoProfilestatisticsPageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
+		try {
+			homePageAdmin.clickAcceptAllCookies();
+		}catch(NoSuchElementException e) {
+				e.printStackTrace();
+		}
+		testUtil.testWaitFour();
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		homePageAdmin.clickUserLogo();
