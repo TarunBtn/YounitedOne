@@ -16,7 +16,7 @@ public class UlogoAddIntermediaryPage extends TestBase{
 	@FindBy(xpath="//input[@id='bedrijfsnaam']")
 	WebElement companyName;
 	
-	@FindBy(xpath="//span[@data-text='B&B Supermarkt B.V.']")
+	@FindBy(xpath="//span[@data-text='H&H Safety']")
 	WebElement companyNameTooltip;
 	
 	@FindBy(xpath="//div[@class='col-md-7 col-lg-4']//div[@class='multiselect__select']")
@@ -39,6 +39,9 @@ public class UlogoAddIntermediaryPage extends TestBase{
 	
 	@FindBy(xpath="//button[normalize-space()='Bedrijf opslaan']")
 	WebElement saveBtn;
+	
+	@FindBy(xpath="//a[@title='Annuleren']")
+	WebElement cancelBtn;
 	
 	//Initialization
 	public UlogoAddIntermediaryPage() {
@@ -84,6 +87,10 @@ public class UlogoAddIntermediaryPage extends TestBase{
 	
 	public void clickSaveBtn() {
 		saveBtn.click();
+	}
+	
+	public void clickCancelBtn() {
+		cancelBtn.click();
 	}
 	
 	public void explicitWait() {
