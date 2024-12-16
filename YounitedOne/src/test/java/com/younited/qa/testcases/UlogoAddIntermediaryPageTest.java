@@ -33,6 +33,12 @@ public class UlogoAddIntermediaryPageTest extends TestBase{
 		testUtil=new TestUtil();
 		homePageAdmin=loginPage.loginHomePageAdmin(prop.getProperty("usernametwo"), prop.getProperty("passwordtwo"));
 		testUtil.testWaitFourteen();
+		try {
+			homePageAdmin.clickAcceptAllCookies();
+		}catch(NoSuchElementException e) {
+				e.printStackTrace();
+		}
+		testUtil.testWaitFour();
 		homePageAdmin.clickUserLogo();
 		testUtil.testWaitEight();
 		homePageAdmin.clickIntermediaryTab();

@@ -19,7 +19,7 @@ public class HomePageAdmin extends TestBase{
 			@FindBy(xpath="//*[@id=\"main-nav\"]/nav/div/div/div[2]/ul[1]/li[4]/a")
 			WebElement matchTab;
 						
-			@FindBy(xpath="/html/body/div[3]/div[2]/div/div[2]/div[2]/div[2]/div[1]/button/span")
+			@FindBy(xpath="//button[@data-cookiefirst-button='primary']")
 			WebElement acceptAllCookies;
 					
 			@FindBy(xpath="//img[@class='profile-img']")
