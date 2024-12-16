@@ -39,7 +39,7 @@ public class LeadsAssignmentPageAdminTest extends TestBase{
 		}catch(NoSuchElementException e) {
 			e.printStackTrace();
 		}
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		homePageAdmin.clickAssignmentsTab();
 		testUtil.testWaitFourteen();
 		/*assignmentsPageFree.clickAssignmentBox();
