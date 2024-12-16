@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-16T15:38:46 IST" name="Default suite" finished-at="2024-12-16T15:40:57 IST" duration-ms="130459">
+  <suite started-at="2024-12-16T16:06:45 IST" name="Default suite" finished-at="2024-12-16T16:09:13 IST" duration-ms="148819">
     <groups>
     </groups>
-    <test started-at="2024-12-16T15:38:46 IST" name="Default test" finished-at="2024-12-16T15:40:57 IST" duration-ms="130459">
+    <test started-at="2024-12-16T16:06:45 IST" name="Default test" finished-at="2024-12-16T16:09:13 IST" duration-ms="148819">
       <class name="com.younited.qa.testcases.MyReactionsPageFreeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MyReactionsPageFreeTest@2d52216b]" started-at="2024-12-16T15:38:46 IST" name="setUp" finished-at="2024-12-16T15:39:37 IST" duration-ms="51022" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.MyReactionsPageFreeTest@2d52216b]" started-at="2024-12-16T16:06:45 IST" name="setUp" finished-at="2024-12-16T16:07:54 IST" duration-ms="69205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.MyReactionsPageFreeTest@2d52216b]" started-at="2024-12-16T15:39:37 IST" name="test" finished-at="2024-12-16T15:40:57 IST" duration-ms="79169" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.MyReactionsPageFreeTest@2d52216b]" started-at="2024-12-16T16:07:54 IST" name="test" finished-at="2024-12-16T16:09:13 IST" duration-ms="79320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MyReactionsPageFreeTest@2d52216b]" started-at="2024-12-16T15:40:57 IST" name="tearDown" finished-at="2024-12-16T15:40:57 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.MyReactionsPageFreeTest@2d52216b]" started-at="2024-12-16T16:09:13 IST" name="tearDown" finished-at="2024-12-16T16:09:13 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
