@@ -63,13 +63,19 @@ public class RegisteredWizardTest extends TestBase{
 		//Accept Btn
 		Driver.findElement(By.xpath("//button[text()='Accept']")).click();
 		Thread.sleep(14000);
+		try {
+			Driver.findElement(By.xpath("//button[@data-cookiefirst-button='primary']")).click();
+		}catch(NoSuchElementException e) {
+			e.printStackTrace();
+		}
+		Thread.sleep(4000);
 		//Click New wizard
 		//Driver.findElement(By.xpath("//*[@id=\"login\"]/div[1]/section/div/div[2]/div[2]/a/div/h3")).click();
 		//Thread.sleep(8000);
 		//Select Ondernemer OR Enterpreneur
 		Driver.findElement(By.xpath("//h5[text()='Zelfstandig ondernemer']")).click();
+		//Driver.findElement(By.xpath("//h5[normalize-space()='Zelfstandig ondernemer']")).click();
 		Thread.sleep(4000);
-		
 		JavascriptExecutor jsx=(JavascriptExecutor)Driver;
 		jsx.executeScript("window.scrollBy(0,450)");
 		Thread.sleep(4000);
