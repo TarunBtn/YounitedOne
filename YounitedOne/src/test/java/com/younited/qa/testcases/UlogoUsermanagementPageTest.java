@@ -1,5 +1,6 @@
 package com.younited.qa.testcases;
 
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.NoSuchElementException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -31,7 +32,7 @@ public class UlogoUsermanagementPageTest extends TestBase{
 		testUtil.testWaitFourteen();
 		try {
 			homePageAdmin.clickAcceptAllCookies();
-		}catch(NoSuchElementException e) {
+		}catch(ElementClickInterceptedException e) {
 				e.printStackTrace();
 		}
 		testUtil.testWaitFour();
