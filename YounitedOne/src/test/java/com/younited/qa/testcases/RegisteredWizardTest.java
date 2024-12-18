@@ -46,6 +46,17 @@ public class RegisteredWizardTest extends TestBase{
 		
 		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(11000);
+		//Driver.findElement(By.linkText("Sign up")).click();
+		//Thread.sleep(8000);
+		Driver.findElement(By.xpath("//input[@id='username']")).sendKeys("tarun.butani+bt@nowonlinetech.com");
+		Thread.sleep(4000);
+		Driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Tester01!");
+		Thread.sleep(4000);
+		Driver.findElement(By.name("action")).click();
+		//Driver.findElement(By.xpath("/html/body/div/main/section/div/div[2]/div/form/div[3]/button")).click();
+		Thread.sleep(14000);
+		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
+		Thread.sleep(11000);
 		Driver.findElement(By.linkText("Sign up")).click();
 		Thread.sleep(8000);
 		Driver.findElement(By.id("email")).sendKeys("tarun.butani+bt@nowonlinetech.com");
