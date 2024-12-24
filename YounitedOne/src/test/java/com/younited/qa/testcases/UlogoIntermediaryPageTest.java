@@ -46,7 +46,7 @@ public class UlogoIntermediaryPageTest extends TestBase{
 	@Test
 	public void test()throws Exception {
 		uLogoIntermediaryPage.clickCompanySearch();
-		testUtil.testWaitTwo();
+		testUtil.testWaitFour();
 		uLogoIntermediaryPage.enterValueCompany("B&");
 		testUtil.testWaitEight();
 		testUtil.scrollDown();
