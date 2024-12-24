@@ -1,25 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-19T19:15:53 IST" name="Default suite" finished-at="2024-12-19T19:19:23 IST" duration-ms="209966">
+  <suite started-at="2024-12-23T19:02:18 IST" name="Default suite" finished-at="2024-12-23T19:03:39 IST" duration-ms="81328">
     <groups>
     </groups>
-    <test started-at="2024-12-19T19:15:53 IST" name="Default test" finished-at="2024-12-19T19:19:23 IST" duration-ms="209966">
-      <class name="com.younited.qa.testcases.UlogoAllcompaniesPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoAllcompaniesPageTest@2d52216b]" started-at="2024-12-19T19:15:53 IST" name="setUp" finished-at="2024-12-19T19:16:46 IST" duration-ms="53327" status="PASS">
+    <test started-at="2024-12-23T19:02:18 IST" name="Default test" finished-at="2024-12-23T19:03:39 IST" duration-ms="81328">
+      <class name="com.younited.qa.testcases.CheckCommandPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.CheckCommandPageTest@2d52216b]" started-at="2024-12-23T19:02:18 IST" name="setUp" finished-at="2024-12-23T19:03:39 IST" duration-ms="81282" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button title="Accepteer alle cookies" data-cookiefirst-action="accept" tabindex="0" aria-label="Accepteer alle cookies" data-cookiefirst-outline-accent-color="true" data-cookiefirst-button="primary" type="button" class=" cf2Lf6 cf8Oal" style="--banner-btn-border-color: var(--banner-btn-primary-border-color); --banner-btn-bg: var(--banner-btn-primary-bg); --banner-btn-text: var(--banner-btn-primary-text); --banner-btn-border-radius: var(--banner-btn-primary-border-radius); --banner-btn-hover-border-color: var(--banner-btn-primary-hover-border-color); --banner-btn-hover-bg: var(--banner-btn-primary-hover-bg); --banner-btn-hover-text: var(--banner-btn-primary-hover-text); --banner-btn-hover-border-radius: var(--banner-btn-primary-hover-border-radius);">...</button> is not clickable at point (1061, 555). Other element would receive the click: <div data-v-5e9e0dda="" class="younited-loader-wrapper">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e15f392dec3798c0965ff61d40c8e31d, clickElement {id=f.4D85555FCC52A2CE94DEDBECA795D02C.d.E0CD140D91BDA1353F4DC21E37A2C287.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59014/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e15f392dec3798c0965ff61d40c8e31d)] -> xpath: //button[@data-cookiefirst-button='primary']]
+Session ID: e15f392dec3798c0965ff61d40c8e31d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button title="Accepteer alle cookies" data-cookiefirst-action="accept" tabindex="0" aria-label="Accepteer alle cookies" data-cookiefirst-outline-accent-color="true" data-cookiefirst-button="primary" type="button" class=" cf2Lf6 cf8Oal" style="--banner-btn-border-color: var(--banner-btn-primary-border-color); --banner-btn-bg: var(--banner-btn-primary-bg); --banner-btn-text: var(--banner-btn-primary-text); --banner-btn-border-radius: var(--banner-btn-primary-border-radius); --banner-btn-hover-border-color: var(--banner-btn-primary-hover-border-color); --banner-btn-hover-bg: var(--banner-btn-primary-hover-bg); --banner-btn-hover-text: var(--banner-btn-primary-hover-text); --banner-btn-hover-border-radius: var(--banner-btn-primary-hover-border-radius);">...</button> is not clickable at point (1061, 555). Other element would receive the click: <div data-v-5e9e0dda="" class="younited-loader-wrapper">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e15f392dec3798c0965ff61d40c8e31d, clickElement {id=f.4D85555FCC52A2CE94DEDBECA795D02C.d.E0CD140D91BDA1353F4DC21E37A2C287.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59014/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e15f392dec3798c0965ff61d40c8e31d)] -> xpath: //button[@data-cookiefirst-button='primary']]
+Session ID: e15f392dec3798c0965ff61d40c8e31d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.younited.qa.pages.HomePage.clickAcceptAllCookies(HomePage.java:78)
+at com.younited.qa.testcases.CheckCommandPageTest.setUp(CheckCommandPageTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UlogoAllcompaniesPage()[pri:0, instance:com.younited.qa.testcases.UlogoAllcompaniesPageTest@2d52216b]" started-at="2024-12-19T19:16:46 IST" name="UlogoAllcompaniesPage" finished-at="2024-12-19T19:19:23 IST" duration-ms="156350" status="PASS">
+        <test-method signature="checkCommandPageTest()[pri:0, instance:com.younited.qa.testcases.CheckCommandPageTest@2d52216b]" started-at="2024-12-23T19:03:39 IST" name="checkCommandPageTest" finished-at="2024-12-23T19:03:39 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button title="Accepteer alle cookies" data-cookiefirst-action="accept" tabindex="0" aria-label="Accepteer alle cookies" data-cookiefirst-outline-accent-color="true" data-cookiefirst-button="primary" type="button" class=" cf2Lf6 cf8Oal" style="--banner-btn-border-color: var(--banner-btn-primary-border-color); --banner-btn-bg: var(--banner-btn-primary-bg); --banner-btn-text: var(--banner-btn-primary-text); --banner-btn-border-radius: var(--banner-btn-primary-border-radius); --banner-btn-hover-border-color: var(--banner-btn-primary-hover-border-color); --banner-btn-hover-bg: var(--banner-btn-primary-hover-bg); --banner-btn-hover-text: var(--banner-btn-primary-hover-text); --banner-btn-hover-border-radius: var(--banner-btn-primary-hover-border-radius);">...</button> is not clickable at point (1061, 555). Other element would receive the click: <div data-v-5e9e0dda="" class="younited-loader-wrapper">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e15f392dec3798c0965ff61d40c8e31d, clickElement {id=f.4D85555FCC52A2CE94DEDBECA795D02C.d.E0CD140D91BDA1353F4DC21E37A2C287.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59014/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e15f392dec3798c0965ff61d40c8e31d)] -> xpath: //button[@data-cookiefirst-button='primary']]
+Session ID: e15f392dec3798c0965ff61d40c8e31d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button title="Accepteer alle cookies" data-cookiefirst-action="accept" tabindex="0" aria-label="Accepteer alle cookies" data-cookiefirst-outline-accent-color="true" data-cookiefirst-button="primary" type="button" class=" cf2Lf6 cf8Oal" style="--banner-btn-border-color: var(--banner-btn-primary-border-color); --banner-btn-bg: var(--banner-btn-primary-bg); --banner-btn-text: var(--banner-btn-primary-text); --banner-btn-border-radius: var(--banner-btn-primary-border-radius); --banner-btn-hover-border-color: var(--banner-btn-primary-hover-border-color); --banner-btn-hover-bg: var(--banner-btn-primary-hover-bg); --banner-btn-hover-text: var(--banner-btn-primary-hover-text); --banner-btn-hover-border-radius: var(--banner-btn-primary-hover-border-radius);">...</button> is not clickable at point (1061, 555). Other element would receive the click: <div data-v-5e9e0dda="" class="younited-loader-wrapper">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e15f392dec3798c0965ff61d40c8e31d, clickElement {id=f.4D85555FCC52A2CE94DEDBECA795D02C.d.E0CD140D91BDA1353F4DC21E37A2C287.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\tbutani\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59014/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e15f392dec3798c0965ff61d40c8e31d)] -> xpath: //button[@data-cookiefirst-button='primary']]
+Session ID: e15f392dec3798c0965ff61d40c8e31d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.younited.qa.pages.HomePage.clickAcceptAllCookies(HomePage.java:78)
+at com.younited.qa.testcases.CheckCommandPageTest.setUp(CheckCommandPageTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UlogoAllcompaniesPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoAllcompaniesPageTest@2d52216b]" started-at="2024-12-19T19:19:23 IST" name="tearDown" finished-at="2024-12-19T19:19:23 IST" duration-ms="269" status="PASS">
+        </test-method> <!-- checkCommandPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.CheckCommandPageTest@2d52216b]" started-at="2024-12-23T19:03:39 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1734960819703" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.UlogoAllcompaniesPageTest -->
+      </class> <!-- com.younited.qa.testcases.CheckCommandPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
