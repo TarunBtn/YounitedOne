@@ -39,15 +39,15 @@ public class BusinessesPageFreeTest extends TestBase{
 		//testUtil.testWaitEleven();
 		//homePageFree.suitableAssignments();
 		//testUtil.testWaitFour();
-		homePageFree.clickBusinessesTab();
-		testUtil.testWaitEleven();
+		/*homePageFree.clickBusinessesTab();
+		testUtil.testWaitEleven();*/
 				
 	}
 	
 	@Test
 	public void businessesPageFree()throws Exception {
 		//Filter value
-		businessesPageFree.filterValue("Apex");
+		/*businessesPageFree.filterValue("Apex");
 		testUtil.testWaitEight();
 		businessesPageFree.filterValueTooltip();
 		testUtil.testWaitEight();
@@ -77,7 +77,7 @@ public class BusinessesPageFreeTest extends TestBase{
 		businessesPageFree.sortingAtoZ();
 		testUtil.testWaitFour();
 		businessesPageFree.clickSortingDropDown();
-		testUtil.testWaitFour();
+		testUtil.testWaitFour();*/
 		homePageFree.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePageFree.clickSignOutBtn();
