@@ -1,6 +1,7 @@
 package com.younited.qa.testcases;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -52,11 +53,24 @@ public class DeleteUserRequestFlowTest extends TestBase{
 		Driver.findElement(By.xpath("//button[@name='action']")).click();
 		Thread.sleep(14000);
 		try {
+			Driver.findElement(By.xpath("//button[@data-cookiefirst-button='primary']")).click();
+		}catch(ElementClickInterceptedException e) {
+			e.printStackTrace();
+		}
+		Thread.sleep(4000);
+		try {
 			Driver.findElement(By.xpath("//li[@id='splide01-slide01']//strong[contains(text(),'Doorgaan')]")).click();
 			
 		}catch(NoSuchElementException e) {
 			e.printStackTrace();
 		}
+		Thread.sleep(4000);
+		try {
+			Driver.findElement(By.className("//*[@id=\"splide01-slide02\"]/div/div/div[3]/a/strong")).click();
+		}catch(NoSuchElementException e) {
+			e.printStackTrace();
+		}
+		Thread.sleep(4000);
 		testUtil.testWaitFourteen();
 		testUtil.switchToWindow01();
 		testUtil.testWaitFourteen();

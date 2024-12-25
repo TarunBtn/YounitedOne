@@ -44,7 +44,7 @@ public class RegisteredWizardTest extends TestBase{
 		Driver.findElement(By.name("action")).click();
 		Thread.sleep(14000);*/
 		
-		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
+		/*Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(11000);
 		//Driver.findElement(By.linkText("Sign up")).click();
 		//Thread.sleep(8000);
@@ -54,7 +54,7 @@ public class RegisteredWizardTest extends TestBase{
 		Thread.sleep(4000);
 		Driver.findElement(By.name("action")).click();
 		//Driver.findElement(By.xpath("/html/body/div/main/section/div/div[2]/div/form/div[3]/button")).click();
-		Thread.sleep(14000);
+		Thread.sleep(14000);*/
 		Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/");
 		Thread.sleep(11000);
 		Driver.findElement(By.linkText("Sign up")).click();
@@ -161,13 +161,13 @@ public class RegisteredWizardTest extends TestBase{
 		JavascriptExecutor jsxfour=(JavascriptExecutor)Driver;
 		jsxfour.executeScript("window.scrollBy(0,450)");
 		Thread.sleep(4000);
-		//Click Next
+		//Click Next (My Skills page)
 		Driver.findElement(By.xpath("//button[@class='btn btn-secondary btn-sm btn btn-primary next-btn']")).click();
 		Thread.sleep(8000);
 		//Scroll down
-		//JavascriptExecutor jsxfive=(JavascriptExecutor)Driver;
-		//jsxfive.executeScript("window.scrollBy(0,450)");
-		//Thread.sleep(4000);
+		JavascriptExecutor jsxfive=(JavascriptExecutor)Driver;
+		jsxfive.executeScript("window.scrollBy(0,450)");
+		Thread.sleep(4000);
 		
 		Driver.findElement(By.xpath("//button[@class='btn btn-secondary btn-sm btn btn-primary next-btn']")).click();
 		Thread.sleep(4000);
