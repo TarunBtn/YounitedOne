@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-25T16:27:54 IST" name="Default suite" finished-at="2024-12-25T16:28:35 IST" duration-ms="40687">
+  <suite started-at="2024-12-25T17:20:55 IST" name="Default suite" finished-at="2024-12-25T17:23:45 IST" duration-ms="170559">
     <groups>
     </groups>
-    <test started-at="2024-12-25T16:27:54 IST" name="Default test" finished-at="2024-12-25T16:28:35 IST" duration-ms="40687">
-      <class name="com.younited.qa.testcases.BusinessesPageFreeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.BusinessesPageFreeTest@2d52216b]" started-at="2024-12-25T16:27:54 IST" name="setUp" finished-at="2024-12-25T16:28:22 IST" duration-ms="28270" status="PASS">
+    <test started-at="2024-12-25T17:20:55 IST" name="Default test" finished-at="2024-12-25T17:23:45 IST" duration-ms="170559">
+      <class name="com.younited.qa.testcases.UlogoIntAddNewCompanyPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoIntAddNewCompanyPageTest@2d52216b]" started-at="2024-12-25T17:20:55 IST" name="setUp" finished-at="2024-12-25T17:22:12 IST" duration-ms="77102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="businessesPageFree()[pri:0, instance:com.younited.qa.testcases.BusinessesPageFreeTest@2d52216b]" started-at="2024-12-25T16:28:22 IST" name="businessesPageFree" finished-at="2024-12-25T16:28:35 IST" duration-ms="12192" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.UlogoIntAddNewCompanyPageTest@2d52216b]" started-at="2024-12-25T17:22:12 IST" name="test" finished-at="2024-12-25T17:23:45 IST" duration-ms="93172" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- businessesPageFree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.BusinessesPageFreeTest@2d52216b]" started-at="2024-12-25T16:28:35 IST" name="tearDown" finished-at="2024-12-25T16:28:35 IST" duration-ms="205" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoIntAddNewCompanyPageTest@2d52216b]" started-at="2024-12-25T17:23:45 IST" name="tearDown" finished-at="2024-12-25T17:23:45 IST" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.BusinessesPageFreeTest -->
+      </class> <!-- com.younited.qa.testcases.UlogoIntAddNewCompanyPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
