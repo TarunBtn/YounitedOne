@@ -153,7 +153,7 @@ public class AssignmentsPageFree extends TestBase{
 		
 		public void selectAssignmentsValue() {
 			enterValue.sendKeys(Keys.TAB);
-	
+			
 		}
 		
 		public void clearAssignmentsFilter() {
