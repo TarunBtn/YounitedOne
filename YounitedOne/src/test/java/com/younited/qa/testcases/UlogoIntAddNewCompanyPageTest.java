@@ -41,8 +41,8 @@ public class UlogoIntAddNewCompanyPageTest extends TestBase{
 				e.printStackTrace();
 		}
 		testUtil.testWaitFour();
-		homePageAdmin.clickUserLogo();
-		testUtil.testWaitEight();
+		//homePageAdmin.clickUserLogo();
+		//testUtil.testWaitEight();
 		homePageAdmin.clickIntermediaryTab();
 		testUtil.testWaitFourteen();
 		testUtil.scrollDown();
