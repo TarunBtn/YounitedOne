@@ -40,8 +40,8 @@ public class UlogoIntAddNewUserPageTest extends TestBase{
 				e.printStackTrace();
 		}
 		testUtil.testWaitFour();
-		homePageAdmin.clickUserLogo();
-		testUtil.testWaitFour();
+		//homePageAdmin.clickUserLogo();
+		//testUtil.testWaitFour();
 		homePageAdmin.clickIntermediaryTab();
 		testUtil.testWaitEight();
 		uLogoIntermediaryPage.clickUserSymbol();
