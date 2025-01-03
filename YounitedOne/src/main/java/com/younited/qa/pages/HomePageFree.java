@@ -131,6 +131,7 @@ public class HomePageFree extends TestBase{
 		
 		public void clickMyReactionsTab() {
 			myReactionsTab.click();
+			//Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/mijn-reacties/");
 		}
 		
 		public void clickSignOutLink() {
