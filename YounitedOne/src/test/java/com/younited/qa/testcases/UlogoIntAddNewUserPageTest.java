@@ -45,7 +45,8 @@ public class UlogoIntAddNewUserPageTest extends TestBase{
 		homePageAdmin.clickIntermediaryTab();
 		testUtil.testWaitEight();
 		uLogoIntermediaryPage.clickUserSymbol();
-		testUtil.testWaitEight();
+		//testUtil.testWaitEight();
+		testUtil.testWaitFour();
 			
 	}
 	
