@@ -57,7 +57,7 @@ public class UlogoMycompanyPageTest extends TestBase{
 		testUtil.testWaitFour();
 		uLogoMycompanyPage.clickCompanyNameTooltip();
 		testUtil.testWaitFour();
-		testUtil.scrollDown();
+		testUtil.scrollDown();                                                                                                                                                                     
 		testUtil.testWaitTwo();
 		testUtil.scrollDown();
 		testUtil.testWaitFour();
