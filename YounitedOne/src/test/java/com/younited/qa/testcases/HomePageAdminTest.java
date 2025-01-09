@@ -35,7 +35,7 @@ public class HomePageAdminTest extends TestBase{
 		}catch(NoSuchElementException e) {
 			e.printStackTrace();
 		}
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		//testUtil.testWaitFour();
