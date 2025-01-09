@@ -11,7 +11,7 @@ public class UlogoIntermediaryPage extends TestBase{
 	@FindBy(xpath="//input[@id='filter-input']")
 	WebElement companySearch;
 	
-	@FindBy(xpath="/html/body/div[2]/div/span/div/main/span/div/div[2]/div/div[1]/div[2]/div/div/input")
+	@FindBy(xpath="//input[@id='filter-input']")
 	WebElement companySearchCancel;
 	
 	@FindBy(xpath="//a[@title='Voeg intermediair toe']")
@@ -48,7 +48,8 @@ public class UlogoIntermediaryPage extends TestBase{
 	}
 	
 	public void companySearchCancel() {
-		companySearchCancel.click();
+		//companySearchCancel.click();
+		companySearchCancel.clear();
 	}
 	
 	public void clickAddIntermediary() {
