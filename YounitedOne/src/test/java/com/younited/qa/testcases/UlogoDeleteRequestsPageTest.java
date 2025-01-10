@@ -46,7 +46,7 @@ public class UlogoDeleteRequestsPageTest extends TestBase{
 		ulogoDeleteRequestsPage.enterSearchRequest("Ajayone");
 		testUtil.testWaitFour();
 		ulogoDeleteRequestsPage.clickResetBtn();
-		testUtil.testWaitFour();
+		testUtil.testWaitEight();
 		homePageAdmin.clickSignOutLink();
 		testUtil.testWaitFour();
 		homePageAdmin.clickSignOutBtn();
