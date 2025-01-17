@@ -35,7 +35,7 @@ public class UlogoIntermediaryPageTest extends TestBase{
 		}catch(NoSuchElementException e) {
 				e.printStackTrace();
 		}
-		testUtil.testWaitFour();
+		testUtil.testWaitFourteen();
 		//homePageAdmin.clickUserLogo();
 		//testUtil.testWaitEight();
 		homePageAdmin.clickIntermediaryTab();
