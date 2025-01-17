@@ -110,9 +110,9 @@ public class HomePageAdmin extends TestBase{
 			}
 				
 			//Actions
-			public AssignmentsPageAdmin clickAssignmentsTab() {
+			public void clickAssignmentsTab() {
 				assignmentsTab.click();		
-				return new AssignmentsPageAdmin();
+				//return new AssignmentsPageAdmin();
 			}
 				
 			public CommunityPageAdmin clickCommunityPageAdmin() {
