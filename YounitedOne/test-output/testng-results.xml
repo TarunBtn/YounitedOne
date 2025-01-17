@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-17T13:29:07 IST" name="Default suite" finished-at="2025-01-17T13:30:12 IST" duration-ms="64932">
+  <suite started-at="2025-01-17T14:26:46 IST" name="Default suite" finished-at="2025-01-17T14:28:33 IST" duration-ms="106364">
     <groups>
     </groups>
-    <test started-at="2025-01-17T13:29:07 IST" name="Default test" finished-at="2025-01-17T13:30:12 IST" duration-ms="64932">
-      <class name="com.younited.qa.testcases.HomePageAdminTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.HomePageAdminTest@2d52216b]" started-at="2025-01-17T13:29:07 IST" name="setUp" finished-at="2025-01-17T13:29:45 IST" duration-ms="38093" status="PASS">
+    <test started-at="2025-01-17T14:26:46 IST" name="Default test" finished-at="2025-01-17T14:28:33 IST" duration-ms="106364">
+      <class name="com.younited.qa.testcases.UlogoMynotificationsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.younited.qa.testcases.UlogoMynotificationsPageTest@2d52216b]" started-at="2025-01-17T14:26:46 IST" name="setUp" finished-at="2025-01-17T14:27:26 IST" duration-ms="39863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.younited.qa.testcases.HomePageAdminTest@2d52216b]" started-at="2025-01-17T13:29:45 IST" name="test" finished-at="2025-01-17T13:30:12 IST" duration-ms="26447" status="PASS">
+        <test-method signature="myNotificationsPage()[pri:0, instance:com.younited.qa.testcases.UlogoMynotificationsPageTest@2d52216b]" started-at="2025-01-17T14:27:26 IST" name="myNotificationsPage" finished-at="2025-01-17T14:28:33 IST" duration-ms="66208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.HomePageAdminTest@2d52216b]" started-at="2025-01-17T13:30:12 IST" name="tearDown" finished-at="2025-01-17T13:30:12 IST" duration-ms="356" status="PASS">
+        </test-method> <!-- myNotificationsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.younited.qa.testcases.UlogoMynotificationsPageTest@2d52216b]" started-at="2025-01-17T14:28:33 IST" name="tearDown" finished-at="2025-01-17T14:28:33 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.younited.qa.testcases.HomePageAdminTest -->
+      </class> <!-- com.younited.qa.testcases.UlogoMynotificationsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

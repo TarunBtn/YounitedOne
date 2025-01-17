@@ -58,7 +58,7 @@ public class UlogoMynotificationsPageTest extends TestBase{
 		}catch(NoSuchElementException e) {
 			e.printStackTrace();
 		}
-		testUtil.testWaitEight();
+		testUtil.testWaitFourteen();
 		//uLogoMynotificationsPage.ClickToOpenMail();
 		//testUtil.testWaitEight();
 		homePageAdmin.clickSignOutLink();
