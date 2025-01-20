@@ -31,6 +31,7 @@ public class UlogoMynotificationsPageTest extends TestBase{
 		testUtil.testWaitFourteen();
 		try {
 			homePageAdmin.clickAcceptAllCookies();
+			testUtil.testWaitEight();
 		}catch(NoSuchElementException e) {
 				e.printStackTrace();
 		}
@@ -58,8 +59,9 @@ public class UlogoMynotificationsPageTest extends TestBase{
 		}catch(NoSuchElementException e) {
 			e.printStackTrace();
 		}
-		testUtil.testWaitFourteen();
-		//uLogoMynotificationsPage.ClickToOpenMail();
+		testUtil.testWaitFour();
+		uLogoMynotificationsPage.clickMyNotificationsLink();
+		testUtil.testWaitFour();
 		//testUtil.testWaitEight();
 		homePageAdmin.clickSignOutLink();
 	  	testUtil.testWaitFour();
