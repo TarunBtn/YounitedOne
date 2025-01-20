@@ -32,6 +32,7 @@ public class UlogoDeleteRequestsPageTest extends TestBase{
 		testUtil.testWaitFourteen();
 		try {
 			homePageAdmin.clickAcceptAllCookies();
+			testUtil.testWaitEight();
 		}catch(NoSuchElementException e) {
 				e.printStackTrace();
 		}
