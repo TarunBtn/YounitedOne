@@ -31,11 +31,12 @@ public class HomePageAdminTest extends TestBase{
 		testUtil.testWaitFourteen();
 		try {
 			homePageAdmin.clickAcceptAllCookies();
+			testUtil.testWaitEight();
 			
 		}catch(NoSuchElementException e) {
 			e.printStackTrace();
 		}
-		testUtil.testWaitFourteen();
+		testUtil.testWaitEight();
 		//homePageAdmin.clickAcceptAllCookies();
 		//testUtil.testWaitEleven();
 		//testUtil.testWaitFour();
