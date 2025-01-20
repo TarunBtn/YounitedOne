@@ -32,12 +32,13 @@ public class UlogoIntermediaryPageTest extends TestBase{
 		testUtil.testWaitFourteen();
 		try {
 			homePageAdmin.clickAcceptAllCookies();
+			testUtil.testWaitEight();
 		}catch(NoSuchElementException e) {
 				e.printStackTrace();
 		}
-		testUtil.testWaitFourteen();
-		//homePageAdmin.clickUserLogo();
-		//testUtil.testWaitEight();
+		testUtil.testWaitEight();
+		homePageAdmin.clickUserLogo();
+		testUtil.testWaitEight();
 		homePageAdmin.clickIntermediaryTab();
 		testUtil.testWaitFourteen();
 		
