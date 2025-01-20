@@ -249,8 +249,8 @@ public class HomePageAdmin extends TestBase{
 			}
 			
 			public void clickIntermediaryTab() {
-				//intermediaryTab.click();
-				Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/intermediair-bedrijven");
+				intermediaryTab.click();
+				//Driver.get("https://acc-nox-freelancemarktplaats-mobility.azurewebsites.net/intermediair-bedrijven");
 			}
 			
 			public void clickSignOutLink() {

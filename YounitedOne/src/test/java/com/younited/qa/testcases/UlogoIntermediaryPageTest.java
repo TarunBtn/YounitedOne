@@ -32,7 +32,6 @@ public class UlogoIntermediaryPageTest extends TestBase{
 		testUtil.testWaitFourteen();
 		try {
 			homePageAdmin.clickAcceptAllCookies();
-			testUtil.testWaitEight();
 		}catch(NoSuchElementException e) {
 				e.printStackTrace();
 		}
