@@ -38,16 +38,16 @@ public class TestBase {
 		String browserName=prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
 			//WebDriverManager.chromedriver().setup();
-			/*ChromeOptions options = new ChromeOptions();
+			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless");
 			options.addArguments("--no-sandbox");
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--disable-gpu");
 			options.addArguments("--window-size=1920,1080");
 			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-			Driver=new ChromeDriver(options);*/
-			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-			Driver=new ChromeDriver();
+			Driver=new ChromeDriver(options);
+			/*System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+			Driver=new ChromeDriver();*/
 			
 		}else if(browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
