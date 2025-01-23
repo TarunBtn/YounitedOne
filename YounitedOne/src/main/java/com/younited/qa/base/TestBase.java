@@ -46,8 +46,8 @@ public class TestBase {
 			options.addArguments("--window-size=1920,1080");
 			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
 			Driver=new ChromeDriver(options);
-			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-			Driver=new ChromeDriver();
+			/*System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+			Driver=new ChromeDriver();*/
 			
 		}else if(browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
